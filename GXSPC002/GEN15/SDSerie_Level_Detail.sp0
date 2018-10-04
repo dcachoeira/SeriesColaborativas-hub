@@ -1,0 +1,430 @@
+spec_i([ mnproc,0,'SDSerie_Level_Detail','SDSerie_Level_Detail',0,por,'15_0_9-121631' ]).
+ 
+struct_i(2,1,[],[]).
+ 
+level_i(2,[ 1,[ [ 1,many ],[ 11,one ] ],[],[],[ [ [ 1,11 ],[ 1,2,3,49,6,48 ] ] ],[ [ [ 1,11 ],[] ] ],[ 1 ],'ISERIE',[ 1,[ [ [],'Serieid',1 ] ] ],[] ]).
+ 
+tw_i(2,[ [ 11,[ [ 1,48,48 ] ] ] ]).
+ 
+lwi_i(2,[ [] ]).
+ 
+ 
+ 
+level_option_i(2,usr_condition,y).
+ 
+ta_i(2,[ [ [ 1,48 ],[ 1,1 ],[ 1,2 ],[ 1,3 ],[ 11,49 ],[ 1,6 ] ] ]).
+ 
+las_i(2,[ [ 1,2,3,49,6,48 ] ]).
+ 
+lac_i(2,[ [] ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+rule_i(0,datastore(2,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(2,'LOCK_RETRY','10')).
+rule_i(0,datastore(2,'WAIT_RECORD','0')).
+rule_i(0,datastore(2,'SQLSERVER_VERSION','10')).
+rule_i(0,datastore(2,'COMMENT_ON','No')).
+rule_i(0,datastore(2,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(2,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(2,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(2,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(2,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(2,'CS_SCHEMA',gam)).
+rule_i(0,datastore(2,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(2,'JRN400','QSQJRN')).
+rule_i(0,datastore(2,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(2,'PGMLIB','')).
+rule_i(0,datastore(2,'DTALIB','')).
+rule_i(0,datastore(2,'CC_USER_PASS',wp„ÄsÁ¹)).
+rule_i(0,datastore(2,'CC_USER_ID',sa)).
+rule_i(0,datastore(2,'CC_SERVER',localhost)).
+rule_i(0,datastore(2,'CC_DBNAME','SeriesColaborativas')).
+rule_i(0,datastore(2,'RecycleRWMin','30')).
+rule_i(0,datastore(2,'RecycleRWType','1')).
+rule_i(0,datastore(2,'RecycleRW','-1')).
+rule_i(0,datastore(2,'POOL_STARTUP','No')).
+rule_i(0,datastore(2,'POOLSIZE_RW','10')).
+rule_i(0,datastore(2,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(2,'PoolRWEnabled','-1')).
+rule_i(0,datastore(2,'CS_RPCPGML','')).
+rule_i(0,datastore(2,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(2,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(2,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(2,'USER_PASSWORD','gnxÔ.“êâ¿')).
+rule_i(0,datastore(2,'USER_ID',sa)).
+rule_i(0,datastore(2,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(2,'CS_CONNECT','First')).
+rule_i(0,datastore(2,'DBMS_PORT','')).
+rule_i(0,datastore(2,'CS_SERVER',localhost)).
+rule_i(0,datastore(2,'CS_DBNAME','SeriesColaborativas')).
+rule_i(0,datastore(2,'CS_FLEDSNAME','')).
+rule_i(0,datastore(2,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(2,'CS_DSNAME','')).
+rule_i(0,datastore(2,'DB_URL','')).
+rule_i(0,datastore(2,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(2,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(2,'JDBC_DRIVER','net.sourceforge.jtds.jdbc.Driver')).
+rule_i(0,datastore(2,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(2,'ACCESS_TECHNO','ADONET')).
+rule_i(0,datastore(2,'MAIN_DS','-1')).
+rule_i(0,datastore(2,'REORG_GEN','8')).
+rule_i(0,datastore(2,'HelpKeyword','23')).
+rule_i(0,datastore(2,'DBMS',12)).
+rule_i(0,datastore(2,'NAME','GAM')).
+rule_i(0,datastore(1,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(1,'LOCK_RETRY','10')).
+rule_i(0,datastore(1,'WAIT_RECORD','0')).
+rule_i(0,datastore(1,'SQLSERVER_VERSION','10')).
+rule_i(0,datastore(1,'COMMENT_ON','No')).
+rule_i(0,datastore(1,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(1,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(1,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(1,'CS_SCHEMA','')).
+rule_i(0,datastore(1,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(1,'JRN400','QSQJRN')).
+rule_i(0,datastore(1,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(1,'PGMLIB','')).
+rule_i(0,datastore(1,'DTALIB','')).
+rule_i(0,datastore(1,'CC_USER_PASS',wp„ÄsÁ¹)).
+rule_i(0,datastore(1,'CC_USER_ID',sa)).
+rule_i(0,datastore(1,'CC_SERVER',localhost)).
+rule_i(0,datastore(1,'CC_DBNAME','SeriesColaborativas')).
+rule_i(0,datastore(1,'RecycleRWMin','30')).
+rule_i(0,datastore(1,'RecycleRWType','1')).
+rule_i(0,datastore(1,'RecycleRW','-1')).
+rule_i(0,datastore(1,'POOL_STARTUP','No')).
+rule_i(0,datastore(1,'POOLSIZE_RW','10')).
+rule_i(0,datastore(1,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(1,'PoolRWEnabled','-1')).
+rule_i(0,datastore(1,'CS_RPCPGML','')).
+rule_i(0,datastore(1,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(1,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(1,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(1,'USER_PASSWORD','gnxÔ.“êâ¿')).
+rule_i(0,datastore(1,'USER_ID',sa)).
+rule_i(0,datastore(1,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(1,'CS_CONNECT','First')).
+rule_i(0,datastore(1,'DBMS_PORT','')).
+rule_i(0,datastore(1,'CS_SERVER',localhost)).
+rule_i(0,datastore(1,'CS_DBNAME','SeriesColaborativas')).
+rule_i(0,datastore(1,'CS_FLEDSNAME','')).
+rule_i(0,datastore(1,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(1,'CS_DSNAME','')).
+rule_i(0,datastore(1,'DB_URL','')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(1,'JDBC_DRIVER','net.sourceforge.jtds.jdbc.Driver')).
+rule_i(0,datastore(1,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(1,'ACCESS_TECHNO','ADONET')).
+rule_i(0,datastore(1,'MAIN_DS','-1')).
+rule_i(0,datastore(1,'REORG_GEN','8')).
+rule_i(0,datastore(1,'HelpKeyword','20')).
+rule_i(0,datastore(1,'DBMS',12)).
+rule_i(0,datastore(1,'NAME','Default')).
+rule_i(0,prop(idNULLS_BEHAVIOR,idNB_Current)).
+rule_i(0,prop('FullyQualifiedName','SDSerie_Level_Detail')).
+rule_i(0,prop('STD_FUNC_OBJECT','Yes')).
+rule_i(0,prop('IntegratedSecurityLevel','SecurityNone')).
+rule_i(0,prop('CacheCheckForNewData','CacheCheckForNewDataEveryTime')).
+rule_i(0,prop('CacheEnabled','-1')).
+rule_i(0,prop(autoRefreshTime,'0')).
+rule_i(0,prop(dataSelectorParameters,[])).
+rule_i(0,prop(dataSelector,'')).
+rule_i(0,prop(adsPosition,'Bottom')).
+rule_i(0,prop(showAds,'-1')).
+rule_i(0,prop('DeepLinkName','')).
+rule_i(0,prop(idConnectivitySupport,idInherit)).
+rule_i(0,prop(caption,'')).
+rule_i(0,prop('IsMain','0')).
+rule_i(0,prop('ObjectVisibility','Public')).
+rule_i(0,prop('Folder',o(120,'Root Module'))).
+rule_i(0,prop('Description','')).
+rule_i(0,prop('Name','SDSerie')).
+rule_i(0,rule([ a(22,[ 'Rfr','"Atualizar"','5' ]) ],[],[],[])).
+rule_i(0,maingen(15)).
+rule_i(0,prop('DPRV_WSPROTOCOL','REST')).
+rule_i(0,prop(idISWEBSERVICE,'-1')).
+rule_i(0,prop('ObjName','SDSerie_Level_Detail')).
+rule_i(0,prop('IntegratedSecurityLevel','SecurityNone')).
+rule_i(0,prop('SDPanel','True')).
+rule_i(0,parm([ 'Serieid','Gxid','GXM2SDSerie_Level_DetailSdt' ],[])).
+rule_i(0,parmio([ [ 'Serieid',in ],[ 'Gxid',in ],[ 'GXM2SDSerie_Level_DetailSdt',out ] ])).
+rule_i(0,prop('OutputSDT',o(26,'SDSerie_Level_DetailSdt'))).
+ 
+a_i(1,1,f,'Err',[],[ [],[ t('0',3) ] ]).
+a_i(2,2,t,1,[],[ [ [ [],'Serieid',1 ] ],'ISERIE',[] ]).
+a_i(3,2,r,11,[],[ [ [ 1,48,48 ] ],'IGENERO',[] ]).
+ 
+v_i(f,i,1,[]).
+v_i(f,o,1,'Err').
+v_i(t,i,2,'Serieid').
+v_i(t,o,2,48).
+v_i(t,o,2,1).
+v_i(t,o,2,2).
+v_i(t,o,2,3).
+v_i(t,o,2,6).
+v_i(r,i,3,48).
+v_i(r,o,3,49).
+ 
+ 
+ 
+ 
+ 
+ 
+attri_i(48,[ 'GeneroId',int,18,0,'ZZZZZZZZZZZZZZZZZ9',0,'Id','',0 ]).
+attri_i(1,[ 'SerieId',int,18,0,'ZZZZZZZZZZZZZZZZZ9',0,'Id','',0 ]).
+attri_i(2,[ 'SerieNome',svchar,40,0,'',0,'Nome','',0 ]).
+attri_i(3,[ 'SerieQuantidadeTemporadas',int,4,0,'ZZZ9',0,'Quantidade de temporadas','',0 ]).
+attri_i(49,[ 'GeneroNome',svchar,40,0,'',0,'Nome','',0 ]).
+attri_i(6,[ 'SerieResumo',vchar,2097152,0,'',0,'Resumo','',0 ]).
+attri_i('Errmsg',[ 'Gx_emsg',char,70,0,'',1,'Error text','',22 ]).
+attri_i('Err',[ 'Gx_err',int,3,0,'ZZ9',1,'Error code','',21 ]).
+attri_i('GXM2SDSerie_Level_DetailSdt',[ 'GXM2SDSerie_Level_DetailSdt',o('SDSerie_Level_DetailSdt'),0,0,'',0,'GXM2SDSerie_Level_DetailSdt','',20 ]).
+attri_i('Gxdynprop1',[ 'Gxdynprop1',char,8,0,'',0,'Gxdynprop1','',19 ]).
+attri_i('Gxdynprop',[ 'Gxdynprop',svchar,1000,0,'',0,'Gxdynprop','',18 ]).
+attri_i('Gxwebsession',[ 'Gxwebsession',o(websession),4,0,'',0,'Gxwebsession','',17 ]).
+attri_i('Gxids',[ 'Gxids',char,20,0,'',0,'Gxids','',16 ]).
+attri_i('Gxid',[ gxid,int,8,0,'',0,'Gxid','',15 ]).
+attri_i('Serieresumo',[ 'SerieResumo',vchar,2097152,0,'',0,'Serie Resumo','',14 ]).
+attri_i('Seriegenero',[ 'SerieGenero',svchar,40,0,'',0,'Serie Genero','',13 ]).
+attri_i('Episodioduracao',[ 'EpisodioDuracao',svchar,40,0,'',0,'Duração','',12 ]).
+attri_i('I',[ i,int,4,0,'ZZZ9',0,i,'',11 ]).
+attri_i('Temporada',[ 'Temporada',int,4,0,'ZZZ9',0,'Temporada','',10 ]).
+attri_i('Serieid',[ 'SerieId',int,18,0,'ZZZZZZZZZZZZZZZZZ9',0,'Id','',5 ]).
+attri_i('Quantidadetemporadas',[ 'QuantidadeTemporadas',int,4,0,'ZZZ9',0,'Quantidade Temporadas','',9 ]).
+attri_i('Episodiotemporada',[ 'EpisodioTemporada',int,4,0,'ZZZ9',0,'Temporada','',8 ]).
+attri_i('Episodionome',[ 'EpisodioNome',svchar,40,0,'',0,'Nome','',7 ]).
+attri_i('Serienome',[ 'SerieNome',svchar,40,0,'',0,'Nome','',6 ]).
+ 
+table_i(11,[ 'Genero',[ 48,49 ],'Gênero','Genero' ]).
+table_i(1,[ 'Serie',[ 1,2,3,6,48 ],'Série','Serie' ]).
+ 
+index_i(1,[ 'ISERIE',u,[ 1 ],'ISerie' ]).
+index_i(11,[ 'IGENERO',u,[ 48 ],'IGenero' ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+start_i(2,0,0,[ [ [ 1,23,'Serieid',= ] ],one ]).
+ 
+end_i(2,0,0,[ [ [ t(1,2),t(=,10),t('Serieid',23) ] ] ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+dom_info_i(178,[ 'Resumo' ]).
+dom_info_i(174,[ 'Nome' ]).
+dom_info_i(175,[ 'Quantidade' ]).
+dom_info_i(173,[ 'Id' ]).
+dom_info_i(185,[ 'Temporada' ]).
+ 
+ 
+break_i(2,nvg,1,[],[ [ 6,49,3,2 ],[ 1 ],[] ]).
+break_i(1,rpt,0,[],[ [],[],[] ]).
+ 
+b_group_i(1,1,lit,0,1,1).
+b_group_i(1,2,nvg,2,3,3).
+b_group_i(2,1,lit,0,4,4).
+b_group_i(1,3,lit,0,10,0).
+ 
+b_line_i(1,1,1,cmd,1,[ t('',107,1,0),t('Gxids',23,1,0),t(=,10,1,0),t('''gxid_''',3,1,0),t(+,5,1,0),t('str(',1,1,0),t('Gxid',23,1,0),t(',',7,1,0),t(8,3,1,0),t(',',7,1,0),t(0,3,1,0),t(')',4,1,0) ]).
+b_line_i(2,1,1,cmd,1,[ t('',109,1,0),t([ t('Gxwebsession',23,2,0),t('get(',1,2,0) ],31,2,0),t('Gxids',23,1,0),t(')',4,1,0),t(=,10,1,0),t('""',3,2,0) ]).
+b_line_i(3,2,1,cmd,4,[ t('',121,3,0),t(table,3,3,0),t(1,3,3,0) ]).
+b_line_i(5,2,1,cmd,4,[ t('',107,4,0),t('Serienome',23,4,0),t(=,10,4,0),t(2,2,4,0) ]).
+b_line_i(6,2,1,cmd,4,[ t('',107,4,0),t('Quantidadetemporadas',23,4,0),t(=,10,4,0),t(3,2,4,0) ]).
+b_line_i(7,2,1,cmd,4,[ t('',107,4,0),t('Seriegenero',23,4,0),t(=,10,4,0),t(49,2,4,0) ]).
+b_line_i(8,2,1,cmd,4,[ t('',107,4,0),t('Serieresumo',23,4,0),t(=,10,4,0),t(6,2,4,0) ]).
+b_line_i(9,2,1,cmd,4,[ t('',128,4,0) ]).
+b_line_i(10,1,3,cmd,8,[ t('',107,8,0),t('Gxdynprop1',23,8,0),t(=,10,8,0),t('"Gênero: "',3,8,0),t(+,5,8,0),t('Seriegenero',23,8,0) ]).
+b_line_i(11,1,3,cmd,8,[ t('',107,8,0),t('Gxdynprop',23,8,0),t(=,10,8,0),t('Gxdynprop',23,8,0),t(+,5,8,0),t('iif(',1,8,0),t('Gxdynprop',23,8,0),t(=,10,8,0),t('''''',3,8,0),t(',',7,8,0),t('''''',3,8,0),t(',',7,8,0),t(''', ''',3,8,0),t(')',4,8,0),t(+,5,8,0),t('''["Txbgenero","Caption","''',3,8,0),t(+,5,8,0),t('jsonencode(',1,8,0),t('Gxdynprop1',23,8,0),t(')',4,8,0),t(+,5,8,0),t('''"]''',3,8,0) ]).
+b_line_i(12,1,3,cmd,8,[ t('',107,8,0),t('Gxdynprop',23,8,0),t(=,10,8,0),t('Gxdynprop',23,8,0),t(+,5,8,0),t('iif(',1,8,0),t('Gxdynprop',23,8,0),t(=,10,8,0),t('''''',3,8,0),t(',',7,8,0),t('''''',3,8,0),t(',',7,8,0),t(''', ''',3,8,0),t(')',4,8,0),t(+,5,8,0),t('''["Txbresumo","Caption","''',3,8,0),t(+,5,8,0),t('jsonencode(',1,8,0),t('Serieresumo',23,8,0),t(')',4,8,0),t(+,5,8,0),t('''"]''',3,8,0) ]).
+b_line_i(13,1,3,cmd,8,[ t('',107,8,0),t('Gxdynprop',23,8,0),t(=,10,8,0),t('Gxdynprop',23,8,0),t(+,5,8,0),t('iif(',1,8,0),t('Gxdynprop',23,8,0),t(=,10,8,0),t('''''',3,8,0),t(',',7,8,0),t('''''',3,8,0),t(',',7,8,0),t(''', ''',3,8,0),t(')',4,8,0),t(+,5,8,0),t('''["Form","Caption","''',3,8,0),t(+,5,8,0),t('jsonencode(',1,8,0),t('Serienome',23,8,0),t(')',4,8,0),t(+,5,8,0),t('''"]''',3,8,0) ]).
+b_line_i(14,1,3,cmd,8,[ t('',107,8,0),t([ t('Gxwebsession',23,14,1),t('set(',1,14,0) ],31,14,1),t('Gxids',23,8,0),t(+,5,8,0),t('''gxvar_Quantidadetemporadas''',3,14,0),t(',',7,8,0),t('str(',1,14,0),t('Quantidadetemporadas',23,8,0),t(',',7,8,0),t(4,3,8,0),t(',',7,8,0),t(0,3,8,0),t(')',4,8,0),t(')',4,8,0) ]).
+b_line_i(15,1,3,cmd,8,[ t('',107,8,0),t([ t('Gxwebsession',23,15,1),t('set(',1,15,0) ],31,15,1),t('Gxids',23,8,0),t(+,5,8,0),t('''gxvar_Temporada''',3,15,0),t(',',7,8,0),t('str(',1,15,0),t('Temporada',23,8,0),t(',',7,8,0),t(4,3,8,0),t(',',7,8,0),t(0,3,8,0),t(')',4,8,0),t(')',4,8,0) ]).
+b_line_i(16,1,3,cmd,8,[ t('',107,8,0),t([ t('Gxwebsession',23,16,1),t('set(',1,16,0) ],31,16,1),t('Gxids',23,8,0),t(',',7,8,0),t('''true''',3,16,0),t(')',4,8,0) ]).
+b_line_i(17,1,3,cmd,8,[ t('',111,8,0) ]).
+b_line_i(19,1,3,cmd,8,[ t('',107,8,0),t([ t('GXM2SDSerie_Level_DetailSdt',23,8,0),t('Gxdynprop',3,8,0) ],29,8,0),t(=,10,8,0),t('''[ ''',3,8,0),t(+,5,8,0),t('Gxdynprop',23,8,0),t(+,5,8,0),t(''' ]''',3,8,0) ]).
+b_line_i(20,1,3,cmd,8,[ t('',107,8,0),t('Gxdynprop',23,8,0),t(=,10,8,0),t('''''',3,8,0) ]).
+ 
+ 
+ 
+ 
+ 
+page_layout_i([ 66,0,6 ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+calling_main_i(37,4).
+ 
+att_prop_i(2,6,'ExternalName','SerieResumo',d).
+att_prop_i(2,6,'ExternalNamespace','SeriesColaborativas',d).
+att_prop_i(2,6,'EmptyAsNull','Yes',d).
+att_prop_i(2,6,idBasedOn,178,v).
+att_prop_i(2,6,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,6,'DB_NLS_SUPPORT','No',d).
+att_prop_i(2,6,'AttRegEx','',d).
+att_prop_i(2,6,'AttValidationFailedMsg','',d).
+att_prop_i(2,6,'FullName','SerieResumo',v).
+att_prop_i(2,49,'ExternalName','GeneroNome',d).
+att_prop_i(2,49,'ExternalNamespace','SeriesColaborativas',d).
+att_prop_i(2,49,'EmptyAsNull','Yes',d).
+att_prop_i(2,49,idBasedOn,174,v).
+att_prop_i(2,49,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,49,'DB_NLS_SUPPORT','No',d).
+att_prop_i(2,49,'AttRegEx','',d).
+att_prop_i(2,49,'AttValidationFailedMsg','',d).
+att_prop_i(2,49,'FullName','GeneroNome',v).
+att_prop_i(2,3,'ExternalName','SerieQuantidadeTemporadas',d).
+att_prop_i(2,3,'ExternalNamespace','SeriesColaborativas',d).
+att_prop_i(2,3,'EmptyAsNull','Yes',d).
+att_prop_i(2,3,idBasedOn,175,v).
+att_prop_i(2,3,'AUTONUMBER','0',d).
+att_prop_i(2,3,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,3,'AttRegEx','',d).
+att_prop_i(2,3,'AttValidationFailedMsg','',d).
+att_prop_i(2,3,'FullName','SerieQuantidadeTemporadas',v).
+att_prop_i(2,2,'ExternalName','SerieNome',d).
+att_prop_i(2,2,'ExternalNamespace','SeriesColaborativas',d).
+att_prop_i(2,2,'EmptyAsNull','Yes',d).
+att_prop_i(2,2,idBasedOn,174,v).
+att_prop_i(2,2,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,2,'DB_NLS_SUPPORT','No',d).
+att_prop_i(2,2,'AttRegEx','',d).
+att_prop_i(2,2,'AttValidationFailedMsg','',d).
+att_prop_i(2,2,'FullName','SerieNome',v).
+att_prop_i(2,1,'ExternalName','SerieId',d).
+att_prop_i(2,1,'ExternalNamespace','SeriesColaborativas',d).
+att_prop_i(2,1,'EmptyAsNull','Yes',d).
+att_prop_i(2,1,idBasedOn,173,v).
+att_prop_i(2,1,'AUTONUMBER','-1',d).
+att_prop_i(2,1,'AUTONUMBER_START','1',d).
+att_prop_i(2,1,'AUTONUMBER_STEP','1',d).
+att_prop_i(2,1,'AUTONUMBER_FORREPLICATION','-1',d).
+att_prop_i(2,1,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,1,'AttRegEx','',d).
+att_prop_i(2,1,'AttValidationFailedMsg','',d).
+att_prop_i(2,1,'FullName','SerieId',v).
+att_prop_i(2,48,'ExternalName','GeneroId',d).
+att_prop_i(2,48,'ExternalNamespace','SeriesColaborativas',d).
+att_prop_i(2,48,'EmptyAsNull','Yes',d).
+att_prop_i(2,48,idBasedOn,173,v).
+att_prop_i(2,48,'AUTONUMBER','-1',d).
+att_prop_i(2,48,'AUTONUMBER_START','1',d).
+att_prop_i(2,48,'AUTONUMBER_STEP','1',d).
+att_prop_i(2,48,'AUTONUMBER_FORREPLICATION','-1',d).
+att_prop_i(2,48,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,48,'AttRegEx','',d).
+att_prop_i(2,48,'AttValidationFailedMsg','',d).
+att_prop_i(2,48,'FullName','GeneroId',v).
+ 
+tbl_prop_i(2,1,'AllDirSuper',[ [ 11,[ 48 ] ] ],v).
+tbl_prop_i(2,11,'DirSubor',[ [ 1,[ 48 ] ] ],v).
+tbl_prop_i(2,1,'DirSuper',[ [ 11,[ 48 ] ] ],v).
+ 
+tbl_att_prop_i(2,1,1,'AllowNulls',n).
+tbl_att_prop_i(2,1,1,'AUTONUMBER',y).
+tbl_att_prop_i(2,1,2,'AllowNulls',n).
+tbl_att_prop_i(2,1,3,'AllowNulls',n).
+tbl_att_prop_i(2,1,6,'AllowNulls',n).
+tbl_att_prop_i(2,1,48,'AllowNulls',n).
+tbl_att_prop_i(2,11,48,'AllowNulls',n).
+tbl_att_prop_i(2,11,48,'AUTONUMBER',y).
+tbl_att_prop_i(2,11,49,'AllowNulls',n).
+ 
+var_prop_i(2,'Serienome',idBasedOn,'',v).
+var_prop_i(2,'Episodionome',idBasedOn,'',v).
+var_prop_i(2,'Episodiotemporada',idBasedOn,'',v).
+var_prop_i(2,'Serieid',idBasedOn,'',v).
+var_prop_i(2,'Temporada',idBasedOn,185,v).
+var_prop_i(2,'Seriegenero',idBasedOn,'',v).
+var_prop_i(2,'Serieresumo',idBasedOn,'',v).
+ 
+ 
+ 
+ 
+ 
+struct_dt_i([ 26,1000000,0 ],name,'SDSerie_Level_DetailSdt').
+struct_dt_i([ 26,1000000,0 ],camelname,'SDSerie_Level_DetailSdt').
+struct_dt_i([ 26,1000000,0 ],camelnameex,'SDSerie_Level_DetailSdt').
+struct_dt_i([ 26,1000000,0 ],collection,'False').
+struct_dt_i([ 26,1000000,0 ],wwsd_sdt,'True').
+struct_dt_i([ 26,1000000,0 ],fullname,'SDSerie_Level_DetailSdt').
+ 
+struct_dt_elem_i([ 26,1000000,0 ],1,name,'Gxdynprop').
+struct_dt_elem_i([ 26,1000000,0 ],1,camelname,'Gxdynprop').
+struct_dt_elem_i([ 26,1000000,0 ],1,type,[ 5,2,0 ]).
+struct_dt_elem_i([ 26,1000000,0 ],1,length,2).
+struct_dt_elem_i([ 26,1000000,0 ],1,decimals,0).
+struct_dt_elem_i([ 26,1000000,0 ],1,sign,0).
+struct_dt_elem_i([ 26,1000000,0 ],1,collection,'False').
+struct_dt_elem_i([ 26,1000000,0 ],1,islevel,'False').
+ 
+ 
+ 
+ 
+ 
+sub_info_i(146,'SDSerie_Level_Detail',0,0,[ [ 'Gxid','Gxwebsession','Serieid','Gxdynprop','Temporada' ],[ 'Gxids','GXLvl3','Serienome','Quantidadetemporadas','Seriegenero','Serieresumo','Gxdynprop1','Gxdynprop','Gxwebsession','Gxdynprop' ] ]).
+ 
+ 
+pgm_callprotocol_i(mnproc,0,'SDSERIE_LEVEL_DETAIL','INTERNAL').
+ 
+ 
+ 
+ 
+ 
+ 
+service_i(input,[ [] ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

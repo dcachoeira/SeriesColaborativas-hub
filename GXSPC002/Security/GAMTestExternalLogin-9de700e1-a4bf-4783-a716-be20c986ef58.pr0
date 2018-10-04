@@ -1,0 +1,8 @@
+[
+  {
+    "Name": "gamtestexternallogin_Execute",
+    "Description": "Test External Login",
+    "ProgramName": "gamtestexternallogin",
+    "IsGXAutomatic": true
+  }
+]

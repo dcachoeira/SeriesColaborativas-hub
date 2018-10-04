@@ -1,0 +1,1 @@
+<%@ServiceHost Service= "GeneXus.Programs.sdcometarios_level_detail_services,sdcometarios_level_detail" %>

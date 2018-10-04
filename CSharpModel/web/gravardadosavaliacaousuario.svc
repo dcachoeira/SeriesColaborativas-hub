@@ -1,0 +1,1 @@
+<%@ServiceHost Service= "GeneXus.Programs.gravardadosavaliacaousuario_services,gravardadosavaliacaousuario" %>

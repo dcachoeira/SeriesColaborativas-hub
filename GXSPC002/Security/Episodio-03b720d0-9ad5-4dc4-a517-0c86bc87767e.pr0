@@ -1,0 +1,36 @@
+[
+  {
+    "Name": "episodio_FullControl",
+    "Description": "Episódio FullControl",
+    "ProgramName": "episodio",
+    "IsGXAutomatic": true
+  },
+  {
+    "Name": "episodio_Execute",
+    "Description": "Episódio",
+    "ProgramName": "episodio",
+    "IsGXAutomatic": true,
+    "Parent": "episodio_FullControl"
+  },
+  {
+    "Name": "episodio_Insert",
+    "Description": "Episódio Insert",
+    "ProgramName": "episodio",
+    "IsGXAutomatic": true,
+    "Parent": "episodio_FullControl"
+  },
+  {
+    "Name": "episodio_Delete",
+    "Description": "Episódio Delete",
+    "ProgramName": "episodio",
+    "IsGXAutomatic": true,
+    "Parent": "episodio_FullControl"
+  },
+  {
+    "Name": "episodio_Update",
+    "Description": "Episódio Update",
+    "ProgramName": "episodio",
+    "IsGXAutomatic": true,
+    "Parent": "episodio_FullControl"
+  }
+]

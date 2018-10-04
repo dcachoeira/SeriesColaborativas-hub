@@ -1,0 +1,779 @@
+spec_i([ mnproc,0,'WorkWithDevicesSerie_Serie_Section_General_DadosUsuario','WorkWithDevicesSerie_Serie_Section_General_DadosUsuario',0,por,'15_0_9-121631' ]).
+ 
+struct_i(2,1,[ 1 ],[]).
+ 
+level_i(2,[ 1,[ [ 1,many ] ],[],[],[ [ [ 1 ],[ 1 ] ] ],[ [ [ 1 ],[] ] ],[ 1 ],'ISERIE',[ 1,[ [ [],1,1 ] ] ],[] ]).
+ 
+tw_i(2,[]).
+ 
+lwi_i(2,[ [] ]).
+ 
+ 
+ 
+level_option_i(2,server_paging,[ y,[] ]).
+level_option_i(2,lvl_paging,[ [ t('Start',23) ],[ t('Count',23) ] ]).
+ 
+ta_i(2,[ [ [ 1,1 ] ] ]).
+ 
+las_i(2,[ [ 1 ] ]).
+ 
+lac_i(2,[ [] ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+rule_i(0,datastore(2,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(2,'LOCK_RETRY','10')).
+rule_i(0,datastore(2,'WAIT_RECORD','0')).
+rule_i(0,datastore(2,'SQLSERVER_VERSION','10')).
+rule_i(0,datastore(2,'COMMENT_ON','No')).
+rule_i(0,datastore(2,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(2,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(2,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(2,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(2,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(2,'CS_SCHEMA',gam)).
+rule_i(0,datastore(2,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(2,'JRN400','QSQJRN')).
+rule_i(0,datastore(2,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(2,'PGMLIB','')).
+rule_i(0,datastore(2,'DTALIB','')).
+rule_i(0,datastore(2,'CC_USER_PASS',wp„ÄsÁ¹)).
+rule_i(0,datastore(2,'CC_USER_ID',sa)).
+rule_i(0,datastore(2,'CC_SERVER',localhost)).
+rule_i(0,datastore(2,'CC_DBNAME','SeriesColaborativas')).
+rule_i(0,datastore(2,'RecycleRWMin','30')).
+rule_i(0,datastore(2,'RecycleRWType','1')).
+rule_i(0,datastore(2,'RecycleRW','-1')).
+rule_i(0,datastore(2,'POOL_STARTUP','No')).
+rule_i(0,datastore(2,'POOLSIZE_RW','10')).
+rule_i(0,datastore(2,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(2,'PoolRWEnabled','-1')).
+rule_i(0,datastore(2,'CS_RPCPGML','')).
+rule_i(0,datastore(2,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(2,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(2,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(2,'USER_PASSWORD','gnxÔ.“êâ¿')).
+rule_i(0,datastore(2,'USER_ID',sa)).
+rule_i(0,datastore(2,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(2,'CS_CONNECT','First')).
+rule_i(0,datastore(2,'DBMS_PORT','')).
+rule_i(0,datastore(2,'CS_SERVER',localhost)).
+rule_i(0,datastore(2,'CS_DBNAME','SeriesColaborativas')).
+rule_i(0,datastore(2,'CS_FLEDSNAME','')).
+rule_i(0,datastore(2,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(2,'CS_DSNAME','')).
+rule_i(0,datastore(2,'DB_URL','')).
+rule_i(0,datastore(2,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(2,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(2,'JDBC_DRIVER','net.sourceforge.jtds.jdbc.Driver')).
+rule_i(0,datastore(2,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(2,'ACCESS_TECHNO','ADONET')).
+rule_i(0,datastore(2,'MAIN_DS','-1')).
+rule_i(0,datastore(2,'REORG_GEN','8')).
+rule_i(0,datastore(2,'HelpKeyword','23')).
+rule_i(0,datastore(2,'DBMS',12)).
+rule_i(0,datastore(2,'NAME','GAM')).
+rule_i(0,datastore(1,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(1,'LOCK_RETRY','10')).
+rule_i(0,datastore(1,'WAIT_RECORD','0')).
+rule_i(0,datastore(1,'SQLSERVER_VERSION','10')).
+rule_i(0,datastore(1,'COMMENT_ON','No')).
+rule_i(0,datastore(1,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(1,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(1,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(1,'CS_SCHEMA','')).
+rule_i(0,datastore(1,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(1,'JRN400','QSQJRN')).
+rule_i(0,datastore(1,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(1,'PGMLIB','')).
+rule_i(0,datastore(1,'DTALIB','')).
+rule_i(0,datastore(1,'CC_USER_PASS',wp„ÄsÁ¹)).
+rule_i(0,datastore(1,'CC_USER_ID',sa)).
+rule_i(0,datastore(1,'CC_SERVER',localhost)).
+rule_i(0,datastore(1,'CC_DBNAME','SeriesColaborativas')).
+rule_i(0,datastore(1,'RecycleRWMin','30')).
+rule_i(0,datastore(1,'RecycleRWType','1')).
+rule_i(0,datastore(1,'RecycleRW','-1')).
+rule_i(0,datastore(1,'POOL_STARTUP','No')).
+rule_i(0,datastore(1,'POOLSIZE_RW','10')).
+rule_i(0,datastore(1,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(1,'PoolRWEnabled','-1')).
+rule_i(0,datastore(1,'CS_RPCPGML','')).
+rule_i(0,datastore(1,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(1,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(1,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(1,'USER_PASSWORD','gnxÔ.“êâ¿')).
+rule_i(0,datastore(1,'USER_ID',sa)).
+rule_i(0,datastore(1,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(1,'CS_CONNECT','First')).
+rule_i(0,datastore(1,'DBMS_PORT','')).
+rule_i(0,datastore(1,'CS_SERVER',localhost)).
+rule_i(0,datastore(1,'CS_DBNAME','SeriesColaborativas')).
+rule_i(0,datastore(1,'CS_FLEDSNAME','')).
+rule_i(0,datastore(1,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(1,'CS_DSNAME','')).
+rule_i(0,datastore(1,'DB_URL','')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(1,'JDBC_DRIVER','net.sourceforge.jtds.jdbc.Driver')).
+rule_i(0,datastore(1,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(1,'ACCESS_TECHNO','ADONET')).
+rule_i(0,datastore(1,'MAIN_DS','-1')).
+rule_i(0,datastore(1,'REORG_GEN','8')).
+rule_i(0,datastore(1,'HelpKeyword','20')).
+rule_i(0,datastore(1,'DBMS',12)).
+rule_i(0,datastore(1,'NAME','Default')).
+rule_i(0,prop(idNULLS_BEHAVIOR,idNB_Current)).
+rule_i(0,prop('FullyQualifiedName','WorkWithDevicesSerie_Serie_Section_General_DadosUsuario')).
+rule_i(0,prop('STD_FUNC_OBJECT','Yes')).
+rule_i(0,prop('IntegratedSecurityLevel','SecurityNone')).
+rule_i(0,prop('CacheCheckForNewData','CacheCheckForNewDataEveryTime')).
+rule_i(0,prop('CacheEnabled','-1')).
+rule_i(0,prop('SPC_WARNINGS_DISABLED','spc0096 spc0107 spc0142')).
+rule_i(0,prop(idConnectivitySupport,idInherit)).
+rule_i(0,prop('IsMain','0')).
+rule_i(0,prop('AutoUpdate','-1')).
+rule_i(0,prop('ObjectVisibility','Public')).
+rule_i(0,prop('Description','Séries')).
+rule_i(0,prop('Name','WorkWithDevicesSerie')).
+rule_i(0,rule([ a(22,[ 'Rfr','"Atualizar"','5' ]) ],[],[],[])).
+rule_i(0,maingen(15)).
+rule_i(0,prop('DPRV_WSPROTOCOL','REST')).
+rule_i(0,prop(idISWEBSERVICE,'-1')).
+rule_i(0,prop('ObjName','WorkWithDevicesSerie_Serie_Section_General_DadosUsuario')).
+rule_i(0,prop('IntegratedSecurityLevel','SecurityNone')).
+rule_i(0,prop('SDPanel','True')).
+rule_i(0,parm([ 1,'Start','Count','Gxid','GXM2RootCol' ],[ 1 ])).
+rule_i(0,parmio([ [ 1,in ],[ 'Start',in ],[ 'Count',in ],[ 'Gxid',in ],[ 'GXM2RootCol',out ] ])).
+rule_i(0,prop('OutputSDT',o(26,'WorkWithDevicesSerie_Serie_Section_General_DadosUsuarioSdt'))).
+ 
+a_i(1,1,f,'Err',[],[ [],[ t('0',3) ] ]).
+a_i(2,2,t,1,[],[ [ [ [],1,1 ] ],'ISERIE',[] ]).
+ 
+v_i(f,i,1,[]).
+v_i(f,o,1,'Err').
+v_i(t,i,2,1).
+v_i(t,o,2,[]).
+ 
+ 
+ 
+ 
+ 
+ 
+attri_i(1,[ 'SerieId',int,18,0,'ZZZZZZZZZZZZZZZZZ9',0,'Id','',0 ]).
+attri_i('Marcarassistido_GXI',[ 'Marcarassistido_GXI',svchar,2048,0,'',0,'',[],21 ]).
+attri_i('Favoritar_GXI',[ 'Favoritar_GXI',svchar,2048,0,'',0,'',[],20 ]).
+attri_i('Errmsg',[ 'Gx_emsg',char,70,0,'',1,'Error text','',19 ]).
+attri_i('Err',[ 'Gx_err',int,3,0,'ZZ9',1,'Error code','',18 ]).
+attri_i('GXM1WorkWithDevicesSerie_Serie_Section_General_DadosUsuarioSdt',[ 'GXM1WorkWithDevicesSerie_Serie_Section_General_DadosUsuarioSdt',o('WorkWithDevicesSerie_Serie_Section_General_DadosUsuarioSdt.Item'),0,0,'',0,'GXM1WorkWithDevicesSerie_Serie_Section_General_DadosUsuarioSdt','',17 ]).
+attri_i('GXM2RootCol',[ 'GXM2RootCol',o(objectcollection('WorkWithDevicesSerie_Serie_Section_General_DadosUsuarioSdt.Item')),0,0,'',0,'GXM2RootCol','',16 ]).
+attri_i('Count',[ count,int,10,0,'',0,'Count','',15 ]).
+attri_i('Start',[ start,int,10,0,'',0,'Start','',14 ]).
+attri_i('Gxwebsession',[ 'Gxwebsession',o(websession),4,0,'',0,'Gxwebsession','',13 ]).
+attri_i('Gxids',[ 'Gxids',char,20,0,'',0,'Gxids','',12 ]).
+attri_i('Gxid',[ gxid,int,8,0,'',0,'Gxid','',11 ]).
+attri_i('Favorita',[ 'Favorita',boolean,4,0,'',0,'Favorita','',10 ]).
+attri_i('Assistido',[ 'Assistido',boolean,4,0,'',0,'Assistido','',9 ]).
+attri_i('Marcarassistido',[ 'MarcarAssistido',bits,1024,0,'',0,'Marcar Assistido','',7 ]).
+attri_i('Favoritar',[ 'Favoritar',bits,1024,0,'',0,'Favoritar','',6 ]).
+ 
+table_i(1,[ 'Serie',[ 1 ],'Série','Serie' ]).
+ 
+index_i(1,[ 'ISERIE',u,[ 1 ],'ISerie' ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+add_att_i(bits,2,'Favoritar_GXI','Favoritar','Favoritar_GXI',[ svchar,2048,0,0 ]).
+add_att_i(bits,2,'Marcarassistido_GXI','Marcarassistido','Marcarassistido_GXI',[ svchar,2048,0,0 ]).
+add_att_i(bits,2,40000,43,'SerieImagem_GXI',[ svchar,2048,0,0 ]).
+ 
+ 
+ 
+ 
+start_i(2,0,0,[ [ [ 1,2,1,= ] ],one ]).
+ 
+end_i(2,0,0,[ [ [ t(1,2),t(=,10),t(1,23) ] ] ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+dom_info_i(173,[ 'Id' ]).
+dom_info_i(174,[ 'Nome' ]).
+dom_info_i(175,[ 'Quantidade' ]).
+dom_info_i(178,[ 'Resumo' ]).
+ 
+ 
+break_i(2,nvg,1,[],[ [ 1 ],[],[] ]).
+break_i(1,rpt,0,[],[ [],[],[] ]).
+ 
+b_group_i(1,1,lit,0,1,4).
+b_group_i(1,2,nvg,2,5,5).
+b_group_i(2,1,lit,0,6,15).
+b_group_i(1,3,lit,0,25,0).
+ 
+b_line_i(2,1,1,cmd,2,[ t('',107,2,0),t('Gxids',23,2,0),t(=,10,2,0),t('''gxid_''',3,2,0),t(+,5,2,0),t('str(',1,2,0),t('Gxid',23,2,0),t(',',7,2,0),t(8,3,2,0),t(',',7,2,0),t(0,3,2,0),t(')',4,2,0) ]).
+b_line_i(3,1,1,cmd,2,[ t('',107,2,0),t('Favoritar_GXI',23,2,0),t(=,10,2,0),t('(',0,2,0),t([ t('Gxwebsession',23,2,0),t('get(',1,2,0) ],31,2,0),t('Gxids',23,2,0),t(+,5,2,0),t('''gxvar_Favoritar''',3,2,0),t(')',4,2,0) ]).
+b_line_i([ 3,1 ],1,1,cmd,2,[ t('',107,2,0),t([ t('Favoritar',23,3,0),t('setempty(',1,3,0) ],31,3,0),t(')',4,2,0) ]).
+b_line_i(4,1,1,cmd,3,[ t('',107,3,0),t('Marcarassistido_GXI',23,3,0),t(=,10,3,0),t('(',0,3,0),t([ t('Gxwebsession',23,3,0),t('get(',1,3,0) ],31,3,0),t('Gxids',23,3,0),t(+,5,3,0),t('''gxvar_Marcarassistido''',3,3,0),t(')',4,3,0) ]).
+b_line_i([ 4,1 ],1,1,cmd,3,[ t('',107,3,0),t([ t('Marcarassistido',23,4,0),t('setempty(',1,4,0) ],31,4,0),t(')',4,3,0) ]).
+b_line_i(5,2,1,cmd,6,[ t('',121,5,0) ]).
+b_line_i([ 5,2 ],2,1,cmd,5,[ t('',107,5,0),t('GXM1WorkWithDevicesSerie_Serie_Section_General_DadosUsuarioSdt',23,5,0),t(=,10,5,0),t([ 'WorkWithDevicesSerie_Serie_Section_General_DadosUsuarioSdt.Item',[ t('(',0,5,0),t(')',4,5,0) ],n ],46,5,0) ]).
+b_line_i(6,2,1,cmd,6,[ t('',104,6,0),t(o(1,'VerificarSerieUsuario'),28,6,0),t(1,2,6,0),t(',',7,6,0),t('''123456''',3,6,0),t(',',7,6,0),t('Favorita',23,6,0),t(',',7,6,0),t('Assistido',23,6,0) ]).
+b_line_i(7,2,1,cmd,6,[ t('',109,6,0),t('Favorita',23,6,0) ]).
+b_line_i(8,2,1,cmd,6,[ t('',107,6,0),t([ t('Favoritar',23,8,1),t('fromimage(',1,8,0) ],31,8,1),t(i(98,'36fbff47-1ab6-4c69-a869-d775c2c91b99'),69,6,0),t(')',4,6,0) ]).
+b_line_i([ 8,1 ],2,1,cmd,6,[ t('',107,6,0),t('Favoritar_GXI',23,6,0),t(=,10,6,0),t('urifromurl(',1,6,0),t(i(98,'36fbff47-1ab6-4c69-a869-d775c2c91b99'),69,6,0),t(')',4,6,0) ]).
+b_line_i(9,2,1,cmd,7,[ t('',110,7,0) ]).
+b_line_i(10,2,1,cmd,7,[ t('',107,7,0),t([ t('Favoritar',23,10,1),t('fromimage(',1,10,0) ],31,10,1),t(i(98,'78937a91-2c51-4be9-92b2-23180713b984'),69,7,0),t(')',4,7,0) ]).
+b_line_i([ 10,1 ],2,1,cmd,7,[ t('',107,7,0),t('Favoritar_GXI',23,7,0),t(=,10,7,0),t('urifromurl(',1,7,0),t(i(98,'78937a91-2c51-4be9-92b2-23180713b984'),69,7,0),t(')',4,7,0) ]).
+b_line_i(11,2,1,cmd,8,[ t('',111,8,0) ]).
+b_line_i(12,2,1,cmd,8,[ t('',109,8,0),t('Assistido',23,8,0) ]).
+b_line_i(13,2,1,cmd,8,[ t('',107,8,0),t([ t('Marcarassistido',23,13,1),t('fromimage(',1,13,0) ],31,13,1),t(i(98,'451cf230-8c7c-4f17-8440-ff7c487b2ad9'),69,8,0),t(')',4,8,0) ]).
+b_line_i([ 13,1 ],2,1,cmd,8,[ t('',107,8,0),t('Marcarassistido_GXI',23,8,0),t(=,10,8,0),t('urifromurl(',1,8,0),t(i(98,'451cf230-8c7c-4f17-8440-ff7c487b2ad9'),69,8,0),t(')',4,8,0) ]).
+b_line_i(14,2,1,cmd,9,[ t('',110,9,0) ]).
+b_line_i(15,2,1,cmd,9,[ t('',107,9,0),t([ t('Marcarassistido',23,15,1),t('fromimage(',1,15,0) ],31,15,1),t(i(98,'7695fe89-52c9-4b7e-871e-0e11548f823e'),69,9,0),t(')',4,9,0) ]).
+b_line_i([ 15,1 ],2,1,cmd,9,[ t('',107,9,0),t('Marcarassistido_GXI',23,9,0),t(=,10,9,0),t('urifromurl(',1,9,0),t(i(98,'7695fe89-52c9-4b7e-871e-0e11548f823e'),69,9,0),t(')',4,9,0) ]).
+b_line_i(16,2,1,cmd,10,[ t('',111,10,0) ]).
+b_line_i(17,2,1,cmd,10,[ t('',107,10,0),t([ t('GXM1WorkWithDevicesSerie_Serie_Section_General_DadosUsuarioSdt',23,10,0),t('Serieid',3,10,0) ],29,10,0),t(=,10,10,0),t(1,2,10,0) ]).
+b_line_i(18,2,1,cmd,10,[ t('',107,10,0),t([ t('GXM1WorkWithDevicesSerie_Serie_Section_General_DadosUsuarioSdt',23,10,0),t('Favoritar',3,10,0) ],29,10,0),t(=,10,10,0),t('Favoritar',23,10,0) ]).
+b_line_i([ 18,1 ],2,1,cmd,10,[ t('',107,10,0),t([ t('GXM1WorkWithDevicesSerie_Serie_Section_General_DadosUsuarioSdt',23,10,0),t('Favoritar_gxi',3,10,0) ],29,10,0),t(=,10,10,0),t('Favoritar_GXI',23,10,0) ]).
+b_line_i(19,2,1,cmd,11,[ t('',107,11,0),t([ t('GXM1WorkWithDevicesSerie_Serie_Section_General_DadosUsuarioSdt',23,11,0),t('Marcarassistido',3,11,0) ],29,11,0),t(=,10,11,0),t('Marcarassistido',23,11,0) ]).
+b_line_i([ 19,1 ],2,1,cmd,11,[ t('',107,11,0),t([ t('GXM1WorkWithDevicesSerie_Serie_Section_General_DadosUsuarioSdt',23,11,0),t('Marcarassistido_gxi',3,11,0) ],29,11,0),t(=,10,11,0),t('Marcarassistido_GXI',23,11,0) ]).
+b_line_i(20,2,1,cmd,12,[ t('',107,12,0),t([ t('GXM2RootCol',23,5,0),t('add(',1,5,0) ],31,5,0),t('GXM1WorkWithDevicesSerie_Serie_Section_General_DadosUsuarioSdt',23,12,0),t(')',4,12,0) ]).
+b_line_i([ 20,1 ],2,1,cmd,12,[ t('',107,12,0),t('GXM1WorkWithDevicesSerie_Serie_Section_General_DadosUsuarioSdt',23,12,0),t(=,10,12,0),t([ 'WorkWithDevicesSerie_Serie_Section_General_DadosUsuarioSdt.Item',[ t('(',0,20,0),t(')',4,20,0) ],n ],46,12,0) ]).
+b_line_i(21,2,1,cmd,13,[ t('',107,13,0),t([ t('GXM1WorkWithDevicesSerie_Serie_Section_General_DadosUsuarioSdt',23,13,0),t('Serieid',3,13,0) ],29,13,0),t(=,10,13,0),t(1,2,13,0) ]).
+b_line_i(22,2,1,cmd,13,[ t('',107,13,0),t([ t('GXM1WorkWithDevicesSerie_Serie_Section_General_DadosUsuarioSdt',23,13,0),t('Favoritar',3,13,0) ],29,13,0),t(=,10,13,0),t('Favoritar',23,13,0) ]).
+b_line_i([ 22,1 ],2,1,cmd,13,[ t('',107,13,0),t([ t('GXM1WorkWithDevicesSerie_Serie_Section_General_DadosUsuarioSdt',23,13,0),t('Favoritar_gxi',3,13,0) ],29,13,0),t(=,10,13,0),t('Favoritar_GXI',23,13,0) ]).
+b_line_i(23,2,1,cmd,14,[ t('',107,14,0),t([ t('GXM1WorkWithDevicesSerie_Serie_Section_General_DadosUsuarioSdt',23,14,0),t('Marcarassistido',3,14,0) ],29,14,0),t(=,10,14,0),t('Marcarassistido',23,14,0) ]).
+b_line_i([ 23,1 ],2,1,cmd,14,[ t('',107,14,0),t([ t('GXM1WorkWithDevicesSerie_Serie_Section_General_DadosUsuarioSdt',23,14,0),t('Marcarassistido_gxi',3,14,0) ],29,14,0),t(=,10,14,0),t('Marcarassistido_GXI',23,14,0) ]).
+b_line_i(24,2,1,cmd,15,[ t('',128,15,0) ]).
+b_line_i(25,1,3,cmd,24,[ t('',107,24,0),t([ t('Gxwebsession',23,25,1),t('set(',1,25,0) ],31,25,1),t('Gxids',23,24,0),t(+,5,24,0),t('''gxvar_Favoritar''',3,25,0),t(',',7,24,0),t('Favoritar_GXI',23,25,0),t(')',4,24,0) ]).
+b_line_i(26,1,3,cmd,24,[ t('',107,24,0),t([ t('Gxwebsession',23,26,1),t('set(',1,26,0) ],31,26,1),t('Gxids',23,24,0),t(+,5,24,0),t('''gxvar_Marcarassistido''',3,26,0),t(',',7,24,0),t('Marcarassistido_GXI',23,26,0),t(')',4,24,0) ]).
+ 
+ 
+ 
+ 
+ 
+page_layout_i([ 66,0,6 ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+calling_main_i(37,4).
+ 
+att_prop_i(2,1,'ExternalName','SerieId',d).
+att_prop_i(2,1,'ExternalNamespace','SeriesColaborativas',d).
+att_prop_i(2,1,'EmptyAsNull','Yes',d).
+att_prop_i(2,1,idBasedOn,173,v).
+att_prop_i(2,1,'AUTONUMBER','-1',d).
+att_prop_i(2,1,'AUTONUMBER_START','1',d).
+att_prop_i(2,1,'AUTONUMBER_STEP','1',d).
+att_prop_i(2,1,'AUTONUMBER_FORREPLICATION','-1',d).
+att_prop_i(2,1,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,1,'AttRegEx','',d).
+att_prop_i(2,1,'AttValidationFailedMsg','',d).
+att_prop_i(2,1,'FullName','SerieId',v).
+ 
+ 
+tbl_att_prop_i(2,1,1,'AllowNulls',n).
+tbl_att_prop_i(2,1,1,'AUTONUMBER',y).
+ 
+ 
+ 
+ 
+ 
+ 
+struct_dt_i([ 14,27,0 ],name,'GeneXus\SD\Actions').
+struct_dt_i([ 14,27,0 ],'ObjName','Actions').
+struct_dt_i([ 14,27,0 ],'ObjDesc','Actions').
+struct_dt_i([ 14,27,0 ],'ExoType','0').
+struct_dt_i([ 14,27,0 ],'ObjNamespace','').
+struct_dt_i([ 14,27,0 ],'ExoImporterVersion','').
+struct_dt_i([ 14,27,0 ],'ExoSourceURI','').
+struct_dt_i([ 14,27,0 ],'ExoNameCSHARP','').
+struct_dt_i([ 14,27,0 ],'AssemblyName','').
+struct_dt_i([ 14,27,0 ],'ExoConstructorParametersCSHARP','').
+struct_dt_i([ 14,27,0 ],'PackageName','').
+struct_dt_i([ 14,27,0 ],'RequireName','').
+struct_dt_i([ 14,27,0 ],'ExoNameANDROID','').
+struct_dt_i([ 14,27,0 ],'AndroidPackageName','').
+struct_dt_i([ 14,27,0 ],'ExoNameJS','').
+struct_dt_i([ 14,27,0 ],'ExoReferencedFilesJS','').
+struct_dt_i([ 14,27,0 ],'Folder',o(120,'GeneXus\SD')).
+struct_dt_i([ 14,27,0 ],'FullyQualifiedName','GeneXus.SD.Actions').
+struct_dt_i([ 14,27,0 ],'ObjectVisibility','Public').
+struct_dt_i([ 14,27,0 ],isexternal,'True').
+struct_dt_i([ 26,32,0 ],name,'GeneXus\SD\LoginExternalAdditionalParameters').
+struct_dt_i([ 26,32,0 ],namespace,'GeneXus').
+struct_dt_i([ 26,32,0 ],'ObjName','LoginExternalAdditionalParameters').
+struct_dt_i([ 26,32,0 ],'ObjDesc','Login External Additional Parameters').
+struct_dt_i([ 26,32,0 ],'ExternalName','LoginExternalAdditionalParameters').
+struct_dt_i([ 26,32,0 ],'ExternalNamespace','GeneXus').
+struct_dt_i([ 26,32,0 ],isexternal,'True').
+struct_dt_i([ 26,32,58 ],name,'Property').
+struct_dt_i([ 26,32,58 ],namespace,'GeneXus.LoginExternalAdditionalParameters').
+struct_dt_i([ 14,27,0 ],fullname,'GeneXus\SD\Actions').
+struct_dt_i([ 26,32,0 ],fullname,'GeneXus\SD\LoginExternalAdditionalParameters').
+struct_dt_i([ 26,32,58 ],fullname,'GeneXus\SD\LoginExternalAdditionalParameters.Property').
+struct_dt_i([ 14,27,0 ],camelname,'GeneXus\SD\Actions').
+struct_dt_i([ 26,32,0 ],camelname,'GeneXus\SD\LoginExternalAdditionalParameters').
+struct_dt_i([ 26,32,58 ],camelname,'Property').
+struct_dt_i([ 26,1000000,0 ],name,'WorkWithDevicesSerie_Serie_Section_General_DadosUsuarioSdt').
+struct_dt_i([ 26,1000000,0 ],camelname,'WorkWithDevicesSerie_Serie_Section_General_DadosUsuarioSdt').
+struct_dt_i([ 26,1000000,0 ],camelnameex,'WorkWithDevicesSerie_Serie_Section_General_DadosUsuarioSdt').
+struct_dt_i([ 26,1000000,1 ],name,'Item').
+struct_dt_i([ 26,1000000,1 ],camelname,'Item').
+struct_dt_i([ 26,1000000,1 ],camelnameex,'Item').
+struct_dt_i([ 26,1000000,0 ],collection,'True').
+struct_dt_i([ 26,1000000,0 ],datatype,[ 26,1000000,1 ]).
+struct_dt_i([ 26,1000000,0 ],wwsd_sdt,'True').
+struct_dt_i([ 26,1000000,0 ],panel,[ 'Serie.Section.General' ]).
+struct_dt_i([ 26,1000000,0 ],fullname,'WorkWithDevicesSerie_Serie_Section_General_DadosUsuarioSdt').
+struct_dt_i([ 26,1000000,1 ],fullname,'WorkWithDevicesSerie_Serie_Section_General_DadosUsuarioSdt.Item').
+ 
+struct_dt_elem_i([ 26,32,0 ],1,name,'Properties').
+struct_dt_elem_i([ 26,32,0 ],1,camelname,'Properties').
+struct_dt_elem_i([ 26,32,0 ],1,type,[ [ 26,32,58 ],0,0 ]).
+struct_dt_elem_i([ 26,32,0 ],1,pic,'').
+struct_dt_elem_i([ 26,32,0 ],1,collection,'True').
+struct_dt_elem_i([ 26,32,0 ],1,'ObjName','Properties').
+struct_dt_elem_i([ 26,32,0 ],1,'ObjDesc','Properties').
+struct_dt_elem_i([ 26,32,0 ],1,'CollectionItemName','Property').
+struct_dt_elem_i([ 26,32,0 ],1,'XmlName','').
+struct_dt_elem_i([ 26,32,0 ],1,'XmlCollectionItemName','').
+struct_dt_elem_i([ 26,32,0 ],1,'XmlNamespace','').
+struct_dt_elem_i([ 26,32,0 ],1,'CollectionSerialization',idXmlCollectionWrapped).
+struct_dt_elem_i([ 26,32,0 ],1,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,32,0 ],1,'JsonName','').
+struct_dt_elem_i([ 26,32,0 ],1,'JsonInclude',idJsonNoProperty).
+struct_dt_elem_i([ 26,32,58 ],1,name,'Id').
+struct_dt_elem_i([ 26,32,58 ],1,camelname,'Id').
+struct_dt_elem_i([ 26,32,58 ],1,length,40).
+struct_dt_elem_i([ 26,32,58 ],1,decimals,0).
+struct_dt_elem_i([ 26,32,58 ],1,type,[ 5,40,0 ]).
+struct_dt_elem_i([ 26,32,58 ],1,pic,'').
+struct_dt_elem_i([ 26,32,58 ],1,collection,'False').
+struct_dt_elem_i([ 26,32,58 ],1,'ExternalName','Id').
+struct_dt_elem_i([ 26,32,58 ],1,'ExternalNamespace','SeriesColaborativas').
+struct_dt_elem_i([ 26,32,58 ],1,'XmlType','Element').
+struct_dt_elem_i([ 26,32,58 ],1,'XmlName','').
+struct_dt_elem_i([ 26,32,58 ],1,'XmlNamespace','').
+struct_dt_elem_i([ 26,32,58 ],1,soaptype,'').
+struct_dt_elem_i([ 26,32,58 ],1,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,32,58 ],1,'JsonName','').
+struct_dt_elem_i([ 26,32,58 ],2,name,'Value').
+struct_dt_elem_i([ 26,32,58 ],2,camelname,'Value').
+struct_dt_elem_i([ 26,32,58 ],2,length,40).
+struct_dt_elem_i([ 26,32,58 ],2,decimals,0).
+struct_dt_elem_i([ 26,32,58 ],2,type,[ 5,40,0 ]).
+struct_dt_elem_i([ 26,32,58 ],2,pic,'').
+struct_dt_elem_i([ 26,32,58 ],2,collection,'False').
+struct_dt_elem_i([ 26,32,58 ],2,'ExternalName','Value').
+struct_dt_elem_i([ 26,32,58 ],2,'ExternalNamespace','SeriesColaborativas').
+struct_dt_elem_i([ 26,32,58 ],2,'XmlType','Element').
+struct_dt_elem_i([ 26,32,58 ],2,'XmlName','').
+struct_dt_elem_i([ 26,32,58 ],2,'XmlNamespace','').
+struct_dt_elem_i([ 26,32,58 ],2,soaptype,'').
+struct_dt_elem_i([ 26,32,58 ],2,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,32,58 ],2,'JsonName','').
+struct_dt_elem_i([ 26,1000000,1 ],1,name,'Serieid').
+struct_dt_elem_i([ 26,1000000,1 ],1,camelname,'SerieId').
+struct_dt_elem_i([ 26,1000000,1 ],1,type,[ 4,18,0 ]).
+struct_dt_elem_i([ 26,1000000,1 ],1,length,18).
+struct_dt_elem_i([ 26,1000000,1 ],1,decimals,0).
+struct_dt_elem_i([ 26,1000000,1 ],1,sign,0).
+struct_dt_elem_i([ 26,1000000,1 ],1,collection,'False').
+struct_dt_elem_i([ 26,1000000,1 ],1,islevel,'False').
+struct_dt_elem_i([ 26,1000000,1 ],2,name,'Favoritar').
+struct_dt_elem_i([ 26,1000000,1 ],2,camelname,'Favoritar').
+struct_dt_elem_i([ 26,1000000,1 ],2,type,[ 7,1024,0 ]).
+struct_dt_elem_i([ 26,1000000,1 ],2,length,1024).
+struct_dt_elem_i([ 26,1000000,1 ],2,decimals,0).
+struct_dt_elem_i([ 26,1000000,1 ],2,sign,0).
+struct_dt_elem_i([ 26,1000000,1 ],2,collection,'False').
+struct_dt_elem_i([ 26,1000000,1 ],2,islevel,'False').
+struct_dt_elem_i([ 26,1000000,1 ],3,name,'Favoritar_gxi').
+struct_dt_elem_i([ 26,1000000,1 ],3,camelname,'Favoritar_GXI').
+struct_dt_elem_i([ 26,1000000,1 ],3,type,[ 13,2048,0 ]).
+struct_dt_elem_i([ 26,1000000,1 ],3,length,2048).
+struct_dt_elem_i([ 26,1000000,1 ],3,decimals,0).
+struct_dt_elem_i([ 26,1000000,1 ],3,sign,0).
+struct_dt_elem_i([ 26,1000000,1 ],3,collection,'False').
+struct_dt_elem_i([ 26,1000000,1 ],3,islevel,'False').
+struct_dt_elem_i([ 26,1000000,1 ],3,isadd,'True').
+struct_dt_elem_i([ 26,1000000,1 ],4,name,'Marcarassistido').
+struct_dt_elem_i([ 26,1000000,1 ],4,camelname,'Marcarassistido').
+struct_dt_elem_i([ 26,1000000,1 ],4,type,[ 7,1024,0 ]).
+struct_dt_elem_i([ 26,1000000,1 ],4,length,1024).
+struct_dt_elem_i([ 26,1000000,1 ],4,decimals,0).
+struct_dt_elem_i([ 26,1000000,1 ],4,sign,0).
+struct_dt_elem_i([ 26,1000000,1 ],4,collection,'False').
+struct_dt_elem_i([ 26,1000000,1 ],4,islevel,'False').
+struct_dt_elem_i([ 26,1000000,1 ],5,name,'Marcarassistido_gxi').
+struct_dt_elem_i([ 26,1000000,1 ],5,camelname,'Marcarassistido_GXI').
+struct_dt_elem_i([ 26,1000000,1 ],5,type,[ 13,2048,0 ]).
+struct_dt_elem_i([ 26,1000000,1 ],5,length,2048).
+struct_dt_elem_i([ 26,1000000,1 ],5,decimals,0).
+struct_dt_elem_i([ 26,1000000,1 ],5,sign,0).
+struct_dt_elem_i([ 26,1000000,1 ],5,collection,'False').
+struct_dt_elem_i([ 26,1000000,1 ],5,islevel,'False').
+struct_dt_elem_i([ 26,1000000,1 ],5,isadd,'True').
+struct_dt_elem_i([ 26,1000000,1 ],1,attributeid,'1').
+ 
+struct_dt_method_i([ 14,27,0 ],1,name,login).
+struct_dt_method_i([ 14,27,0 ],1,camelname,'Login').
+struct_dt_method_i([ 14,27,0 ],1,externalType,'').
+struct_dt_method_i([ 14,27,0 ],1,length,4).
+struct_dt_method_i([ 14,27,0 ],1,decimals,0).
+struct_dt_method_i([ 14,27,0 ],1,type,[ 15,4,0 ]).
+struct_dt_method_i([ 14,27,0 ],1,'IntName','Login').
+struct_dt_method_i([ 14,27,0 ],1,'ExoItemDesc','Call this action to execute the standard batch login against the OAuth server.').
+struct_dt_method_i([ 14,27,0 ],1,'ExoItemType','Boolean').
+struct_dt_method_i([ 14,27,0 ],1,basedon,'').
+struct_dt_method_i([ 14,27,0 ],1,'XmlName','').
+struct_dt_method_i([ 14,27,0 ],1,'ExoMethodIsStatic','-1').
+struct_dt_method_i([ 14,27,0 ],1,'ExoExternalMember',idExoExternalMemberDefault).
+struct_dt_method_i([ 14,27,0 ],1,'ExoNameCSHARP','').
+struct_dt_method_i([ 14,27,0 ],1,'ExoItemExtTypeCSHARP','').
+struct_dt_method_i([ 14,27,0 ],1,'ExoMethodThrows','NO').
+struct_dt_method_i([ 14,27,0 ],1,'ExoNameJS','').
+struct_dt_method_i([ 14,27,0 ],2,name,loginexternal).
+struct_dt_method_i([ 14,27,0 ],2,camelname,'LoginExternal').
+struct_dt_method_i([ 14,27,0 ],2,externalType,'').
+struct_dt_method_i([ 14,27,0 ],2,length,4).
+struct_dt_method_i([ 14,27,0 ],2,decimals,0).
+struct_dt_method_i([ 14,27,0 ],2,type,[ 15,4,0 ]).
+struct_dt_method_i([ 14,27,0 ],2,'IntName','LoginExternal').
+struct_dt_method_i([ 14,27,0 ],2,'ExoItemDesc','Call this action to execute the batch login against the OAuth server for a External login type.').
+struct_dt_method_i([ 14,27,0 ],2,'ExoItemType','Boolean').
+struct_dt_method_i([ 14,27,0 ],2,basedon,'').
+struct_dt_method_i([ 14,27,0 ],2,'XmlName','').
+struct_dt_method_i([ 14,27,0 ],2,'ExoMethodIsStatic','-1').
+struct_dt_method_i([ 14,27,0 ],2,'ExoExternalMember',idExoExternalMemberDefault).
+struct_dt_method_i([ 14,27,0 ],2,'ExoNameCSHARP','').
+struct_dt_method_i([ 14,27,0 ],2,'ExoItemExtTypeCSHARP','').
+struct_dt_method_i([ 14,27,0 ],2,'ExoMethodThrows','NO').
+struct_dt_method_i([ 14,27,0 ],2,'ExoNameJS','').
+struct_dt_method_i([ 14,27,0 ],3,name,loginexternal).
+struct_dt_method_i([ 14,27,0 ],3,camelname,'LoginExternal').
+struct_dt_method_i([ 14,27,0 ],3,externalType,'').
+struct_dt_method_i([ 14,27,0 ],3,length,4).
+struct_dt_method_i([ 14,27,0 ],3,decimals,0).
+struct_dt_method_i([ 14,27,0 ],3,type,[ 15,4,0 ]).
+struct_dt_method_i([ 14,27,0 ],3,'IntName','LoginExternal').
+struct_dt_method_i([ 14,27,0 ],3,'ExoItemDesc','Call this action to execute the batch login against the OAuth server for a External login type.').
+struct_dt_method_i([ 14,27,0 ],3,'ExoItemType','Boolean').
+struct_dt_method_i([ 14,27,0 ],3,basedon,'').
+struct_dt_method_i([ 14,27,0 ],3,'XmlName','').
+struct_dt_method_i([ 14,27,0 ],3,'ExoMethodIsStatic','-1').
+struct_dt_method_i([ 14,27,0 ],3,'ExoExternalMember',idExoExternalMemberDefault).
+struct_dt_method_i([ 14,27,0 ],3,'ExoNameCSHARP','').
+struct_dt_method_i([ 14,27,0 ],3,'ExoItemExtTypeCSHARP','').
+struct_dt_method_i([ 14,27,0 ],3,'ExoMethodThrows','NO').
+struct_dt_method_i([ 14,27,0 ],3,'ExoNameJS','').
+struct_dt_method_i([ 14,27,0 ],4,name,logout).
+struct_dt_method_i([ 14,27,0 ],4,camelname,'Logout').
+struct_dt_method_i([ 14,27,0 ],4,externalType,'').
+struct_dt_method_i([ 14,27,0 ],4,length,8).
+struct_dt_method_i([ 14,27,0 ],4,decimals,0).
+struct_dt_method_i([ 14,27,0 ],4,type,[ 257,8,0 ]).
+struct_dt_method_i([ 14,27,0 ],4,'IntName','Logout').
+struct_dt_method_i([ 14,27,0 ],4,'ExoItemDesc','Call this action to execute the standard logout against the OAuth server.').
+struct_dt_method_i([ 14,27,0 ],4,'ExoItemType','None').
+struct_dt_method_i([ 14,27,0 ],4,basedon,'').
+struct_dt_method_i([ 14,27,0 ],4,'XmlName','').
+struct_dt_method_i([ 14,27,0 ],4,'ExoMethodIsStatic','-1').
+struct_dt_method_i([ 14,27,0 ],4,'ExoExternalMember',idExoExternalMemberDefault).
+struct_dt_method_i([ 14,27,0 ],4,'ExoNameCSHARP','').
+struct_dt_method_i([ 14,27,0 ],4,'ExoItemExtTypeCSHARP','').
+struct_dt_method_i([ 14,27,0 ],4,'ExoMethodThrows','NO').
+struct_dt_method_i([ 14,27,0 ],4,'ExoNameJS','').
+struct_dt_method_i([ 14,27,0 ],5,name,gohome).
+struct_dt_method_i([ 14,27,0 ],5,camelname,'GoHome').
+struct_dt_method_i([ 14,27,0 ],5,externalType,'').
+struct_dt_method_i([ 14,27,0 ],5,length,8).
+struct_dt_method_i([ 14,27,0 ],5,decimals,0).
+struct_dt_method_i([ 14,27,0 ],5,type,[ 257,8,0 ]).
+struct_dt_method_i([ 14,27,0 ],5,'IntName','GoHome').
+struct_dt_method_i([ 14,27,0 ],5,'ExoItemDesc','Returns to the main object of the application, clearing the current call stack.').
+struct_dt_method_i([ 14,27,0 ],5,'ExoItemType','None').
+struct_dt_method_i([ 14,27,0 ],5,basedon,'').
+struct_dt_method_i([ 14,27,0 ],5,'XmlName','').
+struct_dt_method_i([ 14,27,0 ],5,'ExoMethodIsStatic','-1').
+struct_dt_method_i([ 14,27,0 ],5,'ExoExternalMember',idExoExternalMemberDefault).
+struct_dt_method_i([ 14,27,0 ],5,'ExoNameCSHARP','').
+struct_dt_method_i([ 14,27,0 ],5,'ExoItemExtTypeCSHARP','').
+struct_dt_method_i([ 14,27,0 ],5,'ExoMethodThrows','NO').
+struct_dt_method_i([ 14,27,0 ],5,'ExoNameJS','').
+struct_dt_method_i([ 14,27,0 ],6,name,returnto).
+struct_dt_method_i([ 14,27,0 ],6,camelname,'ReturnTo').
+struct_dt_method_i([ 14,27,0 ],6,externalType,'').
+struct_dt_method_i([ 14,27,0 ],6,length,8).
+struct_dt_method_i([ 14,27,0 ],6,decimals,0).
+struct_dt_method_i([ 14,27,0 ],6,type,[ 257,8,0 ]).
+struct_dt_method_i([ 14,27,0 ],6,'IntName','ReturnTo').
+struct_dt_method_i([ 14,27,0 ],6,'ExoItemDesc','Returns to the object specified in the parameter. If it is present more than once in the call stack, it will return to the most recent instance.').
+struct_dt_method_i([ 14,27,0 ],6,'ExoItemType','None').
+struct_dt_method_i([ 14,27,0 ],6,basedon,'').
+struct_dt_method_i([ 14,27,0 ],6,'XmlName','').
+struct_dt_method_i([ 14,27,0 ],6,'ExoMethodIsStatic','-1').
+struct_dt_method_i([ 14,27,0 ],6,'ExoExternalMember',idExoExternalMemberDefault).
+struct_dt_method_i([ 14,27,0 ],6,'ExoNameCSHARP','').
+struct_dt_method_i([ 14,27,0 ],6,'ExoItemExtTypeCSHARP','').
+struct_dt_method_i([ 14,27,0 ],6,'ExoMethodThrows','NO').
+struct_dt_method_i([ 14,27,0 ],6,'ExoNameJS','').
+struct_dt_method_i([ 14,27,0 ],7,name,save).
+struct_dt_method_i([ 14,27,0 ],7,camelname,'Save').
+struct_dt_method_i([ 14,27,0 ],7,externalType,'').
+struct_dt_method_i([ 14,27,0 ],7,length,8).
+struct_dt_method_i([ 14,27,0 ],7,decimals,0).
+struct_dt_method_i([ 14,27,0 ],7,type,[ 257,8,0 ]).
+struct_dt_method_i([ 14,27,0 ],7,'IntName','Save').
+struct_dt_method_i([ 14,27,0 ],7,'ExoItemDesc','Call this action to execute the standard save in the edit form in the device.').
+struct_dt_method_i([ 14,27,0 ],7,'ExoItemType','None').
+struct_dt_method_i([ 14,27,0 ],7,basedon,'').
+struct_dt_method_i([ 14,27,0 ],7,'XmlName','').
+struct_dt_method_i([ 14,27,0 ],7,'ExoMethodIsStatic','-1').
+struct_dt_method_i([ 14,27,0 ],7,'ExoExternalMember',idExoExternalMemberDefault).
+struct_dt_method_i([ 14,27,0 ],7,'ExoNameCSHARP','').
+struct_dt_method_i([ 14,27,0 ],7,'ExoItemExtTypeCSHARP','').
+struct_dt_method_i([ 14,27,0 ],7,'ExoMethodThrows','NO').
+struct_dt_method_i([ 14,27,0 ],7,'ExoNameJS','').
+struct_dt_method_i([ 14,27,0 ],8,name,cancel).
+struct_dt_method_i([ 14,27,0 ],8,camelname,'Cancel').
+struct_dt_method_i([ 14,27,0 ],8,externalType,'').
+struct_dt_method_i([ 14,27,0 ],8,length,8).
+struct_dt_method_i([ 14,27,0 ],8,decimals,0).
+struct_dt_method_i([ 14,27,0 ],8,type,[ 257,8,0 ]).
+struct_dt_method_i([ 14,27,0 ],8,'IntName','Cancel').
+struct_dt_method_i([ 14,27,0 ],8,'ExoItemDesc','Call this action to execute the standard cancel in the edit form in the device.').
+struct_dt_method_i([ 14,27,0 ],8,'ExoItemType','None').
+struct_dt_method_i([ 14,27,0 ],8,basedon,'').
+struct_dt_method_i([ 14,27,0 ],8,'XmlName','').
+struct_dt_method_i([ 14,27,0 ],8,'ExoMethodIsStatic','-1').
+struct_dt_method_i([ 14,27,0 ],8,'ExoExternalMember',idExoExternalMemberDefault).
+struct_dt_method_i([ 14,27,0 ],8,'ExoNameCSHARP','').
+struct_dt_method_i([ 14,27,0 ],8,'ExoItemExtTypeCSHARP','').
+struct_dt_method_i([ 14,27,0 ],8,'ExoMethodThrows','NO').
+struct_dt_method_i([ 14,27,0 ],8,'ExoNameJS','').
+struct_dt_method_i([ 14,27,0 ],9,name,delete).
+struct_dt_method_i([ 14,27,0 ],9,camelname,'Delete').
+struct_dt_method_i([ 14,27,0 ],9,externalType,'').
+struct_dt_method_i([ 14,27,0 ],9,length,8).
+struct_dt_method_i([ 14,27,0 ],9,decimals,0).
+struct_dt_method_i([ 14,27,0 ],9,type,[ 257,8,0 ]).
+struct_dt_method_i([ 14,27,0 ],9,'IntName','Delete').
+struct_dt_method_i([ 14,27,0 ],9,'ExoItemDesc','Call this action to execute the standard delete in the edit form in the device.').
+struct_dt_method_i([ 14,27,0 ],9,'ExoItemType','None').
+struct_dt_method_i([ 14,27,0 ],9,basedon,'').
+struct_dt_method_i([ 14,27,0 ],9,'XmlName','').
+struct_dt_method_i([ 14,27,0 ],9,'ExoMethodIsStatic','-1').
+struct_dt_method_i([ 14,27,0 ],9,'ExoExternalMember',idExoExternalMemberDefault).
+struct_dt_method_i([ 14,27,0 ],9,'ExoNameCSHARP','').
+struct_dt_method_i([ 14,27,0 ],9,'ExoItemExtTypeCSHARP','').
+struct_dt_method_i([ 14,27,0 ],9,'ExoMethodThrows','NO').
+struct_dt_method_i([ 14,27,0 ],9,'ExoNameJS','').
+struct_dt_method_i([ 14,27,0 ],10,name,takeapplicationscreenshot).
+struct_dt_method_i([ 14,27,0 ],10,camelname,'TakeApplicationScreenshot').
+struct_dt_method_i([ 14,27,0 ],10,externalType,'').
+struct_dt_method_i([ 14,27,0 ],10,length,4).
+struct_dt_method_i([ 14,27,0 ],10,decimals,0).
+struct_dt_method_i([ 14,27,0 ],10,type,[ 7,4,0 ]).
+struct_dt_method_i([ 14,27,0 ],10,'IntName','TakeApplicationScreenshot').
+struct_dt_method_i([ 14,27,0 ],10,'ExoItemDesc','Takes an application screenshot for further use like sharing, save in library, etc.').
+struct_dt_method_i([ 14,27,0 ],10,'ExoItemType','Image').
+struct_dt_method_i([ 14,27,0 ],10,basedon,'').
+struct_dt_method_i([ 14,27,0 ],10,'XmlName','').
+struct_dt_method_i([ 14,27,0 ],10,'ExoMethodIsStatic','-1').
+struct_dt_method_i([ 14,27,0 ],10,'ExoExternalMember',idExoExternalMemberDefault).
+struct_dt_method_i([ 14,27,0 ],10,'ExoNameCSHARP','').
+struct_dt_method_i([ 14,27,0 ],10,'ExoItemExtTypeCSHARP','').
+struct_dt_method_i([ 14,27,0 ],10,'ExoMethodThrows','NO').
+struct_dt_method_i([ 14,27,0 ],10,'ExoNameJS','').
+ 
+struct_dt_param_i([ 14,27,1 ],1,name,user).
+struct_dt_param_i([ 14,27,1 ],1,camelname,'User').
+struct_dt_param_i([ 14,27,1 ],1,externalType,'').
+struct_dt_param_i([ 14,27,1 ],1,length,40).
+struct_dt_param_i([ 14,27,1 ],1,decimals,0).
+struct_dt_param_i([ 14,27,1 ],1,type,[ 5,40,0 ]).
+struct_dt_param_i([ 14,27,1 ],1,'ExoParamAccessType',inout).
+struct_dt_param_i([ 14,27,1 ],1,'IntName','User').
+struct_dt_param_i([ 14,27,1 ],1,'ExoItemDesc','').
+struct_dt_param_i([ 14,27,1 ],1,'ExoItemType','Character').
+struct_dt_param_i([ 14,27,1 ],1,basedon,'').
+struct_dt_param_i([ 14,27,1 ],1,'ExoItemExtTypeCSHARP','').
+struct_dt_param_i([ 14,27,1 ],2,name,password).
+struct_dt_param_i([ 14,27,1 ],2,camelname,'Password').
+struct_dt_param_i([ 14,27,1 ],2,externalType,'').
+struct_dt_param_i([ 14,27,1 ],2,length,40).
+struct_dt_param_i([ 14,27,1 ],2,decimals,0).
+struct_dt_param_i([ 14,27,1 ],2,type,[ 5,40,0 ]).
+struct_dt_param_i([ 14,27,1 ],2,'ExoParamAccessType',inout).
+struct_dt_param_i([ 14,27,1 ],2,'IntName','Password').
+struct_dt_param_i([ 14,27,1 ],2,'ExoItemDesc','').
+struct_dt_param_i([ 14,27,1 ],2,'ExoItemType','Character').
+struct_dt_param_i([ 14,27,1 ],2,basedon,'').
+struct_dt_param_i([ 14,27,1 ],2,'ExoItemExtTypeCSHARP','').
+struct_dt_param_i([ 14,27,2 ],1,name,type).
+struct_dt_param_i([ 14,27,2 ],1,camelname,'Type').
+struct_dt_param_i([ 14,27,2 ],1,externalType,'').
+struct_dt_param_i([ 14,27,2 ],1,length,40).
+struct_dt_param_i([ 14,27,2 ],1,decimals,0).
+struct_dt_param_i([ 14,27,2 ],1,type,[ 5,40,0 ]).
+struct_dt_param_i([ 14,27,2 ],1,'ExoParamAccessType',inout).
+struct_dt_param_i([ 14,27,2 ],1,'IntName','Type').
+struct_dt_param_i([ 14,27,2 ],1,'ExoItemDesc','').
+struct_dt_param_i([ 14,27,2 ],1,'ExoItemType','Character').
+struct_dt_param_i([ 14,27,2 ],1,basedon,'').
+struct_dt_param_i([ 14,27,2 ],1,'ExoItemExtTypeCSHARP','').
+struct_dt_param_i([ 14,27,2 ],2,name,user).
+struct_dt_param_i([ 14,27,2 ],2,camelname,'User').
+struct_dt_param_i([ 14,27,2 ],2,externalType,'').
+struct_dt_param_i([ 14,27,2 ],2,length,40).
+struct_dt_param_i([ 14,27,2 ],2,decimals,0).
+struct_dt_param_i([ 14,27,2 ],2,type,[ 5,40,0 ]).
+struct_dt_param_i([ 14,27,2 ],2,'ExoParamAccessType',inout).
+struct_dt_param_i([ 14,27,2 ],2,'IntName','User').
+struct_dt_param_i([ 14,27,2 ],2,'ExoItemDesc','').
+struct_dt_param_i([ 14,27,2 ],2,'ExoItemType','Character').
+struct_dt_param_i([ 14,27,2 ],2,basedon,'').
+struct_dt_param_i([ 14,27,2 ],2,'ExoItemExtTypeCSHARP','').
+struct_dt_param_i([ 14,27,2 ],3,name,password).
+struct_dt_param_i([ 14,27,2 ],3,camelname,'Password').
+struct_dt_param_i([ 14,27,2 ],3,externalType,'').
+struct_dt_param_i([ 14,27,2 ],3,length,40).
+struct_dt_param_i([ 14,27,2 ],3,decimals,0).
+struct_dt_param_i([ 14,27,2 ],3,type,[ 5,40,0 ]).
+struct_dt_param_i([ 14,27,2 ],3,'ExoParamAccessType',inout).
+struct_dt_param_i([ 14,27,2 ],3,'IntName','Password').
+struct_dt_param_i([ 14,27,2 ],3,'ExoItemDesc','').
+struct_dt_param_i([ 14,27,2 ],3,'ExoItemType','Character').
+struct_dt_param_i([ 14,27,2 ],3,basedon,'').
+struct_dt_param_i([ 14,27,2 ],3,'ExoItemExtTypeCSHARP','').
+struct_dt_param_i([ 14,27,3 ],1,name,type).
+struct_dt_param_i([ 14,27,3 ],1,camelname,'Type').
+struct_dt_param_i([ 14,27,3 ],1,externalType,'').
+struct_dt_param_i([ 14,27,3 ],1,length,40).
+struct_dt_param_i([ 14,27,3 ],1,decimals,0).
+struct_dt_param_i([ 14,27,3 ],1,type,[ 5,40,0 ]).
+struct_dt_param_i([ 14,27,3 ],1,'ExoParamAccessType',inout).
+struct_dt_param_i([ 14,27,3 ],1,'IntName','Type').
+struct_dt_param_i([ 14,27,3 ],1,'ExoItemDesc','').
+struct_dt_param_i([ 14,27,3 ],1,'ExoItemType','Character').
+struct_dt_param_i([ 14,27,3 ],1,basedon,'').
+struct_dt_param_i([ 14,27,3 ],1,'ExoItemExtTypeCSHARP','').
+struct_dt_param_i([ 14,27,3 ],2,name,user).
+struct_dt_param_i([ 14,27,3 ],2,camelname,'User').
+struct_dt_param_i([ 14,27,3 ],2,externalType,'').
+struct_dt_param_i([ 14,27,3 ],2,length,40).
+struct_dt_param_i([ 14,27,3 ],2,decimals,0).
+struct_dt_param_i([ 14,27,3 ],2,type,[ 5,40,0 ]).
+struct_dt_param_i([ 14,27,3 ],2,'ExoParamAccessType',inout).
+struct_dt_param_i([ 14,27,3 ],2,'IntName','User').
+struct_dt_param_i([ 14,27,3 ],2,'ExoItemDesc','').
+struct_dt_param_i([ 14,27,3 ],2,'ExoItemType','Character').
+struct_dt_param_i([ 14,27,3 ],2,basedon,'').
+struct_dt_param_i([ 14,27,3 ],2,'ExoItemExtTypeCSHARP','').
+struct_dt_param_i([ 14,27,3 ],3,name,password).
+struct_dt_param_i([ 14,27,3 ],3,camelname,'Password').
+struct_dt_param_i([ 14,27,3 ],3,externalType,'').
+struct_dt_param_i([ 14,27,3 ],3,length,40).
+struct_dt_param_i([ 14,27,3 ],3,decimals,0).
+struct_dt_param_i([ 14,27,3 ],3,type,[ 5,40,0 ]).
+struct_dt_param_i([ 14,27,3 ],3,'ExoParamAccessType',inout).
+struct_dt_param_i([ 14,27,3 ],3,'IntName','Password').
+struct_dt_param_i([ 14,27,3 ],3,'ExoItemDesc','').
+struct_dt_param_i([ 14,27,3 ],3,'ExoItemType','Character').
+struct_dt_param_i([ 14,27,3 ],3,basedon,'').
+struct_dt_param_i([ 14,27,3 ],3,'ExoItemExtTypeCSHARP','').
+struct_dt_param_i([ 14,27,3 ],4,name,additionalparameters).
+struct_dt_param_i([ 14,27,3 ],4,camelname,'AdditionalParameters').
+struct_dt_param_i([ 14,27,3 ],4,externalType,'').
+struct_dt_param_i([ 14,27,3 ],4,length,0).
+struct_dt_param_i([ 14,27,3 ],4,decimals,0).
+struct_dt_param_i([ 14,27,3 ],4,type,[ [ 26,32,0 ],0,0 ]).
+struct_dt_param_i([ 14,27,3 ],4,'ExoParamAccessType',inout).
+struct_dt_param_i([ 14,27,3 ],4,'IntName','AdditionalParameters').
+struct_dt_param_i([ 14,27,3 ],4,'ExoItemDesc','').
+struct_dt_param_i([ 14,27,3 ],4,'ExoItemType','LoginExternalAdditionalParameters, GeneXus.SD').
+struct_dt_param_i([ 14,27,3 ],4,basedon,'').
+struct_dt_param_i([ 14,27,3 ],4,'ExoItemExtTypeCSHARP','').
+struct_dt_param_i([ 14,27,6 ],1,name,objectname).
+struct_dt_param_i([ 14,27,6 ],1,camelname,'ObjectName').
+struct_dt_param_i([ 14,27,6 ],1,externalType,'').
+struct_dt_param_i([ 14,27,6 ],1,length,256).
+struct_dt_param_i([ 14,27,6 ],1,decimals,0).
+struct_dt_param_i([ 14,27,6 ],1,type,[ 13,256,0 ]).
+struct_dt_param_i([ 14,27,6 ],1,'ExoParamAccessType',inout).
+struct_dt_param_i([ 14,27,6 ],1,'IntName','ObjectName').
+struct_dt_param_i([ 14,27,6 ],1,'ExoItemDesc','Object to return to.').
+struct_dt_param_i([ 14,27,6 ],1,'ExoItemType','VarChar').
+struct_dt_param_i([ 14,27,6 ],1,basedon,33).
+struct_dt_param_i([ 14,27,6 ],1,'ExoItemExtTypeCSHARP','').
+ 
+ 
+ 
+sub_info_i(146,'WorkWithDevicesSerie_Serie_Section_General_DadosUsuario',0,0,[ [ 'Gxid','Gxwebsession','Favoritar_GXI','Marcarassistido_GXI' ],[ 'Gxids','Favoritar','Marcarassistido','Assistido','Favorita','Gxwebsession' ] ]).
+ 
+pgm_parm_i(proc,43,'VERIFICARSERIEUSUARIO',[ [ int,18,0,0 ],[ char,40,0,0 ],[ boolean,4,0,0 ],[ boolean,4,0,0 ] ],[ [ 'SerieId',in,[] ],[ usuarioGamGuid,in,[] ],[ 'Favorita',out,[] ],[ 'Assistido',out,[] ] ]).
+ 
+pgm_callprotocol_i(mnproc,0,'WORKWITHDEVICESSERIE_SERIE_SECTION_GENERAL_DADOSUSUARIO','INTERNAL').
+pgm_callprotocol_i(proc,43,'VERIFICARSERIEUSUARIO','INTERNAL').
+ 
+ 
+ 
+ 
+module_info_i('GeneXus\SD','CSHARP_NAME_SPACE','GeneXus.Core').
+module_info_i('GeneXus\SD','AssemblyName','GeneXus.dll').
+ 
+ 
+service_i(input,[ [] ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

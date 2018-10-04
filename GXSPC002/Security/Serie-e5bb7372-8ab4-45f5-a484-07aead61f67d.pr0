@@ -1,0 +1,36 @@
+[
+  {
+    "Name": "serie_FullControl",
+    "Description": "Série FullControl",
+    "ProgramName": "serie",
+    "IsGXAutomatic": true
+  },
+  {
+    "Name": "serie_Execute",
+    "Description": "Série",
+    "ProgramName": "serie",
+    "IsGXAutomatic": true,
+    "Parent": "serie_FullControl"
+  },
+  {
+    "Name": "serie_Insert",
+    "Description": "Série Insert",
+    "ProgramName": "serie",
+    "IsGXAutomatic": true,
+    "Parent": "serie_FullControl"
+  },
+  {
+    "Name": "serie_Delete",
+    "Description": "Série Delete",
+    "ProgramName": "serie",
+    "IsGXAutomatic": true,
+    "Parent": "serie_FullControl"
+  },
+  {
+    "Name": "serie_Update",
+    "Description": "Série Update",
+    "ProgramName": "serie",
+    "IsGXAutomatic": true,
+    "Parent": "serie_FullControl"
+  }
+]

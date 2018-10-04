@@ -1,0 +1,36 @@
+
+<ObjectSpec>
+<SpecVersion>15_0_9-121631</SpecVersion>
+<Object>
+<ObjClsGuid>c9584656-94b6-4ccd-890f-332d11fc2c25</ObjClsGuid>
+<ObjCls>13</ObjCls>
+<ObjId>9</ObjId>
+<ObjName>WWPBaseObjects.Home</ObjName>
+<ObjDesc>WWP_HomeTitle</ObjDesc>
+<ObjPgmName>WWPBaseObjects.Home</ObjPgmName>
+<ObjClsName>Web Panel</ObjClsName></Object>
+<Result>genreq</Result>
+<Warnings></Warnings>
+<Errors></Errors>
+<Main>Yes</Main>
+<Generator>
+<GenId>15</GenId>
+<GenName>Default (C#)</GenName></Generator>
+<FormClass>HTML</FormClass>
+<Parameters></Parameters>
+<StandAloneRules></StandAloneRules>
+<Event>
+<EventName>Start</EventName></Event>
+<Event>
+<EventName>Grid.Load</EventName>
+<Binding>
+<Variable>
+<VarId>Homesampledata</VarId>
+<VarName>&amp;HomeSampleData</VarName></Variable></Binding></Event>
+<Event>
+<EventName>Gridtodolist.Load</EventName>
+<Binding>
+<Variable>
+<VarId>Homesamplenamevaluedata</VarId>
+<VarName>&amp;HomeSampleNameValueData</VarName></Variable></Binding></Event>
+<Suggests></Suggests></ObjectSpec>

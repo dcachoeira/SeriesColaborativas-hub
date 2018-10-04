@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="f1541279-a68a-45c1-a5b5-8c515d01ec8c">
+  <Table name="Episodio" />
+  <Table name="Usuario" />
+  <Table name="UsuarioRecomendacaoEpisodio" />
+</Dependencies>

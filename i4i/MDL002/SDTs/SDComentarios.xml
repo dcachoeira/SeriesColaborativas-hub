@@ -1,0 +1,7 @@
+
+<WWSDSpec>
+<Section>
+<Name>Level.Detail</Name>
+<DataProviders>
+<DataProvider>SDComentarios_Level_Detail_Grid1</DataProvider>
+<DataProvider>SDComentarios_Level_Detail</DataProvider></DataProviders></Section></WWSDSpec>

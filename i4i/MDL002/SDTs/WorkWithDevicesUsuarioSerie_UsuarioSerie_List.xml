@@ -1,0 +1,57 @@
+
+<SdtSpec>
+<mainid>[ 26,1000000,0 ]</mainid>
+<Level>
+<id>[ 26,1000000,0 ]</id>
+<name>WorkWithDevicesUsuarioSerie_UsuarioSerie_ListSdt</name>
+<camelname>WorkWithDevicesUsuarioSerie_UsuarioSerie_ListSdt</camelname>
+<camelnameex>WorkWithDevicesUsuarioSerie_UsuarioSerie_ListSdt</camelnameex>
+<collection>False</collection>
+<wwsd_sdt>True</wwsd_sdt>
+<fullname>WorkWithDevicesUsuarioSerie_UsuarioSerie_ListSdt</fullname>
+<members>
+<member>
+<name>Usuarioid</name>
+<camelname>Usuarioid</camelname>
+<type>[ 4,18,0 ]</type>
+<length>18</length>
+<decimals>0</decimals>
+<sign>0</sign>
+<collection>False</collection>
+<islevel>False</islevel></member>
+<member>
+<name>Gxdynprop</name>
+<camelname>Gxdynprop</camelname>
+<type>[ 5,2,0 ]</type>
+<length>2</length>
+<decimals>0</decimals>
+<sign>0</sign>
+<collection>False</collection>
+<islevel>False</islevel></member>
+<member>
+<name>Gxdyncall</name>
+<camelname>Gxdyncall</camelname>
+<type>[ 5,2,0 ]</type>
+<length>2</length>
+<decimals>0</decimals>
+<sign>0</sign>
+<collection>False</collection>
+<islevel>False</islevel></member></members></Level>
+<Prompts></Prompts>
+<TableAccess></TableAccess>
+<XRef>
+<Object>
+<Class>1</Class>
+<Id>47</Id>
+<Guid>53533ea0-9a84-41a9-8c97-5f146ae7c7f3</Guid></Object>
+<Object>
+<Class>37</Class>
+<Id>9</Id>
+<Guid>b508c305-cc7f-4c5d-ae28-3ff199230adb</Guid></Object></XRef>
+<Input>
+<Parm></Parm></Input>
+<ExtraParms>
+<Parm>
+<Variable>
+<VarId>Usuarioid</VarId>
+<VarName>&amp;Usuarioid</VarName></Variable></Parm></ExtraParms></SdtSpec>

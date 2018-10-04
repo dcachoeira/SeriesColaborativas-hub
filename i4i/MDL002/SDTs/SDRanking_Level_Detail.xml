@@ -1,0 +1,29 @@
+
+<SdtSpec>
+<mainid>[ 26,1000000,0 ]</mainid>
+<Level>
+<id>[ 26,1000000,0 ]</id>
+<name>SDRanking_Level_DetailSdt</name>
+<camelname>SDRanking_Level_DetailSdt</camelname>
+<camelnameex>SDRanking_Level_DetailSdt</camelnameex>
+<collection>False</collection>
+<wwsd_sdt>True</wwsd_sdt>
+<fullname>SDRanking_Level_DetailSdt</fullname></Level>
+<Variables>
+<Variable>
+<name>I</name>
+<type>[ 4,1,0 ]</type>
+<length>1</length>
+<decimals>0</decimals>
+<sign>1</sign>
+<collection>False</collection></Variable></Variables>
+<Prompts></Prompts>
+<TableAccess></TableAccess>
+<XRef></XRef>
+<Input>
+<Parm></Parm></Input>
+<ExtraParms>
+<Parm>
+<Variable>
+<VarId>Sdtranking</VarId>
+<VarName>&amp;Sdtranking</VarName></Variable></Parm></ExtraParms></SdtSpec>

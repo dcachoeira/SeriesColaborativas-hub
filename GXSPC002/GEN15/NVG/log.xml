@@ -1,0 +1,35 @@
+
+<ObjectSpec>
+<SpecVersion>15_0_9-121631</SpecVersion>
+<Object>
+<ObjClsGuid>84a12160-f59b-4ad7-a683-ea4481ac23e9</ObjClsGuid>
+<ObjCls>1</ObjCls>
+<ObjId>39</ObjId>
+<ObjName>log</ObjName>
+<ObjDesc>log</ObjDesc>
+<ObjPgmName>log</ObjPgmName>
+<ObjClsName>Procedure</ObjClsName></Object>
+<Result>genreq</Result>
+<Warnings>
+<Warning>
+<MsgCode>spc0047</MsgCode>
+<Message>
+<Token>Variable </Token>
+<Token>Ret</Token>
+<Token> not defined; </Token>
+<Token>N(10.2)</Token>
+<Token> assumed.</Token></Message></Warning></Warnings>
+<Errors></Errors>
+<OutputDevices>
+<Device>None</Device></OutputDevices>
+<Generator>
+<GenId>15</GenId>
+<GenName>Default (C#)</GenName></Generator>
+<FormClass>Graphic</FormClass>
+<Parameters>
+<Parameter>
+<IO>in</IO>
+<Variable>
+<VarId>Log</VarId>
+<VarName>&amp;Log</VarName></Variable></Parameter></Parameters>
+<Levels></Levels></ObjectSpec>

@@ -1,0 +1,16 @@
+{ 
+    "ResourcesLocation" : "Resources",
+    "Language" : "Portuguese",
+    "Theme" : "CarmineAndroid",
+    "Images" : [ { 
+        "Name" : "UserInfoSmall",
+        "Type" : "I",
+        "Guid" : "2db99ee9-468b-4715-8783-c7416d3381de",
+        "Location" : "UserInfoSmall.png"
+    }, { 
+        "Name" : "Group",
+        "Type" : "I",
+        "Guid" : "429d6190-65aa-4257-86db-fce0370ff650",
+        "Location" : "CarmineAndroid/Group.png"
+    } ]
+}

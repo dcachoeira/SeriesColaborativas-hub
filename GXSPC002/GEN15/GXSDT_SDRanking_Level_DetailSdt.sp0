@@ -1,0 +1,16 @@
+ 
+spec_i([ sdt,[ 26,1000000,0 ],'SDRanking_Level_DetailSdt','SDRanking_Level_DetailSdt',0,por,'15_0_9-121631' ]).
+ 
+struct_dt_i([ 26,1000000,0 ],name,'SDRanking_Level_DetailSdt').
+struct_dt_i([ 26,1000000,0 ],camelname,'SDRanking_Level_DetailSdt').
+struct_dt_i([ 26,1000000,0 ],camelnameex,'SDRanking_Level_DetailSdt').
+struct_dt_i([ 26,1000000,0 ],collection,'False').
+struct_dt_i([ 26,1000000,0 ],wwsd_sdt,'True').
+struct_dt_i([ 26,1000000,0 ],fullname,'SDRanking_Level_DetailSdt').
+ 
+ 
+ 
+ 
+ 
+ 
+ 

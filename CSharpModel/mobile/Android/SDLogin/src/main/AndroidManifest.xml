@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.artech.seriescolaborativas.sdlogin"
+    android:installLocation="auto">
+
+    <application android:name=".MainApplication" 
+                 android:hardwareAccelerated="true"
+                 android:resizeableActivity="false"
+                 android:allowBackup="false"
+                 android:theme="@style/ApplicationTheme"
+                 android:icon="@drawable/appicon"
+                 android:label="@string/app_name">
+
+        <activity android:name=".Main" android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name="com.artech.controls.maps.googlev2.LocationPickerActivity" />
+
+        <!-- Provider -->
+        <provider android:name="com.artech.seriescolaborativas.sdlogin.AppEntityDataProvider" android:exported="false" android:authorities="com.artech.seriescolaborativas.sdlogin.appentityprovider" />
+
+        <!-- Service -->
+        <service android:enabled="true" android:name="com.artech.seriescolaborativas.sdlogin.AppEntityService" />
+
+        <activity android:name="com.artech.android.gam.AuthRedirectActivity" android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="gxgam8e46013f04684f2d973b3999059120a1"/>
+            </intent-filter>
+        </activity>
+
+  </application>
+</manifest>

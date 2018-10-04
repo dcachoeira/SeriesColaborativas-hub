@@ -1,0 +1,680 @@
+ 
+spec_i([ sdt,[ 14,65,0 ],'GAMApplicationMenu','GAMApplicationMenu',0,por,'15_0_9-121631' ]).
+ 
+struct_dt_i([ 14,65,0 ],name,'GAMApplicationMenu').
+struct_dt_i([ 14,65,0 ],'ObjName','GAMApplicationMenu').
+struct_dt_i([ 14,65,0 ],'ObjDesc','GAMApplication Menu').
+struct_dt_i([ 14,65,0 ],'ExoType','0').
+struct_dt_i([ 14,65,0 ],'ObjNamespace','Artech.Security').
+struct_dt_i([ 14,65,0 ],'ExoImporterVersion','').
+struct_dt_i([ 14,65,0 ],'ExoSourceURI','').
+struct_dt_i([ 14,65,0 ],'ExoNameCSHARP','GAMApplicationMenu').
+struct_dt_i([ 14,65,0 ],'AssemblyName','Artech.Security.dll').
+struct_dt_i([ 14,65,0 ],'ExoConstructorParametersCSHARP',context).
+struct_dt_i([ 14,65,0 ],'PackageName','artech.security').
+struct_dt_i([ 14,65,0 ],'RequireName','').
+struct_dt_i([ 14,65,0 ],'ExoNameJS','').
+struct_dt_i([ 14,65,0 ],'ExoReferencedFilesJS','').
+struct_dt_i([ 14,65,0 ],'Folder',o(8,'GAM_Library')).
+struct_dt_i([ 14,65,0 ],'FullyQualifiedName','GAMApplicationMenu').
+struct_dt_i([ 14,65,0 ],'ObjectVisibility','Public').
+struct_dt_i([ 14,65,0 ],fullname,'GAMApplicationMenu').
+struct_dt_i([ 14,65,0 ],modified,yes).
+ 
+struct_dt_elem_i([ 14,65,0 ],1,name,'Id').
+struct_dt_elem_i([ 14,65,0 ],1,camelname,'Id').
+struct_dt_elem_i([ 14,65,0 ],1,externalType,'').
+struct_dt_elem_i([ 14,65,0 ],1,length,12).
+struct_dt_elem_i([ 14,65,0 ],1,decimals,0).
+struct_dt_elem_i([ 14,65,0 ],1,sign,0).
+struct_dt_elem_i([ 14,65,0 ],1,type,[ 4,12,0 ]).
+struct_dt_elem_i([ 14,65,0 ],1,'ExoPropAccessType',idGetSet).
+struct_dt_elem_i([ 14,65,0 ],1,'IntName','Id').
+struct_dt_elem_i([ 14,65,0 ],1,'ExoItemDesc','Menu Id').
+struct_dt_elem_i([ 14,65,0 ],1,'ExoItemType','Numeric').
+struct_dt_elem_i([ 14,65,0 ],1,basedon,92).
+struct_dt_elem_i([ 14,65,0 ],1,'ExoMethodIsStatic','0').
+struct_dt_elem_i([ 14,65,0 ],1,'ExoExternalMember',idExoExternalMemberDefault).
+struct_dt_elem_i([ 14,65,0 ],1,'ControlType','2').
+struct_dt_elem_i([ 14,65,0 ],1,'InputType','0').
+struct_dt_elem_i([ 14,65,0 ],1,'ExoNameCSHARP','Id').
+struct_dt_elem_i([ 14,65,0 ],1,'ExoItemExtTypeCSHARP','System.Int64').
+struct_dt_elem_i([ 14,65,0 ],1,'ExoNameJS','').
+struct_dt_elem_i([ 14,65,0 ],2,name,'Guid').
+struct_dt_elem_i([ 14,65,0 ],2,camelname,'GUID').
+struct_dt_elem_i([ 14,65,0 ],2,externalType,'').
+struct_dt_elem_i([ 14,65,0 ],2,length,40).
+struct_dt_elem_i([ 14,65,0 ],2,decimals,0).
+struct_dt_elem_i([ 14,65,0 ],2,type,[ 5,40,0 ]).
+struct_dt_elem_i([ 14,65,0 ],2,'ExoPropAccessType',idGetSet).
+struct_dt_elem_i([ 14,65,0 ],2,'IntName','GUID').
+struct_dt_elem_i([ 14,65,0 ],2,'ExoItemDesc','Menu GUID').
+struct_dt_elem_i([ 14,65,0 ],2,'ExoItemType','Character').
+struct_dt_elem_i([ 14,65,0 ],2,basedon,113).
+struct_dt_elem_i([ 14,65,0 ],2,'ExoMethodIsStatic','0').
+struct_dt_elem_i([ 14,65,0 ],2,'ExoExternalMember',idExoExternalMemberDefault).
+struct_dt_elem_i([ 14,65,0 ],2,'ControlType','2').
+struct_dt_elem_i([ 14,65,0 ],2,'InputType','0').
+struct_dt_elem_i([ 14,65,0 ],2,'EditAutocomplete','0').
+struct_dt_elem_i([ 14,65,0 ],2,'ExoNameCSHARP','GUID').
+struct_dt_elem_i([ 14,65,0 ],2,'ExoItemExtTypeCSHARP','System.String').
+struct_dt_elem_i([ 14,65,0 ],2,'ExoNameJS','').
+struct_dt_elem_i([ 14,65,0 ],3,name,'Token').
+struct_dt_elem_i([ 14,65,0 ],3,camelname,'Token').
+struct_dt_elem_i([ 14,65,0 ],3,externalType,'').
+struct_dt_elem_i([ 14,65,0 ],3,length,40).
+struct_dt_elem_i([ 14,65,0 ],3,decimals,0).
+struct_dt_elem_i([ 14,65,0 ],3,type,[ 5,40,0 ]).
+struct_dt_elem_i([ 14,65,0 ],3,'ExoPropAccessType',idGetSet).
+struct_dt_elem_i([ 14,65,0 ],3,'IntName','Token').
+struct_dt_elem_i([ 14,65,0 ],3,'ExoItemDesc','Token id').
+struct_dt_elem_i([ 14,65,0 ],3,'ExoItemType','Character').
+struct_dt_elem_i([ 14,65,0 ],3,basedon,122).
+struct_dt_elem_i([ 14,65,0 ],3,'ExoMethodIsStatic','0').
+struct_dt_elem_i([ 14,65,0 ],3,'ExoExternalMember',idExoExternalMemberDefault).
+struct_dt_elem_i([ 14,65,0 ],3,'ControlType','2').
+struct_dt_elem_i([ 14,65,0 ],3,'InputType','0').
+struct_dt_elem_i([ 14,65,0 ],3,'EditAutocomplete','0').
+struct_dt_elem_i([ 14,65,0 ],3,'ExoNameCSHARP','Token').
+struct_dt_elem_i([ 14,65,0 ],3,'ExoItemExtTypeCSHARP','System.String').
+struct_dt_elem_i([ 14,65,0 ],3,'ExoNameJS','').
+struct_dt_elem_i([ 14,65,0 ],4,name,'Name').
+struct_dt_elem_i([ 14,65,0 ],4,camelname,'Name').
+struct_dt_elem_i([ 14,65,0 ],4,externalType,'').
+struct_dt_elem_i([ 14,65,0 ],4,length,254).
+struct_dt_elem_i([ 14,65,0 ],4,decimals,0).
+struct_dt_elem_i([ 14,65,0 ],4,type,[ 5,254,0 ]).
+struct_dt_elem_i([ 14,65,0 ],4,'ExoPropAccessType',idGetSet).
+struct_dt_elem_i([ 14,65,0 ],4,'IntName','Name').
+struct_dt_elem_i([ 14,65,0 ],4,'ExoItemDesc','Name').
+struct_dt_elem_i([ 14,65,0 ],4,'ExoItemType','Character').
+struct_dt_elem_i([ 14,65,0 ],4,basedon,90).
+struct_dt_elem_i([ 14,65,0 ],4,'ExoMethodIsStatic','0').
+struct_dt_elem_i([ 14,65,0 ],4,'ExoExternalMember',idExoExternalMemberDefault).
+struct_dt_elem_i([ 14,65,0 ],4,'ControlType','2').
+struct_dt_elem_i([ 14,65,0 ],4,'InputType','0').
+struct_dt_elem_i([ 14,65,0 ],4,'EditAutocomplete','0').
+struct_dt_elem_i([ 14,65,0 ],4,'ExoNameCSHARP','Name').
+struct_dt_elem_i([ 14,65,0 ],4,'ExoItemExtTypeCSHARP','System.String').
+struct_dt_elem_i([ 14,65,0 ],4,'ExoNameJS','').
+struct_dt_elem_i([ 14,65,0 ],5,name,'Description').
+struct_dt_elem_i([ 14,65,0 ],5,camelname,'Description').
+struct_dt_elem_i([ 14,65,0 ],5,externalType,'').
+struct_dt_elem_i([ 14,65,0 ],5,length,254).
+struct_dt_elem_i([ 14,65,0 ],5,decimals,0).
+struct_dt_elem_i([ 14,65,0 ],5,type,[ 5,254,0 ]).
+struct_dt_elem_i([ 14,65,0 ],5,'ExoPropAccessType',idGetSet).
+struct_dt_elem_i([ 14,65,0 ],5,'IntName','Description').
+struct_dt_elem_i([ 14,65,0 ],5,'ExoItemDesc','Description').
+struct_dt_elem_i([ 14,65,0 ],5,'ExoItemType','Character').
+struct_dt_elem_i([ 14,65,0 ],5,basedon,90).
+struct_dt_elem_i([ 14,65,0 ],5,'ExoMethodIsStatic','0').
+struct_dt_elem_i([ 14,65,0 ],5,'ExoExternalMember',idExoExternalMemberDefault).
+struct_dt_elem_i([ 14,65,0 ],5,'ControlType','2').
+struct_dt_elem_i([ 14,65,0 ],5,'InputType','0').
+struct_dt_elem_i([ 14,65,0 ],5,'EditAutocomplete','0').
+struct_dt_elem_i([ 14,65,0 ],5,'ExoNameCSHARP','Description').
+struct_dt_elem_i([ 14,65,0 ],5,'ExoItemExtTypeCSHARP','System.String').
+struct_dt_elem_i([ 14,65,0 ],5,'ExoNameJS','').
+struct_dt_elem_i([ 14,65,0 ],6,name,'Datecreated').
+struct_dt_elem_i([ 14,65,0 ],6,camelname,'DateCreated').
+struct_dt_elem_i([ 14,65,0 ],6,externalType,'').
+struct_dt_elem_i([ 14,65,0 ],6,length,10).
+struct_dt_elem_i([ 14,65,0 ],6,decimals,5).
+struct_dt_elem_i([ 14,65,0 ],6,type,[ 12,10,5 ]).
+struct_dt_elem_i([ 14,65,0 ],6,'ExoPropAccessType',idGetSet).
+struct_dt_elem_i([ 14,65,0 ],6,'IntName','DateCreated').
+struct_dt_elem_i([ 14,65,0 ],6,'ExoItemDesc','Date Created').
+struct_dt_elem_i([ 14,65,0 ],6,'ExoItemType','DateTime').
+struct_dt_elem_i([ 14,65,0 ],6,basedon,106).
+struct_dt_elem_i([ 14,65,0 ],6,'ExoMethodIsStatic','0').
+struct_dt_elem_i([ 14,65,0 ],6,'ExoExternalMember',idExoExternalMemberDefault).
+struct_dt_elem_i([ 14,65,0 ],6,'ControlType','2').
+struct_dt_elem_i([ 14,65,0 ],6,'InputType','0').
+struct_dt_elem_i([ 14,65,0 ],6,'ExoNameCSHARP','DateCreated').
+struct_dt_elem_i([ 14,65,0 ],6,'ExoItemExtTypeCSHARP','System.DateTime').
+struct_dt_elem_i([ 14,65,0 ],6,'ExoNameJS','').
+struct_dt_elem_i([ 14,65,0 ],7,name,'Usercreated').
+struct_dt_elem_i([ 14,65,0 ],7,camelname,'UserCreated').
+struct_dt_elem_i([ 14,65,0 ],7,externalType,'').
+struct_dt_elem_i([ 14,65,0 ],7,length,100).
+struct_dt_elem_i([ 14,65,0 ],7,decimals,60).
+struct_dt_elem_i([ 14,65,0 ],7,type,[ 13,100,60 ]).
+struct_dt_elem_i([ 14,65,0 ],7,'ExoPropAccessType',idGetSet).
+struct_dt_elem_i([ 14,65,0 ],7,'IntName','UserCreated').
+struct_dt_elem_i([ 14,65,0 ],7,'ExoItemDesc','User Created').
+struct_dt_elem_i([ 14,65,0 ],7,'ExoItemType','VarChar').
+struct_dt_elem_i([ 14,65,0 ],7,basedon,96).
+struct_dt_elem_i([ 14,65,0 ],7,'ExoMethodIsStatic','0').
+struct_dt_elem_i([ 14,65,0 ],7,'ExoExternalMember',idExoExternalMemberDefault).
+struct_dt_elem_i([ 14,65,0 ],7,'ControlType','2').
+struct_dt_elem_i([ 14,65,0 ],7,'InputType','0').
+struct_dt_elem_i([ 14,65,0 ],7,'EditAutocomplete','0').
+struct_dt_elem_i([ 14,65,0 ],7,'ExoNameCSHARP','UserCreated').
+struct_dt_elem_i([ 14,65,0 ],7,'ExoItemExtTypeCSHARP','System.String').
+struct_dt_elem_i([ 14,65,0 ],7,'ExoNameJS','').
+struct_dt_elem_i([ 14,65,0 ],8,name,'Dateupdated').
+struct_dt_elem_i([ 14,65,0 ],8,camelname,'DateUpdated').
+struct_dt_elem_i([ 14,65,0 ],8,externalType,'').
+struct_dt_elem_i([ 14,65,0 ],8,length,10).
+struct_dt_elem_i([ 14,65,0 ],8,decimals,5).
+struct_dt_elem_i([ 14,65,0 ],8,type,[ 12,10,5 ]).
+struct_dt_elem_i([ 14,65,0 ],8,'ExoPropAccessType',idGetSet).
+struct_dt_elem_i([ 14,65,0 ],8,'IntName','DateUpdated').
+struct_dt_elem_i([ 14,65,0 ],8,'ExoItemDesc','Date Updated').
+struct_dt_elem_i([ 14,65,0 ],8,'ExoItemType','DateTime').
+struct_dt_elem_i([ 14,65,0 ],8,basedon,106).
+struct_dt_elem_i([ 14,65,0 ],8,'ExoMethodIsStatic','0').
+struct_dt_elem_i([ 14,65,0 ],8,'ExoExternalMember',idExoExternalMemberDefault).
+struct_dt_elem_i([ 14,65,0 ],8,'ControlType','2').
+struct_dt_elem_i([ 14,65,0 ],8,'InputType','0').
+struct_dt_elem_i([ 14,65,0 ],8,'ExoNameCSHARP','DateUpdated').
+struct_dt_elem_i([ 14,65,0 ],8,'ExoItemExtTypeCSHARP','System.DateTime').
+struct_dt_elem_i([ 14,65,0 ],8,'ExoNameJS','').
+struct_dt_elem_i([ 14,65,0 ],9,name,'Userupdated').
+struct_dt_elem_i([ 14,65,0 ],9,camelname,'UserUpdated').
+struct_dt_elem_i([ 14,65,0 ],9,externalType,'').
+struct_dt_elem_i([ 14,65,0 ],9,length,100).
+struct_dt_elem_i([ 14,65,0 ],9,decimals,60).
+struct_dt_elem_i([ 14,65,0 ],9,type,[ 13,100,60 ]).
+struct_dt_elem_i([ 14,65,0 ],9,'ExoPropAccessType',idGetSet).
+struct_dt_elem_i([ 14,65,0 ],9,'IntName','UserUpdated').
+struct_dt_elem_i([ 14,65,0 ],9,'ExoItemDesc','User Updated').
+struct_dt_elem_i([ 14,65,0 ],9,'ExoItemType','VarChar').
+struct_dt_elem_i([ 14,65,0 ],9,basedon,96).
+struct_dt_elem_i([ 14,65,0 ],9,'ExoMethodIsStatic','0').
+struct_dt_elem_i([ 14,65,0 ],9,'ExoExternalMember',idExoExternalMemberDefault).
+struct_dt_elem_i([ 14,65,0 ],9,'ControlType','2').
+struct_dt_elem_i([ 14,65,0 ],9,'InputType','0').
+struct_dt_elem_i([ 14,65,0 ],9,'EditAutocomplete','0').
+struct_dt_elem_i([ 14,65,0 ],9,'ExoNameCSHARP','UserUpdated').
+struct_dt_elem_i([ 14,65,0 ],9,'ExoItemExtTypeCSHARP','System.String').
+struct_dt_elem_i([ 14,65,0 ],9,'ExoNameJS','').
+struct_dt_elem_i([ 14,65,0 ],10,name,'Descriptions').
+struct_dt_elem_i([ 14,65,0 ],10,camelname,'Descriptions').
+struct_dt_elem_i([ 14,65,0 ],10,externalType,'').
+struct_dt_elem_i([ 14,65,0 ],10,length,0).
+struct_dt_elem_i([ 14,65,0 ],10,decimals,0).
+struct_dt_elem_i([ 14,65,0 ],10,type,[ [ 14,39,0 ],0,0 ]).
+struct_dt_elem_i([ 14,65,0 ],10,collection,'True').
+struct_dt_elem_i([ 14,65,0 ],10,'ExoPropAccessType',idGetSet).
+struct_dt_elem_i([ 14,65,0 ],10,'IntName','Descriptions').
+struct_dt_elem_i([ 14,65,0 ],10,'ExoItemDesc','Descriptions').
+struct_dt_elem_i([ 14,65,0 ],10,'ExoItemType','GAMDescription').
+struct_dt_elem_i([ 14,65,0 ],10,'CollectionItemName','').
+struct_dt_elem_i([ 14,65,0 ],10,basedon,'').
+struct_dt_elem_i([ 14,65,0 ],10,'ExoMethodIsStatic','0').
+struct_dt_elem_i([ 14,65,0 ],10,'ExoExternalMember',idExoExternalMemberDefault).
+struct_dt_elem_i([ 14,65,0 ],10,'ControlType','2').
+struct_dt_elem_i([ 14,65,0 ],10,'InputType','0').
+struct_dt_elem_i([ 14,65,0 ],10,'ExoNameCSHARP','Descriptions').
+struct_dt_elem_i([ 14,65,0 ],10,'ExoItemExtTypeCSHARP','System.Collections.Generic.List<Artech.Security.GAMDescription>').
+struct_dt_elem_i([ 14,65,0 ],10,'ExoNameJS','').
+struct_dt_elem_i([ 14,65,0 ],11,name,'Properties').
+struct_dt_elem_i([ 14,65,0 ],11,camelname,'Properties').
+struct_dt_elem_i([ 14,65,0 ],11,externalType,'').
+struct_dt_elem_i([ 14,65,0 ],11,length,0).
+struct_dt_elem_i([ 14,65,0 ],11,decimals,0).
+struct_dt_elem_i([ 14,65,0 ],11,type,[ [ 14,40,0 ],0,0 ]).
+struct_dt_elem_i([ 14,65,0 ],11,collection,'True').
+struct_dt_elem_i([ 14,65,0 ],11,'ExoPropAccessType',idGetSet).
+struct_dt_elem_i([ 14,65,0 ],11,'IntName','Properties').
+struct_dt_elem_i([ 14,65,0 ],11,'ExoItemDesc','Properties').
+struct_dt_elem_i([ 14,65,0 ],11,'ExoItemType','GAMProperty').
+struct_dt_elem_i([ 14,65,0 ],11,'CollectionItemName','').
+struct_dt_elem_i([ 14,65,0 ],11,basedon,'').
+struct_dt_elem_i([ 14,65,0 ],11,'ExoMethodIsStatic','0').
+struct_dt_elem_i([ 14,65,0 ],11,'ExoExternalMember',idExoExternalMemberDefault).
+struct_dt_elem_i([ 14,65,0 ],11,'ControlType','2').
+struct_dt_elem_i([ 14,65,0 ],11,'InputType','0').
+struct_dt_elem_i([ 14,65,0 ],11,'ExoNameCSHARP','Properties').
+struct_dt_elem_i([ 14,65,0 ],11,'ExoItemExtTypeCSHARP','System.Collections.Generic.List<Artech.Security.GAMProperty>').
+struct_dt_elem_i([ 14,65,0 ],11,'ExoNameJS','').
+ 
+struct_dt_method_i([ 14,65,0 ],1,name,getmenuoptions).
+struct_dt_method_i([ 14,65,0 ],1,camelname,'GetMenuOptions').
+struct_dt_method_i([ 14,65,0 ],1,externalType,'').
+struct_dt_method_i([ 14,65,0 ],1,length,0).
+struct_dt_method_i([ 14,65,0 ],1,decimals,0).
+struct_dt_method_i([ 14,65,0 ],1,type,[ [ 14,67,0 ],0,0 ]).
+struct_dt_method_i([ 14,65,0 ],1,collection,'True').
+struct_dt_method_i([ 14,65,0 ],1,'IntName','GetMenuOptions').
+struct_dt_method_i([ 14,65,0 ],1,'ExoItemDesc','Return application menu options').
+struct_dt_method_i([ 14,65,0 ],1,'ExoItemType','GAMApplicationMenuOption').
+struct_dt_method_i([ 14,65,0 ],1,basedon,'').
+struct_dt_method_i([ 14,65,0 ],1,'XmlName','GetMenuOptions').
+struct_dt_method_i([ 14,65,0 ],1,'ExoMethodIsStatic','0').
+struct_dt_method_i([ 14,65,0 ],1,'ExoExternalMember',idExoExternalMemberDefault).
+struct_dt_method_i([ 14,65,0 ],1,'ExoNameCSHARP','GetMenuOptions').
+struct_dt_method_i([ 14,65,0 ],1,'ExoItemExtTypeCSHARP','System.Collections.Generic.List<Artech.Security.GAMApplicationMenuOption>').
+struct_dt_method_i([ 14,65,0 ],1,'ExoMethodThrows','NO').
+struct_dt_method_i([ 14,65,0 ],1,'ExoNameJS','').
+struct_dt_method_i([ 14,65,0 ],2,name,getmenuoptionbyid).
+struct_dt_method_i([ 14,65,0 ],2,camelname,'GetMenuOptionById').
+struct_dt_method_i([ 14,65,0 ],2,externalType,'').
+struct_dt_method_i([ 14,65,0 ],2,length,0).
+struct_dt_method_i([ 14,65,0 ],2,decimals,0).
+struct_dt_method_i([ 14,65,0 ],2,type,[ [ 14,67,0 ],0,0 ]).
+struct_dt_method_i([ 14,65,0 ],2,'IntName','GetMenuOptionById').
+struct_dt_method_i([ 14,65,0 ],2,'ExoItemDesc','Return application menu option by ID').
+struct_dt_method_i([ 14,65,0 ],2,'ExoItemType','GAMApplicationMenuOption').
+struct_dt_method_i([ 14,65,0 ],2,basedon,'').
+struct_dt_method_i([ 14,65,0 ],2,'XmlName','GetMenuOptionById').
+struct_dt_method_i([ 14,65,0 ],2,'ExoMethodIsStatic','0').
+struct_dt_method_i([ 14,65,0 ],2,'ExoExternalMember',idExoExternalMemberDefault).
+struct_dt_method_i([ 14,65,0 ],2,'ExoNameCSHARP','GetMenuOptionById').
+struct_dt_method_i([ 14,65,0 ],2,'ExoItemExtTypeCSHARP','Artech.Security.GAMApplicationMenuOption').
+struct_dt_method_i([ 14,65,0 ],2,'ExoMethodThrows','NO').
+struct_dt_method_i([ 14,65,0 ],2,'ExoNameJS','').
+struct_dt_method_i([ 14,65,0 ],3,name,addmenuoption).
+struct_dt_method_i([ 14,65,0 ],3,camelname,'AddMenuOption').
+struct_dt_method_i([ 14,65,0 ],3,externalType,'').
+struct_dt_method_i([ 14,65,0 ],3,length,1).
+struct_dt_method_i([ 14,65,0 ],3,decimals,0).
+struct_dt_method_i([ 14,65,0 ],3,type,[ 15,1,0 ]).
+struct_dt_method_i([ 14,65,0 ],3,'IntName','AddMenuOption').
+struct_dt_method_i([ 14,65,0 ],3,'ExoItemDesc','Insert application menu option').
+struct_dt_method_i([ 14,65,0 ],3,'ExoItemType','Boolean').
+struct_dt_method_i([ 14,65,0 ],3,basedon,88).
+struct_dt_method_i([ 14,65,0 ],3,'XmlName','AddMenuOption').
+struct_dt_method_i([ 14,65,0 ],3,'ExoMethodIsStatic','0').
+struct_dt_method_i([ 14,65,0 ],3,'ExoExternalMember',idExoExternalMemberDefault).
+struct_dt_method_i([ 14,65,0 ],3,'ExoNameCSHARP','AddMenuOption').
+struct_dt_method_i([ 14,65,0 ],3,'ExoItemExtTypeCSHARP',bool).
+struct_dt_method_i([ 14,65,0 ],3,'ExoMethodThrows','NO').
+struct_dt_method_i([ 14,65,0 ],3,'ExoNameJS','').
+struct_dt_method_i([ 14,65,0 ],4,name,updatemenuoption).
+struct_dt_method_i([ 14,65,0 ],4,camelname,'UpdateMenuOption').
+struct_dt_method_i([ 14,65,0 ],4,externalType,'').
+struct_dt_method_i([ 14,65,0 ],4,length,1).
+struct_dt_method_i([ 14,65,0 ],4,decimals,0).
+struct_dt_method_i([ 14,65,0 ],4,type,[ 15,1,0 ]).
+struct_dt_method_i([ 14,65,0 ],4,'IntName','UpdateMenuOption').
+struct_dt_method_i([ 14,65,0 ],4,'ExoItemDesc','Update application menu option').
+struct_dt_method_i([ 14,65,0 ],4,'ExoItemType','Boolean').
+struct_dt_method_i([ 14,65,0 ],4,basedon,88).
+struct_dt_method_i([ 14,65,0 ],4,'XmlName','UpdateMenuOption').
+struct_dt_method_i([ 14,65,0 ],4,'ExoMethodIsStatic','0').
+struct_dt_method_i([ 14,65,0 ],4,'ExoExternalMember',idExoExternalMemberDefault).
+struct_dt_method_i([ 14,65,0 ],4,'ExoNameCSHARP','UpdateMenuOption').
+struct_dt_method_i([ 14,65,0 ],4,'ExoItemExtTypeCSHARP',bool).
+struct_dt_method_i([ 14,65,0 ],4,'ExoMethodThrows','NO').
+struct_dt_method_i([ 14,65,0 ],4,'ExoNameJS','').
+struct_dt_method_i([ 14,65,0 ],5,name,deletemenuoption).
+struct_dt_method_i([ 14,65,0 ],5,camelname,'DeleteMenuOption').
+struct_dt_method_i([ 14,65,0 ],5,externalType,'').
+struct_dt_method_i([ 14,65,0 ],5,length,1).
+struct_dt_method_i([ 14,65,0 ],5,decimals,0).
+struct_dt_method_i([ 14,65,0 ],5,type,[ 15,1,0 ]).
+struct_dt_method_i([ 14,65,0 ],5,'IntName','DeleteMenuOption').
+struct_dt_method_i([ 14,65,0 ],5,'ExoItemDesc','Delete application menu option').
+struct_dt_method_i([ 14,65,0 ],5,'ExoItemType','Boolean').
+struct_dt_method_i([ 14,65,0 ],5,basedon,88).
+struct_dt_method_i([ 14,65,0 ],5,'XmlName','DeleteMenuOption').
+struct_dt_method_i([ 14,65,0 ],5,'ExoMethodIsStatic','0').
+struct_dt_method_i([ 14,65,0 ],5,'ExoExternalMember',idExoExternalMemberDefault).
+struct_dt_method_i([ 14,65,0 ],5,'ExoNameCSHARP','DeleteMenuOption').
+struct_dt_method_i([ 14,65,0 ],5,'ExoItemExtTypeCSHARP',bool).
+struct_dt_method_i([ 14,65,0 ],5,'ExoMethodThrows','NO').
+struct_dt_method_i([ 14,65,0 ],5,'ExoNameJS','').
+struct_dt_method_i([ 14,65,0 ],6,name,tostring).
+struct_dt_method_i([ 14,65,0 ],6,camelname,'ToString').
+struct_dt_method_i([ 14,65,0 ],6,externalType,'').
+struct_dt_method_i([ 14,65,0 ],6,length,9999).
+struct_dt_method_i([ 14,65,0 ],6,decimals,0).
+struct_dt_method_i([ 14,65,0 ],6,type,[ 5,9999,0 ]).
+struct_dt_method_i([ 14,65,0 ],6,'IntName','ToString').
+struct_dt_method_i([ 14,65,0 ],6,'ExoItemDesc','').
+struct_dt_method_i([ 14,65,0 ],6,'ExoItemType','Character').
+struct_dt_method_i([ 14,65,0 ],6,basedon,'').
+struct_dt_method_i([ 14,65,0 ],6,'XmlName','ToString').
+struct_dt_method_i([ 14,65,0 ],6,'ExoMethodIsStatic','0').
+struct_dt_method_i([ 14,65,0 ],6,'ExoExternalMember',idExoExternalMemberDefault).
+struct_dt_method_i([ 14,65,0 ],6,'ExoNameCSHARP','ToString').
+struct_dt_method_i([ 14,65,0 ],6,'ExoItemExtTypeCSHARP','').
+struct_dt_method_i([ 14,65,0 ],6,'ExoMethodThrows','NO').
+struct_dt_method_i([ 14,65,0 ],6,'ExoNameJS','').
+struct_dt_method_i([ 14,65,0 ],7,name,tojsonstring).
+struct_dt_method_i([ 14,65,0 ],7,camelname,'ToJsonString').
+struct_dt_method_i([ 14,65,0 ],7,externalType,'').
+struct_dt_method_i([ 14,65,0 ],7,length,9999).
+struct_dt_method_i([ 14,65,0 ],7,decimals,0).
+struct_dt_method_i([ 14,65,0 ],7,type,[ 5,9999,0 ]).
+struct_dt_method_i([ 14,65,0 ],7,'IntName','ToJsonString').
+struct_dt_method_i([ 14,65,0 ],7,'ExoItemDesc','').
+struct_dt_method_i([ 14,65,0 ],7,'ExoItemType','Character').
+struct_dt_method_i([ 14,65,0 ],7,basedon,'').
+struct_dt_method_i([ 14,65,0 ],7,'XmlName','ToJsonString').
+struct_dt_method_i([ 14,65,0 ],7,'ExoMethodIsStatic','0').
+struct_dt_method_i([ 14,65,0 ],7,'ExoExternalMember',idExoExternalMemberDefault).
+struct_dt_method_i([ 14,65,0 ],7,'ExoNameCSHARP','ToJsonString').
+struct_dt_method_i([ 14,65,0 ],7,'ExoItemExtTypeCSHARP','').
+struct_dt_method_i([ 14,65,0 ],7,'ExoMethodThrows','NO').
+struct_dt_method_i([ 14,65,0 ],7,'ExoNameJS','').
+struct_dt_method_i([ 14,65,0 ],8,name,fromjsonstring).
+struct_dt_method_i([ 14,65,0 ],8,camelname,'FromJsonString').
+struct_dt_method_i([ 14,65,0 ],8,externalType,'').
+struct_dt_method_i([ 14,65,0 ],8,length,8).
+struct_dt_method_i([ 14,65,0 ],8,decimals,0).
+struct_dt_method_i([ 14,65,0 ],8,type,[ 15,8,0 ]).
+struct_dt_method_i([ 14,65,0 ],8,'IntName','FromJsonString').
+struct_dt_method_i([ 14,65,0 ],8,'ExoItemDesc','').
+struct_dt_method_i([ 14,65,0 ],8,'ExoItemType','Boolean').
+struct_dt_method_i([ 14,65,0 ],8,basedon,'').
+struct_dt_method_i([ 14,65,0 ],8,'XmlName','FromJsonString').
+struct_dt_method_i([ 14,65,0 ],8,'ExoMethodIsStatic','0').
+struct_dt_method_i([ 14,65,0 ],8,'ExoExternalMember',idExoExternalMemberDefault).
+struct_dt_method_i([ 14,65,0 ],8,'ExoNameCSHARP','FromJsonString').
+struct_dt_method_i([ 14,65,0 ],8,'ExoItemExtTypeCSHARP',bool).
+struct_dt_method_i([ 14,65,0 ],8,'ExoMethodThrows','NO').
+struct_dt_method_i([ 14,65,0 ],8,'ExoNameJS','').
+ 
+struct_dt_param_i([ 14,65,1 ],1,name,applicationid).
+struct_dt_param_i([ 14,65,1 ],1,camelname,'ApplicationId').
+struct_dt_param_i([ 14,65,1 ],1,externalType,'').
+struct_dt_param_i([ 14,65,1 ],1,length,12).
+struct_dt_param_i([ 14,65,1 ],1,decimals,0).
+struct_dt_param_i([ 14,65,1 ],1,sign,0).
+struct_dt_param_i([ 14,65,1 ],1,type,[ 4,12,0 ]).
+struct_dt_param_i([ 14,65,1 ],1,'ExoParamAccessType',in).
+struct_dt_param_i([ 14,65,1 ],1,'IntName','ApplicationId').
+struct_dt_param_i([ 14,65,1 ],1,'ExoItemDesc','').
+struct_dt_param_i([ 14,65,1 ],1,'ExoItemType','Numeric').
+struct_dt_param_i([ 14,65,1 ],1,basedon,92).
+struct_dt_param_i([ 14,65,1 ],1,'ExoItemExtTypeCSHARP',long).
+struct_dt_param_i([ 14,65,1 ],2,name,menuoptionfilter).
+struct_dt_param_i([ 14,65,1 ],2,camelname,'MenuOptionFilter').
+struct_dt_param_i([ 14,65,1 ],2,externalType,'').
+struct_dt_param_i([ 14,65,1 ],2,length,0).
+struct_dt_param_i([ 14,65,1 ],2,decimals,0).
+struct_dt_param_i([ 14,65,1 ],2,type,[ [ 14,66,0 ],0,0 ]).
+struct_dt_param_i([ 14,65,1 ],2,'ExoParamAccessType',in).
+struct_dt_param_i([ 14,65,1 ],2,'IntName','MenuOptionFilter').
+struct_dt_param_i([ 14,65,1 ],2,'ExoItemDesc','').
+struct_dt_param_i([ 14,65,1 ],2,'ExoItemType','GAMApplicationMenuOptionFilter').
+struct_dt_param_i([ 14,65,1 ],2,basedon,'').
+struct_dt_param_i([ 14,65,1 ],2,'ExoItemExtTypeCSHARP','Artech.Security.GAMApplicationMenuOptionFilter').
+struct_dt_param_i([ 14,65,1 ],3,name,errors).
+struct_dt_param_i([ 14,65,1 ],3,camelname,'Errors').
+struct_dt_param_i([ 14,65,1 ],3,externalType,'').
+struct_dt_param_i([ 14,65,1 ],3,length,0).
+struct_dt_param_i([ 14,65,1 ],3,decimals,0).
+struct_dt_param_i([ 14,65,1 ],3,type,[ [ 14,41,0 ],0,0 ]).
+struct_dt_param_i([ 14,65,1 ],3,collection,'True').
+struct_dt_param_i([ 14,65,1 ],3,'ExoParamAccessType',out).
+struct_dt_param_i([ 14,65,1 ],3,'IntName','Errors').
+struct_dt_param_i([ 14,65,1 ],3,'ExoItemDesc','').
+struct_dt_param_i([ 14,65,1 ],3,'ExoItemType','GAMError').
+struct_dt_param_i([ 14,65,1 ],3,basedon,'').
+struct_dt_param_i([ 14,65,1 ],3,'ExoItemExtTypeCSHARP','System.Collections.Generic.List<Artech.Security.GAMError>').
+struct_dt_param_i([ 14,65,2 ],1,name,applicationid).
+struct_dt_param_i([ 14,65,2 ],1,camelname,'ApplicationId').
+struct_dt_param_i([ 14,65,2 ],1,externalType,'').
+struct_dt_param_i([ 14,65,2 ],1,length,12).
+struct_dt_param_i([ 14,65,2 ],1,decimals,0).
+struct_dt_param_i([ 14,65,2 ],1,sign,0).
+struct_dt_param_i([ 14,65,2 ],1,type,[ 4,12,0 ]).
+struct_dt_param_i([ 14,65,2 ],1,'ExoParamAccessType',in).
+struct_dt_param_i([ 14,65,2 ],1,'IntName','ApplicationId').
+struct_dt_param_i([ 14,65,2 ],1,'ExoItemDesc','').
+struct_dt_param_i([ 14,65,2 ],1,'ExoItemType','Numeric').
+struct_dt_param_i([ 14,65,2 ],1,basedon,92).
+struct_dt_param_i([ 14,65,2 ],1,'ExoItemExtTypeCSHARP',long).
+struct_dt_param_i([ 14,65,2 ],2,name,menuoptionid).
+struct_dt_param_i([ 14,65,2 ],2,camelname,'MenuOptionId').
+struct_dt_param_i([ 14,65,2 ],2,externalType,'').
+struct_dt_param_i([ 14,65,2 ],2,length,12).
+struct_dt_param_i([ 14,65,2 ],2,decimals,0).
+struct_dt_param_i([ 14,65,2 ],2,sign,0).
+struct_dt_param_i([ 14,65,2 ],2,type,[ 4,12,0 ]).
+struct_dt_param_i([ 14,65,2 ],2,'ExoParamAccessType',in).
+struct_dt_param_i([ 14,65,2 ],2,'IntName','MenuOptionId').
+struct_dt_param_i([ 14,65,2 ],2,'ExoItemDesc','').
+struct_dt_param_i([ 14,65,2 ],2,'ExoItemType','Numeric').
+struct_dt_param_i([ 14,65,2 ],2,basedon,92).
+struct_dt_param_i([ 14,65,2 ],2,'ExoItemExtTypeCSHARP',long).
+struct_dt_param_i([ 14,65,2 ],3,name,errors).
+struct_dt_param_i([ 14,65,2 ],3,camelname,'Errors').
+struct_dt_param_i([ 14,65,2 ],3,externalType,'').
+struct_dt_param_i([ 14,65,2 ],3,length,0).
+struct_dt_param_i([ 14,65,2 ],3,decimals,0).
+struct_dt_param_i([ 14,65,2 ],3,type,[ [ 14,41,0 ],0,0 ]).
+struct_dt_param_i([ 14,65,2 ],3,collection,'True').
+struct_dt_param_i([ 14,65,2 ],3,'ExoParamAccessType',out).
+struct_dt_param_i([ 14,65,2 ],3,'IntName','Errors').
+struct_dt_param_i([ 14,65,2 ],3,'ExoItemDesc','').
+struct_dt_param_i([ 14,65,2 ],3,'ExoItemType','GAMError').
+struct_dt_param_i([ 14,65,2 ],3,basedon,'').
+struct_dt_param_i([ 14,65,2 ],3,'ExoItemExtTypeCSHARP','System.Collections.Generic.List<Artech.Security.GAMError>').
+struct_dt_param_i([ 14,65,3 ],1,name,applicationid).
+struct_dt_param_i([ 14,65,3 ],1,camelname,'ApplicationId').
+struct_dt_param_i([ 14,65,3 ],1,externalType,'').
+struct_dt_param_i([ 14,65,3 ],1,length,12).
+struct_dt_param_i([ 14,65,3 ],1,decimals,0).
+struct_dt_param_i([ 14,65,3 ],1,sign,0).
+struct_dt_param_i([ 14,65,3 ],1,type,[ 4,12,0 ]).
+struct_dt_param_i([ 14,65,3 ],1,'ExoParamAccessType',in).
+struct_dt_param_i([ 14,65,3 ],1,'IntName','ApplicationId').
+struct_dt_param_i([ 14,65,3 ],1,'ExoItemDesc','').
+struct_dt_param_i([ 14,65,3 ],1,'ExoItemType','Numeric').
+struct_dt_param_i([ 14,65,3 ],1,basedon,92).
+struct_dt_param_i([ 14,65,3 ],1,'ExoItemExtTypeCSHARP',long).
+struct_dt_param_i([ 14,65,3 ],2,name,menuoption).
+struct_dt_param_i([ 14,65,3 ],2,camelname,'MenuOption').
+struct_dt_param_i([ 14,65,3 ],2,externalType,'').
+struct_dt_param_i([ 14,65,3 ],2,length,0).
+struct_dt_param_i([ 14,65,3 ],2,decimals,0).
+struct_dt_param_i([ 14,65,3 ],2,type,[ [ 14,67,0 ],0,0 ]).
+struct_dt_param_i([ 14,65,3 ],2,'ExoParamAccessType',in).
+struct_dt_param_i([ 14,65,3 ],2,'IntName','MenuOption').
+struct_dt_param_i([ 14,65,3 ],2,'ExoItemDesc','').
+struct_dt_param_i([ 14,65,3 ],2,'ExoItemType','GAMApplicationMenuOption').
+struct_dt_param_i([ 14,65,3 ],2,basedon,'').
+struct_dt_param_i([ 14,65,3 ],2,'ExoItemExtTypeCSHARP','Artech.Security.GAMApplicationMenuOption').
+struct_dt_param_i([ 14,65,3 ],3,name,errors).
+struct_dt_param_i([ 14,65,3 ],3,camelname,'Errors').
+struct_dt_param_i([ 14,65,3 ],3,externalType,'').
+struct_dt_param_i([ 14,65,3 ],3,length,0).
+struct_dt_param_i([ 14,65,3 ],3,decimals,0).
+struct_dt_param_i([ 14,65,3 ],3,type,[ [ 14,41,0 ],0,0 ]).
+struct_dt_param_i([ 14,65,3 ],3,collection,'True').
+struct_dt_param_i([ 14,65,3 ],3,'ExoParamAccessType',out).
+struct_dt_param_i([ 14,65,3 ],3,'IntName','Errors').
+struct_dt_param_i([ 14,65,3 ],3,'ExoItemDesc','').
+struct_dt_param_i([ 14,65,3 ],3,'ExoItemType','GAMError').
+struct_dt_param_i([ 14,65,3 ],3,basedon,'').
+struct_dt_param_i([ 14,65,3 ],3,'ExoItemExtTypeCSHARP','System.Collections.Generic.List<Artech.Security.GAMError>').
+struct_dt_param_i([ 14,65,4 ],1,name,applicationid).
+struct_dt_param_i([ 14,65,4 ],1,camelname,'ApplicationId').
+struct_dt_param_i([ 14,65,4 ],1,externalType,'').
+struct_dt_param_i([ 14,65,4 ],1,length,12).
+struct_dt_param_i([ 14,65,4 ],1,decimals,0).
+struct_dt_param_i([ 14,65,4 ],1,sign,0).
+struct_dt_param_i([ 14,65,4 ],1,type,[ 4,12,0 ]).
+struct_dt_param_i([ 14,65,4 ],1,'ExoParamAccessType',in).
+struct_dt_param_i([ 14,65,4 ],1,'IntName','ApplicationId').
+struct_dt_param_i([ 14,65,4 ],1,'ExoItemDesc','').
+struct_dt_param_i([ 14,65,4 ],1,'ExoItemType','Numeric').
+struct_dt_param_i([ 14,65,4 ],1,basedon,92).
+struct_dt_param_i([ 14,65,4 ],1,'ExoItemExtTypeCSHARP',long).
+struct_dt_param_i([ 14,65,4 ],2,name,menuoption).
+struct_dt_param_i([ 14,65,4 ],2,camelname,'MenuOption').
+struct_dt_param_i([ 14,65,4 ],2,externalType,'').
+struct_dt_param_i([ 14,65,4 ],2,length,0).
+struct_dt_param_i([ 14,65,4 ],2,decimals,0).
+struct_dt_param_i([ 14,65,4 ],2,type,[ [ 14,67,0 ],0,0 ]).
+struct_dt_param_i([ 14,65,4 ],2,'ExoParamAccessType',in).
+struct_dt_param_i([ 14,65,4 ],2,'IntName','MenuOption').
+struct_dt_param_i([ 14,65,4 ],2,'ExoItemDesc','').
+struct_dt_param_i([ 14,65,4 ],2,'ExoItemType','GAMApplicationMenuOption').
+struct_dt_param_i([ 14,65,4 ],2,basedon,'').
+struct_dt_param_i([ 14,65,4 ],2,'ExoItemExtTypeCSHARP','Artech.Security.GAMApplicationMenuOption').
+struct_dt_param_i([ 14,65,4 ],3,name,errors).
+struct_dt_param_i([ 14,65,4 ],3,camelname,'Errors').
+struct_dt_param_i([ 14,65,4 ],3,externalType,'').
+struct_dt_param_i([ 14,65,4 ],3,length,0).
+struct_dt_param_i([ 14,65,4 ],3,decimals,0).
+struct_dt_param_i([ 14,65,4 ],3,type,[ [ 14,41,0 ],0,0 ]).
+struct_dt_param_i([ 14,65,4 ],3,collection,'True').
+struct_dt_param_i([ 14,65,4 ],3,'ExoParamAccessType',out).
+struct_dt_param_i([ 14,65,4 ],3,'IntName','Errors').
+struct_dt_param_i([ 14,65,4 ],3,'ExoItemDesc','').
+struct_dt_param_i([ 14,65,4 ],3,'ExoItemType','GAMError').
+struct_dt_param_i([ 14,65,4 ],3,basedon,'').
+struct_dt_param_i([ 14,65,4 ],3,'ExoItemExtTypeCSHARP','System.Collections.Generic.List<Artech.Security.GAMError>').
+struct_dt_param_i([ 14,65,5 ],1,name,applicationid).
+struct_dt_param_i([ 14,65,5 ],1,camelname,'ApplicationId').
+struct_dt_param_i([ 14,65,5 ],1,externalType,'').
+struct_dt_param_i([ 14,65,5 ],1,length,12).
+struct_dt_param_i([ 14,65,5 ],1,decimals,0).
+struct_dt_param_i([ 14,65,5 ],1,sign,0).
+struct_dt_param_i([ 14,65,5 ],1,type,[ 4,12,0 ]).
+struct_dt_param_i([ 14,65,5 ],1,'ExoParamAccessType',in).
+struct_dt_param_i([ 14,65,5 ],1,'IntName','ApplicationId').
+struct_dt_param_i([ 14,65,5 ],1,'ExoItemDesc','').
+struct_dt_param_i([ 14,65,5 ],1,'ExoItemType','Numeric').
+struct_dt_param_i([ 14,65,5 ],1,basedon,92).
+struct_dt_param_i([ 14,65,5 ],1,'ExoItemExtTypeCSHARP',long).
+struct_dt_param_i([ 14,65,5 ],2,name,menuoption).
+struct_dt_param_i([ 14,65,5 ],2,camelname,'MenuOption').
+struct_dt_param_i([ 14,65,5 ],2,externalType,'').
+struct_dt_param_i([ 14,65,5 ],2,length,0).
+struct_dt_param_i([ 14,65,5 ],2,decimals,0).
+struct_dt_param_i([ 14,65,5 ],2,type,[ [ 14,67,0 ],0,0 ]).
+struct_dt_param_i([ 14,65,5 ],2,'ExoParamAccessType',in).
+struct_dt_param_i([ 14,65,5 ],2,'IntName','MenuOption').
+struct_dt_param_i([ 14,65,5 ],2,'ExoItemDesc','').
+struct_dt_param_i([ 14,65,5 ],2,'ExoItemType','GAMApplicationMenuOption').
+struct_dt_param_i([ 14,65,5 ],2,basedon,'').
+struct_dt_param_i([ 14,65,5 ],2,'ExoItemExtTypeCSHARP','Artech.Security.GAMApplicationMenuOption').
+struct_dt_param_i([ 14,65,5 ],3,name,errors).
+struct_dt_param_i([ 14,65,5 ],3,camelname,'Errors').
+struct_dt_param_i([ 14,65,5 ],3,externalType,'').
+struct_dt_param_i([ 14,65,5 ],3,length,0).
+struct_dt_param_i([ 14,65,5 ],3,decimals,0).
+struct_dt_param_i([ 14,65,5 ],3,type,[ [ 14,41,0 ],0,0 ]).
+struct_dt_param_i([ 14,65,5 ],3,collection,'True').
+struct_dt_param_i([ 14,65,5 ],3,'ExoParamAccessType',out).
+struct_dt_param_i([ 14,65,5 ],3,'IntName','Errors').
+struct_dt_param_i([ 14,65,5 ],3,'ExoItemDesc','').
+struct_dt_param_i([ 14,65,5 ],3,'ExoItemType','GAMError').
+struct_dt_param_i([ 14,65,5 ],3,basedon,'').
+struct_dt_param_i([ 14,65,5 ],3,'ExoItemExtTypeCSHARP','System.Collections.Generic.List<Artech.Security.GAMError>').
+struct_dt_param_i([ 14,65,8 ],1,name,json).
+struct_dt_param_i([ 14,65,8 ],1,camelname,'Json').
+struct_dt_param_i([ 14,65,8 ],1,externalType,'').
+struct_dt_param_i([ 14,65,8 ],1,length,9999).
+struct_dt_param_i([ 14,65,8 ],1,decimals,0).
+struct_dt_param_i([ 14,65,8 ],1,type,[ 5,9999,0 ]).
+struct_dt_param_i([ 14,65,8 ],1,'ExoParamAccessType',in).
+struct_dt_param_i([ 14,65,8 ],1,'IntName','Json').
+struct_dt_param_i([ 14,65,8 ],1,'ExoItemDesc','').
+struct_dt_param_i([ 14,65,8 ],1,'ExoItemType','Character').
+struct_dt_param_i([ 14,65,8 ],1,basedon,'').
+struct_dt_param_i([ 14,65,8 ],1,'ExoItemExtTypeCSHARP',string).
+ 
+ 
+ 
+ 
+module_info_i('GeneXus','CSHARP_NAME_SPACE','GeneXus.Core').
+module_info_i('GeneXus','AssemblyName','GeneXus.dll').
+ 
+struct_dt_i([ 14,39,0 ],name,'GAMDescription').
+struct_dt_i([ 14,39,0 ],'ObjName','GAMDescription').
+struct_dt_i([ 14,39,0 ],'ObjDesc','GAMDescription').
+struct_dt_i([ 14,39,0 ],'ExoType','0').
+struct_dt_i([ 14,39,0 ],'ObjNamespace','Artech.Security').
+struct_dt_i([ 14,39,0 ],'ExoImporterVersion','').
+struct_dt_i([ 14,39,0 ],'ExoSourceURI','').
+struct_dt_i([ 14,39,0 ],'ExoNameCSHARP','GAMDescription').
+struct_dt_i([ 14,39,0 ],'AssemblyName','Artech.Security.dll').
+struct_dt_i([ 14,39,0 ],'ExoConstructorParametersCSHARP',context).
+struct_dt_i([ 14,39,0 ],'PackageName','artech.security').
+struct_dt_i([ 14,39,0 ],'RequireName','').
+struct_dt_i([ 14,39,0 ],'ExoNameJS','').
+struct_dt_i([ 14,39,0 ],'ExoReferencedFilesJS','').
+struct_dt_i([ 14,39,0 ],'Folder',o(8,'GAM_Library')).
+struct_dt_i([ 14,39,0 ],'FullyQualifiedName','GAMDescription').
+struct_dt_i([ 14,39,0 ],'ObjectVisibility','Public').
+struct_dt_i([ 14,39,0 ],fullname,'GAMDescription').
+struct_dt_i([ 14,39,0 ],modified,yes).
+ 
+struct_dt_i([ 14,40,0 ],name,'GAMProperty').
+struct_dt_i([ 14,40,0 ],'ObjName','GAMProperty').
+struct_dt_i([ 14,40,0 ],'ObjDesc','GAMProperty').
+struct_dt_i([ 14,40,0 ],'ExoType','0').
+struct_dt_i([ 14,40,0 ],'ObjNamespace','Artech.Security').
+struct_dt_i([ 14,40,0 ],'ExoImporterVersion','').
+struct_dt_i([ 14,40,0 ],'ExoSourceURI','').
+struct_dt_i([ 14,40,0 ],'ExoNameCSHARP','GAMProperty').
+struct_dt_i([ 14,40,0 ],'AssemblyName','Artech.Security.dll').
+struct_dt_i([ 14,40,0 ],'ExoConstructorParametersCSHARP',context).
+struct_dt_i([ 14,40,0 ],'PackageName','artech.security').
+struct_dt_i([ 14,40,0 ],'RequireName','').
+struct_dt_i([ 14,40,0 ],'ExoNameJS','').
+struct_dt_i([ 14,40,0 ],'ExoReferencedFilesJS','').
+struct_dt_i([ 14,40,0 ],'Folder',o(8,'GAM_Library')).
+struct_dt_i([ 14,40,0 ],'FullyQualifiedName','GAMProperty').
+struct_dt_i([ 14,40,0 ],'ObjectVisibility','Public').
+struct_dt_i([ 14,40,0 ],fullname,'GAMProperty').
+struct_dt_i([ 14,40,0 ],modified,yes).
+ 
+struct_dt_i([ 14,67,0 ],name,'GAMApplicationMenuOption').
+struct_dt_i([ 14,67,0 ],'ObjName','GAMApplicationMenuOption').
+struct_dt_i([ 14,67,0 ],'ObjDesc','GAMApplication Menu Option').
+struct_dt_i([ 14,67,0 ],'ExoType','0').
+struct_dt_i([ 14,67,0 ],'ObjNamespace','Artech.Security').
+struct_dt_i([ 14,67,0 ],'ExoImporterVersion','').
+struct_dt_i([ 14,67,0 ],'ExoSourceURI','').
+struct_dt_i([ 14,67,0 ],'ExoNameCSHARP','GAMApplicationMenuOption').
+struct_dt_i([ 14,67,0 ],'AssemblyName','Artech.Security.dll').
+struct_dt_i([ 14,67,0 ],'ExoConstructorParametersCSHARP',context).
+struct_dt_i([ 14,67,0 ],'PackageName','artech.security').
+struct_dt_i([ 14,67,0 ],'RequireName','').
+struct_dt_i([ 14,67,0 ],'ExoNameJS','').
+struct_dt_i([ 14,67,0 ],'ExoReferencedFilesJS','').
+struct_dt_i([ 14,67,0 ],'Folder',o(8,'GAM_Library')).
+struct_dt_i([ 14,67,0 ],'FullyQualifiedName','GAMApplicationMenuOption').
+struct_dt_i([ 14,67,0 ],'ObjectVisibility','Public').
+struct_dt_i([ 14,67,0 ],fullname,'GAMApplicationMenuOption').
+struct_dt_i([ 14,67,0 ],modified,yes).
+ 
+struct_dt_i([ 14,66,0 ],name,'GAMApplicationMenuOptionFilter').
+struct_dt_i([ 14,66,0 ],'ObjName','GAMApplicationMenuOptionFilter').
+struct_dt_i([ 14,66,0 ],'ObjDesc','GAMApplication Menu Option Filter').
+struct_dt_i([ 14,66,0 ],'ExoType','0').
+struct_dt_i([ 14,66,0 ],'ObjNamespace','Artech.Security').
+struct_dt_i([ 14,66,0 ],'ExoImporterVersion','').
+struct_dt_i([ 14,66,0 ],'ExoSourceURI','').
+struct_dt_i([ 14,66,0 ],'ExoNameCSHARP','GAMApplicationMenuOptionFilter').
+struct_dt_i([ 14,66,0 ],'AssemblyName','Artech.Security.dll').
+struct_dt_i([ 14,66,0 ],'ExoConstructorParametersCSHARP',context).
+struct_dt_i([ 14,66,0 ],'PackageName','artech.security').
+struct_dt_i([ 14,66,0 ],'RequireName','').
+struct_dt_i([ 14,66,0 ],'ExoNameJS','').
+struct_dt_i([ 14,66,0 ],'ExoReferencedFilesJS','').
+struct_dt_i([ 14,66,0 ],'Folder',o(8,'GAM_Library')).
+struct_dt_i([ 14,66,0 ],'FullyQualifiedName','GAMApplicationMenuOptionFilter').
+struct_dt_i([ 14,66,0 ],'ObjectVisibility','Public').
+struct_dt_i([ 14,66,0 ],fullname,'GAMApplicationMenuOptionFilter').
+struct_dt_i([ 14,66,0 ],modified,yes).
+ 
+struct_dt_i([ 14,41,0 ],name,'GAMError').
+struct_dt_i([ 14,41,0 ],'ObjName','GAMError').
+struct_dt_i([ 14,41,0 ],'ObjDesc','GAMError').
+struct_dt_i([ 14,41,0 ],'ExoType','0').
+struct_dt_i([ 14,41,0 ],'ObjNamespace','Artech.Security').
+struct_dt_i([ 14,41,0 ],'ExoImporterVersion','').
+struct_dt_i([ 14,41,0 ],'ExoSourceURI','').
+struct_dt_i([ 14,41,0 ],'ExoNameCSHARP','GAMError').
+struct_dt_i([ 14,41,0 ],'AssemblyName','Artech.Security.dll').
+struct_dt_i([ 14,41,0 ],'ExoConstructorParametersCSHARP',context).
+struct_dt_i([ 14,41,0 ],'PackageName','artech.security').
+struct_dt_i([ 14,41,0 ],'RequireName','').
+struct_dt_i([ 14,41,0 ],'ExoNameJS','').
+struct_dt_i([ 14,41,0 ],'ExoReferencedFilesJS','').
+struct_dt_i([ 14,41,0 ],'Folder',o(8,'GAM_Library')).
+struct_dt_i([ 14,41,0 ],'FullyQualifiedName','GAMError').
+struct_dt_i([ 14,41,0 ],'ObjectVisibility','Public').
+struct_dt_i([ 14,41,0 ],fullname,'GAMError').
+struct_dt_i([ 14,41,0 ],modified,yes).

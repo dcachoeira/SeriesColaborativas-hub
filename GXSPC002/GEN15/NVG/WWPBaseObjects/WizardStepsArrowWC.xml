@@ -1,0 +1,39 @@
+
+<ObjectSpec>
+<SpecVersion>15_0_9-121631</SpecVersion>
+<Object>
+<ObjClsGuid>c9584656-94b6-4ccd-890f-332d11fc2c25</ObjClsGuid>
+<ObjCls>13</ObjCls>
+<ObjId>13</ObjId>
+<ObjName>WWPBaseObjects.WizardStepsArrowWC</ObjName>
+<ObjDesc>Wizard Steps Arrow WC</ObjDesc>
+<ObjPgmName>WWPBaseObjects.WizardStepsArrowWC</ObjPgmName>
+<ObjClsName>Web Panel</ObjClsName></Object>
+<Result>genreq</Result>
+<Warnings></Warnings>
+<Errors></Errors>
+<Generator>
+<GenId>15</GenId>
+<GenName>Default (C#)</GenName></Generator>
+<FormClass>HTML</FormClass>
+<Parameters>
+<Parameter>
+<IO>in</IO>
+<Variable>
+<VarId>Wizardsteps</VarId>
+<VarName>&amp;WizardSteps</VarName></Variable></Parameter>
+<Parameter>
+<IO>in</IO>
+<Variable>
+<VarId>Selectedstep</VarId>
+<VarName>&amp;SelectedStep</VarName></Variable></Parameter></Parameters>
+<StandAloneRules></StandAloneRules>
+<Event>
+<EventName>Start</EventName></Event>
+<Event>
+<EventName>Gridwizardsteps.Load</EventName>
+<Binding>
+<Variable>
+<VarId>Wizardsteps</VarId>
+<VarName>&amp;WizardSteps</VarName></Variable></Binding></Event>
+<Suggests></Suggests></ObjectSpec>

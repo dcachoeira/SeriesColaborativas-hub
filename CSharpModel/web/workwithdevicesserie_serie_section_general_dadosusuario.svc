@@ -1,0 +1,1 @@
+<%@ServiceHost Service= "GeneXus.Programs.workwithdevicesserie_serie_section_general_dadosusuario_services,workwithdevicesserie_serie_section_general_dadosusuario" %>

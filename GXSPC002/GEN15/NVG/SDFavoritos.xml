@@ -1,0 +1,18 @@
+
+<ObjectSpec>
+<SpecVersion>15_0_9-121631</SpecVersion>
+<Object>
+<ObjClsGuid>d82625fd-5892-40b0-99c9-5c8559c197fc</ObjClsGuid>
+<ObjCls>37</ObjCls>
+<ObjId>9</ObjId>
+<ObjName>SDFavoritos</ObjName>
+<ObjDesc>Minhas séries</ObjDesc>
+<ObjPgmName>SDFavoritos</ObjPgmName>
+<ObjClsName>SD Panel</ObjClsName>
+<Objects></Objects></Object>
+<Result>nogenreq</Result>
+<Warnings></Warnings>
+<Errors></Errors>
+<Generator>
+<GenId>15</GenId>
+<GenName>Default (C#)</GenName></Generator></ObjectSpec>

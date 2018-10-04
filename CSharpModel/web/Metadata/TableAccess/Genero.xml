@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="b4d395cf-4b65-4ff2-9d21-857ffa72bff6">
+  <Table name="Serie" />
+  <Table name="Genero" />
+</Dependencies>

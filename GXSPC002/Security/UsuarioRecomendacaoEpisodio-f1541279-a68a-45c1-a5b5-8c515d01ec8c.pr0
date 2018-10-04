@@ -1,0 +1,36 @@
+[
+  {
+    "Name": "usuariorecomendacaoepisodio_FullControl",
+    "Description": "Usuário recomendação episódios FullControl",
+    "ProgramName": "usuariorecomendacaoepisodio",
+    "IsGXAutomatic": true
+  },
+  {
+    "Name": "usuariorecomendacaoepisodio_Execute",
+    "Description": "Usuário recomendação episódios",
+    "ProgramName": "usuariorecomendacaoepisodio",
+    "IsGXAutomatic": true,
+    "Parent": "usuariorecomendacaoepisodio_FullControl"
+  },
+  {
+    "Name": "usuariorecomendacaoepisodio_Insert",
+    "Description": "Usuário recomendação episódios Insert",
+    "ProgramName": "usuariorecomendacaoepisodio",
+    "IsGXAutomatic": true,
+    "Parent": "usuariorecomendacaoepisodio_FullControl"
+  },
+  {
+    "Name": "usuariorecomendacaoepisodio_Delete",
+    "Description": "Usuário recomendação episódios Delete",
+    "ProgramName": "usuariorecomendacaoepisodio",
+    "IsGXAutomatic": true,
+    "Parent": "usuariorecomendacaoepisodio_FullControl"
+  },
+  {
+    "Name": "usuariorecomendacaoepisodio_Update",
+    "Description": "Usuário recomendação episódios Update",
+    "ProgramName": "usuariorecomendacaoepisodio",
+    "IsGXAutomatic": true,
+    "Parent": "usuariorecomendacaoepisodio_FullControl"
+  }
+]

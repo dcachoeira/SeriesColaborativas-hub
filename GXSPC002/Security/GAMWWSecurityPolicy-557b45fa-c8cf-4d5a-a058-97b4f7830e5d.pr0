@@ -1,0 +1,8 @@
+[
+  {
+    "Name": "gamwwsecuritypolicy_Execute",
+    "Description": "Security policies",
+    "ProgramName": "gamwwsecuritypolicy",
+    "IsGXAutomatic": true
+  }
+]

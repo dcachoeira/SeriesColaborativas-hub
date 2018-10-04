@@ -1,0 +1,36 @@
+[
+  {
+    "Name": "usuariorecomendacaoserie_FullControl",
+    "Description": "Usuário recomendação série FullControl",
+    "ProgramName": "usuariorecomendacaoserie",
+    "IsGXAutomatic": true
+  },
+  {
+    "Name": "usuariorecomendacaoserie_Execute",
+    "Description": "Usuário recomendação série",
+    "ProgramName": "usuariorecomendacaoserie",
+    "IsGXAutomatic": true,
+    "Parent": "usuariorecomendacaoserie_FullControl"
+  },
+  {
+    "Name": "usuariorecomendacaoserie_Insert",
+    "Description": "Usuário recomendação série Insert",
+    "ProgramName": "usuariorecomendacaoserie",
+    "IsGXAutomatic": true,
+    "Parent": "usuariorecomendacaoserie_FullControl"
+  },
+  {
+    "Name": "usuariorecomendacaoserie_Delete",
+    "Description": "Usuário recomendação série Delete",
+    "ProgramName": "usuariorecomendacaoserie",
+    "IsGXAutomatic": true,
+    "Parent": "usuariorecomendacaoserie_FullControl"
+  },
+  {
+    "Name": "usuariorecomendacaoserie_Update",
+    "Description": "Usuário recomendação série Update",
+    "ProgramName": "usuariorecomendacaoserie",
+    "IsGXAutomatic": true,
+    "Parent": "usuariorecomendacaoserie_FullControl"
+  }
+]

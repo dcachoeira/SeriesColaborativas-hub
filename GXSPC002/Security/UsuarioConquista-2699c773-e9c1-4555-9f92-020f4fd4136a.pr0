@@ -1,0 +1,36 @@
+[
+  {
+    "Name": "usuarioconquista_FullControl",
+    "Description": "Usuário conquista FullControl",
+    "ProgramName": "usuarioconquista",
+    "IsGXAutomatic": true
+  },
+  {
+    "Name": "usuarioconquista_Execute",
+    "Description": "Usuário conquista",
+    "ProgramName": "usuarioconquista",
+    "IsGXAutomatic": true,
+    "Parent": "usuarioconquista_FullControl"
+  },
+  {
+    "Name": "usuarioconquista_Insert",
+    "Description": "Usuário conquista Insert",
+    "ProgramName": "usuarioconquista",
+    "IsGXAutomatic": true,
+    "Parent": "usuarioconquista_FullControl"
+  },
+  {
+    "Name": "usuarioconquista_Delete",
+    "Description": "Usuário conquista Delete",
+    "ProgramName": "usuarioconquista",
+    "IsGXAutomatic": true,
+    "Parent": "usuarioconquista_FullControl"
+  },
+  {
+    "Name": "usuarioconquista_Update",
+    "Description": "Usuário conquista Update",
+    "ProgramName": "usuarioconquista",
+    "IsGXAutomatic": true,
+    "Parent": "usuarioconquista_FullControl"
+  }
+]

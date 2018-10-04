@@ -1,0 +1,45 @@
+
+<ObjectSpec>
+<SpecVersion>15_0_9-121631</SpecVersion>
+<Object>
+<ObjClsGuid>84a12160-f59b-4ad7-a683-ea4481ac23e9</ObjClsGuid>
+<ObjCls>1</ObjCls>
+<ObjId>52</ObjId>
+<ObjName>GravarSerieAssistidaUsuarioInterno</ObjName>
+<ObjDesc>Gravar Serie Assistida Usuario Interno</ObjDesc>
+<ObjPgmName>GravarSerieAssistidaUsuarioInterno</ObjPgmName>
+<ObjClsName>Procedure</ObjClsName></Object>
+<Result>genreq</Result>
+<Warnings>
+<Warning>
+<MsgCode>spc0047</MsgCode>
+<Message>
+<Token>Variable </Token>
+<Token>Assistido</Token>
+<Token> not defined; </Token>
+<Token>N(10.2)</Token>
+<Token> assumed.</Token></Message></Warning></Warnings>
+<Errors></Errors>
+<OutputDevices>
+<Device>None</Device></OutputDevices>
+<Generator>
+<GenId>15</GenId>
+<GenName>Default (C#)</GenName></Generator>
+<FormClass>Graphic</FormClass>
+<Parameters>
+<Parameter>
+<IO>in</IO>
+<Variable>
+<VarId>Serieid</VarId>
+<VarName>&amp;SerieId</VarName></Variable></Parameter>
+<Parameter>
+<IO>in</IO>
+<Variable>
+<VarId>Usuariogamguid</VarId>
+<VarName>&amp;UsuarioGAMGuid</VarName></Variable></Parameter>
+<Parameter>
+<IO>in</IO>
+<Variable>
+<VarId>Assistido</VarId>
+<VarName>&amp;Assistido</VarName></Variable></Parameter></Parameters>
+<Levels></Levels></ObjectSpec>

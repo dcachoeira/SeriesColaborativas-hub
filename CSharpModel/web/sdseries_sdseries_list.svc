@@ -1,0 +1,1 @@
+<%@ServiceHost Service= "GeneXus.Programs.sdseries_sdseries_list_services,sdseries_sdseries_list" %>

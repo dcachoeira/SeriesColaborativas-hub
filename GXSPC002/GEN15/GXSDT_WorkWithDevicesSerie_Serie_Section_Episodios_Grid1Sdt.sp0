@@ -1,0 +1,52 @@
+ 
+spec_i([ sdt,[ 26,1000000,0 ],'WorkWithDevicesSerie_Serie_Section_Episodios_Grid1Sdt','WorkWithDevicesSerie_Serie_Section_Episodios_Grid1Sdt',0,por,'15_0_9-121631' ]).
+ 
+struct_dt_i([ 26,1000000,0 ],name,'WorkWithDevicesSerie_Serie_Section_Episodios_Grid1Sdt').
+struct_dt_i([ 26,1000000,0 ],camelname,'WorkWithDevicesSerie_Serie_Section_Episodios_Grid1Sdt').
+struct_dt_i([ 26,1000000,0 ],camelnameex,'WorkWithDevicesSerie_Serie_Section_Episodios_Grid1Sdt').
+struct_dt_i([ 26,1000000,1 ],name,'Item').
+struct_dt_i([ 26,1000000,1 ],camelname,'Item').
+struct_dt_i([ 26,1000000,1 ],camelnameex,'Item').
+struct_dt_i([ 26,1000000,0 ],collection,'True').
+struct_dt_i([ 26,1000000,0 ],datatype,[ 26,1000000,1 ]).
+struct_dt_i([ 26,1000000,0 ],wwsd_sdt,'True').
+struct_dt_i([ 26,1000000,0 ],panel,[ 'Serie.Section.Episodios' ]).
+struct_dt_i([ 26,1000000,0 ],key,[ 2,[ 7 ],[ 2,1,'Episodio' ] ]).
+struct_dt_i([ 26,1000000,1 ],fullname,'WorkWithDevicesSerie_Serie_Section_Episodios_Grid1Sdt.Item').
+struct_dt_i([ 26,1000000,0 ],fullname,'WorkWithDevicesSerie_Serie_Section_Episodios_Grid1Sdt').
+ 
+struct_dt_elem_i([ 26,1000000,1 ],1,name,'Episodioid').
+struct_dt_elem_i([ 26,1000000,1 ],1,camelname,'EpisodioId').
+struct_dt_elem_i([ 26,1000000,1 ],1,type,[ 4,18,0 ]).
+struct_dt_elem_i([ 26,1000000,1 ],1,length,18).
+struct_dt_elem_i([ 26,1000000,1 ],1,decimals,0).
+struct_dt_elem_i([ 26,1000000,1 ],1,sign,0).
+struct_dt_elem_i([ 26,1000000,1 ],1,collection,'False').
+struct_dt_elem_i([ 26,1000000,1 ],1,islevel,'False').
+struct_dt_elem_i([ 26,1000000,1 ],2,name,'Episodionumero').
+struct_dt_elem_i([ 26,1000000,1 ],2,camelname,'EpisodioNumero').
+struct_dt_elem_i([ 26,1000000,1 ],2,type,[ 4,3,0 ]).
+struct_dt_elem_i([ 26,1000000,1 ],2,length,3).
+struct_dt_elem_i([ 26,1000000,1 ],2,decimals,0).
+struct_dt_elem_i([ 26,1000000,1 ],2,sign,0).
+struct_dt_elem_i([ 26,1000000,1 ],2,collection,'False').
+struct_dt_elem_i([ 26,1000000,1 ],2,islevel,'False').
+struct_dt_elem_i([ 26,1000000,1 ],3,name,'Episodionome').
+struct_dt_elem_i([ 26,1000000,1 ],3,camelname,'EpisodioNome').
+struct_dt_elem_i([ 26,1000000,1 ],3,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 26,1000000,1 ],3,length,40).
+struct_dt_elem_i([ 26,1000000,1 ],3,decimals,0).
+struct_dt_elem_i([ 26,1000000,1 ],3,sign,0).
+struct_dt_elem_i([ 26,1000000,1 ],3,collection,'False').
+struct_dt_elem_i([ 26,1000000,1 ],3,islevel,'False').
+struct_dt_elem_i([ 26,1000000,1 ],1,attributeid,'7').
+struct_dt_elem_i([ 26,1000000,1 ],2,attributeid,'58').
+struct_dt_elem_i([ 26,1000000,1 ],3,attributeid,'8').
+ 
+ 
+ 
+ 
+ 
+ 
+module_info_i('GeneXus\SD','CSHARP_NAME_SPACE','GeneXus.Core').
+module_info_i('GeneXus\SD','AssemblyName','GeneXus.dll').

@@ -1,0 +1,15 @@
+
+<WWSDSpec>
+<Section>
+<Name>UsuarioSerie.Detail</Name>
+<DataProviders>
+<DataProvider>WorkWithDevicesUsuarioSerie_UsuarioSerie_Detail</DataProvider></DataProviders></Section>
+<Section>
+<Name>UsuarioSerie.List</Name>
+<DataProviders>
+<DataProvider>WorkWithDevicesUsuarioSerie_UsuarioSerie_List_Grid1</DataProvider>
+<DataProvider>WorkWithDevicesUsuarioSerie_UsuarioSerie_List</DataProvider></DataProviders></Section>
+<Section>
+<Name>UsuarioSerie.Section.General</Name>
+<DataProviders>
+<DataProvider>WorkWithDevicesUsuarioSerie_UsuarioSerie_Section_General</DataProvider></DataProviders></Section></WWSDSpec>

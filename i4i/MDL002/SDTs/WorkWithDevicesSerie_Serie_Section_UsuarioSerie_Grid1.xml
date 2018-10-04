@@ -1,0 +1,56 @@
+
+<SdtSpec>
+<mainid>[ 26,1000000,0 ]</mainid>
+<Level>
+<id>[ 26,1000000,0 ]</id>
+<name>WorkWithDevicesSerie_Serie_Section_UsuarioSerie_Grid1Sdt</name>
+<camelname>WorkWithDevicesSerie_Serie_Section_UsuarioSerie_Grid1Sdt</camelname>
+<camelnameex>WorkWithDevicesSerie_Serie_Section_UsuarioSerie_Grid1Sdt</camelnameex>
+<collection>True</collection>
+<datatype>[ 26,1000000,1 ]</datatype>
+<wwsd_sdt>True</wwsd_sdt>
+<panel>[ 'Serie.Section.UsuarioSerie' ]</panel>
+<key>[ 4,[ 13 ],[] ]</key>
+<fullname>WorkWithDevicesSerie_Serie_Section_UsuarioSerie_Grid1Sdt</fullname></Level>
+<Level>
+<id>[ 26,1000000,1 ]</id>
+<name>Item</name>
+<camelname>Item</camelname>
+<camelnameex>Item</camelnameex>
+<fullname>WorkWithDevicesSerie_Serie_Section_UsuarioSerie_Grid1Sdt.Item</fullname>
+<members>
+<member>
+<name>Usuarioserieid</name>
+<camelname>UsuarioSerieId</camelname>
+<type>[ 4,18,0 ]</type>
+<length>18</length>
+<decimals>0</decimals>
+<sign>0</sign>
+<collection>False</collection>
+<islevel>False</islevel>
+<attributeid>13</attributeid></member>
+<member>
+<name>Usuarioserienota</name>
+<camelname>UsuarioSerieNota</camelname>
+<type>[ 4,1,0 ]</type>
+<length>1</length>
+<decimals>0</decimals>
+<sign>0</sign>
+<collection>False</collection>
+<islevel>False</islevel>
+<attributeid>14</attributeid></member></members></Level>
+<Prompts></Prompts>
+<TableAccess>
+<Table>
+<Id>4</Id>
+<Name>UsuarioSerie</Name>
+<Read>y</Read>
+<Insert>n</Insert>
+<Update>n</Update>
+<Delete>n</Delete>
+<IsBase>y</IsBase></Table></TableAccess>
+<XRef></XRef>
+<Input>
+<Parm></Parm></Input>
+<ExtraParms>
+<Parm></Parm></ExtraParms></SdtSpec>

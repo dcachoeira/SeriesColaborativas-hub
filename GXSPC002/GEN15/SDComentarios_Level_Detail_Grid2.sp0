@@ -1,0 +1,738 @@
+spec_i([ mnproc,0,'SDComentarios_Level_Detail_Grid2','SDComentarios_Level_Detail_Grid2',0,por,'15_0_9-121631' ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+rule_i(0,datastore(2,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(2,'LOCK_RETRY','10')).
+rule_i(0,datastore(2,'WAIT_RECORD','0')).
+rule_i(0,datastore(2,'SQLSERVER_VERSION','10')).
+rule_i(0,datastore(2,'COMMENT_ON','No')).
+rule_i(0,datastore(2,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(2,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(2,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(2,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(2,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(2,'CS_SCHEMA',gam)).
+rule_i(0,datastore(2,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(2,'JRN400','QSQJRN')).
+rule_i(0,datastore(2,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(2,'PGMLIB','')).
+rule_i(0,datastore(2,'DTALIB','')).
+rule_i(0,datastore(2,'CC_USER_PASS',wp„ÄsÁ¹)).
+rule_i(0,datastore(2,'CC_USER_ID',sa)).
+rule_i(0,datastore(2,'CC_SERVER',localhost)).
+rule_i(0,datastore(2,'CC_DBNAME','SeriesColaborativas')).
+rule_i(0,datastore(2,'RecycleRWMin','30')).
+rule_i(0,datastore(2,'RecycleRWType','1')).
+rule_i(0,datastore(2,'RecycleRW','-1')).
+rule_i(0,datastore(2,'POOL_STARTUP','No')).
+rule_i(0,datastore(2,'POOLSIZE_RW','10')).
+rule_i(0,datastore(2,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(2,'PoolRWEnabled','-1')).
+rule_i(0,datastore(2,'CS_RPCPGML','')).
+rule_i(0,datastore(2,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(2,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(2,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(2,'USER_PASSWORD','gnxÔ.“êâ¿')).
+rule_i(0,datastore(2,'USER_ID',sa)).
+rule_i(0,datastore(2,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(2,'CS_CONNECT','First')).
+rule_i(0,datastore(2,'DBMS_PORT','')).
+rule_i(0,datastore(2,'CS_SERVER',localhost)).
+rule_i(0,datastore(2,'CS_DBNAME','SeriesColaborativas')).
+rule_i(0,datastore(2,'CS_FLEDSNAME','')).
+rule_i(0,datastore(2,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(2,'CS_DSNAME','')).
+rule_i(0,datastore(2,'DB_URL','')).
+rule_i(0,datastore(2,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(2,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(2,'JDBC_DRIVER','net.sourceforge.jtds.jdbc.Driver')).
+rule_i(0,datastore(2,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(2,'ACCESS_TECHNO','ADONET')).
+rule_i(0,datastore(2,'MAIN_DS','-1')).
+rule_i(0,datastore(2,'REORG_GEN','8')).
+rule_i(0,datastore(2,'HelpKeyword','23')).
+rule_i(0,datastore(2,'DBMS',12)).
+rule_i(0,datastore(2,'NAME','GAM')).
+rule_i(0,datastore(1,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(1,'LOCK_RETRY','10')).
+rule_i(0,datastore(1,'WAIT_RECORD','0')).
+rule_i(0,datastore(1,'SQLSERVER_VERSION','10')).
+rule_i(0,datastore(1,'COMMENT_ON','No')).
+rule_i(0,datastore(1,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(1,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(1,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(1,'CS_SCHEMA','')).
+rule_i(0,datastore(1,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(1,'JRN400','QSQJRN')).
+rule_i(0,datastore(1,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(1,'PGMLIB','')).
+rule_i(0,datastore(1,'DTALIB','')).
+rule_i(0,datastore(1,'CC_USER_PASS',wp„ÄsÁ¹)).
+rule_i(0,datastore(1,'CC_USER_ID',sa)).
+rule_i(0,datastore(1,'CC_SERVER',localhost)).
+rule_i(0,datastore(1,'CC_DBNAME','SeriesColaborativas')).
+rule_i(0,datastore(1,'RecycleRWMin','30')).
+rule_i(0,datastore(1,'RecycleRWType','1')).
+rule_i(0,datastore(1,'RecycleRW','-1')).
+rule_i(0,datastore(1,'POOL_STARTUP','No')).
+rule_i(0,datastore(1,'POOLSIZE_RW','10')).
+rule_i(0,datastore(1,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(1,'PoolRWEnabled','-1')).
+rule_i(0,datastore(1,'CS_RPCPGML','')).
+rule_i(0,datastore(1,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(1,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(1,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(1,'USER_PASSWORD','gnxÔ.“êâ¿')).
+rule_i(0,datastore(1,'USER_ID',sa)).
+rule_i(0,datastore(1,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(1,'CS_CONNECT','First')).
+rule_i(0,datastore(1,'DBMS_PORT','')).
+rule_i(0,datastore(1,'CS_SERVER',localhost)).
+rule_i(0,datastore(1,'CS_DBNAME','SeriesColaborativas')).
+rule_i(0,datastore(1,'CS_FLEDSNAME','')).
+rule_i(0,datastore(1,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(1,'CS_DSNAME','')).
+rule_i(0,datastore(1,'DB_URL','')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(1,'JDBC_DRIVER','net.sourceforge.jtds.jdbc.Driver')).
+rule_i(0,datastore(1,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(1,'ACCESS_TECHNO','ADONET')).
+rule_i(0,datastore(1,'MAIN_DS','-1')).
+rule_i(0,datastore(1,'REORG_GEN','8')).
+rule_i(0,datastore(1,'HelpKeyword','20')).
+rule_i(0,datastore(1,'DBMS',12)).
+rule_i(0,datastore(1,'NAME','Default')).
+rule_i(0,prop(idNULLS_BEHAVIOR,idNB_Current)).
+rule_i(0,prop('FullyQualifiedName','SDComentarios_Level_Detail_Grid2')).
+rule_i(0,prop('STD_FUNC_OBJECT','Yes')).
+rule_i(0,prop('IntegratedSecurityLevel','SecurityNone')).
+rule_i(0,prop('CacheEnabled','0')).
+rule_i(0,prop(autoRefreshTime,'0')).
+rule_i(0,prop(dataSelectorParameters,[])).
+rule_i(0,prop(dataSelector,'')).
+rule_i(0,prop(adsPosition,'Bottom')).
+rule_i(0,prop(showAds,'-1')).
+rule_i(0,prop('DeepLinkName','')).
+rule_i(0,prop(idConnectivitySupport,idInherit)).
+rule_i(0,prop(caption,'Avaliação ')).
+rule_i(0,prop('IsMain','0')).
+rule_i(0,prop('ObjectVisibility','Public')).
+rule_i(0,prop('Folder',o(120,'Root Module'))).
+rule_i(0,prop('Description','Avaliação ')).
+rule_i(0,prop('Name','SDComentarios')).
+rule_i(0,rule([ a(22,[ 'Rfr','"Atualizar"','5' ]) ],[],[],[])).
+rule_i(0,maingen(15)).
+rule_i(0,prop('DPRV_WSPROTOCOL','REST')).
+rule_i(0,prop(idISWEBSERVICE,'-1')).
+rule_i(0,prop('ObjName','SDComentarios_Level_Detail_Grid2')).
+rule_i(0,prop('IntegratedSecurityLevel','SecurityNone')).
+rule_i(0,prop('SDPanel','True')).
+rule_i(0,parm([ 'Tipocomentario','Id','Start','Count','Gxid','GXM3RootCol' ],[])).
+rule_i(0,parmio([ [ 'Tipocomentario',in ],[ 'Id',in ],[ 'Start',in ],[ 'Count',in ],[ 'Gxid',in ],[ 'GXM3RootCol',out ] ])).
+rule_i(0,prop('OutputSDT',o(26,'SDComentarios_Level_Detail_Grid2Sdt'))).
+ 
+a_i(1,1,f,'Err',[],[ [],[ t('0',3) ] ]).
+ 
+v_i(f,i,1,[]).
+v_i(f,o,1,'Err').
+ 
+ 
+ 
+ 
+ 
+ 
+attri_i('Cinco_GXI',[ 'Cinco_GXI',svchar,2048,0,'',0,'',[],35 ]).
+attri_i('Quatro_GXI',[ 'Quatro_GXI',svchar,2048,0,'',0,'',[],34 ]).
+attri_i('Tres_GXI',[ 'Tres_GXI',svchar,2048,0,'',0,'',[],33 ]).
+attri_i('Dois_GXI',[ 'Dois_GXI',svchar,2048,0,'',0,'',[],32 ]).
+attri_i('Um_GXI',[ 'Um_GXI',svchar,2048,0,'',0,'',[],31 ]).
+attri_i('Errmsg',[ 'Gx_emsg',char,70,0,'',1,'Error text','',30 ]).
+attri_i('Err',[ 'Gx_err',int,3,0,'ZZ9',1,'Error code','',29 ]).
+attri_i('GXM2SDComentarios_Level_Detail_Grid2Sdt',[ 'GXM2SDComentarios_Level_Detail_Grid2Sdt',o('SDComentarios_Level_Detail_Grid2Sdt.Item'),0,0,'',0,'GXM2SDComentarios_Level_Detail_Grid2Sdt','',28 ]).
+attri_i('GXM3RootCol',[ 'GXM3RootCol',o(objectcollection('SDComentarios_Level_Detail_Grid2Sdt.Item')),0,0,'',0,'GXM3RootCol','',27 ]).
+attri_i('GXV1SkipCount',[ 'GXV1SkipCount',int,8,0,'',1,'GXV1SkipCount','',26 ]).
+attri_i('Count',[ count,int,10,0,'',0,'Count','',25 ]).
+attri_i('Start',[ start,int,10,0,'',0,'Start','',24 ]).
+attri_i('Gxwebsession',[ 'Gxwebsession',o(websession),4,0,'',0,'Gxwebsession','',23 ]).
+attri_i('Gxids',[ 'Gxids',char,20,0,'',0,'Gxids','',22 ]).
+attri_i('Gxid',[ gxid,int,8,0,'',0,'Gxid','',21 ]).
+attri_i('Usuariocomentario',[ 'UsuarioComentario',svchar,300,0,'',0,'Usuario Comentario','',12 ]).
+attri_i('Um',[ 'Um',bits,1024,0,'',0,'Um','',15 ]).
+attri_i('Tres',[ 'Tres',bits,1024,0,'',0,'Tres','',17 ]).
+attri_i('Tipocomentario',[ 'TipoComentario',int,4,0,'ZZZ9',0,'Tipo Comentario','',5 ]).
+attri_i('Quatro',[ 'Quatro',bits,1024,0,'',0,'Quatro','',18 ]).
+attri_i('Nota',[ nota,int,1,0,'9',0,nota,'',11 ]).
+attri_i('Nome',[ 'Nome',svchar,40,0,'',0,'Nome','',9 ]).
+attri_i('Id',[ 'Id',int,18,0,'ZZZZZZZZZZZZZZZZZ9',0,'Id','',6 ]).
+attri_i('Dois',[ 'Dois',bits,1024,0,'',0,'Dois','',16 ]).
+attri_i('Controletela',[ 'ControleTela',boolean,4,0,'',0,'Controle Tela','',20 ]).
+attri_i('Comentario',[ 'Comentario',svchar,40,0,'',0,'Comentario','',10 ]).
+attri_i('Cinco',[ 'Cinco',bits,1024,0,'',0,'Cinco','',19 ]).
+attri_i('Avaliacao',[ 'Avaliacao',bits,1024,0,'',0,'Avaliacao','',14 ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+add_att_i(bits,2,'Um_GXI','Um','Um_GXI',[ svchar,2048,0,0 ]).
+add_att_i(bits,2,'Dois_GXI','Dois','Dois_GXI',[ svchar,2048,0,0 ]).
+add_att_i(bits,2,'Tres_GXI','Tres','Tres_GXI',[ svchar,2048,0,0 ]).
+add_att_i(bits,2,'Quatro_GXI','Quatro','Quatro_GXI',[ svchar,2048,0,0 ]).
+add_att_i(bits,2,'Cinco_GXI','Cinco','Cinco_GXI',[ svchar,2048,0,0 ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+enumerated_i(2,'Tipocomentario',192).
+ 
+enum_value_i(2,192,'1','Serie','"Serie"',[ none ]).
+enum_value_i(2,192,'2','Episodio','"Episodio"',[ none ]).
+ 
+enum_value_info_i(2,192,'TipoComentario').
+ 
+enum_type_i(2,192,int,4,0).
+ 
+dom_info_i(173,[ 'Id' ]).
+dom_info_i(174,[ 'Nome' ]).
+dom_info_i(180,[ 'Nota' ]).
+dom_info_i(192,[ 'TipoComentario' ]).
+dom_info_i(181,[ 'Comentario' ]).
+ 
+ 
+break_i(1,rpt,0,[],[ [],[],[] ]).
+ 
+b_group_i(1,1,lit,0,1,0).
+ 
+b_line_i(2,1,1,cmd,2,[ t('',107,2,0),t('Gxids',23,2,0),t(=,10,2,0),t('''gxid_''',3,2,0),t(+,5,2,0),t('str(',1,2,0),t('Gxid',23,2,0),t(',',7,2,0),t(8,3,2,0),t(',',7,2,0),t(0,3,2,0),t(')',4,2,0) ]).
+b_line_i(3,1,1,cmd,2,[ t('',107,2,0),t('Nota',23,3,1),t(=,10,3,1),t('val(',1,3,1),t([ t('Gxwebsession',23,3,0),t('get(',1,3,0) ],31,3,0),t('Gxids',23,2,0),t(+,5,2,0),t('''gxvar_Nota''',3,3,0),t(')',4,2,0) ]).
+b_line_i(4,1,1,cmd,2,[ t('',107,2,0),t('Um_GXI',23,2,0),t(=,10,2,0),t('(',0,2,0),t([ t('Gxwebsession',23,2,0),t('get(',1,2,0) ],31,2,0),t('Gxids',23,2,0),t(+,5,2,0),t('''gxvar_Um''',3,2,0),t(')',4,2,0) ]).
+b_line_i([ 4,1 ],1,1,cmd,2,[ t('',107,2,0),t([ t('Um',23,4,0),t('setempty(',1,4,0) ],31,4,0),t(')',4,2,0) ]).
+b_line_i(5,1,1,cmd,3,[ t('',107,3,0),t('Dois_GXI',23,3,0),t(=,10,3,0),t('(',0,3,0),t([ t('Gxwebsession',23,3,0),t('get(',1,3,0) ],31,3,0),t('Gxids',23,3,0),t(+,5,3,0),t('''gxvar_Dois''',3,3,0),t(')',4,3,0) ]).
+b_line_i([ 5,1 ],1,1,cmd,3,[ t('',107,3,0),t([ t('Dois',23,5,0),t('setempty(',1,5,0) ],31,5,0),t(')',4,3,0) ]).
+b_line_i(6,1,1,cmd,4,[ t('',107,4,0),t('Tres_GXI',23,4,0),t(=,10,4,0),t('(',0,4,0),t([ t('Gxwebsession',23,4,0),t('get(',1,4,0) ],31,4,0),t('Gxids',23,4,0),t(+,5,4,0),t('''gxvar_Tres''',3,4,0),t(')',4,4,0) ]).
+b_line_i([ 6,1 ],1,1,cmd,4,[ t('',107,4,0),t([ t('Tres',23,6,0),t('setempty(',1,6,0) ],31,6,0),t(')',4,4,0) ]).
+b_line_i(7,1,1,cmd,5,[ t('',107,5,0),t('Quatro_GXI',23,5,0),t(=,10,5,0),t('(',0,5,0),t([ t('Gxwebsession',23,5,0),t('get(',1,5,0) ],31,5,0),t('Gxids',23,5,0),t(+,5,5,0),t('''gxvar_Quatro''',3,5,0),t(')',4,5,0) ]).
+b_line_i([ 7,1 ],1,1,cmd,5,[ t('',107,5,0),t([ t('Quatro',23,7,0),t('setempty(',1,7,0) ],31,7,0),t(')',4,5,0) ]).
+b_line_i(8,1,1,cmd,6,[ t('',107,6,0),t('Cinco_GXI',23,6,0),t(=,10,6,0),t('(',0,6,0),t([ t('Gxwebsession',23,6,0),t('get(',1,6,0) ],31,6,0),t('Gxids',23,6,0),t(+,5,6,0),t('''gxvar_Cinco''',3,6,0),t(')',4,6,0) ]).
+b_line_i([ 8,1 ],1,1,cmd,6,[ t('',107,6,0),t([ t('Cinco',23,8,0),t('setempty(',1,8,0) ],31,8,0),t(')',4,6,0) ]).
+b_line_i(9,1,1,cmd,7,[ t('',107,7,0),t('GXV1SkipCount',23,7,0),t(=,10,7,0),t(-,5,7,0),t('(',0,7,0),t('Start',23,7,0),t(')',4,7,0) ]).
+b_line_i([ 9,1 ],1,1,cmd,7,[ t('',107,7,0),t('GXV1SkipCount',23,7,0),t(=,10,7,0),t('GXV1SkipCount',23,7,0),t(+,5,7,0),t(1,3,7,0) ]).
+b_line_i([ 9,2 ],1,1,cmd,7,[ t('',109,7,0),t('GXV1SkipCount',23,7,0),t(>,10,7,0),t(0,3,7,0) ]).
+b_line_i([ 9,3 ],1,1,cmd,7,[ t('',107,7,0),t('GXM2SDComentarios_Level_Detail_Grid2Sdt',23,7,0),t(=,10,7,0),t([ 'SDComentarios_Level_Detail_Grid2Sdt.Item',[ t('(',0,9,0),t(')',4,9,0) ],n ],46,7,0) ]).
+b_line_i(10,1,1,cmd,8,[ t('',107,8,0),t([ t('Um',23,10,1),t('fromimage(',1,10,0) ],31,10,1),t(i(98,'78937a91-2c51-4be9-92b2-23180713b984'),69,8,0),t(')',4,8,0) ]).
+b_line_i([ 10,1 ],1,1,cmd,8,[ t('',107,8,0),t('Um_GXI',23,8,0),t(=,10,8,0),t('urifromurl(',1,8,0),t(i(98,'78937a91-2c51-4be9-92b2-23180713b984'),69,8,0),t(')',4,8,0) ]).
+b_line_i(11,1,1,cmd,9,[ t('',107,9,0),t([ t('Dois',23,11,1),t('fromimage(',1,11,0) ],31,11,1),t(i(98,'78937a91-2c51-4be9-92b2-23180713b984'),69,9,0),t(')',4,9,0) ]).
+b_line_i([ 11,1 ],1,1,cmd,9,[ t('',107,9,0),t('Dois_GXI',23,9,0),t(=,10,9,0),t('urifromurl(',1,9,0),t(i(98,'78937a91-2c51-4be9-92b2-23180713b984'),69,9,0),t(')',4,9,0) ]).
+b_line_i(12,1,1,cmd,10,[ t('',107,10,0),t([ t('Tres',23,12,1),t('fromimage(',1,12,0) ],31,12,1),t(i(98,'78937a91-2c51-4be9-92b2-23180713b984'),69,10,0),t(')',4,10,0) ]).
+b_line_i([ 12,1 ],1,1,cmd,10,[ t('',107,10,0),t('Tres_GXI',23,10,0),t(=,10,10,0),t('urifromurl(',1,10,0),t(i(98,'78937a91-2c51-4be9-92b2-23180713b984'),69,10,0),t(')',4,10,0) ]).
+b_line_i(13,1,1,cmd,11,[ t('',107,11,0),t([ t('Quatro',23,13,1),t('fromimage(',1,13,0) ],31,13,1),t(i(98,'78937a91-2c51-4be9-92b2-23180713b984'),69,11,0),t(')',4,11,0) ]).
+b_line_i([ 13,1 ],1,1,cmd,11,[ t('',107,11,0),t('Quatro_GXI',23,11,0),t(=,10,11,0),t('urifromurl(',1,11,0),t(i(98,'78937a91-2c51-4be9-92b2-23180713b984'),69,11,0),t(')',4,11,0) ]).
+b_line_i(14,1,1,cmd,12,[ t('',107,12,0),t([ t('Cinco',23,14,1),t('fromimage(',1,14,0) ],31,14,1),t(i(98,'78937a91-2c51-4be9-92b2-23180713b984'),69,12,0),t(')',4,12,0) ]).
+b_line_i([ 14,1 ],1,1,cmd,12,[ t('',107,12,0),t('Cinco_GXI',23,12,0),t(=,10,12,0),t('urifromurl(',1,12,0),t(i(98,'78937a91-2c51-4be9-92b2-23180713b984'),69,12,0),t(')',4,12,0) ]).
+b_line_i(15,1,1,cmd,13,[ t('',152,13,0) ]).
+b_line_i(16,1,1,cmd,13,[ t('',153,13,0),t('Nota',23,13,0),t(=,10,13,0),t('1',3,13,0) ]).
+b_line_i(17,1,1,cmd,13,[ t('',107,13,0),t([ t('Um',23,17,1),t('fromimage(',1,17,0) ],31,17,1),t(i(98,'5a027831-0433-44a2-82ab-8d53ec2e4730'),69,13,0),t(')',4,13,0) ]).
+b_line_i([ 17,1 ],1,1,cmd,13,[ t('',107,13,0),t('Um_GXI',23,13,0),t(=,10,13,0),t('urifromurl(',1,13,0),t(i(98,'5a027831-0433-44a2-82ab-8d53ec2e4730'),69,13,0),t(')',4,13,0) ]).
+b_line_i(18,1,1,cmd,14,[ t('',153,14,0),t('Nota',23,14,0),t(=,10,14,0),t('2',3,14,0) ]).
+b_line_i(19,1,1,cmd,14,[ t('',107,14,0),t([ t('Dois',23,19,1),t('fromimage(',1,19,0) ],31,19,1),t(i(98,'9c2a164a-b79b-43f6-93f8-505ed5fdba7a'),69,14,0),t(')',4,14,0) ]).
+b_line_i([ 19,1 ],1,1,cmd,14,[ t('',107,14,0),t('Dois_GXI',23,14,0),t(=,10,14,0),t('urifromurl(',1,14,0),t(i(98,'9c2a164a-b79b-43f6-93f8-505ed5fdba7a'),69,14,0),t(')',4,14,0) ]).
+b_line_i(20,1,1,cmd,15,[ t('',153,15,0),t('Nota',23,15,0),t(=,10,15,0),t('3',3,15,0) ]).
+b_line_i(21,1,1,cmd,15,[ t('',107,15,0),t([ t('Tres',23,21,1),t('fromimage(',1,21,0) ],31,21,1),t(i(98,'52d99c2e-f27d-4bd0-9752-be241920135e'),69,15,0),t(')',4,15,0) ]).
+b_line_i([ 21,1 ],1,1,cmd,15,[ t('',107,15,0),t('Tres_GXI',23,15,0),t(=,10,15,0),t('urifromurl(',1,15,0),t(i(98,'52d99c2e-f27d-4bd0-9752-be241920135e'),69,15,0),t(')',4,15,0) ]).
+b_line_i(22,1,1,cmd,16,[ t('',153,16,0),t('Nota',23,16,0),t(=,10,16,0),t('4',3,16,0) ]).
+b_line_i(23,1,1,cmd,16,[ t('',107,16,0),t([ t('Quatro',23,23,1),t('fromimage(',1,23,0) ],31,23,1),t(i(98,'1f424a33-0d54-4e16-bc9f-0647b5704ad0'),69,16,0),t(')',4,16,0) ]).
+b_line_i([ 23,1 ],1,1,cmd,16,[ t('',107,16,0),t('Quatro_GXI',23,16,0),t(=,10,16,0),t('urifromurl(',1,16,0),t(i(98,'1f424a33-0d54-4e16-bc9f-0647b5704ad0'),69,16,0),t(')',4,16,0) ]).
+b_line_i(24,1,1,cmd,17,[ t('',153,17,0),t('Nota',23,17,0),t(=,10,17,0),t('5',3,17,0) ]).
+b_line_i(25,1,1,cmd,17,[ t('',107,17,0),t([ t('Cinco',23,25,1),t('fromimage(',1,25,0) ],31,25,1),t(i(98,'1613f2f4-b97d-45f1-aa37-de76245910c5'),69,17,0),t(')',4,17,0) ]).
+b_line_i([ 25,1 ],1,1,cmd,17,[ t('',107,17,0),t('Cinco_GXI',23,17,0),t(=,10,17,0),t('urifromurl(',1,17,0),t(i(98,'1613f2f4-b97d-45f1-aa37-de76245910c5'),69,17,0),t(')',4,17,0) ]).
+b_line_i(26,1,1,cmd,18,[ t('',154,18,0) ]).
+b_line_i(27,1,1,cmd,18,[ t('',107,18,0),t([ t('GXM2SDComentarios_Level_Detail_Grid2Sdt',23,18,0),t('Um',3,18,0) ],29,18,0),t(=,10,18,0),t('Um',23,18,0) ]).
+b_line_i([ 27,1 ],1,1,cmd,18,[ t('',107,18,0),t([ t('GXM2SDComentarios_Level_Detail_Grid2Sdt',23,18,0),t('Um_gxi',3,18,0) ],29,18,0),t(=,10,18,0),t('Um_GXI',23,18,0) ]).
+b_line_i(28,1,1,cmd,19,[ t('',107,19,0),t([ t('GXM2SDComentarios_Level_Detail_Grid2Sdt',23,19,0),t('Dois',3,19,0) ],29,19,0),t(=,10,19,0),t('Dois',23,19,0) ]).
+b_line_i([ 28,1 ],1,1,cmd,19,[ t('',107,19,0),t([ t('GXM2SDComentarios_Level_Detail_Grid2Sdt',23,19,0),t('Dois_gxi',3,19,0) ],29,19,0),t(=,10,19,0),t('Dois_GXI',23,19,0) ]).
+b_line_i(29,1,1,cmd,20,[ t('',107,20,0),t([ t('GXM2SDComentarios_Level_Detail_Grid2Sdt',23,20,0),t('Tres',3,20,0) ],29,20,0),t(=,10,20,0),t('Tres',23,20,0) ]).
+b_line_i([ 29,1 ],1,1,cmd,20,[ t('',107,20,0),t([ t('GXM2SDComentarios_Level_Detail_Grid2Sdt',23,20,0),t('Tres_gxi',3,20,0) ],29,20,0),t(=,10,20,0),t('Tres_GXI',23,20,0) ]).
+b_line_i(30,1,1,cmd,21,[ t('',107,21,0),t([ t('GXM2SDComentarios_Level_Detail_Grid2Sdt',23,21,0),t('Quatro',3,21,0) ],29,21,0),t(=,10,21,0),t('Quatro',23,21,0) ]).
+b_line_i([ 30,1 ],1,1,cmd,21,[ t('',107,21,0),t([ t('GXM2SDComentarios_Level_Detail_Grid2Sdt',23,21,0),t('Quatro_gxi',3,21,0) ],29,21,0),t(=,10,21,0),t('Quatro_GXI',23,21,0) ]).
+b_line_i(31,1,1,cmd,22,[ t('',107,22,0),t([ t('GXM2SDComentarios_Level_Detail_Grid2Sdt',23,22,0),t('Cinco',3,22,0) ],29,22,0),t(=,10,22,0),t('Cinco',23,22,0) ]).
+b_line_i([ 31,1 ],1,1,cmd,22,[ t('',107,22,0),t([ t('GXM2SDComentarios_Level_Detail_Grid2Sdt',23,22,0),t('Cinco_gxi',3,22,0) ],29,22,0),t(=,10,22,0),t('Cinco_GXI',23,22,0) ]).
+b_line_i(32,1,1,cmd,23,[ t('',107,23,0),t([ t('GXM3RootCol',23,9,0),t('add(',1,9,0) ],31,9,0),t('GXM2SDComentarios_Level_Detail_Grid2Sdt',23,23,0),t(')',4,23,0) ]).
+b_line_i([ 32,1 ],1,1,cmd,23,[ t('',107,23,0),t('GXM2SDComentarios_Level_Detail_Grid2Sdt',23,23,0),t(=,10,23,0),t([ 'SDComentarios_Level_Detail_Grid2Sdt.Item',[ t('(',0,32,0),t(')',4,32,0) ],n ],46,23,0) ]).
+b_line_i(33,1,1,cmd,24,[ t('',107,24,0),t([ t('GXM2SDComentarios_Level_Detail_Grid2Sdt',23,24,0),t('Um',3,24,0) ],29,24,0),t(=,10,24,0),t('Um',23,24,0) ]).
+b_line_i([ 33,1 ],1,1,cmd,24,[ t('',107,24,0),t([ t('GXM2SDComentarios_Level_Detail_Grid2Sdt',23,24,0),t('Um_gxi',3,24,0) ],29,24,0),t(=,10,24,0),t('Um_GXI',23,24,0) ]).
+b_line_i(34,1,1,cmd,25,[ t('',107,25,0),t([ t('GXM2SDComentarios_Level_Detail_Grid2Sdt',23,25,0),t('Dois',3,25,0) ],29,25,0),t(=,10,25,0),t('Dois',23,25,0) ]).
+b_line_i([ 34,1 ],1,1,cmd,25,[ t('',107,25,0),t([ t('GXM2SDComentarios_Level_Detail_Grid2Sdt',23,25,0),t('Dois_gxi',3,25,0) ],29,25,0),t(=,10,25,0),t('Dois_GXI',23,25,0) ]).
+b_line_i(35,1,1,cmd,26,[ t('',107,26,0),t([ t('GXM2SDComentarios_Level_Detail_Grid2Sdt',23,26,0),t('Tres',3,26,0) ],29,26,0),t(=,10,26,0),t('Tres',23,26,0) ]).
+b_line_i([ 35,1 ],1,1,cmd,26,[ t('',107,26,0),t([ t('GXM2SDComentarios_Level_Detail_Grid2Sdt',23,26,0),t('Tres_gxi',3,26,0) ],29,26,0),t(=,10,26,0),t('Tres_GXI',23,26,0) ]).
+b_line_i(36,1,1,cmd,27,[ t('',107,27,0),t([ t('GXM2SDComentarios_Level_Detail_Grid2Sdt',23,27,0),t('Quatro',3,27,0) ],29,27,0),t(=,10,27,0),t('Quatro',23,27,0) ]).
+b_line_i([ 36,1 ],1,1,cmd,27,[ t('',107,27,0),t([ t('GXM2SDComentarios_Level_Detail_Grid2Sdt',23,27,0),t('Quatro_gxi',3,27,0) ],29,27,0),t(=,10,27,0),t('Quatro_GXI',23,27,0) ]).
+b_line_i(37,1,1,cmd,28,[ t('',107,28,0),t([ t('GXM2SDComentarios_Level_Detail_Grid2Sdt',23,28,0),t('Cinco',3,28,0) ],29,28,0),t(=,10,28,0),t('Cinco',23,28,0) ]).
+b_line_i([ 37,1 ],1,1,cmd,28,[ t('',107,28,0),t([ t('GXM2SDComentarios_Level_Detail_Grid2Sdt',23,28,0),t('Cinco_gxi',3,28,0) ],29,28,0),t(=,10,28,0),t('Cinco_GXI',23,28,0) ]).
+b_line_i(38,1,1,cmd,29,[ t('',111,29,0) ]).
+b_line_i(39,1,1,cmd,29,[ t('',107,29,0),t([ t('Gxwebsession',23,39,1),t('set(',1,39,0) ],31,39,1),t('Gxids',23,29,0),t(+,5,29,0),t('''gxvar_Nota''',3,39,0),t(',',7,29,0),t('str(',1,39,0),t('Nota',23,29,0),t(',',7,29,0),t(1,3,29,0),t(',',7,29,0),t(0,3,29,0),t(')',4,29,0),t(')',4,29,0) ]).
+b_line_i(40,1,1,cmd,29,[ t('',107,29,0),t([ t('Gxwebsession',23,40,1),t('set(',1,40,0) ],31,40,1),t('Gxids',23,29,0),t(+,5,29,0),t('''gxvar_Um''',3,40,0),t(',',7,29,0),t('Um_GXI',23,40,0),t(')',4,29,0) ]).
+b_line_i(41,1,1,cmd,29,[ t('',107,29,0),t([ t('Gxwebsession',23,41,1),t('set(',1,41,0) ],31,41,1),t('Gxids',23,29,0),t(+,5,29,0),t('''gxvar_Dois''',3,41,0),t(',',7,29,0),t('Dois_GXI',23,41,0),t(')',4,29,0) ]).
+b_line_i(42,1,1,cmd,29,[ t('',107,29,0),t([ t('Gxwebsession',23,42,1),t('set(',1,42,0) ],31,42,1),t('Gxids',23,29,0),t(+,5,29,0),t('''gxvar_Tres''',3,42,0),t(',',7,29,0),t('Tres_GXI',23,42,0),t(')',4,29,0) ]).
+b_line_i(43,1,1,cmd,29,[ t('',107,29,0),t([ t('Gxwebsession',23,43,1),t('set(',1,43,0) ],31,43,1),t('Gxids',23,29,0),t(+,5,29,0),t('''gxvar_Quatro''',3,43,0),t(',',7,29,0),t('Quatro_GXI',23,43,0),t(')',4,29,0) ]).
+b_line_i(44,1,1,cmd,29,[ t('',107,29,0),t([ t('Gxwebsession',23,44,1),t('set(',1,44,0) ],31,44,1),t('Gxids',23,29,0),t(+,5,29,0),t('''gxvar_Cinco''',3,44,0),t(',',7,29,0),t('Cinco_GXI',23,44,0),t(')',4,29,0) ]).
+ 
+ 
+ 
+ 
+ 
+page_layout_i([ 66,0,6 ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+calling_main_i(37,4).
+ 
+ 
+ 
+ 
+var_prop_i(2,'Id',idBasedOn,173,v).
+var_prop_i(2,'Nome',idBasedOn,174,v).
+var_prop_i(2,'Nota',idBasedOn,180,v).
+var_prop_i(2,'Tipocomentario',idBasedOn,192,v).
+var_prop_i(2,'Tipocomentario','AttValidationFailedMsg','GXSPC_OutOfRange',d).
+var_prop_i(2,'Usuariocomentario',idBasedOn,181,v).
+ 
+ 
+ 
+ 
+ 
+struct_dt_i([ 14,2,0 ],name,'GeneXus\Common\UI\Progress').
+struct_dt_i([ 14,2,0 ],'ObjName','Progress').
+struct_dt_i([ 14,2,0 ],'ObjDesc','Progress').
+struct_dt_i([ 14,2,0 ],'ExoType','0').
+struct_dt_i([ 14,2,0 ],'ObjNamespace','').
+struct_dt_i([ 14,2,0 ],'ExoImporterVersion','').
+struct_dt_i([ 14,2,0 ],'ExoSourceURI','').
+struct_dt_i([ 14,2,0 ],'ExoNameCSHARP','GeneXus.Notifications.GXWebProgressIndicator').
+struct_dt_i([ 14,2,0 ],'AssemblyName','').
+struct_dt_i([ 14,2,0 ],'ExoConstructorParametersCSHARP',context).
+struct_dt_i([ 14,2,0 ],'PackageName','com.genexus.internet').
+struct_dt_i([ 14,2,0 ],'RequireName','').
+struct_dt_i([ 14,2,0 ],'ExoNameANDROID','ProgressIndicator').
+struct_dt_i([ 14,2,0 ],'AndroidPackageName','com.artech.android.api').
+struct_dt_i([ 14,2,0 ],'ExoNameJS','').
+struct_dt_i([ 14,2,0 ],'ExoReferencedFilesJS','').
+struct_dt_i([ 14,2,0 ],'Folder',o(120,'GeneXus\Common\UI')).
+struct_dt_i([ 14,2,0 ],'FullyQualifiedName','GeneXus.Common.UI.Progress').
+struct_dt_i([ 14,2,0 ],'ObjectVisibility','Public').
+struct_dt_i([ 14,2,0 ],isexternal,'True').
+struct_dt_i([ 14,2,0 ],fullname,'GeneXus\Common\UI\Progress').
+struct_dt_i([ 14,2,0 ],camelname,'GeneXus\Common\UI\Progress').
+struct_dt_i([ 26,1000000,0 ],name,'SDComentarios_Level_Detail_Grid2Sdt').
+struct_dt_i([ 26,1000000,0 ],camelname,'SDComentarios_Level_Detail_Grid2Sdt').
+struct_dt_i([ 26,1000000,0 ],camelnameex,'SDComentarios_Level_Detail_Grid2Sdt').
+struct_dt_i([ 26,1000000,1 ],name,'Item').
+struct_dt_i([ 26,1000000,1 ],camelname,'Item').
+struct_dt_i([ 26,1000000,1 ],camelnameex,'Item').
+struct_dt_i([ 26,1000000,0 ],collection,'True').
+struct_dt_i([ 26,1000000,0 ],datatype,[ 26,1000000,1 ]).
+struct_dt_i([ 26,1000000,0 ],wwsd_sdt,'True').
+struct_dt_i([ 26,1000000,0 ],fullname,'SDComentarios_Level_Detail_Grid2Sdt').
+struct_dt_i([ 26,1000000,1 ],fullname,'SDComentarios_Level_Detail_Grid2Sdt.Item').
+ 
+struct_dt_elem_i([ 14,2,0 ],1,name,'Class').
+struct_dt_elem_i([ 14,2,0 ],1,camelname,'Class').
+struct_dt_elem_i([ 14,2,0 ],1,externalType,'').
+struct_dt_elem_i([ 14,2,0 ],1,length,20).
+struct_dt_elem_i([ 14,2,0 ],1,decimals,0).
+struct_dt_elem_i([ 14,2,0 ],1,type,[ 5,20,0 ]).
+struct_dt_elem_i([ 14,2,0 ],1,'ExoPropAccessType',idGetSet).
+struct_dt_elem_i([ 14,2,0 ],1,'IntName','Class').
+struct_dt_elem_i([ 14,2,0 ],1,'ExoItemDesc','').
+struct_dt_elem_i([ 14,2,0 ],1,'ExoItemType','Character').
+struct_dt_elem_i([ 14,2,0 ],1,basedon,'').
+struct_dt_elem_i([ 14,2,0 ],1,'ExoMethodIsStatic','-1').
+struct_dt_elem_i([ 14,2,0 ],1,'ExoExternalMember',idExoExternalMemberInstance).
+struct_dt_elem_i([ 14,2,0 ],1,'ControlType','2').
+struct_dt_elem_i([ 14,2,0 ],1,'InputType','0').
+struct_dt_elem_i([ 14,2,0 ],1,'EditAutocomplete','0').
+struct_dt_elem_i([ 14,2,0 ],1,'ExoNameCSHARP','Class').
+struct_dt_elem_i([ 14,2,0 ],1,'ExoItemExtTypeCSHARP','').
+struct_dt_elem_i([ 14,2,0 ],1,'ExternalSetMethodANDROID',setClass).
+struct_dt_elem_i([ 14,2,0 ],1,'ExternalGetMethodANDROID',getClass).
+struct_dt_elem_i([ 14,2,0 ],1,'ExoNameJS','').
+struct_dt_elem_i([ 14,2,0 ],2,name,'Type').
+struct_dt_elem_i([ 14,2,0 ],2,camelname,'Type').
+struct_dt_elem_i([ 14,2,0 ],2,externalType,'').
+struct_dt_elem_i([ 14,2,0 ],2,length,1).
+struct_dt_elem_i([ 14,2,0 ],2,decimals,0).
+struct_dt_elem_i([ 14,2,0 ],2,sign,0).
+struct_dt_elem_i([ 14,2,0 ],2,type,[ 4,1,0 ]).
+struct_dt_elem_i([ 14,2,0 ],2,'ExoPropAccessType',idGetSet).
+struct_dt_elem_i([ 14,2,0 ],2,'IntName','Type').
+struct_dt_elem_i([ 14,2,0 ],2,'ExoItemDesc','').
+struct_dt_elem_i([ 14,2,0 ],2,'ExoItemType','Numeric').
+struct_dt_elem_i([ 14,2,0 ],2,basedon,31).
+struct_dt_elem_i([ 14,2,0 ],2,'ExoMethodIsStatic','-1').
+struct_dt_elem_i([ 14,2,0 ],2,'ExoExternalMember',idExoExternalMemberInstance).
+struct_dt_elem_i([ 14,2,0 ],2,'ControlType','0').
+struct_dt_elem_i([ 14,2,0 ],2,'ControlValues',[ [ 'Indeterminate','0' ],[ 'Determinate','1' ] ]).
+struct_dt_elem_i([ 14,2,0 ],2,'AddEmptyItem','0').
+struct_dt_elem_i([ 14,2,0 ],2,'ExoNameCSHARP','Type').
+struct_dt_elem_i([ 14,2,0 ],2,'ExoItemExtTypeCSHARP','').
+struct_dt_elem_i([ 14,2,0 ],2,'ExternalSetMethodANDROID',setType).
+struct_dt_elem_i([ 14,2,0 ],2,'ExternalGetMethodANDROID',getType).
+struct_dt_elem_i([ 14,2,0 ],2,'ExoNameJS','').
+struct_dt_elem_i([ 14,2,0 ],3,name,'Title').
+struct_dt_elem_i([ 14,2,0 ],3,camelname,'Title').
+struct_dt_elem_i([ 14,2,0 ],3,externalType,'').
+struct_dt_elem_i([ 14,2,0 ],3,length,255).
+struct_dt_elem_i([ 14,2,0 ],3,decimals,0).
+struct_dt_elem_i([ 14,2,0 ],3,type,[ 5,255,0 ]).
+struct_dt_elem_i([ 14,2,0 ],3,'ExoPropAccessType',idGetSet).
+struct_dt_elem_i([ 14,2,0 ],3,'IntName','Title').
+struct_dt_elem_i([ 14,2,0 ],3,'ExoItemDesc','').
+struct_dt_elem_i([ 14,2,0 ],3,'ExoItemType','Character').
+struct_dt_elem_i([ 14,2,0 ],3,basedon,'').
+struct_dt_elem_i([ 14,2,0 ],3,'ExoMethodIsStatic','-1').
+struct_dt_elem_i([ 14,2,0 ],3,'ExoExternalMember',idExoExternalMemberInstance).
+struct_dt_elem_i([ 14,2,0 ],3,'ControlType','2').
+struct_dt_elem_i([ 14,2,0 ],3,'InputType','0').
+struct_dt_elem_i([ 14,2,0 ],3,'EditAutocomplete','0').
+struct_dt_elem_i([ 14,2,0 ],3,'ExoNameCSHARP','Title').
+struct_dt_elem_i([ 14,2,0 ],3,'ExoItemExtTypeCSHARP','').
+struct_dt_elem_i([ 14,2,0 ],3,'ExternalSetMethodANDROID',setTitle).
+struct_dt_elem_i([ 14,2,0 ],3,'ExternalGetMethodANDROID',getTitle).
+struct_dt_elem_i([ 14,2,0 ],3,'ExoNameJS','').
+struct_dt_elem_i([ 14,2,0 ],4,name,'Description').
+struct_dt_elem_i([ 14,2,0 ],4,camelname,'Description').
+struct_dt_elem_i([ 14,2,0 ],4,externalType,'').
+struct_dt_elem_i([ 14,2,0 ],4,length,255).
+struct_dt_elem_i([ 14,2,0 ],4,decimals,0).
+struct_dt_elem_i([ 14,2,0 ],4,type,[ 5,255,0 ]).
+struct_dt_elem_i([ 14,2,0 ],4,'ExoPropAccessType',idGetSet).
+struct_dt_elem_i([ 14,2,0 ],4,'IntName','Description').
+struct_dt_elem_i([ 14,2,0 ],4,'ExoItemDesc','').
+struct_dt_elem_i([ 14,2,0 ],4,'ExoItemType','Character').
+struct_dt_elem_i([ 14,2,0 ],4,basedon,'').
+struct_dt_elem_i([ 14,2,0 ],4,'ExoMethodIsStatic','-1').
+struct_dt_elem_i([ 14,2,0 ],4,'ExoExternalMember',idExoExternalMemberInstance).
+struct_dt_elem_i([ 14,2,0 ],4,'ControlType','2').
+struct_dt_elem_i([ 14,2,0 ],4,'InputType','0').
+struct_dt_elem_i([ 14,2,0 ],4,'EditAutocomplete','0').
+struct_dt_elem_i([ 14,2,0 ],4,'ExoNameCSHARP','Description').
+struct_dt_elem_i([ 14,2,0 ],4,'ExoItemExtTypeCSHARP','').
+struct_dt_elem_i([ 14,2,0 ],4,'ExternalSetMethodANDROID',setDescription).
+struct_dt_elem_i([ 14,2,0 ],4,'ExternalGetMethodANDROID',getDescription).
+struct_dt_elem_i([ 14,2,0 ],4,'ExoNameJS','').
+struct_dt_elem_i([ 14,2,0 ],5,name,'Maxvalue').
+struct_dt_elem_i([ 14,2,0 ],5,camelname,'MaxValue').
+struct_dt_elem_i([ 14,2,0 ],5,externalType,'').
+struct_dt_elem_i([ 14,2,0 ],5,length,8).
+struct_dt_elem_i([ 14,2,0 ],5,decimals,0).
+struct_dt_elem_i([ 14,2,0 ],5,sign,0).
+struct_dt_elem_i([ 14,2,0 ],5,type,[ 4,8,0 ]).
+struct_dt_elem_i([ 14,2,0 ],5,'ExoPropAccessType',idGetSet).
+struct_dt_elem_i([ 14,2,0 ],5,'IntName','MaxValue').
+struct_dt_elem_i([ 14,2,0 ],5,'ExoItemDesc','').
+struct_dt_elem_i([ 14,2,0 ],5,'ExoItemType','Numeric').
+struct_dt_elem_i([ 14,2,0 ],5,basedon,'').
+struct_dt_elem_i([ 14,2,0 ],5,'ExoMethodIsStatic','-1').
+struct_dt_elem_i([ 14,2,0 ],5,'ExoExternalMember',idExoExternalMemberInstance).
+struct_dt_elem_i([ 14,2,0 ],5,'ControlType','2').
+struct_dt_elem_i([ 14,2,0 ],5,'InputType','0').
+struct_dt_elem_i([ 14,2,0 ],5,'ExoNameCSHARP','MaxValue').
+struct_dt_elem_i([ 14,2,0 ],5,'ExoItemExtTypeCSHARP','').
+struct_dt_elem_i([ 14,2,0 ],5,'ExternalSetMethodANDROID',setMaxValue).
+struct_dt_elem_i([ 14,2,0 ],5,'ExternalGetMethodANDROID',getMaxValue).
+struct_dt_elem_i([ 14,2,0 ],5,'ExoNameJS','').
+struct_dt_elem_i([ 14,2,0 ],6,name,'Value').
+struct_dt_elem_i([ 14,2,0 ],6,camelname,'Value').
+struct_dt_elem_i([ 14,2,0 ],6,externalType,'').
+struct_dt_elem_i([ 14,2,0 ],6,length,8).
+struct_dt_elem_i([ 14,2,0 ],6,decimals,0).
+struct_dt_elem_i([ 14,2,0 ],6,sign,0).
+struct_dt_elem_i([ 14,2,0 ],6,type,[ 4,8,0 ]).
+struct_dt_elem_i([ 14,2,0 ],6,'ExoPropAccessType',idGetSet).
+struct_dt_elem_i([ 14,2,0 ],6,'IntName','Value').
+struct_dt_elem_i([ 14,2,0 ],6,'ExoItemDesc','').
+struct_dt_elem_i([ 14,2,0 ],6,'ExoItemType','Numeric').
+struct_dt_elem_i([ 14,2,0 ],6,basedon,'').
+struct_dt_elem_i([ 14,2,0 ],6,'ExoMethodIsStatic','-1').
+struct_dt_elem_i([ 14,2,0 ],6,'ExoExternalMember',idExoExternalMemberInstance).
+struct_dt_elem_i([ 14,2,0 ],6,'ControlType','2').
+struct_dt_elem_i([ 14,2,0 ],6,'InputType','0').
+struct_dt_elem_i([ 14,2,0 ],6,'ExoNameCSHARP','Value').
+struct_dt_elem_i([ 14,2,0 ],6,'ExoItemExtTypeCSHARP','').
+struct_dt_elem_i([ 14,2,0 ],6,'ExternalSetMethodANDROID',setValue).
+struct_dt_elem_i([ 14,2,0 ],6,'ExternalGetMethodANDROID',getValue).
+struct_dt_elem_i([ 14,2,0 ],6,'ExoNameJS','').
+struct_dt_elem_i([ 14,2,0 ],2,pic,'99/99/99 99:99').
+struct_dt_elem_i([ 26,1000000,1 ],1,name,'Um').
+struct_dt_elem_i([ 26,1000000,1 ],1,camelname,'Um').
+struct_dt_elem_i([ 26,1000000,1 ],1,type,[ 7,1024,0 ]).
+struct_dt_elem_i([ 26,1000000,1 ],1,length,1024).
+struct_dt_elem_i([ 26,1000000,1 ],1,decimals,0).
+struct_dt_elem_i([ 26,1000000,1 ],1,sign,0).
+struct_dt_elem_i([ 26,1000000,1 ],1,collection,'False').
+struct_dt_elem_i([ 26,1000000,1 ],1,islevel,'False').
+struct_dt_elem_i([ 26,1000000,1 ],2,name,'Um_gxi').
+struct_dt_elem_i([ 26,1000000,1 ],2,camelname,'Um_GXI').
+struct_dt_elem_i([ 26,1000000,1 ],2,type,[ 13,2048,0 ]).
+struct_dt_elem_i([ 26,1000000,1 ],2,length,2048).
+struct_dt_elem_i([ 26,1000000,1 ],2,decimals,0).
+struct_dt_elem_i([ 26,1000000,1 ],2,sign,0).
+struct_dt_elem_i([ 26,1000000,1 ],2,collection,'False').
+struct_dt_elem_i([ 26,1000000,1 ],2,islevel,'False').
+struct_dt_elem_i([ 26,1000000,1 ],2,isadd,'True').
+struct_dt_elem_i([ 26,1000000,1 ],3,name,'Dois').
+struct_dt_elem_i([ 26,1000000,1 ],3,camelname,'Dois').
+struct_dt_elem_i([ 26,1000000,1 ],3,type,[ 7,1024,0 ]).
+struct_dt_elem_i([ 26,1000000,1 ],3,length,1024).
+struct_dt_elem_i([ 26,1000000,1 ],3,decimals,0).
+struct_dt_elem_i([ 26,1000000,1 ],3,sign,0).
+struct_dt_elem_i([ 26,1000000,1 ],3,collection,'False').
+struct_dt_elem_i([ 26,1000000,1 ],3,islevel,'False').
+struct_dt_elem_i([ 26,1000000,1 ],4,name,'Dois_gxi').
+struct_dt_elem_i([ 26,1000000,1 ],4,camelname,'Dois_GXI').
+struct_dt_elem_i([ 26,1000000,1 ],4,type,[ 13,2048,0 ]).
+struct_dt_elem_i([ 26,1000000,1 ],4,length,2048).
+struct_dt_elem_i([ 26,1000000,1 ],4,decimals,0).
+struct_dt_elem_i([ 26,1000000,1 ],4,sign,0).
+struct_dt_elem_i([ 26,1000000,1 ],4,collection,'False').
+struct_dt_elem_i([ 26,1000000,1 ],4,islevel,'False').
+struct_dt_elem_i([ 26,1000000,1 ],4,isadd,'True').
+struct_dt_elem_i([ 26,1000000,1 ],5,name,'Tres').
+struct_dt_elem_i([ 26,1000000,1 ],5,camelname,'Tres').
+struct_dt_elem_i([ 26,1000000,1 ],5,type,[ 7,1024,0 ]).
+struct_dt_elem_i([ 26,1000000,1 ],5,length,1024).
+struct_dt_elem_i([ 26,1000000,1 ],5,decimals,0).
+struct_dt_elem_i([ 26,1000000,1 ],5,sign,0).
+struct_dt_elem_i([ 26,1000000,1 ],5,collection,'False').
+struct_dt_elem_i([ 26,1000000,1 ],5,islevel,'False').
+struct_dt_elem_i([ 26,1000000,1 ],6,name,'Tres_gxi').
+struct_dt_elem_i([ 26,1000000,1 ],6,camelname,'Tres_GXI').
+struct_dt_elem_i([ 26,1000000,1 ],6,type,[ 13,2048,0 ]).
+struct_dt_elem_i([ 26,1000000,1 ],6,length,2048).
+struct_dt_elem_i([ 26,1000000,1 ],6,decimals,0).
+struct_dt_elem_i([ 26,1000000,1 ],6,sign,0).
+struct_dt_elem_i([ 26,1000000,1 ],6,collection,'False').
+struct_dt_elem_i([ 26,1000000,1 ],6,islevel,'False').
+struct_dt_elem_i([ 26,1000000,1 ],6,isadd,'True').
+struct_dt_elem_i([ 26,1000000,1 ],7,name,'Quatro').
+struct_dt_elem_i([ 26,1000000,1 ],7,camelname,'Quatro').
+struct_dt_elem_i([ 26,1000000,1 ],7,type,[ 7,1024,0 ]).
+struct_dt_elem_i([ 26,1000000,1 ],7,length,1024).
+struct_dt_elem_i([ 26,1000000,1 ],7,decimals,0).
+struct_dt_elem_i([ 26,1000000,1 ],7,sign,0).
+struct_dt_elem_i([ 26,1000000,1 ],7,collection,'False').
+struct_dt_elem_i([ 26,1000000,1 ],7,islevel,'False').
+struct_dt_elem_i([ 26,1000000,1 ],8,name,'Quatro_gxi').
+struct_dt_elem_i([ 26,1000000,1 ],8,camelname,'Quatro_GXI').
+struct_dt_elem_i([ 26,1000000,1 ],8,type,[ 13,2048,0 ]).
+struct_dt_elem_i([ 26,1000000,1 ],8,length,2048).
+struct_dt_elem_i([ 26,1000000,1 ],8,decimals,0).
+struct_dt_elem_i([ 26,1000000,1 ],8,sign,0).
+struct_dt_elem_i([ 26,1000000,1 ],8,collection,'False').
+struct_dt_elem_i([ 26,1000000,1 ],8,islevel,'False').
+struct_dt_elem_i([ 26,1000000,1 ],8,isadd,'True').
+struct_dt_elem_i([ 26,1000000,1 ],9,name,'Cinco').
+struct_dt_elem_i([ 26,1000000,1 ],9,camelname,'Cinco').
+struct_dt_elem_i([ 26,1000000,1 ],9,type,[ 7,1024,0 ]).
+struct_dt_elem_i([ 26,1000000,1 ],9,length,1024).
+struct_dt_elem_i([ 26,1000000,1 ],9,decimals,0).
+struct_dt_elem_i([ 26,1000000,1 ],9,sign,0).
+struct_dt_elem_i([ 26,1000000,1 ],9,collection,'False').
+struct_dt_elem_i([ 26,1000000,1 ],9,islevel,'False').
+struct_dt_elem_i([ 26,1000000,1 ],10,name,'Cinco_gxi').
+struct_dt_elem_i([ 26,1000000,1 ],10,camelname,'Cinco_GXI').
+struct_dt_elem_i([ 26,1000000,1 ],10,type,[ 13,2048,0 ]).
+struct_dt_elem_i([ 26,1000000,1 ],10,length,2048).
+struct_dt_elem_i([ 26,1000000,1 ],10,decimals,0).
+struct_dt_elem_i([ 26,1000000,1 ],10,sign,0).
+struct_dt_elem_i([ 26,1000000,1 ],10,collection,'False').
+struct_dt_elem_i([ 26,1000000,1 ],10,islevel,'False').
+struct_dt_elem_i([ 26,1000000,1 ],10,isadd,'True').
+ 
+struct_dt_method_i([ 14,2,0 ],1,name,show).
+struct_dt_method_i([ 14,2,0 ],1,camelname,'Show').
+struct_dt_method_i([ 14,2,0 ],1,externalType,'').
+struct_dt_method_i([ 14,2,0 ],1,length,8).
+struct_dt_method_i([ 14,2,0 ],1,decimals,0).
+struct_dt_method_i([ 14,2,0 ],1,type,[ 257,8,0 ]).
+struct_dt_method_i([ 14,2,0 ],1,'IntName','Show').
+struct_dt_method_i([ 14,2,0 ],1,'ExoItemDesc','').
+struct_dt_method_i([ 14,2,0 ],1,'ExoItemType','None').
+struct_dt_method_i([ 14,2,0 ],1,basedon,'').
+struct_dt_method_i([ 14,2,0 ],1,'XmlName','').
+struct_dt_method_i([ 14,2,0 ],1,'ExoMethodIsStatic','-1').
+struct_dt_method_i([ 14,2,0 ],1,'ExoExternalMember',idExoExternalMemberInstance).
+struct_dt_method_i([ 14,2,0 ],1,'ExoNameCSHARP','Show').
+struct_dt_method_i([ 14,2,0 ],1,'ExoItemExtTypeCSHARP','').
+struct_dt_method_i([ 14,2,0 ],1,'ExoMethodThrows','NO').
+struct_dt_method_i([ 14,2,0 ],1,'ExoNameANDROID',show).
+struct_dt_method_i([ 14,2,0 ],1,'ExoNameJS','').
+struct_dt_method_i([ 14,2,0 ],2,name,showwithtitle).
+struct_dt_method_i([ 14,2,0 ],2,camelname,'ShowWithTitle').
+struct_dt_method_i([ 14,2,0 ],2,externalType,'').
+struct_dt_method_i([ 14,2,0 ],2,length,8).
+struct_dt_method_i([ 14,2,0 ],2,decimals,0).
+struct_dt_method_i([ 14,2,0 ],2,type,[ 257,8,0 ]).
+struct_dt_method_i([ 14,2,0 ],2,'IntName','ShowWithTitle').
+struct_dt_method_i([ 14,2,0 ],2,'ExoItemDesc','').
+struct_dt_method_i([ 14,2,0 ],2,'ExoItemType','None').
+struct_dt_method_i([ 14,2,0 ],2,basedon,'').
+struct_dt_method_i([ 14,2,0 ],2,'XmlName','').
+struct_dt_method_i([ 14,2,0 ],2,'ExoMethodIsStatic','-1').
+struct_dt_method_i([ 14,2,0 ],2,'ExoExternalMember',idExoExternalMemberInstance).
+struct_dt_method_i([ 14,2,0 ],2,'ExoNameCSHARP','ShowWithTitle').
+struct_dt_method_i([ 14,2,0 ],2,'ExoItemExtTypeCSHARP','').
+struct_dt_method_i([ 14,2,0 ],2,'ExoMethodThrows','NO').
+struct_dt_method_i([ 14,2,0 ],2,'ExoNameANDROID',showWithTitle).
+struct_dt_method_i([ 14,2,0 ],2,'ExoNameJS','').
+struct_dt_method_i([ 14,2,0 ],3,name,showwithtitleanddescription).
+struct_dt_method_i([ 14,2,0 ],3,camelname,'ShowWithTitleAndDescription').
+struct_dt_method_i([ 14,2,0 ],3,externalType,'').
+struct_dt_method_i([ 14,2,0 ],3,length,0).
+struct_dt_method_i([ 14,2,0 ],3,decimals,0).
+struct_dt_method_i([ 14,2,0 ],3,type,[ 257,0,0 ]).
+struct_dt_method_i([ 14,2,0 ],3,'IntName','ShowWithTitleAndDescription').
+struct_dt_method_i([ 14,2,0 ],3,'ExoItemDesc','').
+struct_dt_method_i([ 14,2,0 ],3,'ExoItemType','None').
+struct_dt_method_i([ 14,2,0 ],3,basedon,'').
+struct_dt_method_i([ 14,2,0 ],3,'XmlName','').
+struct_dt_method_i([ 14,2,0 ],3,'ExoMethodIsStatic','-1').
+struct_dt_method_i([ 14,2,0 ],3,'ExoExternalMember',idExoExternalMemberInstance).
+struct_dt_method_i([ 14,2,0 ],3,'ExoNameCSHARP','ShowWithTitleAndDescription').
+struct_dt_method_i([ 14,2,0 ],3,'ExoItemExtTypeCSHARP','').
+struct_dt_method_i([ 14,2,0 ],3,'ExoMethodThrows','NO').
+struct_dt_method_i([ 14,2,0 ],3,'ExoNameANDROID',showWithTitleAndDescription).
+struct_dt_method_i([ 14,2,0 ],3,'ExoNameJS','').
+struct_dt_method_i([ 14,2,0 ],4,name,hide).
+struct_dt_method_i([ 14,2,0 ],4,camelname,'Hide').
+struct_dt_method_i([ 14,2,0 ],4,externalType,'').
+struct_dt_method_i([ 14,2,0 ],4,length,8).
+struct_dt_method_i([ 14,2,0 ],4,decimals,0).
+struct_dt_method_i([ 14,2,0 ],4,type,[ 257,8,0 ]).
+struct_dt_method_i([ 14,2,0 ],4,'IntName','Hide').
+struct_dt_method_i([ 14,2,0 ],4,'ExoItemDesc','').
+struct_dt_method_i([ 14,2,0 ],4,'ExoItemType','None').
+struct_dt_method_i([ 14,2,0 ],4,basedon,'').
+struct_dt_method_i([ 14,2,0 ],4,'XmlName','').
+struct_dt_method_i([ 14,2,0 ],4,'ExoMethodIsStatic','-1').
+struct_dt_method_i([ 14,2,0 ],4,'ExoExternalMember',idExoExternalMemberInstance).
+struct_dt_method_i([ 14,2,0 ],4,'ExoNameCSHARP','Hide').
+struct_dt_method_i([ 14,2,0 ],4,'ExoItemExtTypeCSHARP','').
+struct_dt_method_i([ 14,2,0 ],4,'ExoMethodThrows','NO').
+struct_dt_method_i([ 14,2,0 ],4,'ExoNameANDROID',hide).
+struct_dt_method_i([ 14,2,0 ],4,'ExoNameJS','').
+ 
+struct_dt_param_i([ 14,2,2 ],1,name,title).
+struct_dt_param_i([ 14,2,2 ],1,camelname,title).
+struct_dt_param_i([ 14,2,2 ],1,externalType,'').
+struct_dt_param_i([ 14,2,2 ],1,length,255).
+struct_dt_param_i([ 14,2,2 ],1,decimals,0).
+struct_dt_param_i([ 14,2,2 ],1,type,[ 5,255,0 ]).
+struct_dt_param_i([ 14,2,2 ],1,'ExoParamAccessType',in).
+struct_dt_param_i([ 14,2,2 ],1,'IntName',title).
+struct_dt_param_i([ 14,2,2 ],1,'ExoItemDesc','').
+struct_dt_param_i([ 14,2,2 ],1,'ExoItemType','Character').
+struct_dt_param_i([ 14,2,2 ],1,basedon,'').
+struct_dt_param_i([ 14,2,2 ],1,'ExoItemExtTypeCSHARP','').
+struct_dt_param_i([ 14,2,3 ],1,name,title).
+struct_dt_param_i([ 14,2,3 ],1,camelname,title).
+struct_dt_param_i([ 14,2,3 ],1,externalType,'').
+struct_dt_param_i([ 14,2,3 ],1,length,255).
+struct_dt_param_i([ 14,2,3 ],1,decimals,0).
+struct_dt_param_i([ 14,2,3 ],1,type,[ 5,255,0 ]).
+struct_dt_param_i([ 14,2,3 ],1,'ExoParamAccessType',in).
+struct_dt_param_i([ 14,2,3 ],1,'IntName',title).
+struct_dt_param_i([ 14,2,3 ],1,'ExoItemDesc','').
+struct_dt_param_i([ 14,2,3 ],1,'ExoItemType','Character').
+struct_dt_param_i([ 14,2,3 ],1,basedon,'').
+struct_dt_param_i([ 14,2,3 ],1,'ExoItemExtTypeCSHARP','').
+struct_dt_param_i([ 14,2,3 ],2,name,description).
+struct_dt_param_i([ 14,2,3 ],2,camelname,description).
+struct_dt_param_i([ 14,2,3 ],2,externalType,'').
+struct_dt_param_i([ 14,2,3 ],2,length,255).
+struct_dt_param_i([ 14,2,3 ],2,decimals,0).
+struct_dt_param_i([ 14,2,3 ],2,type,[ 5,255,0 ]).
+struct_dt_param_i([ 14,2,3 ],2,'ExoParamAccessType',in).
+struct_dt_param_i([ 14,2,3 ],2,'IntName',description).
+struct_dt_param_i([ 14,2,3 ],2,'ExoItemDesc','').
+struct_dt_param_i([ 14,2,3 ],2,'ExoItemType','Character').
+struct_dt_param_i([ 14,2,3 ],2,basedon,'').
+struct_dt_param_i([ 14,2,3 ],2,'ExoItemExtTypeCSHARP','').
+ 
+ 
+ 
+sub_info_i(146,'SDComentarios_Level_Detail_Grid2',0,0,[ [ 'Gxid','Gxwebsession','Um_GXI','Dois_GXI','Tres_GXI','Quatro_GXI','Cinco_GXI' ],[ 'Gxids','Nota','Um','Dois','Tres','Quatro','Cinco','GXM2SDComentarios_Level_Detail_Grid2Sdt','GXM3RootCol','Gxwebsession' ] ]).
+ 
+ 
+pgm_callprotocol_i(mnproc,0,'SDCOMENTARIOS_LEVEL_DETAIL_GRID2','INTERNAL').
+ 
+ 
+ 
+ 
+module_info_i('GeneXus\Common\UI','CSHARP_NAME_SPACE','GeneXus.Core').
+module_info_i('GeneXus\Common\UI','AssemblyName','GeneXus.dll').
+ 
+ 
+service_i(input,[ [] ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

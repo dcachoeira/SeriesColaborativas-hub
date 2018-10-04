@@ -1,0 +1,170 @@
+ 
+spec_i([ sdt,[ 14,85,0 ],'GAMSessionRole','GAMSessionRole',0,por,'15_0_9-121631' ]).
+ 
+struct_dt_i([ 14,85,0 ],name,'GAMSessionRole').
+struct_dt_i([ 14,85,0 ],'ObjName','GAMSessionRole').
+struct_dt_i([ 14,85,0 ],'ObjDesc','GAMSession Role').
+struct_dt_i([ 14,85,0 ],'ExoType','0').
+struct_dt_i([ 14,85,0 ],'ObjNamespace','Artech.Security').
+struct_dt_i([ 14,85,0 ],'ExoImporterVersion','').
+struct_dt_i([ 14,85,0 ],'ExoSourceURI','').
+struct_dt_i([ 14,85,0 ],'ExoNameCSHARP','GAMSessionRole').
+struct_dt_i([ 14,85,0 ],'AssemblyName','Artech.Security.dll').
+struct_dt_i([ 14,85,0 ],'ExoConstructorParametersCSHARP',context).
+struct_dt_i([ 14,85,0 ],'PackageName','artech.security').
+struct_dt_i([ 14,85,0 ],'RequireName','').
+struct_dt_i([ 14,85,0 ],'ExoNameJS','').
+struct_dt_i([ 14,85,0 ],'ExoReferencedFilesJS','').
+struct_dt_i([ 14,85,0 ],'Folder',o(8,'GAM_Library')).
+struct_dt_i([ 14,85,0 ],'FullyQualifiedName','GAMSessionRole').
+struct_dt_i([ 14,85,0 ],'ObjectVisibility','Public').
+struct_dt_i([ 14,85,0 ],fullname,'GAMSessionRole').
+struct_dt_i([ 14,85,0 ],modified,yes).
+ 
+struct_dt_elem_i([ 14,85,0 ],1,name,'Id').
+struct_dt_elem_i([ 14,85,0 ],1,camelname,'Id').
+struct_dt_elem_i([ 14,85,0 ],1,externalType,'').
+struct_dt_elem_i([ 14,85,0 ],1,length,12).
+struct_dt_elem_i([ 14,85,0 ],1,decimals,0).
+struct_dt_elem_i([ 14,85,0 ],1,sign,0).
+struct_dt_elem_i([ 14,85,0 ],1,type,[ 4,12,0 ]).
+struct_dt_elem_i([ 14,85,0 ],1,'ExoPropAccessType',idGetSet).
+struct_dt_elem_i([ 14,85,0 ],1,'IntName','Id').
+struct_dt_elem_i([ 14,85,0 ],1,'ExoItemDesc','Role identification').
+struct_dt_elem_i([ 14,85,0 ],1,'ExoItemType','Numeric').
+struct_dt_elem_i([ 14,85,0 ],1,basedon,92).
+struct_dt_elem_i([ 14,85,0 ],1,'ExoMethodIsStatic','0').
+struct_dt_elem_i([ 14,85,0 ],1,'ExoExternalMember',idExoExternalMemberDefault).
+struct_dt_elem_i([ 14,85,0 ],1,'ControlType','2').
+struct_dt_elem_i([ 14,85,0 ],1,'InputType','0').
+struct_dt_elem_i([ 14,85,0 ],1,'ExoNameCSHARP','Id').
+struct_dt_elem_i([ 14,85,0 ],1,'ExoItemExtTypeCSHARP','System.Int64').
+struct_dt_elem_i([ 14,85,0 ],1,'ExoNameJS','').
+struct_dt_elem_i([ 14,85,0 ],2,name,'Guid').
+struct_dt_elem_i([ 14,85,0 ],2,camelname,'GUID').
+struct_dt_elem_i([ 14,85,0 ],2,externalType,'').
+struct_dt_elem_i([ 14,85,0 ],2,length,40).
+struct_dt_elem_i([ 14,85,0 ],2,decimals,0).
+struct_dt_elem_i([ 14,85,0 ],2,type,[ 5,40,0 ]).
+struct_dt_elem_i([ 14,85,0 ],2,'ExoPropAccessType',idGetSet).
+struct_dt_elem_i([ 14,85,0 ],2,'IntName','GUID').
+struct_dt_elem_i([ 14,85,0 ],2,'ExoItemDesc','GUID').
+struct_dt_elem_i([ 14,85,0 ],2,'ExoItemType','Character').
+struct_dt_elem_i([ 14,85,0 ],2,basedon,113).
+struct_dt_elem_i([ 14,85,0 ],2,'ExoMethodIsStatic','0').
+struct_dt_elem_i([ 14,85,0 ],2,'ExoExternalMember',idExoExternalMemberDefault).
+struct_dt_elem_i([ 14,85,0 ],2,'ControlType','2').
+struct_dt_elem_i([ 14,85,0 ],2,'InputType','0').
+struct_dt_elem_i([ 14,85,0 ],2,'EditAutocomplete','0').
+struct_dt_elem_i([ 14,85,0 ],2,'ExoNameCSHARP','GUID').
+struct_dt_elem_i([ 14,85,0 ],2,'ExoItemExtTypeCSHARP','System.String').
+struct_dt_elem_i([ 14,85,0 ],2,'ExoNameJS','').
+struct_dt_elem_i([ 14,85,0 ],3,name,'Name').
+struct_dt_elem_i([ 14,85,0 ],3,camelname,'Name').
+struct_dt_elem_i([ 14,85,0 ],3,externalType,'').
+struct_dt_elem_i([ 14,85,0 ],3,length,254).
+struct_dt_elem_i([ 14,85,0 ],3,decimals,0).
+struct_dt_elem_i([ 14,85,0 ],3,type,[ 5,254,0 ]).
+struct_dt_elem_i([ 14,85,0 ],3,'ExoPropAccessType',idGetSet).
+struct_dt_elem_i([ 14,85,0 ],3,'IntName','Name').
+struct_dt_elem_i([ 14,85,0 ],3,'ExoItemDesc','Name').
+struct_dt_elem_i([ 14,85,0 ],3,'ExoItemType','Character').
+struct_dt_elem_i([ 14,85,0 ],3,basedon,90).
+struct_dt_elem_i([ 14,85,0 ],3,'ExoMethodIsStatic','0').
+struct_dt_elem_i([ 14,85,0 ],3,'ExoExternalMember',idExoExternalMemberDefault).
+struct_dt_elem_i([ 14,85,0 ],3,'ControlType','2').
+struct_dt_elem_i([ 14,85,0 ],3,'InputType','0').
+struct_dt_elem_i([ 14,85,0 ],3,'EditAutocomplete','0').
+struct_dt_elem_i([ 14,85,0 ],3,'ExoNameCSHARP','Name').
+struct_dt_elem_i([ 14,85,0 ],3,'ExoItemExtTypeCSHARP','System.String').
+struct_dt_elem_i([ 14,85,0 ],3,'ExoNameJS','').
+struct_dt_elem_i([ 14,85,0 ],4,name,'Externalid').
+struct_dt_elem_i([ 14,85,0 ],4,camelname,'ExternalId').
+struct_dt_elem_i([ 14,85,0 ],4,externalType,'').
+struct_dt_elem_i([ 14,85,0 ],4,length,100).
+struct_dt_elem_i([ 14,85,0 ],4,decimals,60).
+struct_dt_elem_i([ 14,85,0 ],4,type,[ 13,100,60 ]).
+struct_dt_elem_i([ 14,85,0 ],4,'ExoPropAccessType',idGetSet).
+struct_dt_elem_i([ 14,85,0 ],4,'IntName','ExternalId').
+struct_dt_elem_i([ 14,85,0 ],4,'ExoItemDesc','External Identification').
+struct_dt_elem_i([ 14,85,0 ],4,'ExoItemType','VarChar').
+struct_dt_elem_i([ 14,85,0 ],4,basedon,96).
+struct_dt_elem_i([ 14,85,0 ],4,'ExoMethodIsStatic','0').
+struct_dt_elem_i([ 14,85,0 ],4,'ExoExternalMember',idExoExternalMemberDefault).
+struct_dt_elem_i([ 14,85,0 ],4,'ControlType','2').
+struct_dt_elem_i([ 14,85,0 ],4,'InputType','0').
+struct_dt_elem_i([ 14,85,0 ],4,'EditAutocomplete','0').
+struct_dt_elem_i([ 14,85,0 ],4,'ExoNameCSHARP','ExternalId').
+struct_dt_elem_i([ 14,85,0 ],4,'ExoItemExtTypeCSHARP','System.String').
+struct_dt_elem_i([ 14,85,0 ],4,'ExoNameJS','').
+ 
+struct_dt_method_i([ 14,85,0 ],1,name,tostring).
+struct_dt_method_i([ 14,85,0 ],1,camelname,'ToString').
+struct_dt_method_i([ 14,85,0 ],1,externalType,'').
+struct_dt_method_i([ 14,85,0 ],1,length,9999).
+struct_dt_method_i([ 14,85,0 ],1,decimals,0).
+struct_dt_method_i([ 14,85,0 ],1,type,[ 5,9999,0 ]).
+struct_dt_method_i([ 14,85,0 ],1,'IntName','ToString').
+struct_dt_method_i([ 14,85,0 ],1,'ExoItemDesc','').
+struct_dt_method_i([ 14,85,0 ],1,'ExoItemType','Character').
+struct_dt_method_i([ 14,85,0 ],1,basedon,'').
+struct_dt_method_i([ 14,85,0 ],1,'XmlName','ToString').
+struct_dt_method_i([ 14,85,0 ],1,'ExoMethodIsStatic','0').
+struct_dt_method_i([ 14,85,0 ],1,'ExoExternalMember',idExoExternalMemberDefault).
+struct_dt_method_i([ 14,85,0 ],1,'ExoNameCSHARP','ToString').
+struct_dt_method_i([ 14,85,0 ],1,'ExoItemExtTypeCSHARP','').
+struct_dt_method_i([ 14,85,0 ],1,'ExoMethodThrows','NO').
+struct_dt_method_i([ 14,85,0 ],1,'ExoNameJS','').
+struct_dt_method_i([ 14,85,0 ],2,name,tojsonstring).
+struct_dt_method_i([ 14,85,0 ],2,camelname,'ToJsonString').
+struct_dt_method_i([ 14,85,0 ],2,externalType,'').
+struct_dt_method_i([ 14,85,0 ],2,length,9999).
+struct_dt_method_i([ 14,85,0 ],2,decimals,0).
+struct_dt_method_i([ 14,85,0 ],2,type,[ 5,9999,0 ]).
+struct_dt_method_i([ 14,85,0 ],2,'IntName','ToJsonString').
+struct_dt_method_i([ 14,85,0 ],2,'ExoItemDesc','').
+struct_dt_method_i([ 14,85,0 ],2,'ExoItemType','Character').
+struct_dt_method_i([ 14,85,0 ],2,basedon,'').
+struct_dt_method_i([ 14,85,0 ],2,'XmlName','ToJsonString').
+struct_dt_method_i([ 14,85,0 ],2,'ExoMethodIsStatic','0').
+struct_dt_method_i([ 14,85,0 ],2,'ExoExternalMember',idExoExternalMemberDefault).
+struct_dt_method_i([ 14,85,0 ],2,'ExoNameCSHARP','ToJsonString').
+struct_dt_method_i([ 14,85,0 ],2,'ExoItemExtTypeCSHARP','').
+struct_dt_method_i([ 14,85,0 ],2,'ExoMethodThrows','NO').
+struct_dt_method_i([ 14,85,0 ],2,'ExoNameJS','').
+struct_dt_method_i([ 14,85,0 ],3,name,fromjsonstring).
+struct_dt_method_i([ 14,85,0 ],3,camelname,'FromJsonString').
+struct_dt_method_i([ 14,85,0 ],3,externalType,'').
+struct_dt_method_i([ 14,85,0 ],3,length,8).
+struct_dt_method_i([ 14,85,0 ],3,decimals,0).
+struct_dt_method_i([ 14,85,0 ],3,type,[ 15,8,0 ]).
+struct_dt_method_i([ 14,85,0 ],3,'IntName','FromJsonString').
+struct_dt_method_i([ 14,85,0 ],3,'ExoItemDesc','').
+struct_dt_method_i([ 14,85,0 ],3,'ExoItemType','Boolean').
+struct_dt_method_i([ 14,85,0 ],3,basedon,'').
+struct_dt_method_i([ 14,85,0 ],3,'XmlName','FromJsonString').
+struct_dt_method_i([ 14,85,0 ],3,'ExoMethodIsStatic','0').
+struct_dt_method_i([ 14,85,0 ],3,'ExoExternalMember',idExoExternalMemberDefault).
+struct_dt_method_i([ 14,85,0 ],3,'ExoNameCSHARP','FromJsonString').
+struct_dt_method_i([ 14,85,0 ],3,'ExoItemExtTypeCSHARP',bool).
+struct_dt_method_i([ 14,85,0 ],3,'ExoMethodThrows','NO').
+struct_dt_method_i([ 14,85,0 ],3,'ExoNameJS','').
+ 
+struct_dt_param_i([ 14,85,3 ],1,name,json).
+struct_dt_param_i([ 14,85,3 ],1,camelname,'Json').
+struct_dt_param_i([ 14,85,3 ],1,externalType,'').
+struct_dt_param_i([ 14,85,3 ],1,length,9999).
+struct_dt_param_i([ 14,85,3 ],1,decimals,0).
+struct_dt_param_i([ 14,85,3 ],1,type,[ 5,9999,0 ]).
+struct_dt_param_i([ 14,85,3 ],1,'ExoParamAccessType',in).
+struct_dt_param_i([ 14,85,3 ],1,'IntName','Json').
+struct_dt_param_i([ 14,85,3 ],1,'ExoItemDesc','').
+struct_dt_param_i([ 14,85,3 ],1,'ExoItemType','Character').
+struct_dt_param_i([ 14,85,3 ],1,basedon,'').
+struct_dt_param_i([ 14,85,3 ],1,'ExoItemExtTypeCSHARP',string).
+ 
+ 
+ 
+ 
+module_info_i('GeneXus','CSHARP_NAME_SPACE','GeneXus.Core').
+module_info_i('GeneXus','AssemblyName','GeneXus.dll').

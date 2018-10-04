@@ -1,0 +1,34 @@
+
+<SdtSpec>
+<mainid>[ 26,1000000,0 ]</mainid>
+<Level>
+<id>[ 26,1000000,0 ]</id>
+<name>SdSeries_SdSeries_ListSdt</name>
+<camelname>SdSeries_SdSeries_ListSdt</camelname>
+<camelnameex>SdSeries_SdSeries_ListSdt</camelnameex>
+<collection>False</collection>
+<wwsd_sdt>True</wwsd_sdt>
+<fullname>SdSeries_SdSeries_ListSdt</fullname>
+<members>
+<member>
+<name>Gxdynprop</name>
+<camelname>Gxdynprop</camelname>
+<type>[ 5,2,0 ]</type>
+<length>2</length>
+<decimals>0</decimals>
+<sign>0</sign>
+<collection>False</collection>
+<islevel>False</islevel></member></members></Level>
+<Variables>
+<Variable>
+<name>Confirmou</name>
+<type>[ 4,10,2 ]</type>
+<length>10</length>
+<decimals>2</decimals>
+<sign>1</sign>
+<collection>False</collection></Variable></Variables>
+<Prompts></Prompts>
+<TableAccess></TableAccess>
+<XRef></XRef>
+<Input>
+<Parm></Parm></Input></SdtSpec>

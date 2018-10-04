@@ -1,0 +1,7 @@
+#Wed Oct 03 17:53:15 BRT 2018
+base.0=C\:\\Models\\SeriesColaborativas\\CSharpModel\\mobile\\Android\\SeriesColaborativas\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+path.1=classes2.dex
+renamed.1=classes2.dex
+path.0=classes.dex
+renamed.0=classes.dex
+base.1=C\:\\Models\\SeriesColaborativas\\CSharpModel\\mobile\\Android\\SeriesColaborativas\\build\\intermediates\\transforms\\dexMerger\\debug\\0

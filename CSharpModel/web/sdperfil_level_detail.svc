@@ -1,0 +1,1 @@
+<%@ServiceHost Service= "GeneXus.Programs.sdperfil_level_detail_services,sdperfil_level_detail" %>

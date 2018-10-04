@@ -1,0 +1,108 @@
+{ 
+    "ResourcesLocation" : "Resources",
+    "Language" : "Portuguese",
+    "Theme" : "CarmineAndroid",
+    "Images" : [ { 
+        "Name" : "LOGO1",
+        "Type" : "I",
+        "Guid" : "5750c5e8-b561-4dfe-a06f-3f4cced32420",
+        "Location" : "LOGO1.PNG",
+        "RenderingMode" : "automatic"
+    }, { 
+        "Name" : "Group",
+        "Type" : "I",
+        "Guid" : "429d6190-65aa-4257-86db-fce0370ff650",
+        "Location" : "CarmineAndroid/Group.png",
+        "RenderingMode" : "automatic"
+    }, { 
+        "Name" : "Star",
+        "Type" : "I",
+        "Guid" : "36fbff47-1ab6-4c69-a869-d775c2c91b99",
+        "Location" : "Star.png",
+        "RenderingMode" : "automatic"
+    }, { 
+        "Name" : "Share",
+        "Type" : "I",
+        "Guid" : "99496e99-8784-48ce-a4f7-72dcc1ae0c8c",
+        "Location" : "Share.png",
+        "RenderingMode" : "automatic"
+    }, { 
+        "Name" : "Tv",
+        "Type" : "I",
+        "Guid" : "451cf230-8c7c-4f17-8440-ff7c487b2ad9",
+        "Location" : "Tv.png",
+        "RenderingMode" : "automatic"
+    }, { 
+        "Name" : "notification",
+        "Type" : "I",
+        "Guid" : "85ea3b65-001f-40ef-a12f-5719f9a3bd91",
+        "Location" : "notification.png",
+        "RenderingMode" : "automatic"
+    }, { 
+        "Name" : "ranking",
+        "Type" : "I",
+        "Guid" : "03a32ad3-5121-4531-8470-3b3099f7f3a6",
+        "Location" : "ranking.png",
+        "RenderingMode" : "automatic"
+    }, { 
+        "Name" : "list",
+        "Type" : "I",
+        "Guid" : "c3373316-2bda-4771-acaa-b72e0d0572d5",
+        "Location" : "list.png",
+        "RenderingMode" : "automatic"
+    }, { 
+        "Name" : "user",
+        "Type" : "I",
+        "Guid" : "0b778396-f343-4c8f-a908-99cfe713fad0",
+        "Location" : "user.png",
+        "RenderingMode" : "automatic"
+    }, { 
+        "Name" : "starBlack",
+        "Type" : "I",
+        "Guid" : "78937a91-2c51-4be9-92b2-23180713b984",
+        "Location" : "starBlack.png",
+        "RenderingMode" : "automatic"
+    }, { 
+        "Name" : "TvNOK",
+        "Type" : "I",
+        "Guid" : "df8aee37-3ddd-479f-a9aa-1c4957c02e0a",
+        "Location" : "TvNOK.png",
+        "RenderingMode" : "automatic"
+    }, { 
+        "Name" : "Anotacao",
+        "Type" : "I",
+        "Guid" : "4c78f2e7-3088-4155-9eb9-d8bbdaebfaac",
+        "Location" : "Anotacao.png",
+        "RenderingMode" : "automatic"
+    }, { 
+        "Name" : "I1",
+        "Type" : "I",
+        "Guid" : "5a027831-0433-44a2-82ab-8d53ec2e4730",
+        "Location" : "I1.png",
+        "RenderingMode" : "automatic"
+    }, { 
+        "Name" : "I2",
+        "Type" : "I",
+        "Guid" : "9c2a164a-b79b-43f6-93f8-505ed5fdba7a",
+        "Location" : "I2.png",
+        "RenderingMode" : "automatic"
+    }, { 
+        "Name" : "I3",
+        "Type" : "I",
+        "Guid" : "52d99c2e-f27d-4bd0-9752-be241920135e",
+        "Location" : "I3.png",
+        "RenderingMode" : "automatic"
+    }, { 
+        "Name" : "I4",
+        "Type" : "I",
+        "Guid" : "1f424a33-0d54-4e16-bc9f-0647b5704ad0",
+        "Location" : "I4.png",
+        "RenderingMode" : "automatic"
+    }, { 
+        "Name" : "I5",
+        "Type" : "I",
+        "Guid" : "1613f2f4-b97d-45f1-aa37-de76245910c5",
+        "Location" : "I5.png",
+        "RenderingMode" : "automatic"
+    } ]
+}

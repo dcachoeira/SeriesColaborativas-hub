@@ -1,0 +1,1 @@
+<%@ServiceHost Service= "GeneXus.Programs.sdranking_level_detail_grid1_services,sdranking_level_detail_grid1" %>

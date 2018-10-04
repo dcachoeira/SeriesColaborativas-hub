@@ -1,0 +1,8 @@
+[
+  {
+    "Name": "home_Execute",
+    "Description": "WWP_HomeTitle",
+    "ProgramName": "wwpbaseobjects.home",
+    "IsGXAutomatic": true
+  }
+]

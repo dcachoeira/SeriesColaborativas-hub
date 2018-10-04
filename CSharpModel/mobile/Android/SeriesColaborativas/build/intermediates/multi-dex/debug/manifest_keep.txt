@@ -1,0 +1,3 @@
+# Referenced at C:\Models\SeriesColaborativas\CSharpModel\mobile\Android\SeriesColaborativas\build\intermediates\manifests\full\debug\AndroidManifest.xml:29
+-keep class com.artech.seriescolaborativas.seriescolaborativas.MainApplication { <init>(...); }
+

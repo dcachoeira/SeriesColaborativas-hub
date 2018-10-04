@@ -1,0 +1,45 @@
+
+<SdtSpec>
+<mainid>[ 26,1000000,0 ]</mainid>
+<Level>
+<id>[ 26,1000000,0 ]</id>
+<name>SDSerie_Level_Detail_GridEpisodiosSdt</name>
+<camelname>SDSerie_Level_Detail_GridEpisodiosSdt</camelname>
+<camelnameex>SDSerie_Level_Detail_GridEpisodiosSdt</camelnameex>
+<collection>True</collection>
+<datatype>[ 26,1000000,1 ]</datatype>
+<wwsd_sdt>True</wwsd_sdt>
+<fullname>SDSerie_Level_Detail_GridEpisodiosSdt</fullname></Level>
+<Level>
+<id>[ 26,1000000,1 ]</id>
+<name>Item</name>
+<camelname>Item</camelname>
+<camelnameex>Item</camelnameex>
+<fullname>SDSerie_Level_Detail_GridEpisodiosSdt.Item</fullname>
+<members>
+<member>
+<name>Gxdynprop</name>
+<camelname>Gxdynprop</camelname>
+<type>[ 5,2,0 ]</type>
+<length>2</length>
+<decimals>0</decimals>
+<sign>0</sign>
+<collection>False</collection>
+<islevel>False</islevel></member></members></Level>
+<Prompts></Prompts>
+<TableAccess>
+<Table>
+<Id>2</Id>
+<Name>Episodio</Name>
+<Read>y</Read>
+<Insert>n</Insert>
+<Update>n</Update>
+<Delete>n</Delete>
+<IsBase>y</IsBase></Table></TableAccess>
+<XRef>
+<Object>
+<Class>1</Class>
+<Id>39</Id>
+<Guid>adf9cb29-51c5-4dc7-a279-064d2e755f9e</Guid></Object></XRef>
+<Input>
+<Parm></Parm></Input></SdtSpec>

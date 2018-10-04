@@ -1,0 +1,8 @@
+[
+  {
+    "Name": "gamsecuritypolicyentry_Execute",
+    "Description": "Security Policy ",
+    "ProgramName": "gamsecuritypolicyentry",
+    "IsGXAutomatic": true
+  }
+]

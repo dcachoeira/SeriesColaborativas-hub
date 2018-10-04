@@ -1,0 +1,1 @@
+<%@ServiceHost Service= "GeneXus.Programs.notificacao_bc_services,notificacao_bc" %>

@@ -1,0 +1,77 @@
+ 
+spec_i([ sdt,[ 26,1000000,0 ],'WorkWithDevicesNotificacao_Notificacao_Section_GeneralSdt','WorkWithDevicesNotificacao_Notificacao_Section_GeneralSdt',0,por,'15_0_9-121631' ]).
+ 
+struct_dt_i([ 26,1000000,0 ],name,'WorkWithDevicesNotificacao_Notificacao_Section_GeneralSdt').
+struct_dt_i([ 26,1000000,0 ],camelname,'WorkWithDevicesNotificacao_Notificacao_Section_GeneralSdt').
+struct_dt_i([ 26,1000000,0 ],camelnameex,'WorkWithDevicesNotificacao_Notificacao_Section_GeneralSdt').
+struct_dt_i([ 26,1000000,0 ],collection,'False').
+struct_dt_i([ 26,1000000,0 ],wwsd_sdt,'True').
+struct_dt_i([ 26,1000000,0 ],panel,[ 'Notificacao.Section.General' ]).
+struct_dt_i([ 26,1000000,0 ],key,[ 6,[ 23 ],[ 6,1,'Notificacao' ] ]).
+struct_dt_i([ 26,1000000,0 ],fullname,'WorkWithDevicesNotificacao_Notificacao_Section_GeneralSdt').
+ 
+struct_dt_elem_i([ 26,1000000,0 ],1,name,'Notificacaoid').
+struct_dt_elem_i([ 26,1000000,0 ],1,camelname,'NotificacaoId').
+struct_dt_elem_i([ 26,1000000,0 ],1,type,[ 4,18,0 ]).
+struct_dt_elem_i([ 26,1000000,0 ],1,length,18).
+struct_dt_elem_i([ 26,1000000,0 ],1,decimals,0).
+struct_dt_elem_i([ 26,1000000,0 ],1,sign,0).
+struct_dt_elem_i([ 26,1000000,0 ],1,collection,'False').
+struct_dt_elem_i([ 26,1000000,0 ],1,islevel,'False').
+struct_dt_elem_i([ 26,1000000,0 ],2,name,'Usuarioid').
+struct_dt_elem_i([ 26,1000000,0 ],2,camelname,'UsuarioId').
+struct_dt_elem_i([ 26,1000000,0 ],2,type,[ 4,18,0 ]).
+struct_dt_elem_i([ 26,1000000,0 ],2,length,18).
+struct_dt_elem_i([ 26,1000000,0 ],2,decimals,0).
+struct_dt_elem_i([ 26,1000000,0 ],2,sign,0).
+struct_dt_elem_i([ 26,1000000,0 ],2,collection,'False').
+struct_dt_elem_i([ 26,1000000,0 ],2,islevel,'False').
+struct_dt_elem_i([ 26,1000000,0 ],3,name,'Notificacaotipo').
+struct_dt_elem_i([ 26,1000000,0 ],3,camelname,'NotificacaoTipo').
+struct_dt_elem_i([ 26,1000000,0 ],3,type,[ 4,4,0 ]).
+struct_dt_elem_i([ 26,1000000,0 ],3,length,4).
+struct_dt_elem_i([ 26,1000000,0 ],3,decimals,0).
+struct_dt_elem_i([ 26,1000000,0 ],3,sign,0).
+struct_dt_elem_i([ 26,1000000,0 ],3,collection,'False').
+struct_dt_elem_i([ 26,1000000,0 ],3,islevel,'False').
+struct_dt_elem_i([ 26,1000000,0 ],3,basedon,182).
+struct_dt_elem_i([ 26,1000000,0 ],4,name,'Notificacaotexto').
+struct_dt_elem_i([ 26,1000000,0 ],4,camelname,'NotificacaoTexto').
+struct_dt_elem_i([ 26,1000000,0 ],4,type,[ 13,300,0 ]).
+struct_dt_elem_i([ 26,1000000,0 ],4,length,300).
+struct_dt_elem_i([ 26,1000000,0 ],4,decimals,0).
+struct_dt_elem_i([ 26,1000000,0 ],4,sign,0).
+struct_dt_elem_i([ 26,1000000,0 ],4,collection,'False').
+struct_dt_elem_i([ 26,1000000,0 ],4,islevel,'False').
+struct_dt_elem_i([ 26,1000000,0 ],5,name,'Notificacaoligacaoid').
+struct_dt_elem_i([ 26,1000000,0 ],5,camelname,'NotificacaoLigacaoId').
+struct_dt_elem_i([ 26,1000000,0 ],5,type,[ 4,18,0 ]).
+struct_dt_elem_i([ 26,1000000,0 ],5,length,18).
+struct_dt_elem_i([ 26,1000000,0 ],5,decimals,0).
+struct_dt_elem_i([ 26,1000000,0 ],5,sign,0).
+struct_dt_elem_i([ 26,1000000,0 ],5,collection,'False').
+struct_dt_elem_i([ 26,1000000,0 ],5,islevel,'False').
+struct_dt_elem_i([ 26,1000000,0 ],6,name,'Notificacaodatahoraenvio').
+struct_dt_elem_i([ 26,1000000,0 ],6,camelname,'NotificacaoDataHoraEnvio').
+struct_dt_elem_i([ 26,1000000,0 ],6,type,[ 12,8,5 ]).
+struct_dt_elem_i([ 26,1000000,0 ],6,length,8).
+struct_dt_elem_i([ 26,1000000,0 ],6,decimals,5).
+struct_dt_elem_i([ 26,1000000,0 ],6,sign,0).
+struct_dt_elem_i([ 26,1000000,0 ],6,collection,'False').
+struct_dt_elem_i([ 26,1000000,0 ],6,islevel,'False').
+struct_dt_elem_i([ 26,1000000,0 ],1,attributeid,'23').
+struct_dt_elem_i([ 26,1000000,0 ],2,attributeid,'11').
+struct_dt_elem_i([ 26,1000000,0 ],3,attributeid,'24').
+struct_dt_elem_i([ 26,1000000,0 ],4,attributeid,'25').
+struct_dt_elem_i([ 26,1000000,0 ],5,attributeid,'61').
+struct_dt_elem_i([ 26,1000000,0 ],6,attributeid,'26').
+ 
+ 
+ 
+ 
+enum_value_i(2,182,'1','Conquista','"Conquista"',[ none ]).
+ 
+enum_value_info_i(2,182,'TipoNotificacao').
+ 
+module_info_i('GeneXus\SD','CSHARP_NAME_SPACE','GeneXus.Core').
+module_info_i('GeneXus\SD','AssemblyName','GeneXus.dll').

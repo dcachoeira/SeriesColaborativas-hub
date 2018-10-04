@@ -1,0 +1,54 @@
+ 
+spec_i([ sdt,[ 26,1000000,0 ],'Gx0070sd_Level_Detail_Grid1Sdt','Gx0070sd_Level_Detail_Grid1Sdt',0,por,'15_0_9-121631' ]).
+ 
+struct_dt_i([ 26,1000000,0 ],name,'Gx0070sd_Level_Detail_Grid1Sdt').
+struct_dt_i([ 26,1000000,0 ],camelname,'Gx0070sd_Level_Detail_Grid1Sdt').
+struct_dt_i([ 26,1000000,0 ],camelnameex,'Gx0070sd_Level_Detail_Grid1Sdt').
+struct_dt_i([ 26,1000000,1 ],name,'Item').
+struct_dt_i([ 26,1000000,1 ],camelname,'Item').
+struct_dt_i([ 26,1000000,1 ],camelnameex,'Item').
+struct_dt_i([ 26,1000000,0 ],collection,'True').
+struct_dt_i([ 26,1000000,0 ],datatype,[ 26,1000000,1 ]).
+struct_dt_i([ 26,1000000,0 ],wwsd_sdt,'True').
+struct_dt_i([ 26,1000000,0 ],panel,[ 'Level.Detail' ]).
+struct_dt_i([ 26,1000000,0 ],key,[ 7,[ 27 ],[] ]).
+struct_dt_i([ 26,1000000,1 ],fullname,'Gx0070sd_Level_Detail_Grid1Sdt.Item').
+struct_dt_i([ 26,1000000,0 ],fullname,'Gx0070sd_Level_Detail_Grid1Sdt').
+ 
+struct_dt_elem_i([ 26,1000000,1 ],1,name,'Conquistaid').
+struct_dt_elem_i([ 26,1000000,1 ],1,camelname,'ConquistaId').
+struct_dt_elem_i([ 26,1000000,1 ],1,type,[ 4,18,0 ]).
+struct_dt_elem_i([ 26,1000000,1 ],1,length,18).
+struct_dt_elem_i([ 26,1000000,1 ],1,decimals,0).
+struct_dt_elem_i([ 26,1000000,1 ],1,sign,0).
+struct_dt_elem_i([ 26,1000000,1 ],1,collection,'False').
+struct_dt_elem_i([ 26,1000000,1 ],1,islevel,'False').
+struct_dt_elem_i([ 26,1000000,1 ],2,name,'Conquistapontos').
+struct_dt_elem_i([ 26,1000000,1 ],2,camelname,'ConquistaPontos').
+struct_dt_elem_i([ 26,1000000,1 ],2,type,[ 4,4,0 ]).
+struct_dt_elem_i([ 26,1000000,1 ],2,length,4).
+struct_dt_elem_i([ 26,1000000,1 ],2,decimals,0).
+struct_dt_elem_i([ 26,1000000,1 ],2,sign,0).
+struct_dt_elem_i([ 26,1000000,1 ],2,collection,'False').
+struct_dt_elem_i([ 26,1000000,1 ],2,islevel,'False').
+struct_dt_elem_i([ 26,1000000,1 ],3,name,'Conquistanome').
+struct_dt_elem_i([ 26,1000000,1 ],3,camelname,'ConquistaNome').
+struct_dt_elem_i([ 26,1000000,1 ],3,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 26,1000000,1 ],3,length,40).
+struct_dt_elem_i([ 26,1000000,1 ],3,decimals,0).
+struct_dt_elem_i([ 26,1000000,1 ],3,sign,0).
+struct_dt_elem_i([ 26,1000000,1 ],3,collection,'False').
+struct_dt_elem_i([ 26,1000000,1 ],3,islevel,'False').
+struct_dt_elem_i([ 26,1000000,1 ],1,attributeid,'27').
+struct_dt_elem_i([ 26,1000000,1 ],2,attributeid,'28').
+struct_dt_elem_i([ 26,1000000,1 ],3,attributeid,'29').
+ 
+ 
+ 
+ 
+enum_value_i(2,186,'1','QuantidadeSeries','"Quantidade de séries"',[ none ]).
+enum_value_i(2,186,'2','QuantidadeMinutos','"Quantidade de minutos"',[ none ]).
+enum_value_i(2,186,'3','QuantidadeEpisodios','"Quantidade de episódios"',[ none ]).
+ 
+enum_value_info_i(2,186,'TipoConquista').
+ 

@@ -1,0 +1,30 @@
+
+<SdtSpec>
+<mainid>[ 26,1000000,0 ]</mainid>
+<Level>
+<id>[ 26,1000000,0 ]</id>
+<name>WorkWithDevicesUsuarioConquista_UsuarioConquista_ListSdt</name>
+<camelname>WorkWithDevicesUsuarioConquista_UsuarioConquista_ListSdt</camelname>
+<camelnameex>WorkWithDevicesUsuarioConquista_UsuarioConquista_ListSdt</camelnameex>
+<collection>False</collection>
+<wwsd_sdt>True</wwsd_sdt>
+<fullname>WorkWithDevicesUsuarioConquista_UsuarioConquista_ListSdt</fullname>
+<members>
+<member>
+<name>Gxdynprop</name>
+<camelname>Gxdynprop</camelname>
+<type>[ 5,2,0 ]</type>
+<length>2</length>
+<decimals>0</decimals>
+<sign>0</sign>
+<collection>False</collection>
+<islevel>False</islevel></member></members></Level>
+<Prompts></Prompts>
+<TableAccess></TableAccess>
+<XRef>
+<Object>
+<Class>1</Class>
+<Id>62</Id>
+<Guid>59a106ad-b556-47cb-867c-6aa5dc945681</Guid></Object></XRef>
+<Input>
+<Parm></Parm></Input></SdtSpec>

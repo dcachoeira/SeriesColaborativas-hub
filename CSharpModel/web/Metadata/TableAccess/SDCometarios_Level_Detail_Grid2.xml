@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="name" name="SDCometarios_Level_Detail_Grid2">
+  <Table name="Usuario" />
+  <Table name="UsuarioSerie" />
+  <Table name="UsuarioEpisodio" />
+  <Table name="Serie" />
+  <Table name="Episodio" />
+</Dependencies>

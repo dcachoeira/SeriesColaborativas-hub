@@ -1,0 +1,24 @@
+
+<ObjectSpec>
+<SpecVersion>15_0_9-121631</SpecVersion>
+<Object>
+<ObjClsGuid>15cf49b5-fc38-4899-91b5-395d02d79889</ObjClsGuid>
+<ObjCls>35</ObjCls>
+<ObjId>3</ObjId>
+<ObjName>WorkWithDevicesSerieFavoritas</ObjName>
+<ObjDesc>Minhas séries</ObjDesc>
+<ObjPgmName>WorkWithDevicesSerieFavoritas</ObjPgmName>
+<ObjClsName>WorkWith Devices</ObjClsName>
+<Objects></Objects></Object>
+<Result>nogenspc</Result>
+<Warnings>
+<Warning>
+<MsgCode>spc0217</MsgCode>
+<Message>
+<Token>Object is unreachable.</Token></Message></Warning></Warnings>
+<Errors></Errors>
+<Generator>
+<GenId>15</GenId>
+<GenName>Default (C#)</GenName></Generator>
+<FormClass>HTML</FormClass>
+<Parameters></Parameters></ObjectSpec>

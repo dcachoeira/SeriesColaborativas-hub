@@ -1,0 +1,503 @@
+spec_i([ proc,50,'Obter SDTRanking Conquista','ObterSDTRankingConquista',78,por,'15_0_9-121631' ]).
+ 
+struct_i(3,1,[],[]).
+struct_i(2,1,[],[]).
+ 
+level_i(3,[ 8,[ [ 8,many ],[ 3,one ],[ 7,one ] ],[],[],[ [ [ 8,3,7 ],[ 11,12,28,27 ] ] ],[ [ [ 8,3,7 ],[] ] ],[ 30 ],'IUSUARIOCONQUISTA',[],[] ]).
+level_i(2,[ 8,[ [ 8,many ] ],[],[],[ [ [ 8 ],[ 11 ] ] ],[ [ [ 8 ],[] ] ],[ 11 ],'IUSUARIOCONQUISTA2',[],[] ]).
+ 
+tw_i(3,[ [ 3,[ [ 8,11,11 ] ] ],[ 7,[ [ 8,27,27 ] ] ] ]).
+tw_i(2,[]).
+ 
+lwi_i(3,[ [ c([ t(11,2),t(=,10),t([ t('Usuariosid',23),t('item(',1) ],31),t('I',23),t(')',4) ],[ 11 ]) ] ]).
+lwi_i(2,[ [] ]).
+ 
+ 
+ 
+level_option_i(3,usr_condition,y).
+level_option_i(2,distinct,of([ 11 ])).
+ 
+ta_i(3,[ [ [ 8,27 ],[ 8,11 ],[ 3,12 ],[ 7,28 ] ] ]).
+ta_i(2,[ [ [ 8,11 ] ] ]).
+ 
+las_i(3,[ [ 11,12,28,27 ] ]).
+las_i(2,[ [ 11 ] ]).
+ 
+lac_i(3,[ [] ]).
+lac_i(2,[ [] ]).
+ 
+ 
+ 
+ 
+ 
+ 
+default_i(e('Output',2,2,'''FIL''')).
+ 
+rule_i(0,datastore(2,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(2,'LOCK_RETRY','10')).
+rule_i(0,datastore(2,'WAIT_RECORD','0')).
+rule_i(0,datastore(2,'SQLSERVER_VERSION','10')).
+rule_i(0,datastore(2,'COMMENT_ON','No')).
+rule_i(0,datastore(2,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(2,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(2,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(2,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(2,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(2,'CS_SCHEMA',gam)).
+rule_i(0,datastore(2,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(2,'JRN400','QSQJRN')).
+rule_i(0,datastore(2,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(2,'PGMLIB','')).
+rule_i(0,datastore(2,'DTALIB','')).
+rule_i(0,datastore(2,'CC_USER_PASS',wp„ÄsÁ¹)).
+rule_i(0,datastore(2,'CC_USER_ID',sa)).
+rule_i(0,datastore(2,'CC_SERVER',localhost)).
+rule_i(0,datastore(2,'CC_DBNAME','SeriesColaborativas')).
+rule_i(0,datastore(2,'RecycleRWMin','30')).
+rule_i(0,datastore(2,'RecycleRWType','1')).
+rule_i(0,datastore(2,'RecycleRW','-1')).
+rule_i(0,datastore(2,'POOL_STARTUP','No')).
+rule_i(0,datastore(2,'POOLSIZE_RW','10')).
+rule_i(0,datastore(2,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(2,'PoolRWEnabled','-1')).
+rule_i(0,datastore(2,'CS_RPCPGML','')).
+rule_i(0,datastore(2,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(2,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(2,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(2,'USER_PASSWORD','gnxÔ.“êâ¿')).
+rule_i(0,datastore(2,'USER_ID',sa)).
+rule_i(0,datastore(2,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(2,'CS_CONNECT','First')).
+rule_i(0,datastore(2,'DBMS_PORT','')).
+rule_i(0,datastore(2,'CS_SERVER',localhost)).
+rule_i(0,datastore(2,'CS_DBNAME','SeriesColaborativas')).
+rule_i(0,datastore(2,'CS_FLEDSNAME','')).
+rule_i(0,datastore(2,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(2,'CS_DSNAME','')).
+rule_i(0,datastore(2,'DB_URL','')).
+rule_i(0,datastore(2,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(2,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(2,'JDBC_DRIVER','net.sourceforge.jtds.jdbc.Driver')).
+rule_i(0,datastore(2,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(2,'ACCESS_TECHNO','ADONET')).
+rule_i(0,datastore(2,'MAIN_DS','-1')).
+rule_i(0,datastore(2,'REORG_GEN','8')).
+rule_i(0,datastore(2,'HelpKeyword','23')).
+rule_i(0,datastore(2,'DBMS',12)).
+rule_i(0,datastore(2,'NAME','GAM')).
+rule_i(0,datastore(1,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(1,'LOCK_RETRY','10')).
+rule_i(0,datastore(1,'WAIT_RECORD','0')).
+rule_i(0,datastore(1,'SQLSERVER_VERSION','10')).
+rule_i(0,datastore(1,'COMMENT_ON','No')).
+rule_i(0,datastore(1,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(1,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(1,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(1,'CS_SCHEMA','')).
+rule_i(0,datastore(1,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(1,'JRN400','QSQJRN')).
+rule_i(0,datastore(1,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(1,'PGMLIB','')).
+rule_i(0,datastore(1,'DTALIB','')).
+rule_i(0,datastore(1,'CC_USER_PASS',wp„ÄsÁ¹)).
+rule_i(0,datastore(1,'CC_USER_ID',sa)).
+rule_i(0,datastore(1,'CC_SERVER',localhost)).
+rule_i(0,datastore(1,'CC_DBNAME','SeriesColaborativas')).
+rule_i(0,datastore(1,'RecycleRWMin','30')).
+rule_i(0,datastore(1,'RecycleRWType','1')).
+rule_i(0,datastore(1,'RecycleRW','-1')).
+rule_i(0,datastore(1,'POOL_STARTUP','No')).
+rule_i(0,datastore(1,'POOLSIZE_RW','10')).
+rule_i(0,datastore(1,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(1,'PoolRWEnabled','-1')).
+rule_i(0,datastore(1,'CS_RPCPGML','')).
+rule_i(0,datastore(1,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(1,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(1,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(1,'USER_PASSWORD','gnxÔ.“êâ¿')).
+rule_i(0,datastore(1,'USER_ID',sa)).
+rule_i(0,datastore(1,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(1,'CS_CONNECT','First')).
+rule_i(0,datastore(1,'DBMS_PORT','')).
+rule_i(0,datastore(1,'CS_SERVER',localhost)).
+rule_i(0,datastore(1,'CS_DBNAME','SeriesColaborativas')).
+rule_i(0,datastore(1,'CS_FLEDSNAME','')).
+rule_i(0,datastore(1,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(1,'CS_DSNAME','')).
+rule_i(0,datastore(1,'DB_URL','')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(1,'JDBC_DRIVER','net.sourceforge.jtds.jdbc.Driver')).
+rule_i(0,datastore(1,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(1,'ACCESS_TECHNO','ADONET')).
+rule_i(0,datastore(1,'MAIN_DS','-1')).
+rule_i(0,datastore(1,'REORG_GEN','8')).
+rule_i(0,datastore(1,'HelpKeyword','20')).
+rule_i(0,datastore(1,'DBMS',12)).
+rule_i(0,datastore(1,'NAME','Default')).
+rule_i(0,prop(idNULLS_BEHAVIOR,idNB_Current)).
+rule_i(0,prop('PWFCallable','0')).
+rule_i(0,prop('ObjectVisibility','Public')).
+rule_i(0,prop('FullyQualifiedName','ObterSDTRankingConquista')).
+rule_i(0,prop('GenerateObject','-1')).
+rule_i(0,prop('CS_ORA_FORUPD','UMPV')).
+rule_i(0,prop('Optimize_copy','UMPV')).
+rule_i(0,prop('JOIN_TYPE','UMPV')).
+rule_i(0,prop('DBMS_JOINS','UMPV')).
+rule_i(0,prop('BEEPONMSG','UMPV')).
+rule_i(0,prop('GENERATE_ILE','UMPV')).
+rule_i(0,prop('PRT_DDS','UMPV')).
+rule_i(0,prop('TRNCMT','YES')).
+rule_i(0,prop('NULLVALUE_AS_NULL','UMPV')).
+rule_i(0,prop('INITIALIZE_NEW','UMPV')).
+rule_i(0,prop('STD_FUNC_OBJECT','Yes')).
+rule_i(0,prop('SPC_WARNINGS_DISABLED','spc0096 spc0107 spc0142')).
+rule_i(0,prop('TRNEND','Yes')).
+rule_i(0,prop('AUTOCENTER','UMPV')).
+rule_i(0,prop('LSTPFOOT','YES')).
+rule_i(0,prop('CANCEL','YES')).
+rule_i(0,prop('CONFIRM','UMPV')).
+rule_i(0,prop('TRNCFM','UMPV')).
+rule_i(0,prop('PRINT_CUST_LAYOUT','UMPV')).
+rule_i(0,prop('OUTPUT','FIL')).
+rule_i(0,prop(idConnectivitySupport,idInherit)).
+rule_i(0,prop('IntegratedSecurityLevel','SecurityNone')).
+rule_i(0,prop(idISBCEJB,'0')).
+rule_i(0,prop('REST','-1')).
+rule_i(0,prop('SOAP','-1')).
+rule_i(0,prop(idISPRCWEBSERVICE,'-1')).
+rule_i(0,prop('USE_ENCRYPTION','NO')).
+rule_i(0,prop('EXECUTE_IN_NEW_UTL','0')).
+rule_i(0,prop('Theme',o(25,'WorkWithPlusTheme'))).
+rule_i(0,prop('OBJECT_METADATA','')).
+rule_i(0,prop('CALL_PROTOCOL','INTERNAL')).
+rule_i(0,prop('IsMain','0')).
+rule_i(0,prop(sessiontype,'RW')).
+rule_i(0,prop('Folder',o(120,'Root Module'))).
+rule_i(0,prop('ObjDesc','Obter SDTRanking Conquista')).
+rule_i(0,prop('ObjName','ObterSDTRankingConquista')).
+rule_i(0,maingen(15)).
+rule_i(0,parm([ 'Sdtranking' ],[])).
+rule_i(0,parmio([ [ 'Sdtranking',out ] ])).
+rule_i(0,output('FIL')).
+ 
+a_i(1,1,f,'Err',[],[ [],[ t('0',3) ] ]).
+a_i(2,2,t,8,[],[ [],'IUSUARIOCONQUISTA2',[] ]).
+a_i(3,3,t,8,[],[ [],'IUSUARIOCONQUISTA',[] ]).
+a_i(4,3,r,3,[],[ [ [ 8,11,11 ] ],'IUSUARIO',[] ]).
+a_i(5,3,r,7,[],[ [ [ 8,27,27 ] ],'ICONQUISTA',[] ]).
+a_i(6,3,c,0,[],[ c([ t(11,2),t(=,10),t([ t('Usuariosid',23),t('item(',1) ],31),t('I',23),t(')',4) ],[ 11 ]) ]).
+ 
+v_i(f,i,1,[]).
+v_i(f,o,1,'Err').
+v_i(t,i,2,[]).
+v_i(t,o,2,11).
+v_i(t,i,3,[]).
+v_i(t,o,3,27).
+v_i(t,o,3,11).
+v_i(r,i,4,11).
+v_i(r,o,4,12).
+v_i(r,i,5,27).
+v_i(r,o,5,28).
+v_i(c,i,6,11).
+v_i(c,o,6,[]).
+ 
+ 
+ 
+ 
+ 
+ 
+attri_i('Output',[ 'Gx_out',char,3,0,'',1,'','',17 ]).
+attri_i(27,[ 'ConquistaId',int,18,0,'ZZZZZZZZZZZZZZZZZ9',0,'Id','',0 ]).
+attri_i(30,[ 'UsuarioConquistaId',int,18,0,'ZZZZZZZZZZZZZZZZZ9',0,'Id','',0 ]).
+attri_i(12,[ 'UsuarioNome',svchar,40,0,'',0,'Nome','',0 ]).
+attri_i(28,[ 'ConquistaPontos',int,4,0,'ZZZ9',0,'Pontos','',0 ]).
+attri_i(11,[ 'UsuarioId',int,18,0,'ZZZZZZZZZZZZZZZZZ9',0,'Id','',0 ]).
+attri_i('Errmsg',[ 'Gx_emsg',char,70,0,'',1,'Error text','',14 ]).
+attri_i('Err',[ 'Gx_err',int,3,0,'ZZ9',1,'Error code','',13 ]).
+attri_i('Quantidadepontos',[ 'QuantidadePontos',int,18,0,'ZZZZZZZZZZZZZZZZZ9',0,'Quantidade Pontos','',12 ]).
+attri_i('Sdtrankingitem',[ 'SDTRankingItem',o('SDTRanking.Item'),0,0,'',0,'SDTRanking Item','',11 ]).
+attri_i('Sdtranking',[ 'SDTRanking',o(objectcollection('SDTRanking.Item')),0,0,'',0,'SDTRanking','',10 ]).
+attri_i('I',[ i,int,4,0,'ZZZ9',0,i,'',9 ]).
+attri_i('Usuariosid',[ 'UsuariosId',o(objectcollection(int)),18,0,'ZZZZZZZZZZZZZZZZZ9',0,'Usuarios Id','',8 ]).
+ 
+table_i(7,[ 'Conquista',[ 27,28 ],'Conquista','Conquista' ]).
+table_i(3,[ 'Usuario',[ 11,12 ],'Usuário','Usuario' ]).
+table_i(8,[ 'UsuarioConquista',[ 30,11,27 ],'Usuário conquista','UsuarioConquista' ]).
+ 
+index_i(8,[ 'IUSUARIOCONQUISTA',u,[ 30 ],'IUsuarioConquista' ]).
+index_i(8,[ 'IUSUARIOCONQUISTA2',d,[ 11 ],'IUsuarioConquista2' ]).
+index_i(3,[ 'IUSUARIO',u,[ 11 ],'IUsuario' ]).
+index_i(7,[ 'ICONQUISTA',u,[ 27 ],'IConquista' ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+enumerated_i(2,52,187).
+enumerated_i(2,44,186).
+ 
+enum_value_i(2,187,'1','Mobile','"Mobile"',[ none ]).
+enum_value_i(2,187,'2','Administrador','"Administrador"',[ none ]).
+enum_value_i(2,186,'1','QuantidadeSeries','"Quantidade de séries"',[ none ]).
+enum_value_i(2,186,'2','QuantidadeMinutos','"Quantidade de minutos"',[ none ]).
+enum_value_i(2,186,'3','QuantidadeEpisodios','"Quantidade de episódios"',[ none ]).
+ 
+enum_value_info_i(2,187,'TipoUsuario').
+enum_value_info_i(2,186,'TipoConquista').
+ 
+enum_type_i(2,187,int,4,0).
+enum_type_i(2,186,int,4,0).
+ 
+dom_info_i(173,[ 'Id' ]).
+dom_info_i(184,[ 'Pontos' ]).
+dom_info_i(174,[ 'Nome' ]).
+dom_info_i(183,[ 'DataHora' ]).
+dom_info_i(187,[ 'TipoUsuario' ]).
+dom_info_i(188,[ 'Login' ]).
+dom_info_i(189,[ 'Senha' ]).
+dom_info_i(113,[ 'GAMGUID' ]).
+dom_info_i(25,[ 'GeneXus\Email' ]).
+dom_info_i(186,[ 'TipoConquista' ]).
+dom_info_i(175,[ 'Quantidade' ]).
+ 
+ 
+break_i(2,nvg,1,[],[ [ 11 ],[],[] ]).
+break_i(3,nvg,1,[],[ [ 28,12 ],[ 11 ],[] ]).
+break_i(1,rpt,0,[],[ [],[],[] ]).
+ 
+b_group_i(1,1,lit,0,1,0).
+b_group_i(1,2,nvg,2,1,1).
+b_group_i(2,1,lit,0,2,2).
+b_group_i(1,3,lit,0,6,5).
+b_group_i(1,4,nvg,3,11,11).
+b_group_i(3,1,lit,0,12,12).
+b_group_i(1,5,lit,0,17,0).
+ 
+b_line_i(0,1,1,cmd,0,[]).
+b_line_i(1,2,1,cmd,2,[ t('',121,1,0),t(table,3,1,10),t(8,3,1,10) ]).
+b_line_i(2,2,1,cmd,2,[]).
+b_line_i(3,2,1,cmd,2,[]).
+b_line_i(4,2,1,cmd,2,[ t('',107,2,0),t([ t('Usuariosid',23,4,2),t('add(',1,4,14) ],31,4,2),t(11,2,2,19),t(')',4,2,28) ]).
+b_line_i(5,2,1,cmd,2,[ t('',128,2,0) ]).
+b_line_i(6,1,3,cmd,5,[]).
+b_line_i(7,1,3,cmd,5,[ t('',107,5,0),t('Sdtranking',23,5,0),t(=,10,5,0),t([ 'SDTRanking',[ t('(',0,7,18),t(')',4,7,19) ],n ],46,5,0) ]).
+b_line_i([ 8,0 ],1,3,cmd,5,[ t('',107,5,0),t('I',23,5,0),t(=,10,5,0),t('1',3,5,0) ]).
+b_line_i(8,1,3,cmd,5,[ t('',114,5,0),t('I',23,5,5),t(<=,10,5,1),t([ t('Usuariosid',23,8,15),t('Count',3,8,27) ],29,8,27) ]).
+b_line_i(9,1,3,cmd,5,[ t('',107,5,0),t([ t('Quantidadepontos',23,9,2),t('setempty(',1,9,20) ],31,9,2),t(')',4,5,30) ]).
+b_line_i(10,1,3,cmd,5,[ t('',107,5,0),t('Sdtrankingitem',23,5,0),t(=,10,5,0),t([ 'SDTRanking.Item',[ t('(',0,10,23),t(')',4,10,24) ],n ],46,5,0) ]).
+b_line_i(11,3,1,cmd,12,[ t('',121,11,0),t(table,3,11,11),t(8,3,11,11) ]).
+b_line_i(13,3,1,cmd,12,[]).
+b_line_i(14,3,1,cmd,12,[ t('',107,12,0),t([ t('Sdtrankingitem',23,12,0),t('Usuarionome',3,12,0) ],29,12,0),t(=,10,12,0),t(12,2,12,0) ]).
+b_line_i(15,3,1,cmd,12,[ t('',107,12,0),t('Quantidadepontos',23,12,0),t(=,10,12,0),t('Quantidadepontos',23,12,0),t(+,5,12,0),t(28,2,12,0) ]).
+b_line_i(16,3,1,cmd,12,[ t('',128,12,0) ]).
+b_line_i(17,1,5,cmd,11,[ t('',107,11,0),t([ t('Sdtrankingitem',23,11,0),t('Quantidadepontos',3,11,0) ],29,11,0),t(=,10,11,0),t('Quantidadepontos',23,11,0) ]).
+b_line_i(18,1,5,cmd,11,[ t('',107,11,0),t([ t('Sdtranking',23,18,2),t('add(',1,18,14) ],31,18,2),t('Sdtrankingitem',23,11,19),t(')',4,11,34) ]).
+b_line_i([ 19,0 ],1,5,cmd,11,[ t('',107,11,0),t('I',23,11,0),t(=,10,11,0),t('I',23,11,0),t(+,5,11,0),t('1',3,11,0) ]).
+b_line_i(19,1,5,cmd,11,[ t('',115,11,0) ]).
+b_line_i(20,1,5,cmd,11,[]).
+b_line_i(21,1,5,cmd,11,[ t('',107,11,0),t([ t('Sdtranking',23,21,1),t('sort(',1,21,13) ],31,21,1),t('''QuantidadePontos''',3,21,19),t(')',4,11,37) ]).
+ 
+ 
+ 
+ 
+ 
+page_layout_i([ 66,0,6 ]).
+ 
+ 
+ 
+paper_info_i([ 0,256,'',11909,16834,0,0,0,0,1 ]).
+ 
+ppi_i([ 100,100 ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+grid_i(7,15).
+ 
+ 
+ 
+form_class_i(1,'Graphic').
+ 
+ 
+ 
+ 
+calling_main_i(37,4).
+ 
+att_prop_i(2,11,'ExternalName','UsuarioId',d).
+att_prop_i(2,11,'ExternalNamespace','SeriesColaborativas',d).
+att_prop_i(2,11,'EmptyAsNull','Yes',d).
+att_prop_i(2,11,idBasedOn,173,v).
+att_prop_i(2,11,'AUTONUMBER','-1',d).
+att_prop_i(2,11,'AUTONUMBER_START','1',d).
+att_prop_i(2,11,'AUTONUMBER_STEP','1',d).
+att_prop_i(2,11,'AUTONUMBER_FORREPLICATION','-1',d).
+att_prop_i(2,11,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,11,'AttRegEx','',d).
+att_prop_i(2,11,'AttValidationFailedMsg','',d).
+att_prop_i(2,11,'FullName','UsuarioId',v).
+att_prop_i(2,28,'ExternalName','ConquistaPontos',d).
+att_prop_i(2,28,'ExternalNamespace','SeriesColaborativas',d).
+att_prop_i(2,28,'EmptyAsNull','Yes',d).
+att_prop_i(2,28,idBasedOn,184,v).
+att_prop_i(2,28,'AUTONUMBER','0',d).
+att_prop_i(2,28,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,28,'AttRegEx','',d).
+att_prop_i(2,28,'AttValidationFailedMsg','',d).
+att_prop_i(2,28,'FullName','ConquistaPontos',v).
+att_prop_i(2,12,'ExternalName','UsuarioNome',d).
+att_prop_i(2,12,'ExternalNamespace','SeriesColaborativas',d).
+att_prop_i(2,12,'EmptyAsNull','Yes',d).
+att_prop_i(2,12,idBasedOn,174,v).
+att_prop_i(2,12,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,12,'DB_NLS_SUPPORT','No',d).
+att_prop_i(2,12,'AttRegEx','',d).
+att_prop_i(2,12,'AttValidationFailedMsg','',d).
+att_prop_i(2,12,'FullName','UsuarioNome',v).
+att_prop_i(2,30,'ExternalName','UsuarioConquistaId',d).
+att_prop_i(2,30,'ExternalNamespace','SeriesColaborativas',d).
+att_prop_i(2,30,'EmptyAsNull','Yes',d).
+att_prop_i(2,30,idBasedOn,173,v).
+att_prop_i(2,30,'AUTONUMBER','-1',d).
+att_prop_i(2,30,'AUTONUMBER_START','1',d).
+att_prop_i(2,30,'AUTONUMBER_STEP','1',d).
+att_prop_i(2,30,'AUTONUMBER_FORREPLICATION','-1',d).
+att_prop_i(2,30,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,30,'AttRegEx','',d).
+att_prop_i(2,30,'AttValidationFailedMsg','',d).
+att_prop_i(2,30,'FullName','UsuarioConquistaId',v).
+att_prop_i(2,27,'ExternalName','ConquistaId',d).
+att_prop_i(2,27,'ExternalNamespace','SeriesColaborativas',d).
+att_prop_i(2,27,'EmptyAsNull','Yes',d).
+att_prop_i(2,27,idBasedOn,173,v).
+att_prop_i(2,27,'AUTONUMBER','-1',d).
+att_prop_i(2,27,'AUTONUMBER_START','1',d).
+att_prop_i(2,27,'AUTONUMBER_STEP','1',d).
+att_prop_i(2,27,'AUTONUMBER_FORREPLICATION','-1',d).
+att_prop_i(2,27,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,27,'AttRegEx','',d).
+att_prop_i(2,27,'AttValidationFailedMsg','',d).
+att_prop_i(2,27,'FullName','ConquistaId',v).
+ 
+tbl_prop_i(2,8,'AllDirSuper',[ [ 7,[ 27 ] ],[ 3,[ 11 ] ] ],v).
+tbl_prop_i(2,7,'DirSubor',[ [ 8,[ 27 ] ] ],v).
+tbl_prop_i(2,3,'DirSubor',[ [ 8,[ 11 ] ] ],v).
+tbl_prop_i(2,8,'DirSuper',[ [ 7,[ 27 ] ],[ 3,[ 11 ] ] ],v).
+ 
+tbl_att_prop_i(2,8,30,'AllowNulls',n).
+tbl_att_prop_i(2,8,30,'AUTONUMBER',y).
+tbl_att_prop_i(2,8,11,'AllowNulls',n).
+tbl_att_prop_i(2,8,27,'AllowNulls',n).
+tbl_att_prop_i(2,3,11,'AllowNulls',n).
+tbl_att_prop_i(2,3,11,'AUTONUMBER',y).
+tbl_att_prop_i(2,3,12,'AllowNulls',n).
+tbl_att_prop_i(2,7,27,'AllowNulls',n).
+tbl_att_prop_i(2,7,27,'AUTONUMBER',y).
+tbl_att_prop_i(2,7,28,'AllowNulls',n).
+ 
+var_prop_i(2,'Usuariosid',idBasedOn,173,v).
+ 
+ 
+ 
+ 
+ 
+struct_dt_i([ 26,73,0 ],name,'SDTRanking').
+struct_dt_i([ 26,73,0 ],namespace,'SeriesColaborativas').
+struct_dt_i([ 26,73,0 ],'ObjName','SDTRanking').
+struct_dt_i([ 26,73,0 ],'ObjDesc','SDTRanking').
+struct_dt_i([ 26,73,0 ],'ExternalName','SDTRanking').
+struct_dt_i([ 26,73,0 ],'ExternalNamespace','SeriesColaborativas').
+struct_dt_i([ 26,73,0 ],collection,'True').
+struct_dt_i([ 26,73,0 ],datatype,[ 26,73,120 ]).
+struct_dt_i([ 26,73,120 ],name,'Item').
+struct_dt_i([ 26,73,120 ],namespace,'SeriesColaborativas.SDTRanking').
+struct_dt_i([ 26,73,0 ],fullname,'SDTRanking').
+struct_dt_i([ 26,73,120 ],fullname,'SDTRanking.Item').
+struct_dt_i([ 26,73,0 ],modified,yes).
+struct_dt_i([ 26,73,120 ],modified,yes).
+ 
+struct_dt_elem_i([ 26,73,120 ],1,name,'Usuarionome').
+struct_dt_elem_i([ 26,73,120 ],1,camelname,'UsuarioNome').
+struct_dt_elem_i([ 26,73,120 ],1,basedon,174).
+struct_dt_elem_i([ 26,73,120 ],1,length,40).
+struct_dt_elem_i([ 26,73,120 ],1,decimals,0).
+struct_dt_elem_i([ 26,73,120 ],1,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 26,73,120 ],1,pic,'').
+struct_dt_elem_i([ 26,73,120 ],1,collection,'False').
+struct_dt_elem_i([ 26,73,120 ],1,'ExternalName','UsuarioNome').
+struct_dt_elem_i([ 26,73,120 ],1,'ExternalNamespace','SeriesColaborativas').
+struct_dt_elem_i([ 26,73,120 ],1,'XmlType','Element').
+struct_dt_elem_i([ 26,73,120 ],1,'XmlName','').
+struct_dt_elem_i([ 26,73,120 ],1,'XmlNamespace','').
+struct_dt_elem_i([ 26,73,120 ],1,soaptype,'').
+struct_dt_elem_i([ 26,73,120 ],1,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,73,120 ],1,'JsonName','').
+struct_dt_elem_i([ 26,73,120 ],2,name,'Quantidadepontos').
+struct_dt_elem_i([ 26,73,120 ],2,camelname,'QuantidadePontos').
+struct_dt_elem_i([ 26,73,120 ],2,length,18).
+struct_dt_elem_i([ 26,73,120 ],2,decimals,0).
+struct_dt_elem_i([ 26,73,120 ],2,sign,0).
+struct_dt_elem_i([ 26,73,120 ],2,type,[ 4,18,0 ]).
+struct_dt_elem_i([ 26,73,120 ],2,pic,'ZZZZZZZZZZZZZZZZZ9').
+struct_dt_elem_i([ 26,73,120 ],2,collection,'False').
+struct_dt_elem_i([ 26,73,120 ],2,'ExternalName','QuantidadePontos').
+struct_dt_elem_i([ 26,73,120 ],2,'ExternalNamespace','SeriesColaborativas').
+struct_dt_elem_i([ 26,73,120 ],2,'XmlType','Element').
+struct_dt_elem_i([ 26,73,120 ],2,'XmlName','').
+struct_dt_elem_i([ 26,73,120 ],2,'XmlNamespace','').
+struct_dt_elem_i([ 26,73,120 ],2,soaptype,'').
+struct_dt_elem_i([ 26,73,120 ],2,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,73,120 ],2,'JsonName','').
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+pgm_callprotocol_i(proc,50,'OBTERSDTRANKINGCONQUISTA','INTERNAL').
+ 
+ 
+ 
+ 
+module_info_i('GeneXus','CSHARP_NAME_SPACE','GeneXus.Core').
+module_info_i('GeneXus','AssemblyName','GeneXus.dll').
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

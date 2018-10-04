@@ -1,0 +1,62 @@
+ 
+spec_i([ sdt,[ 26,1000000,0 ],'SDCometarios_Level_DetailSdt','SDCometarios_Level_DetailSdt',0,por,'15_0_9-121631' ]).
+ 
+struct_dt_i([ 26,1000000,0 ],name,'SDCometarios_Level_DetailSdt').
+struct_dt_i([ 26,1000000,0 ],camelname,'SDCometarios_Level_DetailSdt').
+struct_dt_i([ 26,1000000,0 ],camelnameex,'SDCometarios_Level_DetailSdt').
+struct_dt_i([ 26,1000000,0 ],collection,'False').
+struct_dt_i([ 26,1000000,0 ],wwsd_sdt,'True').
+struct_dt_i([ 26,1000000,0 ],fullname,'SDCometarios_Level_DetailSdt').
+ 
+struct_dt_elem_i([ 26,1000000,0 ],1,name,'Comentario').
+struct_dt_elem_i([ 26,1000000,0 ],1,camelname,'Comentario').
+struct_dt_elem_i([ 26,1000000,0 ],1,type,[ 13,300,0 ]).
+struct_dt_elem_i([ 26,1000000,0 ],1,length,300).
+struct_dt_elem_i([ 26,1000000,0 ],1,decimals,0).
+struct_dt_elem_i([ 26,1000000,0 ],1,sign,0).
+struct_dt_elem_i([ 26,1000000,0 ],1,collection,'False').
+struct_dt_elem_i([ 26,1000000,0 ],1,islevel,'False').
+struct_dt_elem_i([ 26,1000000,0 ],2,name,'Nota').
+struct_dt_elem_i([ 26,1000000,0 ],2,camelname,'Nota').
+struct_dt_elem_i([ 26,1000000,0 ],2,type,[ 4,1,0 ]).
+struct_dt_elem_i([ 26,1000000,0 ],2,length,1).
+struct_dt_elem_i([ 26,1000000,0 ],2,decimals,0).
+struct_dt_elem_i([ 26,1000000,0 ],2,sign,0).
+struct_dt_elem_i([ 26,1000000,0 ],2,collection,'False').
+struct_dt_elem_i([ 26,1000000,0 ],2,islevel,'False').
+struct_dt_elem_i([ 26,1000000,0 ],3,name,'Tipocomentario').
+struct_dt_elem_i([ 26,1000000,0 ],3,camelname,'Tipocomentario').
+struct_dt_elem_i([ 26,1000000,0 ],3,type,[ 4,4,0 ]).
+struct_dt_elem_i([ 26,1000000,0 ],3,length,4).
+struct_dt_elem_i([ 26,1000000,0 ],3,decimals,0).
+struct_dt_elem_i([ 26,1000000,0 ],3,sign,0).
+struct_dt_elem_i([ 26,1000000,0 ],3,collection,'False').
+struct_dt_elem_i([ 26,1000000,0 ],3,islevel,'False').
+struct_dt_elem_i([ 26,1000000,0 ],3,basedon,192).
+struct_dt_elem_i([ 26,1000000,0 ],4,name,'Id').
+struct_dt_elem_i([ 26,1000000,0 ],4,camelname,'Id').
+struct_dt_elem_i([ 26,1000000,0 ],4,type,[ 4,18,0 ]).
+struct_dt_elem_i([ 26,1000000,0 ],4,length,18).
+struct_dt_elem_i([ 26,1000000,0 ],4,decimals,0).
+struct_dt_elem_i([ 26,1000000,0 ],4,sign,0).
+struct_dt_elem_i([ 26,1000000,0 ],4,collection,'False').
+struct_dt_elem_i([ 26,1000000,0 ],4,islevel,'False').
+struct_dt_elem_i([ 26,1000000,0 ],5,name,'Gxdynprop').
+struct_dt_elem_i([ 26,1000000,0 ],5,camelname,'Gxdynprop').
+struct_dt_elem_i([ 26,1000000,0 ],5,type,[ 5,2,0 ]).
+struct_dt_elem_i([ 26,1000000,0 ],5,length,2).
+struct_dt_elem_i([ 26,1000000,0 ],5,decimals,0).
+struct_dt_elem_i([ 26,1000000,0 ],5,sign,0).
+struct_dt_elem_i([ 26,1000000,0 ],5,collection,'False').
+struct_dt_elem_i([ 26,1000000,0 ],5,islevel,'False').
+ 
+ 
+ 
+ 
+enum_value_i(2,192,'1','Serie','"Serie"',[ none ]).
+enum_value_i(2,192,'2','Episodio','"Episodio"',[ none ]).
+ 
+enum_value_info_i(2,192,'TipoComentario').
+ 
+module_info_i('GeneXus\Common\UI','CSHARP_NAME_SPACE','GeneXus.Core').
+module_info_i('GeneXus\Common\UI','AssemblyName','GeneXus.dll').

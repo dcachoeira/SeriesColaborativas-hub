@@ -1,0 +1,10 @@
+﻿<ConnectionInformation>
+	<DBName>GX_KB_SeriesColaborativas</DBName>
+	<IntegratedSecurity>True</IntegratedSecurity>
+	<ServerInstance>DESKTOP-5AEDSSL</ServerInstance>
+	<CreateDbInKbFolder>True</CreateDbInKbFolder>
+	<Directory>C:\Models\SeriesColaborativas</Directory>
+	<DataFile>GX_KB_SeriesColaborativas.mdf</DataFile>
+	<LogFile>GX_KB_SeriesColaborativas_log.ldf</LogFile>
+	<HostName>DESKTOP-5AEDSSL</HostName>
+</ConnectionInformation>

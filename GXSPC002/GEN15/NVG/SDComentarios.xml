@@ -1,0 +1,26 @@
+
+<ObjectSpec>
+<SpecVersion>15_0_9-121631</SpecVersion>
+<Object>
+<ObjClsGuid>d82625fd-5892-40b0-99c9-5c8559c197fc</ObjClsGuid>
+<ObjCls>37</ObjCls>
+<ObjId>13</ObjId>
+<ObjName>SDComentarios</ObjName>
+<ObjDesc>Avaliação </ObjDesc>
+<ObjPgmName>SDComentarios</ObjPgmName>
+<ObjClsName>SD Panel</ObjClsName>
+<Objects>
+<Object>
+<ObjName>SDComentarios_Level_Detail_Grid1</ObjName>
+<ObjNavig>GXSPC002\GEN15\NVG\SDComentarios_Level_Detail_Grid1.xml</ObjNavig>
+<ObjClsGuid>2a9e9aba-d2de-4801-ae7f-5e3819222daf</ObjClsGuid></Object>
+<Object>
+<ObjName>SDComentarios_Level_Detail</ObjName>
+<ObjNavig>GXSPC002\GEN15\NVG\SDComentarios_Level_Detail.xml</ObjNavig>
+<ObjClsGuid>2a9e9aba-d2de-4801-ae7f-5e3819222daf</ObjClsGuid></Object></Objects></Object>
+<Result>nogenreq</Result>
+<Warnings></Warnings>
+<Errors></Errors>
+<Generator>
+<GenId>15</GenId>
+<GenName>Default (C#)</GenName></Generator></ObjectSpec>

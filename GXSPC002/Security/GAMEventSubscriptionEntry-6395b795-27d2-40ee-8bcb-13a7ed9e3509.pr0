@@ -1,0 +1,8 @@
+[
+  {
+    "Name": "gameventsubscriptionentry_Execute",
+    "Description": "Event Suscrtiption",
+    "ProgramName": "gameventsubscriptionentry",
+    "IsGXAutomatic": true
+  }
+]

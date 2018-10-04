@@ -1,0 +1,54 @@
+ 
+spec_i([ sdt,[ 26,1000000,0 ],'Gx0030sd_Level_Detail_Grid1Sdt','Gx0030sd_Level_Detail_Grid1Sdt',0,por,'15_0_9-121631' ]).
+ 
+struct_dt_i([ 26,1000000,0 ],name,'Gx0030sd_Level_Detail_Grid1Sdt').
+struct_dt_i([ 26,1000000,0 ],camelname,'Gx0030sd_Level_Detail_Grid1Sdt').
+struct_dt_i([ 26,1000000,0 ],camelnameex,'Gx0030sd_Level_Detail_Grid1Sdt').
+struct_dt_i([ 26,1000000,1 ],name,'Item').
+struct_dt_i([ 26,1000000,1 ],camelname,'Item').
+struct_dt_i([ 26,1000000,1 ],camelnameex,'Item').
+struct_dt_i([ 26,1000000,0 ],collection,'True').
+struct_dt_i([ 26,1000000,0 ],datatype,[ 26,1000000,1 ]).
+struct_dt_i([ 26,1000000,0 ],wwsd_sdt,'True').
+struct_dt_i([ 26,1000000,0 ],panel,[ 'Level.Detail' ]).
+struct_dt_i([ 26,1000000,0 ],key,[ 3,[ 11 ],[] ]).
+struct_dt_i([ 26,1000000,1 ],fullname,'Gx0030sd_Level_Detail_Grid1Sdt.Item').
+struct_dt_i([ 26,1000000,0 ],fullname,'Gx0030sd_Level_Detail_Grid1Sdt').
+ 
+struct_dt_elem_i([ 26,1000000,1 ],1,name,'Usuarioid').
+struct_dt_elem_i([ 26,1000000,1 ],1,camelname,'UsuarioId').
+struct_dt_elem_i([ 26,1000000,1 ],1,type,[ 4,18,0 ]).
+struct_dt_elem_i([ 26,1000000,1 ],1,length,18).
+struct_dt_elem_i([ 26,1000000,1 ],1,decimals,0).
+struct_dt_elem_i([ 26,1000000,1 ],1,sign,0).
+struct_dt_elem_i([ 26,1000000,1 ],1,collection,'False').
+struct_dt_elem_i([ 26,1000000,1 ],1,islevel,'False').
+struct_dt_elem_i([ 26,1000000,1 ],2,name,'Usuarionome').
+struct_dt_elem_i([ 26,1000000,1 ],2,camelname,'UsuarioNome').
+struct_dt_elem_i([ 26,1000000,1 ],2,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 26,1000000,1 ],2,length,40).
+struct_dt_elem_i([ 26,1000000,1 ],2,decimals,0).
+struct_dt_elem_i([ 26,1000000,1 ],2,sign,0).
+struct_dt_elem_i([ 26,1000000,1 ],2,collection,'False').
+struct_dt_elem_i([ 26,1000000,1 ],2,islevel,'False').
+struct_dt_elem_i([ 26,1000000,1 ],3,name,'Usuariotipo').
+struct_dt_elem_i([ 26,1000000,1 ],3,camelname,'UsuarioTipo').
+struct_dt_elem_i([ 26,1000000,1 ],3,type,[ 4,4,0 ]).
+struct_dt_elem_i([ 26,1000000,1 ],3,length,4).
+struct_dt_elem_i([ 26,1000000,1 ],3,decimals,0).
+struct_dt_elem_i([ 26,1000000,1 ],3,sign,0).
+struct_dt_elem_i([ 26,1000000,1 ],3,collection,'False').
+struct_dt_elem_i([ 26,1000000,1 ],3,islevel,'False').
+struct_dt_elem_i([ 26,1000000,1 ],3,basedon,187).
+struct_dt_elem_i([ 26,1000000,1 ],1,attributeid,'11').
+struct_dt_elem_i([ 26,1000000,1 ],2,attributeid,'12').
+struct_dt_elem_i([ 26,1000000,1 ],3,attributeid,'52').
+ 
+ 
+ 
+ 
+enum_value_i(2,187,'1','Mobile','"Mobile"',[ none ]).
+enum_value_i(2,187,'2','Administrador','"Administrador"',[ none ]).
+ 
+enum_value_info_i(2,187,'TipoUsuario').
+ 

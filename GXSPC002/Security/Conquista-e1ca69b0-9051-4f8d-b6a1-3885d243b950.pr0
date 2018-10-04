@@ -1,0 +1,36 @@
+[
+  {
+    "Name": "conquista_FullControl",
+    "Description": "Conquista FullControl",
+    "ProgramName": "conquista",
+    "IsGXAutomatic": true
+  },
+  {
+    "Name": "conquista_Execute",
+    "Description": "Conquista",
+    "ProgramName": "conquista",
+    "IsGXAutomatic": true,
+    "Parent": "conquista_FullControl"
+  },
+  {
+    "Name": "conquista_Insert",
+    "Description": "Conquista Insert",
+    "ProgramName": "conquista",
+    "IsGXAutomatic": true,
+    "Parent": "conquista_FullControl"
+  },
+  {
+    "Name": "conquista_Delete",
+    "Description": "Conquista Delete",
+    "ProgramName": "conquista",
+    "IsGXAutomatic": true,
+    "Parent": "conquista_FullControl"
+  },
+  {
+    "Name": "conquista_Update",
+    "Description": "Conquista Update",
+    "ProgramName": "conquista",
+    "IsGXAutomatic": true,
+    "Parent": "conquista_FullControl"
+  }
+]

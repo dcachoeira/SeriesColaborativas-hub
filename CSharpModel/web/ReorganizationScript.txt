@@ -1,0 +1,5 @@
+ALTER TABLE [Serie] ADD [SerieDataHoraCadastro]  datetime NOT NULL CONSTRAINT SerieDataHoraCadastroSerie_DEFAULT DEFAULT convert( DATETIME, '17530101', 112 )
+ALTER TABLE [Serie] DROP CONSTRAINT SerieDataHoraCadastroSerie_DEFAULT
+
+ALTER TABLE [Notificacao] ADD [NotificacaoLigacaoId]  decimal( 18) NULL
+

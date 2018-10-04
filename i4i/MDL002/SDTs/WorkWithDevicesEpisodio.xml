@@ -1,0 +1,15 @@
+
+<WWSDSpec>
+<Section>
+<Name>Episodio.Detail</Name>
+<DataProviders>
+<DataProvider>WorkWithDevicesEpisodio_Episodio_Detail</DataProvider></DataProviders></Section>
+<Section>
+<Name>Episodio.List</Name>
+<DataProviders>
+<DataProvider>WorkWithDevicesEpisodio_Episodio_List_Grid1</DataProvider>
+<DataProvider>WorkWithDevicesEpisodio_Episodio_List</DataProvider></DataProviders></Section>
+<Section>
+<Name>Episodio.Section.General</Name>
+<DataProviders>
+<DataProvider>WorkWithDevicesEpisodio_Episodio_Section_General</DataProvider></DataProviders></Section></WWSDSpec>

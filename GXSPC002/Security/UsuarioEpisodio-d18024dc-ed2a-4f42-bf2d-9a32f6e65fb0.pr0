@@ -1,0 +1,36 @@
+[
+  {
+    "Name": "usuarioepisodio_FullControl",
+    "Description": "Usuário episódio FullControl",
+    "ProgramName": "usuarioepisodio",
+    "IsGXAutomatic": true
+  },
+  {
+    "Name": "usuarioepisodio_Execute",
+    "Description": "Usuário episódio",
+    "ProgramName": "usuarioepisodio",
+    "IsGXAutomatic": true,
+    "Parent": "usuarioepisodio_FullControl"
+  },
+  {
+    "Name": "usuarioepisodio_Insert",
+    "Description": "Usuário episódio Insert",
+    "ProgramName": "usuarioepisodio",
+    "IsGXAutomatic": true,
+    "Parent": "usuarioepisodio_FullControl"
+  },
+  {
+    "Name": "usuarioepisodio_Delete",
+    "Description": "Usuário episódio Delete",
+    "ProgramName": "usuarioepisodio",
+    "IsGXAutomatic": true,
+    "Parent": "usuarioepisodio_FullControl"
+  },
+  {
+    "Name": "usuarioepisodio_Update",
+    "Description": "Usuário episódio Update",
+    "ProgramName": "usuarioepisodio",
+    "IsGXAutomatic": true,
+    "Parent": "usuarioepisodio_FullControl"
+  }
+]

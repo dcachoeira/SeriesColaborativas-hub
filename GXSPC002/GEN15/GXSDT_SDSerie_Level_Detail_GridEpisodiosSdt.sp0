@@ -1,0 +1,29 @@
+ 
+spec_i([ sdt,[ 26,1000000,0 ],'SDSerie_Level_Detail_GridEpisodiosSdt','SDSerie_Level_Detail_GridEpisodiosSdt',0,por,'15_0_9-121631' ]).
+ 
+struct_dt_i([ 26,1000000,0 ],name,'SDSerie_Level_Detail_GridEpisodiosSdt').
+struct_dt_i([ 26,1000000,0 ],camelname,'SDSerie_Level_Detail_GridEpisodiosSdt').
+struct_dt_i([ 26,1000000,0 ],camelnameex,'SDSerie_Level_Detail_GridEpisodiosSdt').
+struct_dt_i([ 26,1000000,1 ],name,'Item').
+struct_dt_i([ 26,1000000,1 ],camelname,'Item').
+struct_dt_i([ 26,1000000,1 ],camelnameex,'Item').
+struct_dt_i([ 26,1000000,0 ],collection,'True').
+struct_dt_i([ 26,1000000,0 ],datatype,[ 26,1000000,1 ]).
+struct_dt_i([ 26,1000000,0 ],wwsd_sdt,'True').
+struct_dt_i([ 26,1000000,1 ],fullname,'SDSerie_Level_Detail_GridEpisodiosSdt.Item').
+struct_dt_i([ 26,1000000,0 ],fullname,'SDSerie_Level_Detail_GridEpisodiosSdt').
+ 
+struct_dt_elem_i([ 26,1000000,1 ],1,name,'Gxdynprop').
+struct_dt_elem_i([ 26,1000000,1 ],1,camelname,'Gxdynprop').
+struct_dt_elem_i([ 26,1000000,1 ],1,type,[ 5,2,0 ]).
+struct_dt_elem_i([ 26,1000000,1 ],1,length,2).
+struct_dt_elem_i([ 26,1000000,1 ],1,decimals,0).
+struct_dt_elem_i([ 26,1000000,1 ],1,sign,0).
+struct_dt_elem_i([ 26,1000000,1 ],1,collection,'False').
+struct_dt_elem_i([ 26,1000000,1 ],1,islevel,'False').
+ 
+ 
+ 
+ 
+ 
+ 

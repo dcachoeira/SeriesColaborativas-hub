@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.artech.seriescolaborativas.seriescolaborativas"
+    android:installLocation="auto">
+
+    <!-- Only this application can receive the messages and registration result -->
+    <permission android:name="com.artech.seriescolaborativas.seriescolaborativas.permission.C2D_MESSAGE" android:protectionLevel="signature" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="com.artech.seriescolaborativas.seriescolaborativas.permission.C2D_MESSAGE" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+
+    <application android:name=".MainApplication" 
+                 android:hardwareAccelerated="true"
+                 android:resizeableActivity="false"
+                 android:allowBackup="false"
+                 android:theme="@style/ApplicationTheme"
+                 android:icon="@drawable/appicon"
+                 android:label="@string/app_name">
+
+        <activity android:name=".Main" android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name="com.artech.controls.maps.googlev2.LocationPickerActivity" />
+
+        <!-- Only GCM servers can send messages for the app. If permission is not set - any other app can generate it -->
+      <receiver
+          android:name="com.google.android.gms.gcm.GcmReceiver" android:permission="com.google.android.c2dm.permission.SEND" >
+        <intent-filter>
+          <!-- Receive the actual message -->
+          <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+          <!-- for Gingerbread GSF backward compat -->
+          <!-- Receive the registration id -->
+          <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
+          <category android:name="com.artech.seriescolaborativas.seriescolaborativas" />
+        </intent-filter>
+      </receiver>
+
+      <service android:name="com.artech.android.gcm.GcmService" android:exported="false">
+        <intent-filter>
+          <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+        </intent-filter>
+      </service>
+
+
+        <!-- Provider -->
+        <provider android:name="com.artech.seriescolaborativas.seriescolaborativas.AppEntityDataProvider" android:exported="false" android:authorities="com.artech.seriescolaborativas.seriescolaborativas.appentityprovider" />
+
+        <!-- Service -->
+        <service android:enabled="true" android:name="com.artech.seriescolaborativas.seriescolaborativas.AppEntityService" />
+
+        <activity android:name="com.artech.android.gam.AuthRedirectActivity" android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="gxgambf43db0f19df404d8a1df7c0e8b099ed"/>
+            </intent-filter>
+        </activity>
+
+  </application>
+</manifest>

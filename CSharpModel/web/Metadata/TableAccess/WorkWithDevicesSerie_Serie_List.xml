@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="name" name="WorkWithDevicesSerie_Serie_List">
+  <Table name="Serie" />
+  <Table name="Genero" />
+  <Table name="Usuario" />
+  <Table name="UsuarioSerie" />
+</Dependencies>

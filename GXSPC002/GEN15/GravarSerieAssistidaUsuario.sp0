@@ -1,0 +1,855 @@
+spec_i([ proc,45,'Gravar Serie Assistida Usuario','GravarSerieAssistidaUsuario',78,por,'15_0_9-121631' ]).
+ 
+struct_i(5,1,[],[]).
+struct_i(4,1,[],[]).
+struct_i(3,1,[],[]).
+struct_i(2,1,[],[]).
+ 
+level_i(5,[ 5,[ [ 5,many ] ],[],[],[ [ [ 5 ],[ 7,11,18 ] ] ],[ [ [ 5 ],[] ] ],[ 11 ],'IUSUARIOEPISODIO2',[ 5,[ [ [],'Usuarioid',11 ] ] ],[] ]).
+level_i(4,[ 2,[ [ 2,many ] ],[],[],[ [ [ 2 ],[ 51,1,7 ] ] ],[ [ [ 2 ],[] ] ],[ 1 ],'IEPISODIO1',[ 2,[ [ [],'Serieid',1 ] ] ],[] ]).
+level_i(3,[ 4,[ [ 4,many ] ],[],[],[ [ [ 4 ],[ 1,11,13 ] ] ],[ [ [ 4 ],[] ] ],[ 1 ],'IUSUARIOSERIE1',[ 4,[ [ [],'Serieid',1 ] ] ],[] ]).
+level_i(2,[ 3,[ [ 3,many ] ],[],[],[ [ [ 3 ],[ 56,11 ] ] ],[ [ [ 3 ],[] ] ],[ 11 ],'IUSUARIO',[],[] ]).
+ 
+tw_i(5,[]).
+tw_i(4,[]).
+tw_i(3,[]).
+tw_i(2,[]).
+ 
+lwi_i(5,[ [ c([ t(7,2),t(=,10),t([ t('Episodiosid',23),t('item(',1) ],31),t('I',23),t(')',4) ],[ 7 ]) ] ]).
+lwi_i(4,[ [ c([ t('.NOT.',8),t(51,2) ],[ 51 ]) ] ]).
+lwi_i(3,[ [ c([ t(11,2),t(=,10),t('Usuarioid',23) ],[ 11 ]) ] ]).
+lwi_i(2,[ [ c([ t(56,2),t(=,10),t('Usuariogamguid',23) ],[ 56 ]) ] ]).
+ 
+ 
+ 
+level_option_i(2,usr_condition,y).
+level_option_i(3,usr_condition,y).
+level_option_i(4,usr_condition,y).
+level_option_i(5,usr_condition,y).
+ 
+ta_i(5,[ [ [ 5,7 ],[ 5,11 ],[ 5,18 ] ] ]).
+ta_i(4,[ [ [ 2,51 ],[ 2,1 ],[ 2,7 ] ] ]).
+ta_i(3,[ [ [ 4,1 ],[ 4,11 ],[ 4,13 ] ] ]).
+ta_i(2,[ [ [ 3,56 ],[ 3,11 ] ] ]).
+ 
+las_i(5,[ [ 7,11,18 ] ]).
+las_i(4,[ [ 51,1,7 ] ]).
+las_i(3,[ [ 1,11,13 ] ]).
+las_i(2,[ [ 56,11 ] ]).
+ 
+lac_i(5,[ [] ]).
+lac_i(4,[ [] ]).
+lac_i(3,[ [] ]).
+lac_i(2,[ [] ]).
+ 
+ 
+ 
+ 
+ 
+ 
+default_i(e('Output',2,2,'''FIL''')).
+ 
+rule_i(0,datastore(2,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(2,'LOCK_RETRY','10')).
+rule_i(0,datastore(2,'WAIT_RECORD','0')).
+rule_i(0,datastore(2,'SQLSERVER_VERSION','10')).
+rule_i(0,datastore(2,'COMMENT_ON','No')).
+rule_i(0,datastore(2,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(2,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(2,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(2,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(2,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(2,'CS_SCHEMA',gam)).
+rule_i(0,datastore(2,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(2,'JRN400','QSQJRN')).
+rule_i(0,datastore(2,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(2,'PGMLIB','')).
+rule_i(0,datastore(2,'DTALIB','')).
+rule_i(0,datastore(2,'CC_USER_PASS',wp„ÄsÁ¹)).
+rule_i(0,datastore(2,'CC_USER_ID',sa)).
+rule_i(0,datastore(2,'CC_SERVER',localhost)).
+rule_i(0,datastore(2,'CC_DBNAME','SeriesColaborativas')).
+rule_i(0,datastore(2,'RecycleRWMin','30')).
+rule_i(0,datastore(2,'RecycleRWType','1')).
+rule_i(0,datastore(2,'RecycleRW','-1')).
+rule_i(0,datastore(2,'POOL_STARTUP','No')).
+rule_i(0,datastore(2,'POOLSIZE_RW','10')).
+rule_i(0,datastore(2,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(2,'PoolRWEnabled','-1')).
+rule_i(0,datastore(2,'CS_RPCPGML','')).
+rule_i(0,datastore(2,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(2,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(2,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(2,'USER_PASSWORD','gnxÔ.“êâ¿')).
+rule_i(0,datastore(2,'USER_ID',sa)).
+rule_i(0,datastore(2,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(2,'CS_CONNECT','First')).
+rule_i(0,datastore(2,'DBMS_PORT','')).
+rule_i(0,datastore(2,'CS_SERVER',localhost)).
+rule_i(0,datastore(2,'CS_DBNAME','SeriesColaborativas')).
+rule_i(0,datastore(2,'CS_FLEDSNAME','')).
+rule_i(0,datastore(2,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(2,'CS_DSNAME','')).
+rule_i(0,datastore(2,'DB_URL','')).
+rule_i(0,datastore(2,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(2,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(2,'JDBC_DRIVER','net.sourceforge.jtds.jdbc.Driver')).
+rule_i(0,datastore(2,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(2,'ACCESS_TECHNO','ADONET')).
+rule_i(0,datastore(2,'MAIN_DS','-1')).
+rule_i(0,datastore(2,'REORG_GEN','8')).
+rule_i(0,datastore(2,'HelpKeyword','23')).
+rule_i(0,datastore(2,'DBMS',12)).
+rule_i(0,datastore(2,'NAME','GAM')).
+rule_i(0,datastore(1,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(1,'LOCK_RETRY','10')).
+rule_i(0,datastore(1,'WAIT_RECORD','0')).
+rule_i(0,datastore(1,'SQLSERVER_VERSION','10')).
+rule_i(0,datastore(1,'COMMENT_ON','No')).
+rule_i(0,datastore(1,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(1,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(1,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(1,'CS_SCHEMA','')).
+rule_i(0,datastore(1,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(1,'JRN400','QSQJRN')).
+rule_i(0,datastore(1,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(1,'PGMLIB','')).
+rule_i(0,datastore(1,'DTALIB','')).
+rule_i(0,datastore(1,'CC_USER_PASS',wp„ÄsÁ¹)).
+rule_i(0,datastore(1,'CC_USER_ID',sa)).
+rule_i(0,datastore(1,'CC_SERVER',localhost)).
+rule_i(0,datastore(1,'CC_DBNAME','SeriesColaborativas')).
+rule_i(0,datastore(1,'RecycleRWMin','30')).
+rule_i(0,datastore(1,'RecycleRWType','1')).
+rule_i(0,datastore(1,'RecycleRW','-1')).
+rule_i(0,datastore(1,'POOL_STARTUP','No')).
+rule_i(0,datastore(1,'POOLSIZE_RW','10')).
+rule_i(0,datastore(1,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(1,'PoolRWEnabled','-1')).
+rule_i(0,datastore(1,'CS_RPCPGML','')).
+rule_i(0,datastore(1,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(1,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(1,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(1,'USER_PASSWORD','gnxÔ.“êâ¿')).
+rule_i(0,datastore(1,'USER_ID',sa)).
+rule_i(0,datastore(1,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(1,'CS_CONNECT','First')).
+rule_i(0,datastore(1,'DBMS_PORT','')).
+rule_i(0,datastore(1,'CS_SERVER',localhost)).
+rule_i(0,datastore(1,'CS_DBNAME','SeriesColaborativas')).
+rule_i(0,datastore(1,'CS_FLEDSNAME','')).
+rule_i(0,datastore(1,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(1,'CS_DSNAME','')).
+rule_i(0,datastore(1,'DB_URL','')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(1,'JDBC_DRIVER','net.sourceforge.jtds.jdbc.Driver')).
+rule_i(0,datastore(1,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(1,'ACCESS_TECHNO','ADONET')).
+rule_i(0,datastore(1,'MAIN_DS','-1')).
+rule_i(0,datastore(1,'REORG_GEN','8')).
+rule_i(0,datastore(1,'HelpKeyword','20')).
+rule_i(0,datastore(1,'DBMS',12)).
+rule_i(0,datastore(1,'NAME','Default')).
+rule_i(0,prop(idNULLS_BEHAVIOR,idNB_Current)).
+rule_i(0,prop('PWFCallable','0')).
+rule_i(0,prop('ObjectVisibility','Public')).
+rule_i(0,prop('FullyQualifiedName','GravarSerieAssistidaUsuario')).
+rule_i(0,prop('GenerateObject','-1')).
+rule_i(0,prop('CS_ORA_FORUPD','UMPV')).
+rule_i(0,prop('Optimize_copy','UMPV')).
+rule_i(0,prop('JOIN_TYPE','UMPV')).
+rule_i(0,prop('DBMS_JOINS','UMPV')).
+rule_i(0,prop('BEEPONMSG','UMPV')).
+rule_i(0,prop('GENERATE_ILE','UMPV')).
+rule_i(0,prop('PRT_DDS','UMPV')).
+rule_i(0,prop('TRNCMT','YES')).
+rule_i(0,prop('NULLVALUE_AS_NULL','UMPV')).
+rule_i(0,prop('INITIALIZE_NEW','UMPV')).
+rule_i(0,prop('STD_FUNC_OBJECT','Yes')).
+rule_i(0,prop('SPC_WARNINGS_DISABLED','spc0096 spc0107 spc0142')).
+rule_i(0,prop('TRNEND','No')).
+rule_i(0,prop('AUTOCENTER','UMPV')).
+rule_i(0,prop('LSTPFOOT','YES')).
+rule_i(0,prop('CANCEL','YES')).
+rule_i(0,prop('CONFIRM','UMPV')).
+rule_i(0,prop('TRNCFM','UMPV')).
+rule_i(0,prop('PRINT_CUST_LAYOUT','UMPV')).
+rule_i(0,prop('OUTPUT','FIL')).
+rule_i(0,prop(idConnectivitySupport,idInherit)).
+rule_i(0,prop('IntegratedSecurityLevel','SecurityNone')).
+rule_i(0,prop(idISBCEJB,'0')).
+rule_i(0,prop('REST','-1')).
+rule_i(0,prop('SOAP','-1')).
+rule_i(0,prop(idISPRCWEBSERVICE,'-1')).
+rule_i(0,prop('USE_ENCRYPTION','NO')).
+rule_i(0,prop('EXECUTE_IN_NEW_UTL','0')).
+rule_i(0,prop('Theme',o(25,'WorkWithPlusTheme'))).
+rule_i(0,prop('OBJECT_METADATA','')).
+rule_i(0,prop('CALL_PROTOCOL','INTERNAL')).
+rule_i(0,prop('IsMain','0')).
+rule_i(0,prop(sessiontype,'RW')).
+rule_i(0,prop('Folder',o(120,'Root Module'))).
+rule_i(0,prop('ObjDesc','Gravar Serie Assistida Usuario')).
+rule_i(0,prop('ObjName','GravarSerieAssistidaUsuario')).
+rule_i(0,maingen(15)).
+rule_i(0,parm([ 'Serieid','Usuariogamguid','Assistido' ],[])).
+rule_i(0,parmio([ [ 'Serieid',in ],[ 'Usuariogamguid',in ],[ 'Assistido',in ] ])).
+rule_i(0,output('FIL')).
+rule_i(0,rule([ a(13,[ endtrn ]) ],[],[],[])).
+ 
+a_i(1,1,f,'Err',[],[ [],[ t('0',3) ] ]).
+a_i(2,2,t,3,[],[ [],'IUSUARIO',[] ]).
+a_i(3,3,t,4,[],[ [ [ [],'Serieid',1 ] ],'IUSUARIOSERIE1',[] ]).
+a_i(4,4,t,2,[],[ [ [ [],'Serieid',1 ] ],'IEPISODIO1',[] ]).
+a_i(5,5,t,5,[],[ [ [ [],'Usuarioid',11 ] ],'IUSUARIOEPISODIO2',[] ]).
+a_i(6,5,c,0,[],[ c([ t(7,2),t(=,10),t([ t('Episodiosid',23),t('item(',1) ],31),t('I',23),t(')',4) ],[ 7 ]) ]).
+ 
+v_i(f,i,1,[]).
+v_i(f,o,1,'Err').
+v_i(t,i,2,[]).
+v_i(t,o,2,56).
+v_i(t,o,2,11).
+v_i(t,i,3,'Serieid').
+v_i(t,o,3,1).
+v_i(t,o,3,11).
+v_i(t,o,3,13).
+v_i(t,i,4,'Serieid').
+v_i(t,o,4,51).
+v_i(t,o,4,1).
+v_i(t,o,4,7).
+v_i(t,i,5,'Usuarioid').
+v_i(t,o,5,7).
+v_i(t,o,5,11).
+v_i(t,o,5,18).
+v_i(c,i,6,7).
+v_i(c,o,6,[]).
+ 
+ 
+ 
+ 
+ 
+ 
+attri_i('Output',[ 'Gx_out',char,3,0,'',1,'','',26 ]).
+attri_i(56,[ 'UsuarioGamGuid',char,40,0,'',0,'GUID','',0 ]).
+attri_i(1,[ 'SerieId',int,18,0,'ZZZZZZZZZZZZZZZZZ9',0,'Id','',0 ]).
+attri_i(51,[ 'EpisodioInativo',boolean,4,0,'',0,'Inativo','',0 ]).
+attri_i(18,[ 'UsuarioEpisodioId',int,18,0,'ZZZZZZZZZZZZZZZZZ9',0,'Id','',0 ]).
+attri_i(7,[ 'EpisodioId',int,18,0,'ZZZZZZZZZZZZZZZZZ9',0,'Id','',0 ]).
+attri_i(13,[ 'UsuarioSerieId',int,18,0,'ZZZZZZZZZZZZZZZZZ9',0,'Id','',0 ]).
+attri_i(11,[ 'UsuarioId',int,18,0,'ZZZZZZZZZZZZZZZZZ9',0,'Id','',0 ]).
+attri_i('Errmsg',[ 'Gx_emsg',char,70,0,'',1,'Error text','',21 ]).
+attri_i('Err',[ 'Gx_err',int,3,0,'ZZ9',1,'Error code','',20 ]).
+attri_i('I',[ i,int,4,0,'ZZZ9',0,i,'',19 ]).
+attri_i('Usuarioepisodioid',[ 'UsuarioEpisodioId',int,18,0,'ZZZZZZZZZZZZZZZZZ9',0,'Id','',18 ]).
+attri_i('Usuarioepisodio',[ 'UsuarioEpisodio',o('UsuarioEpisodio'),0,0,'',0,'Usuario Episodio','',17 ]).
+attri_i('Episodiosid',[ 'EpisodiosId',o(objectcollection(int)),18,0,'ZZZZZZZZZZZZZZZZZ9',0,'Episodios Id','',16 ]).
+attri_i('Assistido',[ 'Assistido',boolean,4,0,'',0,'Assistido','',14 ]).
+attri_i('Favorito',[ 'Favorito',boolean,4,0,'',0,'Favorito','',13 ]).
+attri_i('Usuarioserieid',[ 'UsuarioSerieId',int,18,0,'ZZZZZZZZZZZZZZZZZ9',0,'Id','',12 ]).
+attri_i('Usuarioserie',[ 'UsuarioSerie',o('UsuarioSerie'),0,0,'',0,'Usuario Serie','',11 ]).
+attri_i('Serieid',[ 'SerieId',int,18,0,'ZZZZZZZZZZZZZZZZZ9',0,'Id','',10 ]).
+attri_i('Usuarioid',[ 'UsuarioId',int,18,0,'ZZZZZZZZZZZZZZZZZ9',0,'Id','',9 ]).
+attri_i('Usuariogamguid',[ 'UsuarioGamGuid',char,40,0,'',0,'GUID','',8 ]).
+ 
+table_i(3,[ 'Usuario',[ 11,56 ],'Usuário','Usuario' ]).
+table_i(4,[ 'UsuarioSerie',[ 13,11,1 ],'Usuário série','UsuarioSerie' ]).
+table_i(2,[ 'Episodio',[ 7,1,51 ],'Episódio','Episodio' ]).
+table_i(5,[ 'UsuarioEpisodio',[ 18,11,7 ],'Usuário episódio','UsuarioEpisodio' ]).
+ 
+index_i(3,[ 'IUSUARIO',u,[ 11 ],'IUsuario' ]).
+index_i(4,[ 'IUSUARIOSERIE',u,[ 13 ],'IUsuarioSerie' ]).
+index_i(4,[ 'IUSUARIOSERIE1',d,[ 1 ],'IUsuarioSerie1' ]).
+index_i(2,[ 'IEPISODIO',u,[ 7 ],'IEpisodio' ]).
+index_i(2,[ 'IEPISODIO1',d,[ 1 ],'IEpisodio1' ]).
+index_i(5,[ 'IUSUARIOEPISODIO',u,[ 18 ],'IUsuarioEpisodio' ]).
+index_i(5,[ 'IUSUARIOEPISODIO2',d,[ 11 ],'IUsuarioEpisodio2' ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+add_att_i(bits,2,40000,43,'SerieImagem_GXI',[ svchar,2048,0,0 ]).
+ 
+ 
+ 
+ 
+start_i(5,0,0,[ [ [ 11,23,'Usuarioid',= ] ],many ]).
+start_i(4,0,0,[ [ [ 1,23,'Serieid',= ] ],many ]).
+start_i(3,0,0,[ [ [ 1,23,'Serieid',= ] ],many ]).
+ 
+end_i(5,0,0,[ [ [ t(11,2),t(=,10),t('Usuarioid',23) ] ] ]).
+end_i(4,0,0,[ [ [ t(1,2),t(=,10),t('Serieid',23) ] ] ]).
+end_i(3,0,0,[ [ [ t(1,2),t(=,10),t('Serieid',23) ] ] ]).
+ 
+ 
+ 
+ 
+enumerated_i(2,52,187).
+ 
+enum_value_i(2,187,'1','Mobile','"Mobile"',[ none ]).
+enum_value_i(2,187,'2','Administrador','"Administrador"',[ none ]).
+ 
+enum_value_info_i(2,187,'TipoUsuario').
+ 
+enum_type_i(2,187,int,4,0).
+ 
+dom_info_i(173,[ 'Id' ]).
+dom_info_i(113,[ 'GAMGUID' ]).
+dom_info_i(174,[ 'Nome' ]).
+dom_info_i(187,[ 'TipoUsuario' ]).
+dom_info_i(188,[ 'Login' ]).
+dom_info_i(189,[ 'Senha' ]).
+dom_info_i(25,[ 'GeneXus\Email' ]).
+dom_info_i(180,[ 'Nota' ]).
+dom_info_i(181,[ 'Comentario' ]).
+dom_info_i(179,[ 'Duracao' ]).
+dom_info_i(178,[ 'Resumo' ]).
+dom_info_i(185,[ 'Temporada' ]).
+dom_info_i(190,[ 'Numero' ]).
+ 
+ 
+break_i(2,nvg,1,[],[ [ 11 ],[ 56 ],[] ]).
+break_i(3,nvg,1,[],[ [ 13 ],[ 11,1 ],[] ]).
+break_i(4,nvg,1,[],[ [ 7 ],[ 1,51 ],[] ]).
+break_i(5,nvg,1,[],[ [ 18 ],[ 11,7 ],[] ]).
+break_i(1,rpt,0,[],[ [],[],[] ]).
+ 
+b_group_i(1,1,lit,0,1,0).
+b_group_i(1,2,nvg,2,1,1).
+b_group_i(2,1,lit,0,2,2).
+b_group_i(1,3,lit,0,6,5).
+b_group_i(1,4,nvg,3,7,7).
+b_group_i(3,1,lit,0,8,8).
+b_group_i(1,5,lit,0,13,11).
+b_group_i(1,6,nvg,4,25,25).
+b_group_i(4,1,lit,0,26,26).
+b_group_i(1,7,lit,0,31,17).
+b_group_i(1,8,nvg,5,34,34).
+b_group_i(5,1,lit,0,35,35).
+b_group_i(1,9,lit,0,40,0).
+ 
+b_line_i(0,1,1,cmd,0,[]).
+b_line_i(1,2,1,cmd,2,[ t('',121,1,0),t(table,3,1,10),t(3,3,1,10) ]).
+b_line_i(3,2,1,cmd,2,[]).
+b_line_i(4,2,1,cmd,2,[ t('',107,2,0),t('Usuarioid',23,2,0),t(=,10,2,0),t(11,2,2,0) ]).
+b_line_i(5,2,1,cmd,2,[ t('',128,2,0) ]).
+b_line_i(6,1,3,cmd,5,[]).
+b_line_i(7,3,1,cmd,8,[ t('',121,7,0),t(table,3,7,10),t(4,3,7,10) ]).
+b_line_i(10,3,1,cmd,8,[]).
+b_line_i(11,3,1,cmd,8,[ t('',107,8,0),t('Usuarioserieid',23,8,0),t(=,10,8,0),t(13,2,8,0) ]).
+b_line_i(12,3,1,cmd,8,[ t('',128,8,0) ]).
+b_line_i(13,1,5,cmd,11,[]).
+b_line_i(14,1,5,cmd,11,[ t('',107,11,0),t([ t('Usuarioserie',23,14,1),t('load(',1,14,15) ],31,14,1),t('Usuarioserieid',23,11,21),t(')',4,11,36) ]).
+b_line_i(15,1,5,cmd,11,[ t('',109,11,0),t([ t('Usuarioserie',23,15,4),t('fail(',1,15,18) ],31,15,18),t(')',4,11,24) ]).
+b_line_i(16,1,5,cmd,11,[ t('',107,11,0),t('Usuarioserie',23,11,0),t(=,10,11,0),t([ 'UsuarioSerie',[ t('(',0,16,21),t(')',4,16,22) ],n ],46,11,0) ]).
+b_line_i(17,1,5,cmd,11,[ t('',111,11,0) ]).
+b_line_i(18,1,5,cmd,11,[]).
+b_line_i(19,1,5,cmd,11,[ t('',107,11,0),t([ t('Usuarioserie',23,11,0),t('Serieid',3,11,0) ],29,11,0),t(=,10,11,0),t('Serieid',23,11,0) ]).
+b_line_i(20,1,5,cmd,11,[ t('',107,11,0),t([ t('Usuarioserie',23,11,0),t('Usuarioid',3,11,0) ],29,11,0),t(=,10,11,0),t('Usuarioid',23,11,0) ]).
+b_line_i(21,1,5,cmd,11,[ t('',107,11,0),t([ t('Usuarioserie',23,11,0),t('Usuarioserieassistida',3,11,0) ],29,11,0),t(=,10,11,0),t('Assistido',23,11,0) ]).
+b_line_i(22,1,5,cmd,11,[ t('',107,11,0),t([ t('Usuarioserie',23,22,1),t('save(',1,22,15) ],31,22,15),t(')',4,11,21) ]).
+b_line_i(23,1,5,cmd,11,[ t('',109,11,0),t('.NOT.',8,11,4),t([ t('Usuarioserie',23,23,10),t('fail(',1,23,24) ],31,23,24),t(')',4,11,30) ]).
+b_line_i(24,1,5,cmd,11,[ t('',132,11,0) ]).
+b_line_i(25,4,1,cmd,26,[ t('',121,25,0),t(table,3,25,11),t(2,3,25,11) ]).
+b_line_i(28,4,1,cmd,26,[]).
+b_line_i(29,4,1,cmd,26,[ t('',107,26,0),t([ t('Episodiosid',23,29,3),t('add(',1,29,16) ],31,29,3),t(7,2,26,21),t(')',4,26,31) ]).
+b_line_i(30,4,1,cmd,26,[ t('',128,26,0) ]).
+b_line_i(31,1,7,cmd,17,[]).
+b_line_i([ 32,0 ],1,7,cmd,17,[ t('',107,17,0),t('I',23,17,0),t(=,10,17,0),t('1',3,17,0) ]).
+b_line_i(32,1,7,cmd,17,[ t('',114,17,0),t('I',23,17,6),t(<=,10,17,2),t([ t('Episodiosid',23,32,16),t('Count',3,32,29) ],29,32,29) ]).
+b_line_i(33,1,7,cmd,17,[ t('',107,17,0),t([ t('Usuarioepisodioid',23,33,3),t('setempty(',1,33,22) ],31,33,3),t(')',4,17,32) ]).
+b_line_i(34,5,1,cmd,35,[ t('',121,34,0),t(table,3,34,12),t(5,3,34,12) ]).
+b_line_i(37,5,1,cmd,35,[]).
+b_line_i(38,5,1,cmd,35,[ t('',107,35,0),t('Usuarioepisodioid',23,35,0),t(=,10,35,0),t(18,2,35,0) ]).
+b_line_i(39,5,1,cmd,35,[ t('',128,35,0) ]).
+b_line_i(40,1,9,cmd,23,[ t('',107,23,0),t([ t('Usuarioepisodio',23,40,3),t('load(',1,40,20) ],31,40,3),t('Usuarioepisodioid',23,23,26),t(')',4,23,44) ]).
+b_line_i(41,1,9,cmd,23,[ t('',109,23,0),t([ t('Usuarioepisodio',23,41,6),t('fail(',1,41,23) ],31,41,23),t(')',4,23,29) ]).
+b_line_i(42,1,9,cmd,23,[ t('',107,23,0),t('Usuarioepisodio',23,23,0),t(=,10,23,0),t([ 'UsuarioEpisodio',[ t('(',0,42,26),t(')',4,42,27) ],n ],46,23,0) ]).
+b_line_i(43,1,9,cmd,23,[ t('',111,23,0) ]).
+b_line_i(44,1,9,cmd,23,[ t('',107,23,0),t([ t('Usuarioepisodio',23,23,0),t('Episodioid',3,23,0) ],29,23,0),t(=,10,23,0),t([ t('Episodiosid',23,23,0),t('item(',1,23,0) ],31,23,0),t('I',23,23,0),t(')',4,23,0) ]).
+b_line_i(45,1,9,cmd,23,[ t('',107,23,0),t([ t('Usuarioepisodio',23,23,0),t('Usuarioid',3,23,0) ],29,23,0),t(=,10,23,0),t('Usuarioid',23,23,0) ]).
+b_line_i(46,1,9,cmd,23,[ t('',107,23,0),t([ t('Usuarioepisodio',23,23,0),t('Usuarioepisodioassistido',3,23,0) ],29,23,0),t(=,10,23,0),t('Assistido',23,23,0) ]).
+b_line_i(47,1,9,cmd,23,[ t('',107,23,0),t([ t('Usuarioepisodio',23,47,3),t('save(',1,47,20) ],31,47,20),t(')',4,23,26) ]).
+b_line_i(48,1,9,cmd,23,[ t('',109,23,0),t('.NOT.',8,23,6),t([ t('Usuarioepisodio',23,48,12),t('fail(',1,48,29) ],31,48,29),t(')',4,23,35) ]).
+b_line_i(49,1,9,cmd,23,[ t('',132,23,0) ]).
+b_line_i(50,1,9,cmd,23,[ t('',110,23,0) ]).
+b_line_i(51,1,9,cmd,23,[ t('',104,23,0),t(o(1,log),28,23,4),t('"Erro ao gravar usuário episódio: "',3,51,14),t(+,5,23,49),t([ t('Usuarioepisodio',23,51,50),[ t('getmessages(',1,0,67),t(')',4,0,80) ],[ t('item(',1,0,82),t('1',3,0,88),t(')',4,0,89) ],t('Description',3,51,91) ],29,51,91) ]).
+b_line_i(52,1,9,cmd,23,[ t('',140,23,0) ]).
+b_line_i(53,1,9,cmd,23,[ t('',111,23,0) ]).
+b_line_i([ 54,0 ],1,9,cmd,23,[ t('',107,23,0),t('I',23,23,0),t(=,10,23,0),t('I',23,23,0),t(+,5,23,0),t('1',3,23,0) ]).
+b_line_i(54,1,9,cmd,23,[ t('',115,23,0) ]).
+b_line_i(55,1,9,cmd,23,[]).
+b_line_i(56,1,9,cmd,23,[ t('',110,23,0) ]).
+b_line_i(57,1,9,cmd,23,[ t('',104,23,0),t(o(1,log),28,23,2),t('"Erro ao gravar usuário série: "',3,57,12),t(+,5,23,44),t([ t('Usuarioserie',23,57,45),[ t('getmessages(',1,0,59),t(')',4,0,72) ],[ t('item(',1,0,74),t('1',3,0,80),t(')',4,0,81) ],t('Description',3,57,83) ],29,57,83) ]).
+b_line_i(58,1,9,cmd,23,[ t('',111,23,0) ]).
+ 
+ 
+ 
+ 
+ 
+page_layout_i([ 66,0,6 ]).
+ 
+ 
+ 
+paper_info_i([ 0,256,'',11909,16834,0,0,0,0,1 ]).
+ 
+ppi_i([ 100,100 ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+grid_i(7,15).
+ 
+ 
+ 
+form_class_i(1,'Graphic').
+ 
+ 
+ 
+ 
+calling_main_i(37,4).
+ 
+att_prop_i(2,11,'ExternalName','UsuarioId',d).
+att_prop_i(2,11,'ExternalNamespace','SeriesColaborativas',d).
+att_prop_i(2,11,'EmptyAsNull','Yes',d).
+att_prop_i(2,11,idBasedOn,173,v).
+att_prop_i(2,11,'AUTONUMBER','-1',d).
+att_prop_i(2,11,'AUTONUMBER_START','1',d).
+att_prop_i(2,11,'AUTONUMBER_STEP','1',d).
+att_prop_i(2,11,'AUTONUMBER_FORREPLICATION','-1',d).
+att_prop_i(2,11,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,11,'AttRegEx','',d).
+att_prop_i(2,11,'AttValidationFailedMsg','',d).
+att_prop_i(2,11,'FullName','UsuarioId',v).
+att_prop_i(2,13,'ExternalName','UsuarioSerieId',d).
+att_prop_i(2,13,'ExternalNamespace','SeriesColaborativas',d).
+att_prop_i(2,13,'EmptyAsNull','Yes',d).
+att_prop_i(2,13,idBasedOn,173,v).
+att_prop_i(2,13,'AUTONUMBER','-1',d).
+att_prop_i(2,13,'AUTONUMBER_START','1',d).
+att_prop_i(2,13,'AUTONUMBER_STEP','1',d).
+att_prop_i(2,13,'AUTONUMBER_FORREPLICATION','-1',d).
+att_prop_i(2,13,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,13,'AttRegEx','',d).
+att_prop_i(2,13,'AttValidationFailedMsg','',d).
+att_prop_i(2,13,'FullName','UsuarioSerieId',v).
+att_prop_i(2,7,'ExternalName','EpisodioId',d).
+att_prop_i(2,7,'ExternalNamespace','SeriesColaborativas',d).
+att_prop_i(2,7,'EmptyAsNull','Yes',d).
+att_prop_i(2,7,idBasedOn,173,v).
+att_prop_i(2,7,'AUTONUMBER','-1',d).
+att_prop_i(2,7,'AUTONUMBER_START','1',d).
+att_prop_i(2,7,'AUTONUMBER_STEP','1',d).
+att_prop_i(2,7,'AUTONUMBER_FORREPLICATION','-1',d).
+att_prop_i(2,7,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,7,'AttRegEx','',d).
+att_prop_i(2,7,'AttValidationFailedMsg','',d).
+att_prop_i(2,7,'FullName','EpisodioId',v).
+att_prop_i(2,18,'ExternalName','UsuarioEpisodioId',d).
+att_prop_i(2,18,'ExternalNamespace','SeriesColaborativas',d).
+att_prop_i(2,18,'EmptyAsNull','Yes',d).
+att_prop_i(2,18,idBasedOn,173,v).
+att_prop_i(2,18,'AUTONUMBER','-1',d).
+att_prop_i(2,18,'AUTONUMBER_START','1',d).
+att_prop_i(2,18,'AUTONUMBER_STEP','1',d).
+att_prop_i(2,18,'AUTONUMBER_FORREPLICATION','-1',d).
+att_prop_i(2,18,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,18,'AttRegEx','',d).
+att_prop_i(2,18,'AttValidationFailedMsg','',d).
+att_prop_i(2,18,'FullName','UsuarioEpisodioId',v).
+att_prop_i(2,51,'ExternalName','EpisodioInativo',d).
+att_prop_i(2,51,'ExternalNamespace','SeriesColaborativas',d).
+att_prop_i(2,51,'EmptyAsNull','Yes',d).
+att_prop_i(2,51,'ExternalStorage','-1',d).
+att_prop_i(2,51,idBasedOn,'',d).
+att_prop_i(2,51,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,51,'AttRegEx','',d).
+att_prop_i(2,51,'AttValidationFailedMsg','',d).
+att_prop_i(2,51,'FullName','EpisodioInativo',v).
+att_prop_i(2,1,'ExternalName','SerieId',d).
+att_prop_i(2,1,'ExternalNamespace','SeriesColaborativas',d).
+att_prop_i(2,1,'EmptyAsNull','Yes',d).
+att_prop_i(2,1,idBasedOn,173,v).
+att_prop_i(2,1,'AUTONUMBER','-1',d).
+att_prop_i(2,1,'AUTONUMBER_START','1',d).
+att_prop_i(2,1,'AUTONUMBER_STEP','1',d).
+att_prop_i(2,1,'AUTONUMBER_FORREPLICATION','-1',d).
+att_prop_i(2,1,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,1,'AttRegEx','',d).
+att_prop_i(2,1,'AttValidationFailedMsg','',d).
+att_prop_i(2,1,'FullName','SerieId',v).
+att_prop_i(2,56,'ExternalName','UsuarioGamGuid',d).
+att_prop_i(2,56,'ExternalNamespace','SeriesColaborativas',d).
+att_prop_i(2,56,'EmptyAsNull','Yes',d).
+att_prop_i(2,56,idBasedOn,113,v).
+att_prop_i(2,56,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,56,'DB_NLS_SUPPORT','No',d).
+att_prop_i(2,56,'AttRegEx','',d).
+att_prop_i(2,56,'AttValidationFailedMsg','',d).
+att_prop_i(2,56,'FullName','UsuarioGamGuid',v).
+ 
+tbl_prop_i(2,4,'AllDirSuper',[ [ 3,[ 11 ] ] ],v).
+tbl_prop_i(2,5,'AllDirSuper',[ [ 2,[ 7 ] ],[ 3,[ 11 ] ] ],v).
+tbl_prop_i(2,3,'DirSubor',[ [ 4,[ 11 ] ],[ 5,[ 11 ] ] ],v).
+tbl_prop_i(2,2,'DirSubor',[ [ 5,[ 7 ] ] ],v).
+tbl_prop_i(2,4,'DirSuper',[ [ 3,[ 11 ] ] ],v).
+tbl_prop_i(2,5,'DirSuper',[ [ 2,[ 7 ] ],[ 3,[ 11 ] ] ],v).
+ 
+tbl_att_prop_i(2,3,11,'AllowNulls',n).
+tbl_att_prop_i(2,3,11,'AUTONUMBER',y).
+tbl_att_prop_i(2,3,56,'AllowNulls',n).
+tbl_att_prop_i(2,4,13,'AllowNulls',n).
+tbl_att_prop_i(2,4,13,'AUTONUMBER',y).
+tbl_att_prop_i(2,4,11,'AllowNulls',n).
+tbl_att_prop_i(2,4,1,'AllowNulls',n).
+tbl_att_prop_i(2,2,7,'AllowNulls',n).
+tbl_att_prop_i(2,2,7,'AUTONUMBER',y).
+tbl_att_prop_i(2,2,1,'AllowNulls',n).
+tbl_att_prop_i(2,2,51,'AllowNulls',n).
+tbl_att_prop_i(2,5,18,'AllowNulls',n).
+tbl_att_prop_i(2,5,18,'AUTONUMBER',y).
+tbl_att_prop_i(2,5,11,'AllowNulls',n).
+tbl_att_prop_i(2,5,7,'AllowNulls',n).
+ 
+var_prop_i(2,'Usuariogamguid',idBasedOn,'',v).
+var_prop_i(2,'Usuarioid',idBasedOn,'',v).
+var_prop_i(2,'Serieid',idBasedOn,'',v).
+var_prop_i(2,'Usuarioserieid',idBasedOn,'',v).
+var_prop_i(2,'Episodiosid',idBasedOn,173,v).
+var_prop_i(2,'Usuarioepisodioid',idBasedOn,'',v).
+ 
+ 
+ 
+ 
+ 
+struct_dt_i([ 0,4,0 ],name,'UsuarioSerie').
+struct_dt_i([ 0,4,0 ],namespace,'SeriesColaborativas').
+struct_dt_i([ 0,4,0 ],significantName,'UsuarioSerie').
+struct_dt_i([ 0,4,0 ],'ObjName','UsuarioSerie').
+struct_dt_i([ 0,4,0 ],'ObjDesc','Usuário série').
+struct_dt_i([ 0,4,0 ],'ExternalName','UsuarioSerie').
+struct_dt_i([ 0,4,0 ],'ExternalNamespace','SeriesColaborativas').
+struct_dt_i([ 0,4,0 ],key,[ 13 ]).
+struct_dt_i([ 0,4,0 ],lvl,4).
+struct_dt_i([ 26,8,0 ],name,'GeneXus\Common\Messages').
+struct_dt_i([ 26,8,0 ],namespace,'GeneXus').
+struct_dt_i([ 26,8,0 ],'ObjName','Messages').
+struct_dt_i([ 26,8,0 ],'ObjDesc','Messages').
+struct_dt_i([ 26,8,0 ],'ExternalName','Messages').
+struct_dt_i([ 26,8,0 ],'ExternalNamespace','GeneXus').
+struct_dt_i([ 26,8,0 ],collection,'True').
+struct_dt_i([ 26,8,0 ],datatype,[ 26,8,25 ]).
+struct_dt_i([ 26,8,0 ],isexternal,'True').
+struct_dt_i([ 26,8,25 ],name,'Message').
+struct_dt_i([ 26,8,25 ],namespace,'GeneXus.Messages').
+struct_dt_i([ 0,5,0 ],name,'UsuarioEpisodio').
+struct_dt_i([ 0,5,0 ],namespace,'SeriesColaborativas').
+struct_dt_i([ 0,5,0 ],significantName,'UsuarioEpisodio').
+struct_dt_i([ 0,5,0 ],'ObjName','UsuarioEpisodio').
+struct_dt_i([ 0,5,0 ],'ObjDesc','Usuário episódio').
+struct_dt_i([ 0,5,0 ],'ExternalName','UsuarioEpisodio').
+struct_dt_i([ 0,5,0 ],'ExternalNamespace','SeriesColaborativas').
+struct_dt_i([ 0,5,0 ],key,[ 18 ]).
+struct_dt_i([ 0,5,0 ],lvl,5).
+struct_dt_i([ 0,4,0 ],fullname,'UsuarioSerie').
+struct_dt_i([ 26,8,0 ],fullname,'GeneXus\Common\Messages').
+struct_dt_i([ 26,8,25 ],fullname,'GeneXus\Common\Messages.Message').
+struct_dt_i([ 0,5,0 ],fullname,'UsuarioEpisodio').
+struct_dt_i([ 26,8,0 ],modified,yes).
+struct_dt_i([ 26,8,25 ],modified,yes).
+ 
+struct_dt_elem_i([ 0,4,0 ],1,name,'Usuarioserieid').
+struct_dt_elem_i([ 0,4,0 ],1,camelname,'UsuarioSerieId').
+struct_dt_elem_i([ 0,4,0 ],1,basedon,173).
+struct_dt_elem_i([ 0,4,0 ],1,length,18).
+struct_dt_elem_i([ 0,4,0 ],1,decimals,0).
+struct_dt_elem_i([ 0,4,0 ],1,sign,0).
+struct_dt_elem_i([ 0,4,0 ],1,type,[ 4,18,0 ]).
+struct_dt_elem_i([ 0,4,0 ],1,pic,'ZZZZZZZZZZZZZZZZZ9').
+struct_dt_elem_i([ 0,4,0 ],1,collection,'False').
+struct_dt_elem_i([ 0,4,0 ],1,attributeid,'13').
+struct_dt_elem_i([ 0,4,0 ],1,'ExternalName','UsuarioSerieId').
+struct_dt_elem_i([ 0,4,0 ],1,'ExternalNamespace','SeriesColaborativas').
+struct_dt_elem_i([ 0,4,0 ],2,name,'Usuarioid').
+struct_dt_elem_i([ 0,4,0 ],2,camelname,'UsuarioId').
+struct_dt_elem_i([ 0,4,0 ],2,basedon,173).
+struct_dt_elem_i([ 0,4,0 ],2,length,18).
+struct_dt_elem_i([ 0,4,0 ],2,decimals,0).
+struct_dt_elem_i([ 0,4,0 ],2,sign,0).
+struct_dt_elem_i([ 0,4,0 ],2,type,[ 4,18,0 ]).
+struct_dt_elem_i([ 0,4,0 ],2,pic,'ZZZZZZZZZZZZZZZZZ9').
+struct_dt_elem_i([ 0,4,0 ],2,collection,'False').
+struct_dt_elem_i([ 0,4,0 ],2,attributeid,'11').
+struct_dt_elem_i([ 0,4,0 ],2,'ExternalName','UsuarioId').
+struct_dt_elem_i([ 0,4,0 ],2,'ExternalNamespace','SeriesColaborativas').
+struct_dt_elem_i([ 0,4,0 ],3,name,'Serieid').
+struct_dt_elem_i([ 0,4,0 ],3,camelname,'SerieId').
+struct_dt_elem_i([ 0,4,0 ],3,basedon,173).
+struct_dt_elem_i([ 0,4,0 ],3,length,18).
+struct_dt_elem_i([ 0,4,0 ],3,decimals,0).
+struct_dt_elem_i([ 0,4,0 ],3,sign,0).
+struct_dt_elem_i([ 0,4,0 ],3,type,[ 4,18,0 ]).
+struct_dt_elem_i([ 0,4,0 ],3,pic,'ZZZZZZZZZZZZZZZZZ9').
+struct_dt_elem_i([ 0,4,0 ],3,collection,'False').
+struct_dt_elem_i([ 0,4,0 ],3,attributeid,'1').
+struct_dt_elem_i([ 0,4,0 ],3,'ExternalName','SerieId').
+struct_dt_elem_i([ 0,4,0 ],3,'ExternalNamespace','SeriesColaborativas').
+struct_dt_elem_i([ 0,4,0 ],4,name,'Serienome').
+struct_dt_elem_i([ 0,4,0 ],4,camelname,'SerieNome').
+struct_dt_elem_i([ 0,4,0 ],4,basedon,174).
+struct_dt_elem_i([ 0,4,0 ],4,length,40).
+struct_dt_elem_i([ 0,4,0 ],4,decimals,0).
+struct_dt_elem_i([ 0,4,0 ],4,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 0,4,0 ],4,pic,'').
+struct_dt_elem_i([ 0,4,0 ],4,collection,'False').
+struct_dt_elem_i([ 0,4,0 ],4,attributeid,'2').
+struct_dt_elem_i([ 0,4,0 ],4,'ExternalName','SerieNome').
+struct_dt_elem_i([ 0,4,0 ],4,'ExternalNamespace','SeriesColaborativas').
+struct_dt_elem_i([ 0,4,0 ],5,name,'Serieimagem').
+struct_dt_elem_i([ 0,4,0 ],5,camelname,'SerieImagem').
+struct_dt_elem_i([ 0,4,0 ],5,length,4).
+struct_dt_elem_i([ 0,4,0 ],5,decimals,0).
+struct_dt_elem_i([ 0,4,0 ],5,type,[ 7,4,0 ]).
+struct_dt_elem_i([ 0,4,0 ],5,pic,'').
+struct_dt_elem_i([ 0,4,0 ],5,collection,'False').
+struct_dt_elem_i([ 0,4,0 ],5,attributeid,'43').
+struct_dt_elem_i([ 0,4,0 ],5,'ExternalName','SerieImagem').
+struct_dt_elem_i([ 0,4,0 ],5,'ExternalNamespace','SeriesColaborativas').
+struct_dt_elem_i([ 0,4,0 ],6,name,'Serieimagem_gxi').
+struct_dt_elem_i([ 0,4,0 ],6,camelname,'SerieImagem_GXI').
+struct_dt_elem_i([ 0,4,0 ],6,collection,'False').
+struct_dt_elem_i([ 0,4,0 ],6,isadd,'True').
+struct_dt_elem_i([ 0,4,0 ],6,length,2048).
+struct_dt_elem_i([ 0,4,0 ],6,decimals,0).
+struct_dt_elem_i([ 0,4,0 ],6,type,[ 13,2048,0 ]).
+struct_dt_elem_i([ 0,4,0 ],7,name,'Generonome').
+struct_dt_elem_i([ 0,4,0 ],7,camelname,'GeneroNome').
+struct_dt_elem_i([ 0,4,0 ],7,basedon,174).
+struct_dt_elem_i([ 0,4,0 ],7,length,40).
+struct_dt_elem_i([ 0,4,0 ],7,decimals,0).
+struct_dt_elem_i([ 0,4,0 ],7,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 0,4,0 ],7,pic,'').
+struct_dt_elem_i([ 0,4,0 ],7,collection,'False').
+struct_dt_elem_i([ 0,4,0 ],7,attributeid,'49').
+struct_dt_elem_i([ 0,4,0 ],7,'ExternalName','GeneroNome').
+struct_dt_elem_i([ 0,4,0 ],7,'ExternalNamespace','SeriesColaborativas').
+struct_dt_elem_i([ 0,4,0 ],8,name,'Usuarioserienota').
+struct_dt_elem_i([ 0,4,0 ],8,camelname,'UsuarioSerieNota').
+struct_dt_elem_i([ 0,4,0 ],8,basedon,180).
+struct_dt_elem_i([ 0,4,0 ],8,length,1).
+struct_dt_elem_i([ 0,4,0 ],8,decimals,0).
+struct_dt_elem_i([ 0,4,0 ],8,sign,0).
+struct_dt_elem_i([ 0,4,0 ],8,type,[ 4,1,0 ]).
+struct_dt_elem_i([ 0,4,0 ],8,pic,'9').
+struct_dt_elem_i([ 0,4,0 ],8,collection,'False').
+struct_dt_elem_i([ 0,4,0 ],8,attributeid,'14').
+struct_dt_elem_i([ 0,4,0 ],8,'ExternalName','UsuarioSerieNota').
+struct_dt_elem_i([ 0,4,0 ],8,'ExternalNamespace','SeriesColaborativas').
+struct_dt_elem_i([ 0,4,0 ],9,name,'Usuarioserieassistida').
+struct_dt_elem_i([ 0,4,0 ],9,camelname,'UsuarioSerieAssistida').
+struct_dt_elem_i([ 0,4,0 ],9,length,4).
+struct_dt_elem_i([ 0,4,0 ],9,decimals,0).
+struct_dt_elem_i([ 0,4,0 ],9,type,[ 15,4,0 ]).
+struct_dt_elem_i([ 0,4,0 ],9,pic,'').
+struct_dt_elem_i([ 0,4,0 ],9,collection,'False').
+struct_dt_elem_i([ 0,4,0 ],9,attributeid,'15').
+struct_dt_elem_i([ 0,4,0 ],9,'ExternalName','UsuarioSerieAssistida').
+struct_dt_elem_i([ 0,4,0 ],9,'ExternalNamespace','SeriesColaborativas').
+struct_dt_elem_i([ 0,4,0 ],10,name,'Usuarioseriecomentario').
+struct_dt_elem_i([ 0,4,0 ],10,camelname,'UsuarioSerieComentario').
+struct_dt_elem_i([ 0,4,0 ],10,basedon,181).
+struct_dt_elem_i([ 0,4,0 ],10,length,300).
+struct_dt_elem_i([ 0,4,0 ],10,decimals,0).
+struct_dt_elem_i([ 0,4,0 ],10,type,[ 13,300,0 ]).
+struct_dt_elem_i([ 0,4,0 ],10,pic,'').
+struct_dt_elem_i([ 0,4,0 ],10,collection,'False').
+struct_dt_elem_i([ 0,4,0 ],10,attributeid,'16').
+struct_dt_elem_i([ 0,4,0 ],10,'ExternalName','UsuarioSerieComentario').
+struct_dt_elem_i([ 0,4,0 ],10,'ExternalNamespace','SeriesColaborativas').
+struct_dt_elem_i([ 0,4,0 ],11,name,'Usuarioseriefavorita').
+struct_dt_elem_i([ 0,4,0 ],11,camelname,'UsuarioSerieFavorita').
+struct_dt_elem_i([ 0,4,0 ],11,length,4).
+struct_dt_elem_i([ 0,4,0 ],11,decimals,0).
+struct_dt_elem_i([ 0,4,0 ],11,type,[ 15,4,0 ]).
+struct_dt_elem_i([ 0,4,0 ],11,pic,'').
+struct_dt_elem_i([ 0,4,0 ],11,collection,'False').
+struct_dt_elem_i([ 0,4,0 ],11,attributeid,'17').
+struct_dt_elem_i([ 0,4,0 ],11,'ExternalName','UsuarioSerieFavorita').
+struct_dt_elem_i([ 0,4,0 ],11,'ExternalNamespace','SeriesColaborativas').
+struct_dt_elem_i([ 26,8,25 ],1,name,'Id').
+struct_dt_elem_i([ 26,8,25 ],1,camelname,'Id').
+struct_dt_elem_i([ 26,8,25 ],1,length,128).
+struct_dt_elem_i([ 26,8,25 ],1,decimals,0).
+struct_dt_elem_i([ 26,8,25 ],1,type,[ 13,128,0 ]).
+struct_dt_elem_i([ 26,8,25 ],1,pic,'').
+struct_dt_elem_i([ 26,8,25 ],1,collection,'False').
+struct_dt_elem_i([ 26,8,25 ],1,'ExternalName','Id').
+struct_dt_elem_i([ 26,8,25 ],1,'ExternalNamespace','SeriesColaborativas').
+struct_dt_elem_i([ 26,8,25 ],1,'XmlType','Element').
+struct_dt_elem_i([ 26,8,25 ],1,'XmlName','').
+struct_dt_elem_i([ 26,8,25 ],1,'XmlNamespace','').
+struct_dt_elem_i([ 26,8,25 ],1,soaptype,'').
+struct_dt_elem_i([ 26,8,25 ],1,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,8,25 ],1,'JsonName','').
+struct_dt_elem_i([ 26,8,25 ],2,name,'Type').
+struct_dt_elem_i([ 26,8,25 ],2,camelname,'Type').
+struct_dt_elem_i([ 26,8,25 ],2,basedon,30).
+struct_dt_elem_i([ 26,8,25 ],2,length,2).
+struct_dt_elem_i([ 26,8,25 ],2,decimals,0).
+struct_dt_elem_i([ 26,8,25 ],2,sign,0).
+struct_dt_elem_i([ 26,8,25 ],2,type,[ 4,2,0 ]).
+struct_dt_elem_i([ 26,8,25 ],2,pic,'Z9').
+struct_dt_elem_i([ 26,8,25 ],2,collection,'False').
+struct_dt_elem_i([ 26,8,25 ],2,'ExternalName','Type').
+struct_dt_elem_i([ 26,8,25 ],2,'ExternalNamespace','SeriesColaborativas').
+struct_dt_elem_i([ 26,8,25 ],2,'XmlType','Element').
+struct_dt_elem_i([ 26,8,25 ],2,'XmlName','').
+struct_dt_elem_i([ 26,8,25 ],2,'XmlNamespace','').
+struct_dt_elem_i([ 26,8,25 ],2,soaptype,'').
+struct_dt_elem_i([ 26,8,25 ],2,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,8,25 ],2,'JsonName','').
+struct_dt_elem_i([ 26,8,25 ],3,name,'Description').
+struct_dt_elem_i([ 26,8,25 ],3,camelname,'Description').
+struct_dt_elem_i([ 26,8,25 ],3,length,256).
+struct_dt_elem_i([ 26,8,25 ],3,decimals,0).
+struct_dt_elem_i([ 26,8,25 ],3,type,[ 13,256,0 ]).
+struct_dt_elem_i([ 26,8,25 ],3,pic,'').
+struct_dt_elem_i([ 26,8,25 ],3,collection,'False').
+struct_dt_elem_i([ 26,8,25 ],3,'ExternalName','Description').
+struct_dt_elem_i([ 26,8,25 ],3,'ExternalNamespace','SeriesColaborativas').
+struct_dt_elem_i([ 26,8,25 ],3,'XmlType','Element').
+struct_dt_elem_i([ 26,8,25 ],3,'XmlName','').
+struct_dt_elem_i([ 26,8,25 ],3,'XmlNamespace','').
+struct_dt_elem_i([ 26,8,25 ],3,soaptype,'').
+struct_dt_elem_i([ 26,8,25 ],3,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,8,25 ],3,'JsonName','').
+struct_dt_elem_i([ 0,5,0 ],1,name,'Usuarioepisodioid').
+struct_dt_elem_i([ 0,5,0 ],1,camelname,'UsuarioEpisodioId').
+struct_dt_elem_i([ 0,5,0 ],1,basedon,173).
+struct_dt_elem_i([ 0,5,0 ],1,length,18).
+struct_dt_elem_i([ 0,5,0 ],1,decimals,0).
+struct_dt_elem_i([ 0,5,0 ],1,sign,0).
+struct_dt_elem_i([ 0,5,0 ],1,type,[ 4,18,0 ]).
+struct_dt_elem_i([ 0,5,0 ],1,pic,'ZZZZZZZZZZZZZZZZZ9').
+struct_dt_elem_i([ 0,5,0 ],1,collection,'False').
+struct_dt_elem_i([ 0,5,0 ],1,attributeid,'18').
+struct_dt_elem_i([ 0,5,0 ],1,'ExternalName','UsuarioEpisodioId').
+struct_dt_elem_i([ 0,5,0 ],1,'ExternalNamespace','SeriesColaborativas').
+struct_dt_elem_i([ 0,5,0 ],2,name,'Usuarioid').
+struct_dt_elem_i([ 0,5,0 ],2,camelname,'UsuarioId').
+struct_dt_elem_i([ 0,5,0 ],2,basedon,173).
+struct_dt_elem_i([ 0,5,0 ],2,length,18).
+struct_dt_elem_i([ 0,5,0 ],2,decimals,0).
+struct_dt_elem_i([ 0,5,0 ],2,sign,0).
+struct_dt_elem_i([ 0,5,0 ],2,type,[ 4,18,0 ]).
+struct_dt_elem_i([ 0,5,0 ],2,pic,'ZZZZZZZZZZZZZZZZZ9').
+struct_dt_elem_i([ 0,5,0 ],2,collection,'False').
+struct_dt_elem_i([ 0,5,0 ],2,attributeid,'11').
+struct_dt_elem_i([ 0,5,0 ],2,'ExternalName','UsuarioId').
+struct_dt_elem_i([ 0,5,0 ],2,'ExternalNamespace','SeriesColaborativas').
+struct_dt_elem_i([ 0,5,0 ],3,name,'Episodioid').
+struct_dt_elem_i([ 0,5,0 ],3,camelname,'EpisodioId').
+struct_dt_elem_i([ 0,5,0 ],3,basedon,173).
+struct_dt_elem_i([ 0,5,0 ],3,length,18).
+struct_dt_elem_i([ 0,5,0 ],3,decimals,0).
+struct_dt_elem_i([ 0,5,0 ],3,sign,0).
+struct_dt_elem_i([ 0,5,0 ],3,type,[ 4,18,0 ]).
+struct_dt_elem_i([ 0,5,0 ],3,pic,'ZZZZZZZZZZZZZZZZZ9').
+struct_dt_elem_i([ 0,5,0 ],3,collection,'False').
+struct_dt_elem_i([ 0,5,0 ],3,attributeid,'7').
+struct_dt_elem_i([ 0,5,0 ],3,'ExternalName','EpisodioId').
+struct_dt_elem_i([ 0,5,0 ],3,'ExternalNamespace','SeriesColaborativas').
+struct_dt_elem_i([ 0,5,0 ],4,name,'Usuarioepisodionota').
+struct_dt_elem_i([ 0,5,0 ],4,camelname,'UsuarioEpisodioNota').
+struct_dt_elem_i([ 0,5,0 ],4,basedon,180).
+struct_dt_elem_i([ 0,5,0 ],4,length,1).
+struct_dt_elem_i([ 0,5,0 ],4,decimals,0).
+struct_dt_elem_i([ 0,5,0 ],4,sign,0).
+struct_dt_elem_i([ 0,5,0 ],4,type,[ 4,1,0 ]).
+struct_dt_elem_i([ 0,5,0 ],4,pic,'9').
+struct_dt_elem_i([ 0,5,0 ],4,collection,'False').
+struct_dt_elem_i([ 0,5,0 ],4,attributeid,'19').
+struct_dt_elem_i([ 0,5,0 ],4,'ExternalName','UsuarioEpisodioNota').
+struct_dt_elem_i([ 0,5,0 ],4,'ExternalNamespace','SeriesColaborativas').
+struct_dt_elem_i([ 0,5,0 ],5,name,'Usuarioepisodioassistido').
+struct_dt_elem_i([ 0,5,0 ],5,camelname,'UsuarioEpisodioAssistido').
+struct_dt_elem_i([ 0,5,0 ],5,length,4).
+struct_dt_elem_i([ 0,5,0 ],5,decimals,0).
+struct_dt_elem_i([ 0,5,0 ],5,type,[ 15,4,0 ]).
+struct_dt_elem_i([ 0,5,0 ],5,pic,'').
+struct_dt_elem_i([ 0,5,0 ],5,collection,'False').
+struct_dt_elem_i([ 0,5,0 ],5,attributeid,'20').
+struct_dt_elem_i([ 0,5,0 ],5,'ExternalName','UsuarioEpisodioAssistido').
+struct_dt_elem_i([ 0,5,0 ],5,'ExternalNamespace','SeriesColaborativas').
+struct_dt_elem_i([ 0,5,0 ],6,name,'Usuarioepisodiocomentario').
+struct_dt_elem_i([ 0,5,0 ],6,camelname,'UsuarioEpisodioComentario').
+struct_dt_elem_i([ 0,5,0 ],6,basedon,181).
+struct_dt_elem_i([ 0,5,0 ],6,length,300).
+struct_dt_elem_i([ 0,5,0 ],6,decimals,0).
+struct_dt_elem_i([ 0,5,0 ],6,type,[ 13,300,0 ]).
+struct_dt_elem_i([ 0,5,0 ],6,pic,'').
+struct_dt_elem_i([ 0,5,0 ],6,collection,'False').
+struct_dt_elem_i([ 0,5,0 ],6,attributeid,'21').
+struct_dt_elem_i([ 0,5,0 ],6,'ExternalName','UsuarioEpisodioComentario').
+struct_dt_elem_i([ 0,5,0 ],6,'ExternalNamespace','SeriesColaborativas').
+struct_dt_elem_i([ 0,5,0 ],7,name,'Usuarioepisodiofavorito').
+struct_dt_elem_i([ 0,5,0 ],7,camelname,'UsuarioEpisodioFavorito').
+struct_dt_elem_i([ 0,5,0 ],7,length,4).
+struct_dt_elem_i([ 0,5,0 ],7,decimals,0).
+struct_dt_elem_i([ 0,5,0 ],7,type,[ 15,4,0 ]).
+struct_dt_elem_i([ 0,5,0 ],7,pic,'').
+struct_dt_elem_i([ 0,5,0 ],7,collection,'False').
+struct_dt_elem_i([ 0,5,0 ],7,attributeid,'22').
+struct_dt_elem_i([ 0,5,0 ],7,'ExternalName','UsuarioEpisodioFavorito').
+struct_dt_elem_i([ 0,5,0 ],7,'ExternalNamespace','SeriesColaborativas').
+struct_dt_elem_i([ 26,8,25 ],2,pic,'ZZZZZZZZZZZZZZZZZ9').
+struct_dt_elem_i([ 0,4,0 ],6,attributeid,'40000').
+ 
+ 
+ 
+ 
+ 
+ 
+pgm_parm_i(proc,39,'LOG',[ [ svchar,255,0,0 ] ],[ [ 'Log',in,[] ] ]).
+ 
+pgm_callprotocol_i(proc,45,'GRAVARSERIEASSISTIDAUSUARIO','INTERNAL').
+pgm_callprotocol_i(proc,39,'LOG','INTERNAL').
+ 
+ 
+ 
+ 
+module_info_i('GeneXus\Common','CSHARP_NAME_SPACE','GeneXus.Core').
+module_info_i('GeneXus\Common','AssemblyName','GeneXus.dll').
+module_info_i('GeneXus','CSHARP_NAME_SPACE','GeneXus.Core').
+module_info_i('GeneXus','AssemblyName','GeneXus.dll').
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

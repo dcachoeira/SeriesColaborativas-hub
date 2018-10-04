@@ -1,0 +1,6 @@
+bc_dt_elem_i([ 0,6,0 ],1,allownulls,no).
+bc_dt_elem_i([ 0,6,0 ],2,allownulls,no).
+bc_dt_elem_i([ 0,6,0 ],3,allownulls,no).
+bc_dt_elem_i([ 0,6,0 ],4,allownulls,no).
+bc_dt_elem_i([ 0,6,0 ],6,allownulls,no).
+ 

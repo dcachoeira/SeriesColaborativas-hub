@@ -1,0 +1,14 @@
+[
+  {
+    "Id": "14c2fbd7-136b-47ae-92f3-ffee961dd0a5",
+    "Type": 1,
+    "EnvironmentGUID": "77f769dc-c8fb-461d-a7a6-c357ed27c65e",
+    "IsNew": false
+  },
+  {
+    "Id": "bf43db0f19df404d8a1df7c0e8b099ed",
+    "Type": 2,
+    "EnvironmentGUID": "bf43db0f19df404d8a1df7c0e8b099ed",
+    "IsNew": false
+  }
+]

@@ -1,0 +1,16 @@
+bc_dt_elem_i([ 0,4,0 ],1,allownulls,no).
+bc_dt_elem_i([ 0,4,0 ],2,allownulls,no).
+bc_dt_elem_i([ 0,4,0 ],3,allownulls,no).
+bc_dt_elem_i([ 0,4,0 ],4,readonly,yes).
+bc_dt_elem_i([ 0,4,0 ],4,allownulls,no).
+bc_dt_elem_i([ 0,4,0 ],5,readonly,yes).
+bc_dt_elem_i([ 0,4,0 ],5,allownulls,no).
+bc_dt_elem_i([ 0,4,0 ],7,readonly,yes).
+bc_dt_elem_i([ 0,4,0 ],7,allownulls,no).
+bc_dt_elem_i([ 0,4,0 ],8,allownulls,no).
+bc_dt_elem_i([ 0,4,0 ],9,allownulls,no).
+bc_dt_elem_i([ 0,4,0 ],10,allownulls,no).
+bc_dt_elem_i([ 0,4,0 ],11,allownulls,no).
+bc_dt_elem_i([ 0,4,0 ],6,readonly,yes).
+bc_dt_elem_i([ 0,4,0 ],6,allownulls,no).
+ 

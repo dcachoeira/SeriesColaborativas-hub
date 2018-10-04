@@ -1,0 +1,8 @@
+
+<WWSDSpec>
+<Section>
+<Name>Level.Detail</Name>
+<DataProviders>
+<DataProvider>SDSerie_Level_Detail_GridTemporadas</DataProvider>
+<DataProvider>SDSerie_Level_Detail_GridEpisodios</DataProvider>
+<DataProvider>SDSerie_Level_Detail</DataProvider></DataProviders></Section></WWSDSpec>

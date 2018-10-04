@@ -1,0 +1,381 @@
+spec_i([ mnproc,0,'SDSerie_Level_Detail_GridEpisodios','SDSerie_Level_Detail_GridEpisodios',0,por,'15_0_9-121631' ]).
+ 
+struct_i(2,1,[],[]).
+ 
+level_i(2,[ 2,[ [ 2,many ] ],[],[],[ [ [ 2 ],[ 8,9,7 ] ] ],[ [ [ 2 ],[] ] ],[ 7 ],'IEPISODIO',[],[] ]).
+ 
+tw_i(2,[]).
+ 
+lwi_i(2,[ [] ]).
+ 
+ 
+ 
+level_option_i(2,server_paging,[ y,[] ]).
+level_option_i(2,lvl_paging,[ [ t('Start',23) ],[ t('Count',23) ] ]).
+ 
+ta_i(2,[ [ [ 2,8 ],[ 2,9 ],[ 2,7 ] ] ]).
+ 
+las_i(2,[ [ 8,9,7 ] ]).
+ 
+lac_i(2,[ [] ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+rule_i(0,datastore(2,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(2,'LOCK_RETRY','10')).
+rule_i(0,datastore(2,'WAIT_RECORD','0')).
+rule_i(0,datastore(2,'SQLSERVER_VERSION','10')).
+rule_i(0,datastore(2,'COMMENT_ON','No')).
+rule_i(0,datastore(2,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(2,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(2,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(2,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(2,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(2,'CS_SCHEMA',gam)).
+rule_i(0,datastore(2,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(2,'JRN400','QSQJRN')).
+rule_i(0,datastore(2,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(2,'PGMLIB','')).
+rule_i(0,datastore(2,'DTALIB','')).
+rule_i(0,datastore(2,'CC_USER_PASS',wp„ÄsÁ¹)).
+rule_i(0,datastore(2,'CC_USER_ID',sa)).
+rule_i(0,datastore(2,'CC_SERVER',localhost)).
+rule_i(0,datastore(2,'CC_DBNAME','SeriesColaborativas')).
+rule_i(0,datastore(2,'RecycleRWMin','30')).
+rule_i(0,datastore(2,'RecycleRWType','1')).
+rule_i(0,datastore(2,'RecycleRW','-1')).
+rule_i(0,datastore(2,'POOL_STARTUP','No')).
+rule_i(0,datastore(2,'POOLSIZE_RW','10')).
+rule_i(0,datastore(2,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(2,'PoolRWEnabled','-1')).
+rule_i(0,datastore(2,'CS_RPCPGML','')).
+rule_i(0,datastore(2,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(2,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(2,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(2,'USER_PASSWORD','gnxÔ.“êâ¿')).
+rule_i(0,datastore(2,'USER_ID',sa)).
+rule_i(0,datastore(2,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(2,'CS_CONNECT','First')).
+rule_i(0,datastore(2,'DBMS_PORT','')).
+rule_i(0,datastore(2,'CS_SERVER',localhost)).
+rule_i(0,datastore(2,'CS_DBNAME','SeriesColaborativas')).
+rule_i(0,datastore(2,'CS_FLEDSNAME','')).
+rule_i(0,datastore(2,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(2,'CS_DSNAME','')).
+rule_i(0,datastore(2,'DB_URL','')).
+rule_i(0,datastore(2,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(2,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(2,'JDBC_DRIVER','net.sourceforge.jtds.jdbc.Driver')).
+rule_i(0,datastore(2,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(2,'ACCESS_TECHNO','ADONET')).
+rule_i(0,datastore(2,'MAIN_DS','-1')).
+rule_i(0,datastore(2,'REORG_GEN','8')).
+rule_i(0,datastore(2,'HelpKeyword','23')).
+rule_i(0,datastore(2,'DBMS',12)).
+rule_i(0,datastore(2,'NAME','GAM')).
+rule_i(0,datastore(1,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(1,'LOCK_RETRY','10')).
+rule_i(0,datastore(1,'WAIT_RECORD','0')).
+rule_i(0,datastore(1,'SQLSERVER_VERSION','10')).
+rule_i(0,datastore(1,'COMMENT_ON','No')).
+rule_i(0,datastore(1,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(1,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(1,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(1,'CS_SCHEMA','')).
+rule_i(0,datastore(1,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(1,'JRN400','QSQJRN')).
+rule_i(0,datastore(1,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(1,'PGMLIB','')).
+rule_i(0,datastore(1,'DTALIB','')).
+rule_i(0,datastore(1,'CC_USER_PASS',wp„ÄsÁ¹)).
+rule_i(0,datastore(1,'CC_USER_ID',sa)).
+rule_i(0,datastore(1,'CC_SERVER',localhost)).
+rule_i(0,datastore(1,'CC_DBNAME','SeriesColaborativas')).
+rule_i(0,datastore(1,'RecycleRWMin','30')).
+rule_i(0,datastore(1,'RecycleRWType','1')).
+rule_i(0,datastore(1,'RecycleRW','-1')).
+rule_i(0,datastore(1,'POOL_STARTUP','No')).
+rule_i(0,datastore(1,'POOLSIZE_RW','10')).
+rule_i(0,datastore(1,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(1,'PoolRWEnabled','-1')).
+rule_i(0,datastore(1,'CS_RPCPGML','')).
+rule_i(0,datastore(1,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(1,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(1,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(1,'USER_PASSWORD','gnxÔ.“êâ¿')).
+rule_i(0,datastore(1,'USER_ID',sa)).
+rule_i(0,datastore(1,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(1,'CS_CONNECT','First')).
+rule_i(0,datastore(1,'DBMS_PORT','')).
+rule_i(0,datastore(1,'CS_SERVER',localhost)).
+rule_i(0,datastore(1,'CS_DBNAME','SeriesColaborativas')).
+rule_i(0,datastore(1,'CS_FLEDSNAME','')).
+rule_i(0,datastore(1,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(1,'CS_DSNAME','')).
+rule_i(0,datastore(1,'DB_URL','')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(1,'JDBC_DRIVER','net.sourceforge.jtds.jdbc.Driver')).
+rule_i(0,datastore(1,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(1,'ACCESS_TECHNO','ADONET')).
+rule_i(0,datastore(1,'MAIN_DS','-1')).
+rule_i(0,datastore(1,'REORG_GEN','8')).
+rule_i(0,datastore(1,'HelpKeyword','20')).
+rule_i(0,datastore(1,'DBMS',12)).
+rule_i(0,datastore(1,'NAME','Default')).
+rule_i(0,prop(idNULLS_BEHAVIOR,idNB_Current)).
+rule_i(0,prop('FullyQualifiedName','SDSerie_Level_Detail_GridEpisodios')).
+rule_i(0,prop('STD_FUNC_OBJECT','Yes')).
+rule_i(0,prop('IntegratedSecurityLevel','SecurityNone')).
+rule_i(0,prop('CacheCheckForNewData','CacheCheckForNewDataEveryTime')).
+rule_i(0,prop('CacheEnabled','-1')).
+rule_i(0,prop(autoRefreshTime,'0')).
+rule_i(0,prop(dataSelectorParameters,[])).
+rule_i(0,prop(dataSelector,'')).
+rule_i(0,prop(adsPosition,'Bottom')).
+rule_i(0,prop(showAds,'-1')).
+rule_i(0,prop('DeepLinkName','')).
+rule_i(0,prop(idConnectivitySupport,idInherit)).
+rule_i(0,prop(caption,'')).
+rule_i(0,prop('IsMain','0')).
+rule_i(0,prop('ObjectVisibility','Public')).
+rule_i(0,prop('Folder',o(120,'Root Module'))).
+rule_i(0,prop('Description','')).
+rule_i(0,prop('Name','SDSerie')).
+rule_i(0,rule([ a(22,[ 'Rfr','"Atualizar"','5' ]) ],[],[],[])).
+rule_i(0,maingen(15)).
+rule_i(0,prop('DPRV_WSPROTOCOL','REST')).
+rule_i(0,prop(idISWEBSERVICE,'-1')).
+rule_i(0,prop('ObjName','SDSerie_Level_Detail_GridEpisodios')).
+rule_i(0,prop('IntegratedSecurityLevel','SecurityNone')).
+rule_i(0,prop('SDPanel','True')).
+rule_i(0,parm([ 'Serieid','Start','Count','Gxid','GXM3RootCol' ],[])).
+rule_i(0,parmio([ [ 'Serieid',in ],[ 'Start',in ],[ 'Count',in ],[ 'Gxid',in ],[ 'GXM3RootCol',out ] ])).
+rule_i(0,prop('OutputSDT',o(26,'SDSerie_Level_Detail_GridEpisodiosSdt'))).
+ 
+a_i(1,1,f,'Err',[],[ [],[ t('0',3) ] ]).
+a_i(2,2,t,2,[],[ [],'IEPISODIO',[] ]).
+ 
+v_i(f,i,1,[]).
+v_i(f,o,1,'Err').
+v_i(t,i,2,[]).
+v_i(t,o,2,8).
+v_i(t,o,2,9).
+v_i(t,o,2,7).
+ 
+ 
+ 
+ 
+ 
+ 
+attri_i(8,[ 'EpisodioNome',svchar,40,0,'',0,'Nome','',0 ]).
+attri_i(9,[ 'EpisodioDuracao',int,3,0,'ZZZ',0,'Duração','',0 ]).
+attri_i(7,[ 'EpisodioId',int,18,0,'ZZZZZZZZZZZZZZZZZ9',0,'Id','',0 ]).
+attri_i('Errmsg',[ 'Gx_emsg',char,70,0,'',1,'Error text','',23 ]).
+attri_i('Err',[ 'Gx_err',int,3,0,'ZZ9',1,'Error code','',22 ]).
+attri_i('GXM2SDSerie_Level_Detail_GridEpisodiosSdt',[ 'GXM2SDSerie_Level_Detail_GridEpisodiosSdt',o('SDSerie_Level_Detail_GridEpisodiosSdt.Item'),0,0,'',0,'GXM2SDSerie_Level_Detail_GridEpisodiosSdt','',21 ]).
+attri_i('GXM3RootCol',[ 'GXM3RootCol',o(objectcollection('SDSerie_Level_Detail_GridEpisodiosSdt.Item')),0,0,'',0,'GXM3RootCol','',20 ]).
+attri_i('Gxdynprop1',[ 'Gxdynprop1',char,3,0,'',0,'Gxdynprop1','',19 ]).
+attri_i('Gxdynprop',[ 'Gxdynprop',svchar,1000,0,'',0,'Gxdynprop','',18 ]).
+attri_i('Count',[ count,int,10,0,'',0,'Count','',17 ]).
+attri_i('Start',[ start,int,10,0,'',0,'Start','',16 ]).
+attri_i('Gxid',[ gxid,int,8,0,'',0,'Gxid','',15 ]).
+attri_i('Serieresumo',[ 'SerieResumo',vchar,2097152,0,'',0,'Serie Resumo','',14 ]).
+attri_i('Seriegenero',[ 'SerieGenero',svchar,40,0,'',0,'Serie Genero','',13 ]).
+attri_i('Episodioduracao',[ 'EpisodioDuracao',svchar,40,0,'',0,'Duração','',12 ]).
+attri_i('I',[ i,int,4,0,'ZZZ9',0,i,'',11 ]).
+attri_i('Temporada',[ 'Temporada',int,4,0,'ZZZ9',0,'Temporada','',10 ]).
+attri_i('Serieid',[ 'SerieId',int,18,0,'ZZZZZZZZZZZZZZZZZ9',0,'Id','',5 ]).
+attri_i('Quantidadetemporadas',[ 'QuantidadeTemporadas',int,4,0,'ZZZ9',0,'Quantidade Temporadas','',9 ]).
+attri_i('Episodiotemporada',[ 'EpisodioTemporada',int,4,0,'ZZZ9',0,'Temporada','',8 ]).
+attri_i('Episodionome',[ 'EpisodioNome',svchar,40,0,'',0,'Nome','',7 ]).
+attri_i('Serienome',[ 'SerieNome',svchar,40,0,'',0,'Nome','',6 ]).
+ 
+table_i(2,[ 'Episodio',[ 7,8,9 ],'Episódio','Episodio' ]).
+ 
+index_i(2,[ 'IEPISODIO',u,[ 7 ],'IEpisodio' ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+dom_info_i(173,[ 'Id' ]).
+dom_info_i(179,[ 'Duracao' ]).
+dom_info_i(174,[ 'Nome' ]).
+dom_info_i(178,[ 'Resumo' ]).
+dom_info_i(185,[ 'Temporada' ]).
+ 
+ 
+break_i(2,nvg,1,[],[ [ 7,9,8 ],[],[] ]).
+break_i(1,rpt,0,[],[ [],[],[] ]).
+ 
+b_group_i(1,1,lit,0,1,2).
+b_group_i(1,2,nvg,2,2,2).
+b_group_i(2,1,lit,0,3,3).
+b_group_i(1,3,lit,0,10,0).
+ 
+b_line_i(2,2,1,cmd,3,[ t('',121,2,0) ]).
+b_line_i([ 2,2 ],2,1,cmd,2,[ t('',107,2,0),t('GXM2SDSerie_Level_Detail_GridEpisodiosSdt',23,2,0),t(=,10,2,0),t([ 'SDSerie_Level_Detail_GridEpisodiosSdt.Item',[ t('(',0,2,0),t(')',4,2,0) ],n ],46,2,0) ]).
+b_line_i([ 2,3 ],2,1,cmd,2,[ t('',107,2,0),t([ t('GXM3RootCol',23,2,0),t('add(',1,2,0) ],31,2,0),t('GXM2SDSerie_Level_Detail_GridEpisodiosSdt',23,2,0),t(')',4,2,0) ]).
+b_line_i(3,2,1,cmd,3,[ t('',107,3,0),t('Gxdynprop',23,3,0),t(=,10,3,0),t('Gxdynprop',23,3,0),t(+,5,3,0),t('iif(',1,3,0),t('Gxdynprop',23,3,0),t(=,10,3,0),t('''''',3,3,0),t(',',7,3,0),t('''''',3,3,0),t(',',7,3,0),t(''', ''',3,3,0),t(')',4,3,0),t(+,5,3,0),t('''["Txbepisodionome","Caption","''',3,3,0),t(+,5,3,0),t('jsonencode(',1,3,0),t(8,2,3,0),t(')',4,3,0),t(+,5,3,0),t('''"]''',3,3,0) ]).
+b_line_i(4,2,1,cmd,3,[ t('',107,3,0),t('Gxdynprop1',23,3,0),t(=,10,3,0),t('str(',1,3,0),t(9,2,3,0),t(',',7,3,0),t(3,3,3,0),t(',',7,3,0),t(0,3,3,0),t(')',4,3,0),t(+,5,3,0),t('"min"',3,3,0) ]).
+b_line_i(5,2,1,cmd,3,[ t('',107,3,0),t('Gxdynprop',23,3,0),t(=,10,3,0),t('Gxdynprop',23,3,0),t(+,5,3,0),t('iif(',1,3,0),t('Gxdynprop',23,3,0),t(=,10,3,0),t('''''',3,3,0),t(',',7,3,0),t('''''',3,3,0),t(',',7,3,0),t(''', ''',3,3,0),t(')',4,3,0),t(+,5,3,0),t('''["Txbepisodioduracao","Caption","''',3,3,0),t(+,5,3,0),t('jsonencode(',1,3,0),t('Gxdynprop1',23,3,0),t(')',4,3,0),t(+,5,3,0),t('''"]''',3,3,0) ]).
+b_line_i(6,2,1,cmd,3,[ t('',104,3,0),t(o(1,log),28,3,0),t('"Episodio: "',3,6,0),t(+,5,3,0),t('str(',1,6,0),t(7,2,3,0),t(',',7,3,0),t(18,3,3,0),t(',',7,3,0),t(0,3,3,0),t(')',4,3,0) ]).
+b_line_i(7,2,1,cmd,3,[ t('',107,3,0),t([ t('GXM2SDSerie_Level_Detail_GridEpisodiosSdt',23,3,0),t('Gxdynprop',3,3,0) ],29,3,0),t(=,10,3,0),t('''[ ''',3,3,0),t(+,5,3,0),t('Gxdynprop',23,3,0),t(+,5,3,0),t(''' ]''',3,3,0) ]).
+b_line_i(8,2,1,cmd,3,[ t('',107,3,0),t('Gxdynprop',23,3,0),t(=,10,3,0),t('''''',3,3,0) ]).
+b_line_i(9,2,1,cmd,3,[ t('',128,3,0) ]).
+ 
+ 
+ 
+ 
+ 
+page_layout_i([ 66,0,6 ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+calling_main_i(37,4).
+ 
+att_prop_i(2,7,'ExternalName','EpisodioId',d).
+att_prop_i(2,7,'ExternalNamespace','SeriesColaborativas',d).
+att_prop_i(2,7,'EmptyAsNull','Yes',d).
+att_prop_i(2,7,idBasedOn,173,v).
+att_prop_i(2,7,'AUTONUMBER','-1',d).
+att_prop_i(2,7,'AUTONUMBER_START','1',d).
+att_prop_i(2,7,'AUTONUMBER_STEP','1',d).
+att_prop_i(2,7,'AUTONUMBER_FORREPLICATION','-1',d).
+att_prop_i(2,7,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,7,'AttRegEx','',d).
+att_prop_i(2,7,'AttValidationFailedMsg','',d).
+att_prop_i(2,7,'FullName','EpisodioId',v).
+att_prop_i(2,9,'ExternalName','EpisodioDuracao',d).
+att_prop_i(2,9,'ExternalNamespace','SeriesColaborativas',d).
+att_prop_i(2,9,'EmptyAsNull','Yes',d).
+att_prop_i(2,9,idBasedOn,179,v).
+att_prop_i(2,9,'AUTONUMBER','0',d).
+att_prop_i(2,9,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,9,'AttRegEx','',d).
+att_prop_i(2,9,'AttValidationFailedMsg','',d).
+att_prop_i(2,9,'FullName','EpisodioDuracao',v).
+att_prop_i(2,8,'ExternalName','EpisodioNome',d).
+att_prop_i(2,8,'ExternalNamespace','SeriesColaborativas',d).
+att_prop_i(2,8,'EmptyAsNull','Yes',d).
+att_prop_i(2,8,idBasedOn,174,v).
+att_prop_i(2,8,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,8,'DB_NLS_SUPPORT','No',d).
+att_prop_i(2,8,'AttRegEx','',d).
+att_prop_i(2,8,'AttValidationFailedMsg','',d).
+att_prop_i(2,8,'FullName','EpisodioNome',v).
+ 
+ 
+tbl_att_prop_i(2,2,7,'AllowNulls',n).
+tbl_att_prop_i(2,2,7,'AUTONUMBER',y).
+tbl_att_prop_i(2,2,8,'AllowNulls',n).
+tbl_att_prop_i(2,2,9,'AllowNulls',n).
+ 
+var_prop_i(2,'Serienome',idBasedOn,'',v).
+var_prop_i(2,'Episodionome',idBasedOn,'',v).
+var_prop_i(2,'Episodiotemporada',idBasedOn,'',v).
+var_prop_i(2,'Serieid',idBasedOn,'',v).
+var_prop_i(2,'Temporada',idBasedOn,185,v).
+var_prop_i(2,'Seriegenero',idBasedOn,'',v).
+var_prop_i(2,'Serieresumo',idBasedOn,'',v).
+ 
+ 
+ 
+ 
+ 
+struct_dt_i([ 26,1000000,0 ],name,'SDSerie_Level_Detail_GridEpisodiosSdt').
+struct_dt_i([ 26,1000000,0 ],camelname,'SDSerie_Level_Detail_GridEpisodiosSdt').
+struct_dt_i([ 26,1000000,0 ],camelnameex,'SDSerie_Level_Detail_GridEpisodiosSdt').
+struct_dt_i([ 26,1000000,1 ],name,'Item').
+struct_dt_i([ 26,1000000,1 ],camelname,'Item').
+struct_dt_i([ 26,1000000,1 ],camelnameex,'Item').
+struct_dt_i([ 26,1000000,0 ],collection,'True').
+struct_dt_i([ 26,1000000,0 ],datatype,[ 26,1000000,1 ]).
+struct_dt_i([ 26,1000000,0 ],wwsd_sdt,'True').
+struct_dt_i([ 26,1000000,0 ],fullname,'SDSerie_Level_Detail_GridEpisodiosSdt').
+struct_dt_i([ 26,1000000,1 ],fullname,'SDSerie_Level_Detail_GridEpisodiosSdt.Item').
+ 
+struct_dt_elem_i([ 26,1000000,1 ],1,name,'Gxdynprop').
+struct_dt_elem_i([ 26,1000000,1 ],1,camelname,'Gxdynprop').
+struct_dt_elem_i([ 26,1000000,1 ],1,type,[ 5,2,0 ]).
+struct_dt_elem_i([ 26,1000000,1 ],1,length,2).
+struct_dt_elem_i([ 26,1000000,1 ],1,decimals,0).
+struct_dt_elem_i([ 26,1000000,1 ],1,sign,0).
+struct_dt_elem_i([ 26,1000000,1 ],1,collection,'False').
+struct_dt_elem_i([ 26,1000000,1 ],1,islevel,'False').
+ 
+ 
+ 
+ 
+ 
+sub_info_i(146,'SDSerie_Level_Detail_GridEpisodios',0,0,[ [ 'Gxdynprop' ],[ 'Gxdynprop','Gxdynprop1' ] ]).
+ 
+pgm_parm_i(proc,39,'LOG',[ [ svchar,255,0,0 ] ],[ [ 'Log',in,[] ] ]).
+ 
+pgm_callprotocol_i(mnproc,0,'SDSERIE_LEVEL_DETAIL_GRIDEPISODIOS','INTERNAL').
+pgm_callprotocol_i(proc,39,'LOG','INTERNAL').
+ 
+ 
+ 
+ 
+ 
+ 
+service_i(input,[ [] ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

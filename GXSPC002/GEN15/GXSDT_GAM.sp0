@@ -1,0 +1,866 @@
+ 
+spec_i([ sdt,[ 14,99,0 ],'GAM','GAM',0,por,'15_0_9-121631' ]).
+ 
+struct_dt_i([ 14,99,0 ],name,'GAM').
+struct_dt_i([ 14,99,0 ],'ObjName','GAM').
+struct_dt_i([ 14,99,0 ],'ObjDesc','GAM').
+struct_dt_i([ 14,99,0 ],'ExoType','0').
+struct_dt_i([ 14,99,0 ],'ObjNamespace','Artech.Security').
+struct_dt_i([ 14,99,0 ],'ExoImporterVersion','').
+struct_dt_i([ 14,99,0 ],'ExoSourceURI','').
+struct_dt_i([ 14,99,0 ],'ExoNameCSHARP','GAM').
+struct_dt_i([ 14,99,0 ],'AssemblyName','Artech.Security.dll').
+struct_dt_i([ 14,99,0 ],'ExoConstructorParametersCSHARP',context).
+struct_dt_i([ 14,99,0 ],'PackageName','artech.security').
+struct_dt_i([ 14,99,0 ],'RequireName','').
+struct_dt_i([ 14,99,0 ],'ExoNameJS','').
+struct_dt_i([ 14,99,0 ],'ExoReferencedFilesJS','').
+struct_dt_i([ 14,99,0 ],'Folder',o(8,'GAM_Library')).
+struct_dt_i([ 14,99,0 ],'FullyQualifiedName','GAM').
+struct_dt_i([ 14,99,0 ],'ObjectVisibility','Public').
+struct_dt_i([ 14,99,0 ],fullname,'GAM').
+struct_dt_i([ 14,99,0 ],modified,yes).
+ 
+struct_dt_elem_i([ 14,99,0 ],1,name,'Version').
+struct_dt_elem_i([ 14,99,0 ],1,camelname,'Version').
+struct_dt_elem_i([ 14,99,0 ],1,externalType,'').
+struct_dt_elem_i([ 14,99,0 ],1,length,4).
+struct_dt_elem_i([ 14,99,0 ],1,decimals,0).
+struct_dt_elem_i([ 14,99,0 ],1,sign,0).
+struct_dt_elem_i([ 14,99,0 ],1,type,[ 4,4,0 ]).
+struct_dt_elem_i([ 14,99,0 ],1,'ExoPropAccessType',idGetSet).
+struct_dt_elem_i([ 14,99,0 ],1,'IntName','Version').
+struct_dt_elem_i([ 14,99,0 ],1,'ExoItemDesc','').
+struct_dt_elem_i([ 14,99,0 ],1,'ExoItemType','Numeric').
+struct_dt_elem_i([ 14,99,0 ],1,basedon,'').
+struct_dt_elem_i([ 14,99,0 ],1,'ExoMethodIsStatic','0').
+struct_dt_elem_i([ 14,99,0 ],1,'ExoExternalMember',idExoExternalMemberDefault).
+struct_dt_elem_i([ 14,99,0 ],1,'ControlType','2').
+struct_dt_elem_i([ 14,99,0 ],1,'InputType','0').
+struct_dt_elem_i([ 14,99,0 ],1,'ExoNameCSHARP','Version').
+struct_dt_elem_i([ 14,99,0 ],1,'ExoItemExtTypeCSHARP','System.Int16').
+struct_dt_elem_i([ 14,99,0 ],1,'ExoNameJS','').
+ 
+struct_dt_method_i([ 14,99,0 ],1,name,createrepository).
+struct_dt_method_i([ 14,99,0 ],1,camelname,'CreateRepository').
+struct_dt_method_i([ 14,99,0 ],1,externalType,'').
+struct_dt_method_i([ 14,99,0 ],1,length,1).
+struct_dt_method_i([ 14,99,0 ],1,decimals,0).
+struct_dt_method_i([ 14,99,0 ],1,type,[ 15,1,0 ]).
+struct_dt_method_i([ 14,99,0 ],1,'IntName','CreateRepository').
+struct_dt_method_i([ 14,99,0 ],1,'ExoItemDesc','Create new repository').
+struct_dt_method_i([ 14,99,0 ],1,'ExoItemType','Boolean').
+struct_dt_method_i([ 14,99,0 ],1,basedon,88).
+struct_dt_method_i([ 14,99,0 ],1,'XmlName','CreateRepository').
+struct_dt_method_i([ 14,99,0 ],1,'ExoMethodIsStatic','-1').
+struct_dt_method_i([ 14,99,0 ],1,'ExoExternalMember',idExoExternalMemberInstance).
+struct_dt_method_i([ 14,99,0 ],1,'ExoNameCSHARP','CreateRepository').
+struct_dt_method_i([ 14,99,0 ],1,'ExoItemExtTypeCSHARP',bool).
+struct_dt_method_i([ 14,99,0 ],1,'ExoMethodThrows','NO').
+struct_dt_method_i([ 14,99,0 ],1,'ExoNameJS','').
+struct_dt_method_i([ 14,99,0 ],2,name,getallrepositories).
+struct_dt_method_i([ 14,99,0 ],2,camelname,'GetAllRepositories').
+struct_dt_method_i([ 14,99,0 ],2,externalType,'').
+struct_dt_method_i([ 14,99,0 ],2,length,0).
+struct_dt_method_i([ 14,99,0 ],2,decimals,0).
+struct_dt_method_i([ 14,99,0 ],2,type,[ [ 14,46,0 ],0,0 ]).
+struct_dt_method_i([ 14,99,0 ],2,collection,'True').
+struct_dt_method_i([ 14,99,0 ],2,'IntName','GetAllRepositories').
+struct_dt_method_i([ 14,99,0 ],2,'ExoItemDesc','Get all repositories ').
+struct_dt_method_i([ 14,99,0 ],2,'ExoItemType','GAMRepository').
+struct_dt_method_i([ 14,99,0 ],2,basedon,'').
+struct_dt_method_i([ 14,99,0 ],2,'XmlName','GetAllRepositories').
+struct_dt_method_i([ 14,99,0 ],2,'ExoMethodIsStatic','-1').
+struct_dt_method_i([ 14,99,0 ],2,'ExoExternalMember',idExoExternalMemberInstance).
+struct_dt_method_i([ 14,99,0 ],2,'ExoNameCSHARP','GetAllRepositories').
+struct_dt_method_i([ 14,99,0 ],2,'ExoItemExtTypeCSHARP','System.Collections.Generic.List<Artech.Security.GAMRepository>').
+struct_dt_method_i([ 14,99,0 ],2,'ExoMethodThrows','NO').
+struct_dt_method_i([ 14,99,0 ],2,'ExoNameJS','').
+struct_dt_method_i([ 14,99,0 ],3,name,updaterepository).
+struct_dt_method_i([ 14,99,0 ],3,camelname,'UpdateRepository').
+struct_dt_method_i([ 14,99,0 ],3,externalType,'').
+struct_dt_method_i([ 14,99,0 ],3,length,1).
+struct_dt_method_i([ 14,99,0 ],3,decimals,0).
+struct_dt_method_i([ 14,99,0 ],3,type,[ 15,1,0 ]).
+struct_dt_method_i([ 14,99,0 ],3,'IntName','UpdateRepository').
+struct_dt_method_i([ 14,99,0 ],3,'ExoItemDesc','Update current Repository').
+struct_dt_method_i([ 14,99,0 ],3,'ExoItemType','Boolean').
+struct_dt_method_i([ 14,99,0 ],3,basedon,88).
+struct_dt_method_i([ 14,99,0 ],3,'XmlName','UpdateRepository').
+struct_dt_method_i([ 14,99,0 ],3,'ExoMethodIsStatic','-1').
+struct_dt_method_i([ 14,99,0 ],3,'ExoExternalMember',idExoExternalMemberInstance).
+struct_dt_method_i([ 14,99,0 ],3,'ExoNameCSHARP','UpdateRepository').
+struct_dt_method_i([ 14,99,0 ],3,'ExoItemExtTypeCSHARP',bool).
+struct_dt_method_i([ 14,99,0 ],3,'ExoMethodThrows','NO').
+struct_dt_method_i([ 14,99,0 ],3,'ExoNameJS','').
+struct_dt_method_i([ 14,99,0 ],4,name,deleterepository).
+struct_dt_method_i([ 14,99,0 ],4,camelname,'DeleteRepository').
+struct_dt_method_i([ 14,99,0 ],4,externalType,'').
+struct_dt_method_i([ 14,99,0 ],4,length,1).
+struct_dt_method_i([ 14,99,0 ],4,decimals,0).
+struct_dt_method_i([ 14,99,0 ],4,type,[ 15,1,0 ]).
+struct_dt_method_i([ 14,99,0 ],4,'IntName','DeleteRepository').
+struct_dt_method_i([ 14,99,0 ],4,'ExoItemDesc','Delete current Repository').
+struct_dt_method_i([ 14,99,0 ],4,'ExoItemType','Boolean').
+struct_dt_method_i([ 14,99,0 ],4,basedon,88).
+struct_dt_method_i([ 14,99,0 ],4,'XmlName','DeleteRepository').
+struct_dt_method_i([ 14,99,0 ],4,'ExoMethodIsStatic','-1').
+struct_dt_method_i([ 14,99,0 ],4,'ExoExternalMember',idExoExternalMemberInstance).
+struct_dt_method_i([ 14,99,0 ],4,'ExoNameCSHARP','DeleteRepository').
+struct_dt_method_i([ 14,99,0 ],4,'ExoItemExtTypeCSHARP',bool).
+struct_dt_method_i([ 14,99,0 ],4,'ExoMethodThrows','NO').
+struct_dt_method_i([ 14,99,0 ],4,'ExoNameJS','').
+struct_dt_method_i([ 14,99,0 ],5,name,createrepositoryfrompackage).
+struct_dt_method_i([ 14,99,0 ],5,camelname,'CreateRepositoryFromPackage').
+struct_dt_method_i([ 14,99,0 ],5,externalType,'').
+struct_dt_method_i([ 14,99,0 ],5,length,1).
+struct_dt_method_i([ 14,99,0 ],5,decimals,0).
+struct_dt_method_i([ 14,99,0 ],5,type,[ 15,1,0 ]).
+struct_dt_method_i([ 14,99,0 ],5,'IntName','CreateRepositoryFromPackage').
+struct_dt_method_i([ 14,99,0 ],5,'ExoItemDesc','Create new Repository from exported file.').
+struct_dt_method_i([ 14,99,0 ],5,'ExoItemType','Boolean').
+struct_dt_method_i([ 14,99,0 ],5,basedon,88).
+struct_dt_method_i([ 14,99,0 ],5,'XmlName','CreateRepositoryFromPackage').
+struct_dt_method_i([ 14,99,0 ],5,'ExoMethodIsStatic','-1').
+struct_dt_method_i([ 14,99,0 ],5,'ExoExternalMember',idExoExternalMemberInstance).
+struct_dt_method_i([ 14,99,0 ],5,'ExoNameCSHARP','CreateRepositoryFromPackage').
+struct_dt_method_i([ 14,99,0 ],5,'ExoItemExtTypeCSHARP',bool).
+struct_dt_method_i([ 14,99,0 ],5,'ExoMethodThrows','NO').
+struct_dt_method_i([ 14,99,0 ],5,'ExoNameJS','').
+struct_dt_method_i([ 14,99,0 ],6,name,repositoryuserenable).
+struct_dt_method_i([ 14,99,0 ],6,camelname,'RepositoryUserEnable').
+struct_dt_method_i([ 14,99,0 ],6,externalType,'').
+struct_dt_method_i([ 14,99,0 ],6,length,1).
+struct_dt_method_i([ 14,99,0 ],6,decimals,0).
+struct_dt_method_i([ 14,99,0 ],6,type,[ 15,1,0 ]).
+struct_dt_method_i([ 14,99,0 ],6,'IntName','RepositoryUserEnable').
+struct_dt_method_i([ 14,99,0 ],6,'ExoItemDesc','Enable a user to access the repository with the specified role').
+struct_dt_method_i([ 14,99,0 ],6,'ExoItemType','Boolean').
+struct_dt_method_i([ 14,99,0 ],6,basedon,88).
+struct_dt_method_i([ 14,99,0 ],6,'XmlName','RepositoryUserEnable').
+struct_dt_method_i([ 14,99,0 ],6,'ExoMethodIsStatic','-1').
+struct_dt_method_i([ 14,99,0 ],6,'ExoExternalMember',idExoExternalMemberInstance).
+struct_dt_method_i([ 14,99,0 ],6,'ExoNameCSHARP','RepositoryUserEnable').
+struct_dt_method_i([ 14,99,0 ],6,'ExoItemExtTypeCSHARP',bool).
+struct_dt_method_i([ 14,99,0 ],6,'ExoMethodThrows','NO').
+struct_dt_method_i([ 14,99,0 ],6,'ExoNameJS','').
+struct_dt_method_i([ 14,99,0 ],7,name,repositoryuserdisable).
+struct_dt_method_i([ 14,99,0 ],7,camelname,'RepositoryUserDisable').
+struct_dt_method_i([ 14,99,0 ],7,externalType,'').
+struct_dt_method_i([ 14,99,0 ],7,length,1).
+struct_dt_method_i([ 14,99,0 ],7,decimals,0).
+struct_dt_method_i([ 14,99,0 ],7,type,[ 15,1,0 ]).
+struct_dt_method_i([ 14,99,0 ],7,'IntName','RepositoryUserDisable').
+struct_dt_method_i([ 14,99,0 ],7,'ExoItemDesc','Disable GAMadmin user to a repository').
+struct_dt_method_i([ 14,99,0 ],7,'ExoItemType','Boolean').
+struct_dt_method_i([ 14,99,0 ],7,basedon,88).
+struct_dt_method_i([ 14,99,0 ],7,'XmlName','RepositoryUserDisable').
+struct_dt_method_i([ 14,99,0 ],7,'ExoMethodIsStatic','-1').
+struct_dt_method_i([ 14,99,0 ],7,'ExoExternalMember',idExoExternalMemberInstance).
+struct_dt_method_i([ 14,99,0 ],7,'ExoNameCSHARP','RepositoryUserDisable').
+struct_dt_method_i([ 14,99,0 ],7,'ExoItemExtTypeCSHARP',bool).
+struct_dt_method_i([ 14,99,0 ],7,'ExoMethodThrows','NO').
+struct_dt_method_i([ 14,99,0 ],7,'ExoNameJS','').
+struct_dt_method_i([ 14,99,0 ],8,name,getconnectionsfile).
+struct_dt_method_i([ 14,99,0 ],8,camelname,'GetConnectionsFile').
+struct_dt_method_i([ 14,99,0 ],8,externalType,'').
+struct_dt_method_i([ 14,99,0 ],8,length,1).
+struct_dt_method_i([ 14,99,0 ],8,decimals,0).
+struct_dt_method_i([ 14,99,0 ],8,type,[ 15,1,0 ]).
+struct_dt_method_i([ 14,99,0 ],8,'IntName','GetConnectionsFile').
+struct_dt_method_i([ 14,99,0 ],8,'ExoItemDesc','Get file conenction.gam').
+struct_dt_method_i([ 14,99,0 ],8,'ExoItemType','Boolean').
+struct_dt_method_i([ 14,99,0 ],8,basedon,88).
+struct_dt_method_i([ 14,99,0 ],8,'XmlName','GetConnectionsFile').
+struct_dt_method_i([ 14,99,0 ],8,'ExoMethodIsStatic','-1').
+struct_dt_method_i([ 14,99,0 ],8,'ExoExternalMember',idExoExternalMemberInstance).
+struct_dt_method_i([ 14,99,0 ],8,'ExoNameCSHARP','GetConnectionsFile').
+struct_dt_method_i([ 14,99,0 ],8,'ExoItemExtTypeCSHARP',bool).
+struct_dt_method_i([ 14,99,0 ],8,'ExoMethodThrows','NO').
+struct_dt_method_i([ 14,99,0 ],8,'ExoNameJS','').
+struct_dt_method_i([ 14,99,0 ],9,name,getactivesessioncount).
+struct_dt_method_i([ 14,99,0 ],9,camelname,'GetActiveSessionCount').
+struct_dt_method_i([ 14,99,0 ],9,externalType,'').
+struct_dt_method_i([ 14,99,0 ],9,length,9).
+struct_dt_method_i([ 14,99,0 ],9,decimals,0).
+struct_dt_method_i([ 14,99,0 ],9,sign,0).
+struct_dt_method_i([ 14,99,0 ],9,type,[ 4,9,0 ]).
+struct_dt_method_i([ 14,99,0 ],9,'IntName','GetActiveSessionCount').
+struct_dt_method_i([ 14,99,0 ],9,'ExoItemDesc','Get active session count in all repositories').
+struct_dt_method_i([ 14,99,0 ],9,'ExoItemType','Numeric').
+struct_dt_method_i([ 14,99,0 ],9,basedon,94).
+struct_dt_method_i([ 14,99,0 ],9,'XmlName','GetActiveSessionCount').
+struct_dt_method_i([ 14,99,0 ],9,'ExoMethodIsStatic','-1').
+struct_dt_method_i([ 14,99,0 ],9,'ExoExternalMember',idExoExternalMemberInstance).
+struct_dt_method_i([ 14,99,0 ],9,'ExoNameCSHARP','GetActiveSessionCount').
+struct_dt_method_i([ 14,99,0 ],9,'ExoItemExtTypeCSHARP',int).
+struct_dt_method_i([ 14,99,0 ],9,'ExoMethodThrows','NO').
+struct_dt_method_i([ 14,99,0 ],9,'ExoNameJS','').
+struct_dt_method_i([ 14,99,0 ],10,name,setconnection).
+struct_dt_method_i([ 14,99,0 ],10,camelname,'SetConnection').
+struct_dt_method_i([ 14,99,0 ],10,externalType,'').
+struct_dt_method_i([ 14,99,0 ],10,length,1).
+struct_dt_method_i([ 14,99,0 ],10,decimals,0).
+struct_dt_method_i([ 14,99,0 ],10,type,[ 15,1,0 ]).
+struct_dt_method_i([ 14,99,0 ],10,'IntName','SetConnection').
+struct_dt_method_i([ 14,99,0 ],10,'ExoItemDesc','Set connection Repository').
+struct_dt_method_i([ 14,99,0 ],10,'ExoItemType','Boolean').
+struct_dt_method_i([ 14,99,0 ],10,basedon,88).
+struct_dt_method_i([ 14,99,0 ],10,'XmlName','SetConnection').
+struct_dt_method_i([ 14,99,0 ],10,'ExoMethodIsStatic','-1').
+struct_dt_method_i([ 14,99,0 ],10,'ExoExternalMember',idExoExternalMemberInstance).
+struct_dt_method_i([ 14,99,0 ],10,'ExoNameCSHARP','SetConnection').
+struct_dt_method_i([ 14,99,0 ],10,'ExoItemExtTypeCSHARP',bool).
+struct_dt_method_i([ 14,99,0 ],10,'ExoMethodThrows','NO').
+struct_dt_method_i([ 14,99,0 ],10,'ExoNameJS','').
+struct_dt_method_i([ 14,99,0 ],11,name,getconnections).
+struct_dt_method_i([ 14,99,0 ],11,camelname,'GetConnections').
+struct_dt_method_i([ 14,99,0 ],11,externalType,'').
+struct_dt_method_i([ 14,99,0 ],11,length,0).
+struct_dt_method_i([ 14,99,0 ],11,decimals,0).
+struct_dt_method_i([ 14,99,0 ],11,type,[ [ 14,104,0 ],0,0 ]).
+struct_dt_method_i([ 14,99,0 ],11,collection,'True').
+struct_dt_method_i([ 14,99,0 ],11,'IntName','GetConnections').
+struct_dt_method_i([ 14,99,0 ],11,'ExoItemDesc','Get all connections in file conenction.gam').
+struct_dt_method_i([ 14,99,0 ],11,'ExoItemType','GAMConnectionInfo').
+struct_dt_method_i([ 14,99,0 ],11,basedon,'').
+struct_dt_method_i([ 14,99,0 ],11,'XmlName','GetConnections').
+struct_dt_method_i([ 14,99,0 ],11,'ExoMethodIsStatic','-1').
+struct_dt_method_i([ 14,99,0 ],11,'ExoExternalMember',idExoExternalMemberInstance).
+struct_dt_method_i([ 14,99,0 ],11,'ExoNameCSHARP','GetConnections').
+struct_dt_method_i([ 14,99,0 ],11,'ExoItemExtTypeCSHARP','System.Collections.Generic.List<Artech.Security.GAMConnectionInfo>').
+struct_dt_method_i([ 14,99,0 ],11,'ExoMethodThrows','NO').
+struct_dt_method_i([ 14,99,0 ],11,'ExoNameJS','').
+struct_dt_method_i([ 14,99,0 ],12,name,checkconnection).
+struct_dt_method_i([ 14,99,0 ],12,camelname,'CheckConnection').
+struct_dt_method_i([ 14,99,0 ],12,externalType,'').
+struct_dt_method_i([ 14,99,0 ],12,length,1).
+struct_dt_method_i([ 14,99,0 ],12,decimals,0).
+struct_dt_method_i([ 14,99,0 ],12,type,[ 15,1,0 ]).
+struct_dt_method_i([ 14,99,0 ],12,'IntName','CheckConnection').
+struct_dt_method_i([ 14,99,0 ],12,'ExoItemDesc','Check the connection to a Repository').
+struct_dt_method_i([ 14,99,0 ],12,'ExoItemType','Boolean').
+struct_dt_method_i([ 14,99,0 ],12,basedon,88).
+struct_dt_method_i([ 14,99,0 ],12,'XmlName','CheckConnection').
+struct_dt_method_i([ 14,99,0 ],12,'ExoMethodIsStatic','-1').
+struct_dt_method_i([ 14,99,0 ],12,'ExoExternalMember',idExoExternalMemberInstance).
+struct_dt_method_i([ 14,99,0 ],12,'ExoNameCSHARP','CheckConnection').
+struct_dt_method_i([ 14,99,0 ],12,'ExoItemExtTypeCSHARP',bool).
+struct_dt_method_i([ 14,99,0 ],12,'ExoMethodThrows','NO').
+struct_dt_method_i([ 14,99,0 ],12,'ExoNameJS','').
+struct_dt_method_i([ 14,99,0 ],13,name,cleansessionlog).
+struct_dt_method_i([ 14,99,0 ],13,camelname,'CleanSessionLog').
+struct_dt_method_i([ 14,99,0 ],13,externalType,'').
+struct_dt_method_i([ 14,99,0 ],13,length,1).
+struct_dt_method_i([ 14,99,0 ],13,decimals,0).
+struct_dt_method_i([ 14,99,0 ],13,type,[ 15,1,0 ]).
+struct_dt_method_i([ 14,99,0 ],13,'IntName','CleanSessionLog').
+struct_dt_method_i([ 14,99,0 ],13,'ExoItemDesc','').
+struct_dt_method_i([ 14,99,0 ],13,'ExoItemType','Boolean').
+struct_dt_method_i([ 14,99,0 ],13,basedon,88).
+struct_dt_method_i([ 14,99,0 ],13,'XmlName','CleanSessionLog').
+struct_dt_method_i([ 14,99,0 ],13,'ExoMethodIsStatic','-1').
+struct_dt_method_i([ 14,99,0 ],13,'ExoExternalMember',idExoExternalMemberInstance).
+struct_dt_method_i([ 14,99,0 ],13,'ExoNameCSHARP','CleanSessionLog').
+struct_dt_method_i([ 14,99,0 ],13,'ExoItemExtTypeCSHARP',bool).
+struct_dt_method_i([ 14,99,0 ],13,'ExoMethodThrows','NO').
+struct_dt_method_i([ 14,99,0 ],13,'ExoNameJS','').
+struct_dt_method_i([ 14,99,0 ],14,name,tostring).
+struct_dt_method_i([ 14,99,0 ],14,camelname,'ToString').
+struct_dt_method_i([ 14,99,0 ],14,externalType,'').
+struct_dt_method_i([ 14,99,0 ],14,length,9999).
+struct_dt_method_i([ 14,99,0 ],14,decimals,0).
+struct_dt_method_i([ 14,99,0 ],14,type,[ 5,9999,0 ]).
+struct_dt_method_i([ 14,99,0 ],14,'IntName','ToString').
+struct_dt_method_i([ 14,99,0 ],14,'ExoItemDesc','').
+struct_dt_method_i([ 14,99,0 ],14,'ExoItemType','Character').
+struct_dt_method_i([ 14,99,0 ],14,basedon,'').
+struct_dt_method_i([ 14,99,0 ],14,'XmlName','ToString').
+struct_dt_method_i([ 14,99,0 ],14,'ExoMethodIsStatic','0').
+struct_dt_method_i([ 14,99,0 ],14,'ExoExternalMember',idExoExternalMemberDefault).
+struct_dt_method_i([ 14,99,0 ],14,'ExoNameCSHARP','ToString').
+struct_dt_method_i([ 14,99,0 ],14,'ExoItemExtTypeCSHARP','').
+struct_dt_method_i([ 14,99,0 ],14,'ExoMethodThrows','NO').
+struct_dt_method_i([ 14,99,0 ],14,'ExoNameJS','').
+struct_dt_method_i([ 14,99,0 ],15,name,tojsonstring).
+struct_dt_method_i([ 14,99,0 ],15,camelname,'ToJsonString').
+struct_dt_method_i([ 14,99,0 ],15,externalType,'').
+struct_dt_method_i([ 14,99,0 ],15,length,9999).
+struct_dt_method_i([ 14,99,0 ],15,decimals,0).
+struct_dt_method_i([ 14,99,0 ],15,type,[ 5,9999,0 ]).
+struct_dt_method_i([ 14,99,0 ],15,'IntName','ToJsonString').
+struct_dt_method_i([ 14,99,0 ],15,'ExoItemDesc','').
+struct_dt_method_i([ 14,99,0 ],15,'ExoItemType','Character').
+struct_dt_method_i([ 14,99,0 ],15,basedon,'').
+struct_dt_method_i([ 14,99,0 ],15,'XmlName','ToJsonString').
+struct_dt_method_i([ 14,99,0 ],15,'ExoMethodIsStatic','0').
+struct_dt_method_i([ 14,99,0 ],15,'ExoExternalMember',idExoExternalMemberDefault).
+struct_dt_method_i([ 14,99,0 ],15,'ExoNameCSHARP','ToJsonString').
+struct_dt_method_i([ 14,99,0 ],15,'ExoItemExtTypeCSHARP','').
+struct_dt_method_i([ 14,99,0 ],15,'ExoMethodThrows','NO').
+struct_dt_method_i([ 14,99,0 ],15,'ExoNameJS','').
+struct_dt_method_i([ 14,99,0 ],16,name,fromjsonstring).
+struct_dt_method_i([ 14,99,0 ],16,camelname,'FromJsonString').
+struct_dt_method_i([ 14,99,0 ],16,externalType,'').
+struct_dt_method_i([ 14,99,0 ],16,length,8).
+struct_dt_method_i([ 14,99,0 ],16,decimals,0).
+struct_dt_method_i([ 14,99,0 ],16,type,[ 15,8,0 ]).
+struct_dt_method_i([ 14,99,0 ],16,'IntName','FromJsonString').
+struct_dt_method_i([ 14,99,0 ],16,'ExoItemDesc','').
+struct_dt_method_i([ 14,99,0 ],16,'ExoItemType','Boolean').
+struct_dt_method_i([ 14,99,0 ],16,basedon,'').
+struct_dt_method_i([ 14,99,0 ],16,'XmlName','FromJsonString').
+struct_dt_method_i([ 14,99,0 ],16,'ExoMethodIsStatic','0').
+struct_dt_method_i([ 14,99,0 ],16,'ExoExternalMember',idExoExternalMemberDefault).
+struct_dt_method_i([ 14,99,0 ],16,'ExoNameCSHARP','FromJsonString').
+struct_dt_method_i([ 14,99,0 ],16,'ExoItemExtTypeCSHARP',bool).
+struct_dt_method_i([ 14,99,0 ],16,'ExoMethodThrows','NO').
+struct_dt_method_i([ 14,99,0 ],16,'ExoNameJS','').
+ 
+struct_dt_param_i([ 14,99,1 ],1,name,repository).
+struct_dt_param_i([ 14,99,1 ],1,camelname,'Repository').
+struct_dt_param_i([ 14,99,1 ],1,externalType,'').
+struct_dt_param_i([ 14,99,1 ],1,length,0).
+struct_dt_param_i([ 14,99,1 ],1,decimals,0).
+struct_dt_param_i([ 14,99,1 ],1,type,[ [ 14,100,0 ],0,0 ]).
+struct_dt_param_i([ 14,99,1 ],1,'ExoParamAccessType',in).
+struct_dt_param_i([ 14,99,1 ],1,'IntName','Repository').
+struct_dt_param_i([ 14,99,1 ],1,'ExoItemDesc','').
+struct_dt_param_i([ 14,99,1 ],1,'ExoItemType','GAMRepositoryCreate').
+struct_dt_param_i([ 14,99,1 ],1,basedon,'').
+struct_dt_param_i([ 14,99,1 ],1,'ExoItemExtTypeCSHARP','Artech.Security.GAMRepositoryCreate').
+struct_dt_param_i([ 14,99,1 ],2,name,updateconnectionfile).
+struct_dt_param_i([ 14,99,1 ],2,camelname,'UpdateConnectionFile').
+struct_dt_param_i([ 14,99,1 ],2,externalType,'').
+struct_dt_param_i([ 14,99,1 ],2,length,1).
+struct_dt_param_i([ 14,99,1 ],2,decimals,0).
+struct_dt_param_i([ 14,99,1 ],2,type,[ 15,1,0 ]).
+struct_dt_param_i([ 14,99,1 ],2,'ExoParamAccessType',in).
+struct_dt_param_i([ 14,99,1 ],2,'IntName','UpdateConnectionFile').
+struct_dt_param_i([ 14,99,1 ],2,'ExoItemDesc','').
+struct_dt_param_i([ 14,99,1 ],2,'ExoItemType','Boolean').
+struct_dt_param_i([ 14,99,1 ],2,basedon,88).
+struct_dt_param_i([ 14,99,1 ],2,'ExoItemExtTypeCSHARP',bool).
+struct_dt_param_i([ 14,99,1 ],3,name,errors).
+struct_dt_param_i([ 14,99,1 ],3,camelname,'Errors').
+struct_dt_param_i([ 14,99,1 ],3,externalType,'').
+struct_dt_param_i([ 14,99,1 ],3,length,0).
+struct_dt_param_i([ 14,99,1 ],3,decimals,0).
+struct_dt_param_i([ 14,99,1 ],3,type,[ [ 14,41,0 ],0,0 ]).
+struct_dt_param_i([ 14,99,1 ],3,collection,'True').
+struct_dt_param_i([ 14,99,1 ],3,'ExoParamAccessType',out).
+struct_dt_param_i([ 14,99,1 ],3,'IntName','Errors').
+struct_dt_param_i([ 14,99,1 ],3,'ExoItemDesc','').
+struct_dt_param_i([ 14,99,1 ],3,'ExoItemType','GAMError').
+struct_dt_param_i([ 14,99,1 ],3,basedon,'').
+struct_dt_param_i([ 14,99,1 ],3,'ExoItemExtTypeCSHARP','System.Collections.Generic.List<Artech.Security.GAMError>').
+struct_dt_param_i([ 14,99,2 ],1,name,repositoryfilter).
+struct_dt_param_i([ 14,99,2 ],1,camelname,'RepositoryFilter').
+struct_dt_param_i([ 14,99,2 ],1,externalType,'').
+struct_dt_param_i([ 14,99,2 ],1,length,0).
+struct_dt_param_i([ 14,99,2 ],1,decimals,0).
+struct_dt_param_i([ 14,99,2 ],1,type,[ [ 14,101,0 ],0,0 ]).
+struct_dt_param_i([ 14,99,2 ],1,'ExoParamAccessType',in).
+struct_dt_param_i([ 14,99,2 ],1,'IntName','RepositoryFilter').
+struct_dt_param_i([ 14,99,2 ],1,'ExoItemDesc','').
+struct_dt_param_i([ 14,99,2 ],1,'ExoItemType','GAMRepositoryFilter').
+struct_dt_param_i([ 14,99,2 ],1,basedon,'').
+struct_dt_param_i([ 14,99,2 ],1,'ExoItemExtTypeCSHARP','Artech.Security.GAMRepositoryFilter').
+struct_dt_param_i([ 14,99,2 ],2,name,errors).
+struct_dt_param_i([ 14,99,2 ],2,camelname,'Errors').
+struct_dt_param_i([ 14,99,2 ],2,externalType,'').
+struct_dt_param_i([ 14,99,2 ],2,length,0).
+struct_dt_param_i([ 14,99,2 ],2,decimals,0).
+struct_dt_param_i([ 14,99,2 ],2,type,[ [ 14,41,0 ],0,0 ]).
+struct_dt_param_i([ 14,99,2 ],2,collection,'True').
+struct_dt_param_i([ 14,99,2 ],2,'ExoParamAccessType',out).
+struct_dt_param_i([ 14,99,2 ],2,'IntName','Errors').
+struct_dt_param_i([ 14,99,2 ],2,'ExoItemDesc','').
+struct_dt_param_i([ 14,99,2 ],2,'ExoItemType','GAMError').
+struct_dt_param_i([ 14,99,2 ],2,basedon,'').
+struct_dt_param_i([ 14,99,2 ],2,'ExoItemExtTypeCSHARP','System.Collections.Generic.List<Artech.Security.GAMError>').
+struct_dt_param_i([ 14,99,3 ],1,name,repository).
+struct_dt_param_i([ 14,99,3 ],1,camelname,'Repository').
+struct_dt_param_i([ 14,99,3 ],1,externalType,'').
+struct_dt_param_i([ 14,99,3 ],1,length,0).
+struct_dt_param_i([ 14,99,3 ],1,decimals,0).
+struct_dt_param_i([ 14,99,3 ],1,type,[ [ 14,46,0 ],0,0 ]).
+struct_dt_param_i([ 14,99,3 ],1,'ExoParamAccessType',in).
+struct_dt_param_i([ 14,99,3 ],1,'IntName','Repository').
+struct_dt_param_i([ 14,99,3 ],1,'ExoItemDesc','').
+struct_dt_param_i([ 14,99,3 ],1,'ExoItemType','GAMRepository').
+struct_dt_param_i([ 14,99,3 ],1,basedon,'').
+struct_dt_param_i([ 14,99,3 ],1,'ExoItemExtTypeCSHARP','Artech.Security.GAMRepository').
+struct_dt_param_i([ 14,99,3 ],2,name,errors).
+struct_dt_param_i([ 14,99,3 ],2,camelname,'Errors').
+struct_dt_param_i([ 14,99,3 ],2,externalType,'').
+struct_dt_param_i([ 14,99,3 ],2,length,0).
+struct_dt_param_i([ 14,99,3 ],2,decimals,0).
+struct_dt_param_i([ 14,99,3 ],2,type,[ [ 14,41,0 ],0,0 ]).
+struct_dt_param_i([ 14,99,3 ],2,collection,'True').
+struct_dt_param_i([ 14,99,3 ],2,'ExoParamAccessType',out).
+struct_dt_param_i([ 14,99,3 ],2,'IntName','Errors').
+struct_dt_param_i([ 14,99,3 ],2,'ExoItemDesc','').
+struct_dt_param_i([ 14,99,3 ],2,'ExoItemType','GAMError').
+struct_dt_param_i([ 14,99,3 ],2,basedon,'').
+struct_dt_param_i([ 14,99,3 ],2,'ExoItemExtTypeCSHARP','System.Collections.Generic.List<Artech.Security.GAMError>').
+struct_dt_param_i([ 14,99,4 ],1,name,guid).
+struct_dt_param_i([ 14,99,4 ],1,camelname,'GUID').
+struct_dt_param_i([ 14,99,4 ],1,externalType,'').
+struct_dt_param_i([ 14,99,4 ],1,length,40).
+struct_dt_param_i([ 14,99,4 ],1,decimals,0).
+struct_dt_param_i([ 14,99,4 ],1,type,[ 5,40,0 ]).
+struct_dt_param_i([ 14,99,4 ],1,'ExoParamAccessType',in).
+struct_dt_param_i([ 14,99,4 ],1,'IntName','GUID').
+struct_dt_param_i([ 14,99,4 ],1,'ExoItemDesc','').
+struct_dt_param_i([ 14,99,4 ],1,'ExoItemType','Character').
+struct_dt_param_i([ 14,99,4 ],1,basedon,113).
+struct_dt_param_i([ 14,99,4 ],1,'ExoItemExtTypeCSHARP','String').
+struct_dt_param_i([ 14,99,4 ],2,name,errors).
+struct_dt_param_i([ 14,99,4 ],2,camelname,'Errors').
+struct_dt_param_i([ 14,99,4 ],2,externalType,'').
+struct_dt_param_i([ 14,99,4 ],2,length,0).
+struct_dt_param_i([ 14,99,4 ],2,decimals,0).
+struct_dt_param_i([ 14,99,4 ],2,type,[ [ 14,41,0 ],0,0 ]).
+struct_dt_param_i([ 14,99,4 ],2,collection,'True').
+struct_dt_param_i([ 14,99,4 ],2,'ExoParamAccessType',out).
+struct_dt_param_i([ 14,99,4 ],2,'IntName','Errors').
+struct_dt_param_i([ 14,99,4 ],2,'ExoItemDesc','').
+struct_dt_param_i([ 14,99,4 ],2,'ExoItemType','GAMError').
+struct_dt_param_i([ 14,99,4 ],2,basedon,'').
+struct_dt_param_i([ 14,99,4 ],2,'ExoItemExtTypeCSHARP','System.Collections.Generic.List<Artech.Security.GAMError>').
+struct_dt_param_i([ 14,99,5 ],1,name,importconfiguration).
+struct_dt_param_i([ 14,99,5 ],1,camelname,'ImportConfiguration').
+struct_dt_param_i([ 14,99,5 ],1,externalType,'').
+struct_dt_param_i([ 14,99,5 ],1,length,0).
+struct_dt_param_i([ 14,99,5 ],1,decimals,0).
+struct_dt_param_i([ 14,99,5 ],1,type,[ [ 14,102,0 ],0,0 ]).
+struct_dt_param_i([ 14,99,5 ],1,'ExoParamAccessType',in).
+struct_dt_param_i([ 14,99,5 ],1,'IntName','ImportConfiguration').
+struct_dt_param_i([ 14,99,5 ],1,'ExoItemDesc','').
+struct_dt_param_i([ 14,99,5 ],1,'ExoItemType','GAMImportRepositoryConfiguration').
+struct_dt_param_i([ 14,99,5 ],1,basedon,'').
+struct_dt_param_i([ 14,99,5 ],1,'ExoItemExtTypeCSHARP','Artech.Security.GAMImportRepositoryConfiguration').
+struct_dt_param_i([ 14,99,5 ],2,name,errors).
+struct_dt_param_i([ 14,99,5 ],2,camelname,'Errors').
+struct_dt_param_i([ 14,99,5 ],2,externalType,'').
+struct_dt_param_i([ 14,99,5 ],2,length,0).
+struct_dt_param_i([ 14,99,5 ],2,decimals,0).
+struct_dt_param_i([ 14,99,5 ],2,type,[ [ 14,41,0 ],0,0 ]).
+struct_dt_param_i([ 14,99,5 ],2,collection,'True').
+struct_dt_param_i([ 14,99,5 ],2,'ExoParamAccessType',out).
+struct_dt_param_i([ 14,99,5 ],2,'IntName','Errors').
+struct_dt_param_i([ 14,99,5 ],2,'ExoItemDesc','').
+struct_dt_param_i([ 14,99,5 ],2,'ExoItemType','GAMError').
+struct_dt_param_i([ 14,99,5 ],2,basedon,'').
+struct_dt_param_i([ 14,99,5 ],2,'ExoItemExtTypeCSHARP','System.Collections.Generic.List<Artech.Security.GAMError>').
+struct_dt_param_i([ 14,99,6 ],1,name,repositoryid).
+struct_dt_param_i([ 14,99,6 ],1,camelname,'RepositoryId').
+struct_dt_param_i([ 14,99,6 ],1,externalType,'').
+struct_dt_param_i([ 14,99,6 ],1,length,9).
+struct_dt_param_i([ 14,99,6 ],1,decimals,0).
+struct_dt_param_i([ 14,99,6 ],1,sign,0).
+struct_dt_param_i([ 14,99,6 ],1,type,[ 4,9,0 ]).
+struct_dt_param_i([ 14,99,6 ],1,'ExoParamAccessType',in).
+struct_dt_param_i([ 14,99,6 ],1,'IntName','RepositoryId').
+struct_dt_param_i([ 14,99,6 ],1,'ExoItemDesc','').
+struct_dt_param_i([ 14,99,6 ],1,'ExoItemType','Numeric').
+struct_dt_param_i([ 14,99,6 ],1,basedon,94).
+struct_dt_param_i([ 14,99,6 ],1,'ExoItemExtTypeCSHARP',int).
+struct_dt_param_i([ 14,99,6 ],2,name,user).
+struct_dt_param_i([ 14,99,6 ],2,camelname,'User').
+struct_dt_param_i([ 14,99,6 ],2,externalType,'').
+struct_dt_param_i([ 14,99,6 ],2,length,0).
+struct_dt_param_i([ 14,99,6 ],2,decimals,0).
+struct_dt_param_i([ 14,99,6 ],2,type,[ [ 14,52,0 ],0,0 ]).
+struct_dt_param_i([ 14,99,6 ],2,'ExoParamAccessType',in).
+struct_dt_param_i([ 14,99,6 ],2,'IntName','User').
+struct_dt_param_i([ 14,99,6 ],2,'ExoItemDesc','').
+struct_dt_param_i([ 14,99,6 ],2,'ExoItemType','GAMUser').
+struct_dt_param_i([ 14,99,6 ],2,basedon,'').
+struct_dt_param_i([ 14,99,6 ],2,'ExoItemExtTypeCSHARP','Artech.Security.GAMUser').
+struct_dt_param_i([ 14,99,6 ],3,name,roleid).
+struct_dt_param_i([ 14,99,6 ],3,camelname,'RoleId').
+struct_dt_param_i([ 14,99,6 ],3,externalType,'').
+struct_dt_param_i([ 14,99,6 ],3,length,12).
+struct_dt_param_i([ 14,99,6 ],3,decimals,0).
+struct_dt_param_i([ 14,99,6 ],3,sign,0).
+struct_dt_param_i([ 14,99,6 ],3,type,[ 4,12,0 ]).
+struct_dt_param_i([ 14,99,6 ],3,'ExoParamAccessType',in).
+struct_dt_param_i([ 14,99,6 ],3,'IntName','RoleId').
+struct_dt_param_i([ 14,99,6 ],3,'ExoItemDesc','').
+struct_dt_param_i([ 14,99,6 ],3,'ExoItemType','Numeric').
+struct_dt_param_i([ 14,99,6 ],3,basedon,92).
+struct_dt_param_i([ 14,99,6 ],3,'ExoItemExtTypeCSHARP',long).
+struct_dt_param_i([ 14,99,6 ],4,name,errors).
+struct_dt_param_i([ 14,99,6 ],4,camelname,'Errors').
+struct_dt_param_i([ 14,99,6 ],4,externalType,'').
+struct_dt_param_i([ 14,99,6 ],4,length,0).
+struct_dt_param_i([ 14,99,6 ],4,decimals,0).
+struct_dt_param_i([ 14,99,6 ],4,type,[ [ 14,41,0 ],0,0 ]).
+struct_dt_param_i([ 14,99,6 ],4,collection,'True').
+struct_dt_param_i([ 14,99,6 ],4,'ExoParamAccessType',out).
+struct_dt_param_i([ 14,99,6 ],4,'IntName','Errors').
+struct_dt_param_i([ 14,99,6 ],4,'ExoItemDesc','').
+struct_dt_param_i([ 14,99,6 ],4,'ExoItemType','GAMError').
+struct_dt_param_i([ 14,99,6 ],4,basedon,'').
+struct_dt_param_i([ 14,99,6 ],4,'ExoItemExtTypeCSHARP','System.Collections.Generic.List<Artech.Security.GAMError>').
+struct_dt_param_i([ 14,99,7 ],1,name,repositoryid).
+struct_dt_param_i([ 14,99,7 ],1,camelname,'RepositoryId').
+struct_dt_param_i([ 14,99,7 ],1,externalType,'').
+struct_dt_param_i([ 14,99,7 ],1,length,9).
+struct_dt_param_i([ 14,99,7 ],1,decimals,0).
+struct_dt_param_i([ 14,99,7 ],1,sign,0).
+struct_dt_param_i([ 14,99,7 ],1,type,[ 4,9,0 ]).
+struct_dt_param_i([ 14,99,7 ],1,'ExoParamAccessType',in).
+struct_dt_param_i([ 14,99,7 ],1,'IntName','RepositoryId').
+struct_dt_param_i([ 14,99,7 ],1,'ExoItemDesc','').
+struct_dt_param_i([ 14,99,7 ],1,'ExoItemType','Numeric').
+struct_dt_param_i([ 14,99,7 ],1,basedon,94).
+struct_dt_param_i([ 14,99,7 ],1,'ExoItemExtTypeCSHARP',int).
+struct_dt_param_i([ 14,99,7 ],2,name,user).
+struct_dt_param_i([ 14,99,7 ],2,camelname,'User').
+struct_dt_param_i([ 14,99,7 ],2,externalType,'').
+struct_dt_param_i([ 14,99,7 ],2,length,0).
+struct_dt_param_i([ 14,99,7 ],2,decimals,0).
+struct_dt_param_i([ 14,99,7 ],2,type,[ [ 14,52,0 ],0,0 ]).
+struct_dt_param_i([ 14,99,7 ],2,'ExoParamAccessType',in).
+struct_dt_param_i([ 14,99,7 ],2,'IntName','User').
+struct_dt_param_i([ 14,99,7 ],2,'ExoItemDesc','').
+struct_dt_param_i([ 14,99,7 ],2,'ExoItemType','GAMUser').
+struct_dt_param_i([ 14,99,7 ],2,basedon,'').
+struct_dt_param_i([ 14,99,7 ],2,'ExoItemExtTypeCSHARP','Artech.Security.GAMUser').
+struct_dt_param_i([ 14,99,7 ],3,name,errors).
+struct_dt_param_i([ 14,99,7 ],3,camelname,'Errors').
+struct_dt_param_i([ 14,99,7 ],3,externalType,'').
+struct_dt_param_i([ 14,99,7 ],3,length,0).
+struct_dt_param_i([ 14,99,7 ],3,decimals,0).
+struct_dt_param_i([ 14,99,7 ],3,type,[ [ 14,41,0 ],0,0 ]).
+struct_dt_param_i([ 14,99,7 ],3,collection,'True').
+struct_dt_param_i([ 14,99,7 ],3,'ExoParamAccessType',out).
+struct_dt_param_i([ 14,99,7 ],3,'IntName','Errors').
+struct_dt_param_i([ 14,99,7 ],3,'ExoItemDesc','').
+struct_dt_param_i([ 14,99,7 ],3,'ExoItemType','GAMError').
+struct_dt_param_i([ 14,99,7 ],3,basedon,'').
+struct_dt_param_i([ 14,99,7 ],3,'ExoItemExtTypeCSHARP','System.Collections.Generic.List<Artech.Security.GAMError>').
+struct_dt_param_i([ 14,99,8 ],1,name,username).
+struct_dt_param_i([ 14,99,8 ],1,camelname,'UserName').
+struct_dt_param_i([ 14,99,8 ],1,externalType,'').
+struct_dt_param_i([ 14,99,8 ],1,length,100).
+struct_dt_param_i([ 14,99,8 ],1,decimals,60).
+struct_dt_param_i([ 14,99,8 ],1,type,[ 13,100,60 ]).
+struct_dt_param_i([ 14,99,8 ],1,'ExoParamAccessType',in).
+struct_dt_param_i([ 14,99,8 ],1,'IntName','UserName').
+struct_dt_param_i([ 14,99,8 ],1,'ExoItemDesc','').
+struct_dt_param_i([ 14,99,8 ],1,'ExoItemType','VarChar').
+struct_dt_param_i([ 14,99,8 ],1,basedon,96).
+struct_dt_param_i([ 14,99,8 ],1,'ExoItemExtTypeCSHARP','String').
+struct_dt_param_i([ 14,99,8 ],2,name,password).
+struct_dt_param_i([ 14,99,8 ],2,camelname,'Password').
+struct_dt_param_i([ 14,99,8 ],2,externalType,'').
+struct_dt_param_i([ 14,99,8 ],2,length,120).
+struct_dt_param_i([ 14,99,8 ],2,decimals,0).
+struct_dt_param_i([ 14,99,8 ],2,type,[ 5,120,0 ]).
+struct_dt_param_i([ 14,99,8 ],2,'ExoParamAccessType',in).
+struct_dt_param_i([ 14,99,8 ],2,'IntName','Password').
+struct_dt_param_i([ 14,99,8 ],2,'ExoItemDesc','').
+struct_dt_param_i([ 14,99,8 ],2,'ExoItemType','Character').
+struct_dt_param_i([ 14,99,8 ],2,basedon,91).
+struct_dt_param_i([ 14,99,8 ],2,'ExoItemExtTypeCSHARP','String').
+struct_dt_param_i([ 14,99,8 ],3,name,connectionsfilters).
+struct_dt_param_i([ 14,99,8 ],3,camelname,'ConnectionsFilters').
+struct_dt_param_i([ 14,99,8 ],3,externalType,'').
+struct_dt_param_i([ 14,99,8 ],3,length,0).
+struct_dt_param_i([ 14,99,8 ],3,decimals,0).
+struct_dt_param_i([ 14,99,8 ],3,type,[ [ 14,103,0 ],0,0 ]).
+struct_dt_param_i([ 14,99,8 ],3,collection,'True').
+struct_dt_param_i([ 14,99,8 ],3,'ExoParamAccessType',in).
+struct_dt_param_i([ 14,99,8 ],3,'IntName','ConnectionsFilters').
+struct_dt_param_i([ 14,99,8 ],3,'ExoItemDesc','').
+struct_dt_param_i([ 14,99,8 ],3,'ExoItemType','GAMRepositoryConnectionFileFilter').
+struct_dt_param_i([ 14,99,8 ],3,basedon,'').
+struct_dt_param_i([ 14,99,8 ],3,'ExoItemExtTypeCSHARP','System.Collections.Generic.List<Artech.Security.GAMRepositoryConnectionFileFilter>').
+struct_dt_param_i([ 14,99,8 ],4,name,textxml).
+struct_dt_param_i([ 14,99,8 ],4,camelname,'TextXML').
+struct_dt_param_i([ 14,99,8 ],4,externalType,'').
+struct_dt_param_i([ 14,99,8 ],4,length,254).
+struct_dt_param_i([ 14,99,8 ],4,decimals,0).
+struct_dt_param_i([ 14,99,8 ],4,type,[ 5,254,0 ]).
+struct_dt_param_i([ 14,99,8 ],4,'ExoParamAccessType',out).
+struct_dt_param_i([ 14,99,8 ],4,'IntName','TextXML').
+struct_dt_param_i([ 14,99,8 ],4,'ExoItemDesc','').
+struct_dt_param_i([ 14,99,8 ],4,'ExoItemType','Character').
+struct_dt_param_i([ 14,99,8 ],4,basedon,90).
+struct_dt_param_i([ 14,99,8 ],4,'ExoItemExtTypeCSHARP','String').
+struct_dt_param_i([ 14,99,8 ],5,name,errors).
+struct_dt_param_i([ 14,99,8 ],5,camelname,'Errors').
+struct_dt_param_i([ 14,99,8 ],5,externalType,'').
+struct_dt_param_i([ 14,99,8 ],5,length,0).
+struct_dt_param_i([ 14,99,8 ],5,decimals,0).
+struct_dt_param_i([ 14,99,8 ],5,type,[ [ 14,41,0 ],0,0 ]).
+struct_dt_param_i([ 14,99,8 ],5,collection,'True').
+struct_dt_param_i([ 14,99,8 ],5,'ExoParamAccessType',out).
+struct_dt_param_i([ 14,99,8 ],5,'IntName','Errors').
+struct_dt_param_i([ 14,99,8 ],5,'ExoItemDesc','').
+struct_dt_param_i([ 14,99,8 ],5,'ExoItemType','GAMError').
+struct_dt_param_i([ 14,99,8 ],5,basedon,'').
+struct_dt_param_i([ 14,99,8 ],5,'ExoItemExtTypeCSHARP','System.Collections.Generic.List<Artech.Security.GAMError>').
+struct_dt_param_i([ 14,99,9 ],1,name,errors).
+struct_dt_param_i([ 14,99,9 ],1,camelname,'Errors').
+struct_dt_param_i([ 14,99,9 ],1,externalType,'').
+struct_dt_param_i([ 14,99,9 ],1,length,0).
+struct_dt_param_i([ 14,99,9 ],1,decimals,0).
+struct_dt_param_i([ 14,99,9 ],1,type,[ [ 14,41,0 ],0,0 ]).
+struct_dt_param_i([ 14,99,9 ],1,collection,'True').
+struct_dt_param_i([ 14,99,9 ],1,'ExoParamAccessType',out).
+struct_dt_param_i([ 14,99,9 ],1,'IntName','Errors').
+struct_dt_param_i([ 14,99,9 ],1,'ExoItemDesc','').
+struct_dt_param_i([ 14,99,9 ],1,'ExoItemType','GAMError').
+struct_dt_param_i([ 14,99,9 ],1,basedon,'').
+struct_dt_param_i([ 14,99,9 ],1,'ExoItemExtTypeCSHARP','System.Collections.Generic.List<Artech.Security.GAMError>').
+struct_dt_param_i([ 14,99,10 ],1,name,connectionname).
+struct_dt_param_i([ 14,99,10 ],1,camelname,'ConnectionName').
+struct_dt_param_i([ 14,99,10 ],1,externalType,'').
+struct_dt_param_i([ 14,99,10 ],1,length,120).
+struct_dt_param_i([ 14,99,10 ],1,decimals,0).
+struct_dt_param_i([ 14,99,10 ],1,type,[ 5,120,0 ]).
+struct_dt_param_i([ 14,99,10 ],1,'ExoParamAccessType',in).
+struct_dt_param_i([ 14,99,10 ],1,'IntName','ConnectionName').
+struct_dt_param_i([ 14,99,10 ],1,'ExoItemDesc','').
+struct_dt_param_i([ 14,99,10 ],1,'ExoItemType','Character').
+struct_dt_param_i([ 14,99,10 ],1,basedon,103).
+struct_dt_param_i([ 14,99,10 ],1,'ExoItemExtTypeCSHARP','String').
+struct_dt_param_i([ 14,99,10 ],2,name,errors).
+struct_dt_param_i([ 14,99,10 ],2,camelname,'Errors').
+struct_dt_param_i([ 14,99,10 ],2,externalType,'').
+struct_dt_param_i([ 14,99,10 ],2,length,0).
+struct_dt_param_i([ 14,99,10 ],2,decimals,0).
+struct_dt_param_i([ 14,99,10 ],2,type,[ [ 14,41,0 ],0,0 ]).
+struct_dt_param_i([ 14,99,10 ],2,collection,'True').
+struct_dt_param_i([ 14,99,10 ],2,'ExoParamAccessType',out).
+struct_dt_param_i([ 14,99,10 ],2,'IntName','Errors').
+struct_dt_param_i([ 14,99,10 ],2,'ExoItemDesc','').
+struct_dt_param_i([ 14,99,10 ],2,'ExoItemType','GAMError').
+struct_dt_param_i([ 14,99,10 ],2,basedon,'').
+struct_dt_param_i([ 14,99,10 ],2,'ExoItemExtTypeCSHARP','System.Collections.Generic.List<Artech.Security.GAMError>').
+struct_dt_param_i([ 14,99,13 ],1,name,cleansessionlogfilter).
+struct_dt_param_i([ 14,99,13 ],1,camelname,'CleanSessionLogFilter').
+struct_dt_param_i([ 14,99,13 ],1,externalType,'').
+struct_dt_param_i([ 14,99,13 ],1,length,0).
+struct_dt_param_i([ 14,99,13 ],1,decimals,0).
+struct_dt_param_i([ 14,99,13 ],1,type,[ [ 14,106,0 ],0,0 ]).
+struct_dt_param_i([ 14,99,13 ],1,'ExoParamAccessType',in).
+struct_dt_param_i([ 14,99,13 ],1,'IntName','CleanSessionLogFilter').
+struct_dt_param_i([ 14,99,13 ],1,'ExoItemDesc','').
+struct_dt_param_i([ 14,99,13 ],1,'ExoItemType','GAMCleanSessionLogFilter').
+struct_dt_param_i([ 14,99,13 ],1,basedon,'').
+struct_dt_param_i([ 14,99,13 ],1,'ExoItemExtTypeCSHARP','Artech.Security.GAMCleanSessionLogFilter').
+struct_dt_param_i([ 14,99,13 ],2,name,errors).
+struct_dt_param_i([ 14,99,13 ],2,camelname,'Errors').
+struct_dt_param_i([ 14,99,13 ],2,externalType,'').
+struct_dt_param_i([ 14,99,13 ],2,length,0).
+struct_dt_param_i([ 14,99,13 ],2,decimals,0).
+struct_dt_param_i([ 14,99,13 ],2,type,[ [ 14,41,0 ],0,0 ]).
+struct_dt_param_i([ 14,99,13 ],2,collection,'True').
+struct_dt_param_i([ 14,99,13 ],2,'ExoParamAccessType',out).
+struct_dt_param_i([ 14,99,13 ],2,'IntName','Errors').
+struct_dt_param_i([ 14,99,13 ],2,'ExoItemDesc','').
+struct_dt_param_i([ 14,99,13 ],2,'ExoItemType','GAMError').
+struct_dt_param_i([ 14,99,13 ],2,basedon,'').
+struct_dt_param_i([ 14,99,13 ],2,'ExoItemExtTypeCSHARP','System.Collections.Generic.List<Artech.Security.GAMError>').
+struct_dt_param_i([ 14,99,16 ],1,name,json).
+struct_dt_param_i([ 14,99,16 ],1,camelname,'Json').
+struct_dt_param_i([ 14,99,16 ],1,externalType,'').
+struct_dt_param_i([ 14,99,16 ],1,length,9999).
+struct_dt_param_i([ 14,99,16 ],1,decimals,0).
+struct_dt_param_i([ 14,99,16 ],1,type,[ 5,9999,0 ]).
+struct_dt_param_i([ 14,99,16 ],1,'ExoParamAccessType',in).
+struct_dt_param_i([ 14,99,16 ],1,'IntName','Json').
+struct_dt_param_i([ 14,99,16 ],1,'ExoItemDesc','').
+struct_dt_param_i([ 14,99,16 ],1,'ExoItemType','Character').
+struct_dt_param_i([ 14,99,16 ],1,basedon,'').
+struct_dt_param_i([ 14,99,16 ],1,'ExoItemExtTypeCSHARP',string).
+ 
+ 
+ 
+ 
+ 
+struct_dt_i([ 14,46,0 ],name,'GAMRepository').
+struct_dt_i([ 14,46,0 ],'ObjName','GAMRepository').
+struct_dt_i([ 14,46,0 ],'ObjDesc','GAM Repository').
+struct_dt_i([ 14,46,0 ],'ExoType','0').
+struct_dt_i([ 14,46,0 ],'ObjNamespace','Artech.Security').
+struct_dt_i([ 14,46,0 ],'ExoImporterVersion','').
+struct_dt_i([ 14,46,0 ],'ExoSourceURI','').
+struct_dt_i([ 14,46,0 ],'ExoNameCSHARP','GAMRepository').
+struct_dt_i([ 14,46,0 ],'AssemblyName','Artech.Security.dll').
+struct_dt_i([ 14,46,0 ],'ExoConstructorParametersCSHARP',context).
+struct_dt_i([ 14,46,0 ],'PackageName','artech.security').
+struct_dt_i([ 14,46,0 ],'RequireName','').
+struct_dt_i([ 14,46,0 ],'ExoNameJS','').
+struct_dt_i([ 14,46,0 ],'ExoReferencedFilesJS','').
+struct_dt_i([ 14,46,0 ],'Folder',o(8,'GAM_Library')).
+struct_dt_i([ 14,46,0 ],'FullyQualifiedName','GAMRepository').
+struct_dt_i([ 14,46,0 ],'ObjectVisibility','Public').
+struct_dt_i([ 14,46,0 ],fullname,'GAMRepository').
+struct_dt_i([ 14,46,0 ],modified,yes).
+ 
+struct_dt_i([ 14,104,0 ],name,'GAMConnectionInfo').
+struct_dt_i([ 14,104,0 ],'ObjName','GAMConnectionInfo').
+struct_dt_i([ 14,104,0 ],'ObjDesc','GAMConnection Info').
+struct_dt_i([ 14,104,0 ],'ExoType','0').
+struct_dt_i([ 14,104,0 ],'ObjNamespace','Artech.Security').
+struct_dt_i([ 14,104,0 ],'ExoImporterVersion','').
+struct_dt_i([ 14,104,0 ],'ExoSourceURI','').
+struct_dt_i([ 14,104,0 ],'ExoNameCSHARP','GAMConnectionInfo').
+struct_dt_i([ 14,104,0 ],'AssemblyName','Artech.Security.dll').
+struct_dt_i([ 14,104,0 ],'ExoConstructorParametersCSHARP',context).
+struct_dt_i([ 14,104,0 ],'PackageName','artech.security').
+struct_dt_i([ 14,104,0 ],'RequireName','').
+struct_dt_i([ 14,104,0 ],'ExoNameJS','').
+struct_dt_i([ 14,104,0 ],'ExoReferencedFilesJS','').
+struct_dt_i([ 14,104,0 ],'Folder',o(8,'GAM_Library')).
+struct_dt_i([ 14,104,0 ],'FullyQualifiedName','GAMConnectionInfo').
+struct_dt_i([ 14,104,0 ],'ObjectVisibility','Public').
+struct_dt_i([ 14,104,0 ],fullname,'GAMConnectionInfo').
+struct_dt_i([ 14,104,0 ],modified,yes).
+ 
+struct_dt_i([ 14,100,0 ],name,'GAMRepositoryCreate').
+struct_dt_i([ 14,100,0 ],'ObjName','GAMRepositoryCreate').
+struct_dt_i([ 14,100,0 ],'ObjDesc','GAMRepository Create').
+struct_dt_i([ 14,100,0 ],'ExoType','0').
+struct_dt_i([ 14,100,0 ],'ObjNamespace','Artech.Security').
+struct_dt_i([ 14,100,0 ],'ExoImporterVersion','').
+struct_dt_i([ 14,100,0 ],'ExoSourceURI','').
+struct_dt_i([ 14,100,0 ],'ExoNameCSHARP','GAMRepositoryCreate').
+struct_dt_i([ 14,100,0 ],'AssemblyName','Artech.Security.dll').
+struct_dt_i([ 14,100,0 ],'ExoConstructorParametersCSHARP',context).
+struct_dt_i([ 14,100,0 ],'PackageName','artech.security').
+struct_dt_i([ 14,100,0 ],'RequireName','').
+struct_dt_i([ 14,100,0 ],'ExoNameJS','').
+struct_dt_i([ 14,100,0 ],'ExoReferencedFilesJS','').
+struct_dt_i([ 14,100,0 ],'Folder',o(8,'GAM_Library')).
+struct_dt_i([ 14,100,0 ],'FullyQualifiedName','GAMRepositoryCreate').
+struct_dt_i([ 14,100,0 ],'ObjectVisibility','Public').
+struct_dt_i([ 14,100,0 ],fullname,'GAMRepositoryCreate').
+struct_dt_i([ 14,100,0 ],modified,yes).
+ 
+struct_dt_i([ 14,41,0 ],name,'GAMError').
+struct_dt_i([ 14,41,0 ],'ObjName','GAMError').
+struct_dt_i([ 14,41,0 ],'ObjDesc','GAMError').
+struct_dt_i([ 14,41,0 ],'ExoType','0').
+struct_dt_i([ 14,41,0 ],'ObjNamespace','Artech.Security').
+struct_dt_i([ 14,41,0 ],'ExoImporterVersion','').
+struct_dt_i([ 14,41,0 ],'ExoSourceURI','').
+struct_dt_i([ 14,41,0 ],'ExoNameCSHARP','GAMError').
+struct_dt_i([ 14,41,0 ],'AssemblyName','Artech.Security.dll').
+struct_dt_i([ 14,41,0 ],'ExoConstructorParametersCSHARP',context).
+struct_dt_i([ 14,41,0 ],'PackageName','artech.security').
+struct_dt_i([ 14,41,0 ],'RequireName','').
+struct_dt_i([ 14,41,0 ],'ExoNameJS','').
+struct_dt_i([ 14,41,0 ],'ExoReferencedFilesJS','').
+struct_dt_i([ 14,41,0 ],'Folder',o(8,'GAM_Library')).
+struct_dt_i([ 14,41,0 ],'FullyQualifiedName','GAMError').
+struct_dt_i([ 14,41,0 ],'ObjectVisibility','Public').
+struct_dt_i([ 14,41,0 ],fullname,'GAMError').
+struct_dt_i([ 14,41,0 ],modified,yes).
+ 
+struct_dt_i([ 14,101,0 ],name,'GAMRepositoryFilter').
+struct_dt_i([ 14,101,0 ],'ObjName','GAMRepositoryFilter').
+struct_dt_i([ 14,101,0 ],'ObjDesc','GAMRepository Filter').
+struct_dt_i([ 14,101,0 ],'ExoType','0').
+struct_dt_i([ 14,101,0 ],'ObjNamespace','Artech.Security').
+struct_dt_i([ 14,101,0 ],'ExoImporterVersion','').
+struct_dt_i([ 14,101,0 ],'ExoSourceURI','').
+struct_dt_i([ 14,101,0 ],'ExoNameCSHARP','GAMRepositoryFilter').
+struct_dt_i([ 14,101,0 ],'AssemblyName','Artech.Security.dll').
+struct_dt_i([ 14,101,0 ],'ExoConstructorParametersCSHARP',context).
+struct_dt_i([ 14,101,0 ],'PackageName','artech.security').
+struct_dt_i([ 14,101,0 ],'RequireName','').
+struct_dt_i([ 14,101,0 ],'ExoNameJS','').
+struct_dt_i([ 14,101,0 ],'ExoReferencedFilesJS','').
+struct_dt_i([ 14,101,0 ],'Folder',o(8,'GAM_Library')).
+struct_dt_i([ 14,101,0 ],'FullyQualifiedName','GAMRepositoryFilter').
+struct_dt_i([ 14,101,0 ],'ObjectVisibility','Public').
+struct_dt_i([ 14,101,0 ],fullname,'GAMRepositoryFilter').
+struct_dt_i([ 14,101,0 ],modified,yes).
+ 
+struct_dt_i([ 14,102,0 ],name,'GAMImportRepositoryConfiguration').
+struct_dt_i([ 14,102,0 ],'ObjName','GAMImportRepositoryConfiguration').
+struct_dt_i([ 14,102,0 ],'ObjDesc','GAMImport Repository Configuration').
+struct_dt_i([ 14,102,0 ],'ExoType','0').
+struct_dt_i([ 14,102,0 ],'ObjNamespace','Artech.Security').
+struct_dt_i([ 14,102,0 ],'ExoImporterVersion','').
+struct_dt_i([ 14,102,0 ],'ExoSourceURI','').
+struct_dt_i([ 14,102,0 ],'ExoNameCSHARP','GAMImportRepositoryConfiguration').
+struct_dt_i([ 14,102,0 ],'AssemblyName','Artech.Security.dll').
+struct_dt_i([ 14,102,0 ],'ExoConstructorParametersCSHARP',context).
+struct_dt_i([ 14,102,0 ],'PackageName','artech.security').
+struct_dt_i([ 14,102,0 ],'RequireName','').
+struct_dt_i([ 14,102,0 ],'ExoNameJS','').
+struct_dt_i([ 14,102,0 ],'ExoReferencedFilesJS','').
+struct_dt_i([ 14,102,0 ],'Folder',o(8,'GAM_Library')).
+struct_dt_i([ 14,102,0 ],'FullyQualifiedName','GAMImportRepositoryConfiguration').
+struct_dt_i([ 14,102,0 ],'ObjectVisibility','Public').
+struct_dt_i([ 14,102,0 ],fullname,'GAMImportRepositoryConfiguration').
+struct_dt_i([ 14,102,0 ],modified,yes).
+ 
+struct_dt_i([ 14,52,0 ],name,'GAMUser').
+struct_dt_i([ 14,52,0 ],'ObjName','GAMUser').
+struct_dt_i([ 14,52,0 ],'ObjDesc','GAM User').
+struct_dt_i([ 14,52,0 ],'ExoType','0').
+struct_dt_i([ 14,52,0 ],'ObjNamespace','Artech.Security').
+struct_dt_i([ 14,52,0 ],'ExoImporterVersion','').
+struct_dt_i([ 14,52,0 ],'ExoSourceURI','').
+struct_dt_i([ 14,52,0 ],'ExoNameCSHARP','GAMUser').
+struct_dt_i([ 14,52,0 ],'AssemblyName','Artech.Security.dll').
+struct_dt_i([ 14,52,0 ],'ExoConstructorParametersCSHARP',context).
+struct_dt_i([ 14,52,0 ],'PackageName','artech.security').
+struct_dt_i([ 14,52,0 ],'RequireName','').
+struct_dt_i([ 14,52,0 ],'ExoNameJS','').
+struct_dt_i([ 14,52,0 ],'ExoReferencedFilesJS','').
+struct_dt_i([ 14,52,0 ],'Folder',o(8,'GAM_Library')).
+struct_dt_i([ 14,52,0 ],'FullyQualifiedName','GAMUser').
+struct_dt_i([ 14,52,0 ],'ObjectVisibility','Public').
+struct_dt_i([ 14,52,0 ],fullname,'GAMUser').
+struct_dt_i([ 14,52,0 ],modified,yes).
+ 
+struct_dt_i([ 14,103,0 ],name,'GAMRepositoryConnectionFileFilter').
+struct_dt_i([ 14,103,0 ],'ObjName','GAMRepositoryConnectionFileFilter').
+struct_dt_i([ 14,103,0 ],'ObjDesc','GAMRepository Connection File Filter').
+struct_dt_i([ 14,103,0 ],'ExoType','0').
+struct_dt_i([ 14,103,0 ],'ObjNamespace','Artech.Security').
+struct_dt_i([ 14,103,0 ],'ExoImporterVersion','').
+struct_dt_i([ 14,103,0 ],'ExoSourceURI','').
+struct_dt_i([ 14,103,0 ],'ExoNameCSHARP','GAMRepositoryConnectionFileFilter').
+struct_dt_i([ 14,103,0 ],'AssemblyName','Artech.Security.dll').
+struct_dt_i([ 14,103,0 ],'ExoConstructorParametersCSHARP',context).
+struct_dt_i([ 14,103,0 ],'PackageName','artech.security').
+struct_dt_i([ 14,103,0 ],'RequireName','').
+struct_dt_i([ 14,103,0 ],'ExoNameJS','').
+struct_dt_i([ 14,103,0 ],'ExoReferencedFilesJS','').
+struct_dt_i([ 14,103,0 ],'Folder',o(8,'GAM_Library')).
+struct_dt_i([ 14,103,0 ],'FullyQualifiedName','GAMRepositoryConnectionFileFilter').
+struct_dt_i([ 14,103,0 ],'ObjectVisibility','Public').
+struct_dt_i([ 14,103,0 ],fullname,'GAMRepositoryConnectionFileFilter').
+struct_dt_i([ 14,103,0 ],modified,yes).
+ 
+struct_dt_i([ 14,106,0 ],name,'GAMCleanSessionLogFilter').
+struct_dt_i([ 14,106,0 ],'ObjName','GAMCleanSessionLogFilter').
+struct_dt_i([ 14,106,0 ],'ObjDesc','GAMClean Session Log Filter').
+struct_dt_i([ 14,106,0 ],'ExoType','0').
+struct_dt_i([ 14,106,0 ],'ObjNamespace','Artech.Security').
+struct_dt_i([ 14,106,0 ],'ExoImporterVersion','').
+struct_dt_i([ 14,106,0 ],'ExoSourceURI','').
+struct_dt_i([ 14,106,0 ],'ExoNameCSHARP','GAMCleanSessionLogFilter').
+struct_dt_i([ 14,106,0 ],'AssemblyName','Artech.Security.dll').
+struct_dt_i([ 14,106,0 ],'ExoConstructorParametersCSHARP',context).
+struct_dt_i([ 14,106,0 ],'PackageName','artech.security').
+struct_dt_i([ 14,106,0 ],'RequireName','').
+struct_dt_i([ 14,106,0 ],'ExoNameJS','').
+struct_dt_i([ 14,106,0 ],'ExoReferencedFilesJS','').
+struct_dt_i([ 14,106,0 ],'Folder',o(8,'GAM_Library')).
+struct_dt_i([ 14,106,0 ],'FullyQualifiedName','GAMCleanSessionLogFilter').
+struct_dt_i([ 14,106,0 ],'ObjectVisibility','Public').
+struct_dt_i([ 14,106,0 ],fullname,'GAMCleanSessionLogFilter').
+struct_dt_i([ 14,106,0 ],modified,yes).

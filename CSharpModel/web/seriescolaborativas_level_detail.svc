@@ -1,0 +1,1 @@
+<%@ServiceHost Service= "GeneXus.Programs.seriescolaborativas_level_detail_services,seriescolaborativas_level_detail" %>

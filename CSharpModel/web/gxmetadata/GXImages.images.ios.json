@@ -1,0 +1,7 @@
+{ 
+    "Resources" : [ { 
+        "Language" : "Portuguese",
+        "Theme" : "CarmineIOS",
+        "ResourceFile" : "Images_Portuguese_CarmineIOS.json"
+    } ]
+}

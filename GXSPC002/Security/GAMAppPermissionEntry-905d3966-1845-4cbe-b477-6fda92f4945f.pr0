@@ -1,0 +1,8 @@
+[
+  {
+    "Name": "gamapppermissionentry_Execute",
+    "Description": "Application permission",
+    "ProgramName": "gamapppermissionentry",
+    "IsGXAutomatic": true
+  }
+]

@@ -1,0 +1,8 @@
+[
+  {
+    "Name": "gamwwrolepermissions_Execute",
+    "Description": "Role´s permissions",
+    "ProgramName": "gamwwrolepermissions",
+    "IsGXAutomatic": true
+  }
+]

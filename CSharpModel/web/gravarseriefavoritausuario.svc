@@ -1,0 +1,1 @@
+<%@ServiceHost Service= "GeneXus.Programs.gravarseriefavoritausuario_services,gravarseriefavoritausuario" %>

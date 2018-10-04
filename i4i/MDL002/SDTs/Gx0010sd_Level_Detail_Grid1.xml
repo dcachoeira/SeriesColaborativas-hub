@@ -1,0 +1,94 @@
+
+<SdtSpec>
+<mainid>[ 26,1000000,0 ]</mainid>
+<Level>
+<id>[ 26,1000000,0 ]</id>
+<name>Gx0010sd_Level_Detail_Grid1Sdt</name>
+<camelname>Gx0010sd_Level_Detail_Grid1Sdt</camelname>
+<camelnameex>Gx0010sd_Level_Detail_Grid1Sdt</camelnameex>
+<collection>True</collection>
+<datatype>[ 26,1000000,1 ]</datatype>
+<wwsd_sdt>True</wwsd_sdt>
+<panel>[ 'Level.Detail' ]</panel>
+<key>[ 1,[ 1 ],[ 1,1,'Serie' ] ]</key>
+<fullname>Gx0010sd_Level_Detail_Grid1Sdt</fullname></Level>
+<Level>
+<id>[ 26,1000000,1 ]</id>
+<name>Item</name>
+<camelname>Item</camelname>
+<camelnameex>Item</camelnameex>
+<fullname>Gx0010sd_Level_Detail_Grid1Sdt.Item</fullname>
+<members>
+<member>
+<name>Serieid</name>
+<camelname>SerieId</camelname>
+<type>[ 4,18,0 ]</type>
+<length>18</length>
+<decimals>0</decimals>
+<sign>0</sign>
+<collection>False</collection>
+<islevel>False</islevel>
+<attributeid>1</attributeid></member>
+<member>
+<name>Serienome</name>
+<camelname>SerieNome</camelname>
+<type>[ 13,40,0 ]</type>
+<length>40</length>
+<decimals>0</decimals>
+<sign>0</sign>
+<collection>False</collection>
+<islevel>False</islevel>
+<attributeid>2</attributeid></member>
+<member>
+<name>Serieimagem</name>
+<camelname>SerieImagem</camelname>
+<type>[ 7,1024,0 ]</type>
+<length>1024</length>
+<decimals>0</decimals>
+<sign>0</sign>
+<collection>False</collection>
+<islevel>False</islevel>
+<attributeid>43</attributeid></member></members></Level>
+<Services>
+<AfterFilter>
+<PromptName>Gx00B0sd</PromptName>
+<AfterPromptName>AfterFilterGeneroId</AfterPromptName>
+<Inputs>
+<Attribute>
+<AttriId>48</AttriId>
+<AttriName>GeneroId</AttriName>
+<Description>Id</Description></Attribute></Inputs>
+<Outputs>
+<Attribute>
+<AttriId>49</AttriId>
+<AttriName>GeneroNome</AttriName>
+<Description>Nome</Description></Attribute></Outputs></AfterFilter></Services>
+<Prompts>
+<FilterPrompt>
+<PromptName>Gx00B0sd</PromptName>
+<TableId>11</TableId>
+<TableName>Genero</TableName>
+<Parameter>
+<Type>Out</Type>
+<Attribute>
+<AttriId>48</AttriId>
+<AttriName>GeneroId</AttriName>
+<Description>Id</Description></Attribute></Parameter>
+<Parameter>
+<Type>Extra</Type>
+<Attribute>
+<AttriId>49</AttriId>
+<AttriName>GeneroNome</AttriName>
+<Description>Nome</Description></Attribute></Parameter></FilterPrompt></Prompts>
+<TableAccess>
+<Table>
+<Id>1</Id>
+<Name>Serie</Name>
+<Read>y</Read>
+<Insert>n</Insert>
+<Update>n</Update>
+<Delete>n</Delete>
+<IsBase>y</IsBase></Table></TableAccess>
+<XRef></XRef>
+<Input>
+<Parm></Parm></Input></SdtSpec>

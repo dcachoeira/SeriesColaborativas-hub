@@ -1,0 +1,8 @@
+[
+  {
+    "Name": "gethomesamplenamevaluedata_Services_Execute",
+    "Description": "Get Home Sample Name Value Data Services",
+    "ProgramName": "wwpbaseobjects.gethomesamplenamevaluedata",
+    "IsGXAutomatic": true
+  }
+]

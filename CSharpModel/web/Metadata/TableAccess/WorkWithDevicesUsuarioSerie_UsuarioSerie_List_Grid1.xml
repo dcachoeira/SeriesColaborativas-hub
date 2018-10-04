@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="name" name="WorkWithDevicesUsuarioSerie_UsuarioSerie_List_Grid1">
+  <Table name="Serie" />
+  <Table name="UsuarioSerie" />
+  <Table name="Genero" />
+  <Table name="Usuario" />
+  <Table name="Conquista" />
+  <Table name="UsuarioConquista" />
+  <Table name="Episodio" />
+  <Table name="UsuarioEpisodio" />
+  <Table name="Notificacao" />
+  <Table name="UsuarioRecomendacaoSerie" />
+  <Table name="UsuarioRecomendacaoEpisodio" />
+</Dependencies>

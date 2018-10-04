@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="prgs.xsl"?>
+<Objects>
+   <Charset>UTF-8</Charset>
+   <Path>file:///C:/Program Files (x86)/GeneXus/GeneXus15/</Path>
+   <Object>
+      <ObjCls>0</ObjCls>
+      <ObjName>UsuarioSerie</ObjName>
+      <ObjDesc>Usuário série</ObjDesc>
+      <ObjLink>usuarioserie.aspx</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>0</ObjCls>
+      <ObjName>UsuarioEpisodio</ObjName>
+      <ObjDesc>Usuário episódio</ObjDesc>
+      <ObjLink>usuarioepisodio.aspx</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>0</ObjCls>
+      <ObjName>Notificacao</ObjName>
+      <ObjDesc>Notificação</ObjDesc>
+      <ObjLink>notificacao.aspx</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>0</ObjCls>
+      <ObjName>UsuarioConquista</ObjName>
+      <ObjDesc>Usuário conquista</ObjDesc>
+      <ObjLink>usuarioconquista.aspx</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>0</ObjCls>
+      <ObjName>UsuarioRecomendacaoSerie</ObjName>
+      <ObjDesc>Usuário recomendação série</ObjDesc>
+      <ObjLink>usuariorecomendacaoserie.aspx</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>0</ObjCls>
+      <ObjName>UsuarioRecomendacaoEpisodio</ObjName>
+      <ObjDesc>Usuário recomendação episódios</ObjDesc>
+      <ObjLink>usuariorecomendacaoepisodio.aspx</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>13</ObjCls>
+      <ObjName>WWPBaseObjects.Home</ObjName>
+      <ObjDesc>WWPBaseObjects.Inicio</ObjDesc>
+      <ObjLink>wwpbaseobjects.home.aspx</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>13</ObjCls>
+      <ObjName>Login</ObjName>
+      <ObjDesc>Login</ObjDesc>
+      <ObjLink>login.aspx</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>13</ObjCls>
+      <ObjName>GAMChangeYourPassword</ObjName>
+      <ObjDesc>Change my password</ObjDesc>
+      <ObjLink>gamchangeyourpassword.aspx</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>13</ObjCls>
+      <ObjName>GAMHome</ObjName>
+      <ObjDesc>GAM Home</ObjDesc>
+      <ObjLink>gamhome.aspx</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>13</ObjCls>
+      <ObjName>GAMWWRoles</ObjName>
+      <ObjDesc>Roles</ObjDesc>
+      <ObjLink>gamwwroles.aspx</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>13</ObjCls>
+      <ObjName>GAMWWUsers</ObjName>
+      <ObjDesc>Users</ObjDesc>
+      <ObjLink>gamwwusers.aspx</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>13</ObjCls>
+      <ObjName>GAMWWSecurityPolicy</ObjName>
+      <ObjDesc>Security policies</ObjDesc>
+      <ObjLink>gamwwsecuritypolicy.aspx</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>13</ObjCls>
+      <ObjName>GAMWWRepositories</ObjName>
+      <ObjDesc>Repositories</ObjDesc>
+      <ObjLink>gamwwrepositories.aspx</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>13</ObjCls>
+      <ObjName>GAMWWAuthTypes</ObjName>
+      <ObjDesc>Authentication Types</ObjDesc>
+      <ObjLink>gamwwauthtypes.aspx</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>13</ObjCls>
+      <ObjName>GAMWWConnections</ObjName>
+      <ObjDesc>Connections</ObjDesc>
+      <ObjLink>gamwwconnections.aspx</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>13</ObjCls>
+      <ObjName>GAMRecoverPasswordStep1</ObjName>
+      <ObjDesc>Recover Password</ObjDesc>
+      <ObjLink>gamrecoverpasswordstep1.aspx</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>13</ObjCls>
+      <ObjName>GAMRegisterUser</ObjName>
+      <ObjDesc>Register user</ObjDesc>
+      <ObjLink>gamregisteruser.aspx</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>13</ObjCls>
+      <ObjName>GAMExampleNotAuthorized</ObjName>
+      <ObjDesc>Not Authorized</ObjDesc>
+      <ObjLink>gamexamplenotauthorized.aspx</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>13</ObjCls>
+      <ObjName>GAMWWApplications</ObjName>
+      <ObjDesc>Applications</ObjDesc>
+      <ObjLink>gamwwapplications.aspx</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>13</ObjCls>
+      <ObjName>GAMChangeRepository</ObjName>
+      <ObjDesc>Change repository</ObjDesc>
+      <ObjLink>gamchangerepository.aspx</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>13</ObjCls>
+      <ObjName>GAMSSOLogin</ObjName>
+      <ObjDesc>Single Sign-On</ObjDesc>
+      <ObjLink>gamssologin.aspx</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>13</ObjCls>
+      <ObjName>GAMWWEventSubscriptions</ObjName>
+      <ObjDesc>Event Susbcrtiptions</ObjDesc>
+      <ObjLink>gamwweventsubscriptions.aspx</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>13</ObjCls>
+      <ObjName>SerieWW</ObjName>
+      <ObjDesc> Série</ObjDesc>
+      <ObjLink>serieww.aspx</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>13</ObjCls>
+      <ObjName>ConquistaWW</ObjName>
+      <ObjDesc> Conquista</ObjDesc>
+      <ObjLink>conquistaww.aspx</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>13</ObjCls>
+      <ObjName>GeneroWW</ObjName>
+      <ObjDesc> Gênero</ObjDesc>
+      <ObjLink>generoww.aspx</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>13</ObjCls>
+      <ObjName>UsuarioWW</ObjName>
+      <ObjDesc> Usuário</ObjDesc>
+      <ObjLink>usuarioww.aspx</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>13</ObjCls>
+      <ObjName>HomeNew</ObjName>
+      <ObjDesc>Home</ObjDesc>
+      <ObjLink>homenew.aspx</ObjLink>
+   </Object>
+</Objects>

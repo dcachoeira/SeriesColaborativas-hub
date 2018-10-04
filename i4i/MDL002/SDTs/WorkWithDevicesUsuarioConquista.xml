@@ -1,0 +1,16 @@
+
+<WWSDSpec>
+<Section>
+<Name>UsuarioConquista.Detail</Name>
+<DataProviders>
+<DataProvider>WorkWithDevicesUsuarioConquista_UsuarioConquista_Detail</DataProvider></DataProviders></Section>
+<Section>
+<Name>UsuarioConquista.List</Name>
+<DataProviders>
+<DataProvider>WorkWithDevicesUsuarioConquista_UsuarioConquista_List_Grid1</DataProvider>
+<DataProvider>WorkWithDevicesUsuarioConquista_UsuarioConquista_List_Grid2</DataProvider>
+<DataProvider>WorkWithDevicesUsuarioConquista_UsuarioConquista_List</DataProvider></DataProviders></Section>
+<Section>
+<Name>UsuarioConquista.Section.General</Name>
+<DataProviders>
+<DataProvider>WorkWithDevicesUsuarioConquista_UsuarioConquista_Section_General</DataProvider></DataProviders></Section></WWSDSpec>

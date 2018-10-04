@@ -1,0 +1,1 @@
+<%@ServiceHost Service= "GeneXus.Programs.serie_bc_services,serie_bc" %>

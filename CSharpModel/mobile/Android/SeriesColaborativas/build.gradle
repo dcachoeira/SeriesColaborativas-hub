@@ -1,0 +1,48 @@
+apply plugin: 'com.android.application'
+
+android {
+	compileSdkVersion ANDROID_COMPILE_SDK_VERSION
+	buildToolsVersion ANDROID_BUILD_TOOLS_VERSION
+
+	defaultConfig {
+		applicationId "com.artech.seriescolaborativas.seriescolaborativas"
+		versionCode 10
+		versionName "1.0"
+		minSdkVersion ANDROID_MIN_SDK_VERSION
+		targetSdkVersion ANDROID_TARGET_SDK_VERSION
+
+		multiDexEnabled true
+		multiDexKeepFile file('multidex-config.txt')
+	}
+
+	signingConfigs {
+		release {
+			storeFile file(String.valueOf(System.getenv("KEYSTORE_FILE")))
+			storePassword System.getenv("KEYSTORE_PASSWORD")
+			keyAlias System.getenv("KEY_ALIAS")
+			keyPassword System.getenv("KEY_PASSWORD")
+		}
+	}
+
+	buildTypes {
+		release {
+			signingConfig signingConfigs.release
+		}
+	}
+
+	compileOptions {
+		sourceCompatibility ANDROID_JAVA_VERSION
+		targetCompatibility ANDROID_JAVA_VERSION
+	}
+
+	dexOptions {
+		jumboMode = true
+	}
+}
+
+dependencies {
+	implementation 'com.genexus:FlexibleClient:1.0'
+	implementation 'com.genexus:SqlDroidBase:1.0'
+	implementation fileTree(dir: 'libs', include: ['*.jar'])
+}
+

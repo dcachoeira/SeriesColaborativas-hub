@@ -1,0 +1,441 @@
+spec_i([ mnproc,0,'SeriesColaborativas_Level_Detail','SeriesColaborativas_Level_Detail',0,por,'15_0_9-121631' ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+rule_i(0,datastore(2,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(2,'LOCK_RETRY','10')).
+rule_i(0,datastore(2,'WAIT_RECORD','0')).
+rule_i(0,datastore(2,'SQLSERVER_VERSION','10')).
+rule_i(0,datastore(2,'COMMENT_ON','No')).
+rule_i(0,datastore(2,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(2,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(2,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(2,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(2,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(2,'CS_SCHEMA',gam)).
+rule_i(0,datastore(2,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(2,'JRN400','QSQJRN')).
+rule_i(0,datastore(2,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(2,'PGMLIB','')).
+rule_i(0,datastore(2,'DTALIB','')).
+rule_i(0,datastore(2,'CC_USER_PASS',wp„ÄsÁ¹)).
+rule_i(0,datastore(2,'CC_USER_ID',sa)).
+rule_i(0,datastore(2,'CC_SERVER',localhost)).
+rule_i(0,datastore(2,'CC_DBNAME','SeriesColaborativas')).
+rule_i(0,datastore(2,'RecycleRWMin','30')).
+rule_i(0,datastore(2,'RecycleRWType','1')).
+rule_i(0,datastore(2,'RecycleRW','-1')).
+rule_i(0,datastore(2,'POOL_STARTUP','No')).
+rule_i(0,datastore(2,'POOLSIZE_RW','10')).
+rule_i(0,datastore(2,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(2,'PoolRWEnabled','-1')).
+rule_i(0,datastore(2,'CS_RPCPGML','')).
+rule_i(0,datastore(2,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(2,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(2,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(2,'USER_PASSWORD','gnxÔ.“êâ¿')).
+rule_i(0,datastore(2,'USER_ID',sa)).
+rule_i(0,datastore(2,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(2,'CS_CONNECT','First')).
+rule_i(0,datastore(2,'DBMS_PORT','')).
+rule_i(0,datastore(2,'CS_SERVER',localhost)).
+rule_i(0,datastore(2,'CS_DBNAME','SeriesColaborativas')).
+rule_i(0,datastore(2,'CS_FLEDSNAME','')).
+rule_i(0,datastore(2,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(2,'CS_DSNAME','')).
+rule_i(0,datastore(2,'DB_URL','')).
+rule_i(0,datastore(2,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(2,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(2,'JDBC_DRIVER','net.sourceforge.jtds.jdbc.Driver')).
+rule_i(0,datastore(2,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(2,'ACCESS_TECHNO','ADONET')).
+rule_i(0,datastore(2,'MAIN_DS','-1')).
+rule_i(0,datastore(2,'REORG_GEN','8')).
+rule_i(0,datastore(2,'HelpKeyword','23')).
+rule_i(0,datastore(2,'DBMS',12)).
+rule_i(0,datastore(2,'NAME','GAM')).
+rule_i(0,datastore(1,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(1,'LOCK_RETRY','10')).
+rule_i(0,datastore(1,'WAIT_RECORD','0')).
+rule_i(0,datastore(1,'SQLSERVER_VERSION','10')).
+rule_i(0,datastore(1,'COMMENT_ON','No')).
+rule_i(0,datastore(1,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(1,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(1,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(1,'CS_SCHEMA','')).
+rule_i(0,datastore(1,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(1,'JRN400','QSQJRN')).
+rule_i(0,datastore(1,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(1,'PGMLIB','')).
+rule_i(0,datastore(1,'DTALIB','')).
+rule_i(0,datastore(1,'CC_USER_PASS',wp„ÄsÁ¹)).
+rule_i(0,datastore(1,'CC_USER_ID',sa)).
+rule_i(0,datastore(1,'CC_SERVER',localhost)).
+rule_i(0,datastore(1,'CC_DBNAME','SeriesColaborativas')).
+rule_i(0,datastore(1,'RecycleRWMin','30')).
+rule_i(0,datastore(1,'RecycleRWType','1')).
+rule_i(0,datastore(1,'RecycleRW','-1')).
+rule_i(0,datastore(1,'POOL_STARTUP','No')).
+rule_i(0,datastore(1,'POOLSIZE_RW','10')).
+rule_i(0,datastore(1,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(1,'PoolRWEnabled','-1')).
+rule_i(0,datastore(1,'CS_RPCPGML','')).
+rule_i(0,datastore(1,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(1,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(1,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(1,'USER_PASSWORD','gnxÔ.“êâ¿')).
+rule_i(0,datastore(1,'USER_ID',sa)).
+rule_i(0,datastore(1,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(1,'CS_CONNECT','First')).
+rule_i(0,datastore(1,'DBMS_PORT','')).
+rule_i(0,datastore(1,'CS_SERVER',localhost)).
+rule_i(0,datastore(1,'CS_DBNAME','SeriesColaborativas')).
+rule_i(0,datastore(1,'CS_FLEDSNAME','')).
+rule_i(0,datastore(1,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(1,'CS_DSNAME','')).
+rule_i(0,datastore(1,'DB_URL','')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(1,'JDBC_DRIVER','net.sourceforge.jtds.jdbc.Driver')).
+rule_i(0,datastore(1,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(1,'ACCESS_TECHNO','ADONET')).
+rule_i(0,datastore(1,'MAIN_DS','-1')).
+rule_i(0,datastore(1,'REORG_GEN','8')).
+rule_i(0,datastore(1,'HelpKeyword','20')).
+rule_i(0,datastore(1,'DBMS',12)).
+rule_i(0,datastore(1,'NAME','Default')).
+rule_i(0,prop(idNULLS_BEHAVIOR,idNB_Current)).
+rule_i(0,prop('FullyQualifiedName','SeriesColaborativas_Level_Detail')).
+rule_i(0,prop('WeChatPay_AppId','')).
+rule_i(0,prop('TwitterAppSecret','')).
+rule_i(0,prop('TwitterAppKey','')).
+rule_i(0,prop('FbAppSF','http://apps3.genexusx.com/Ide1b858bf3b044ba0ac777119780e4370')).
+rule_i(0,prop('FbDisplayName','Séries colaborativas')).
+rule_i(0,prop('FbAppId','227582137935094')).
+rule_i(0,prop('STD_FUNC_OBJECT','Yes')).
+rule_i(0,prop('IntegratedSecurityObjClientSecret',d5cdeea89a1e45d0ad1139e2316e0b26)).
+rule_i(0,prop('IntegratedSecurityObjClientID',bf43db0f19df404d8a1df7c0e8b099ed)).
+rule_i(0,prop('IntegratedSecurityAnonymous','0')).
+rule_i(0,prop('IntegratedSecurityLevel','SecurityNone')).
+rule_i(0,prop('CacheCheckForNewData','CacheCheckForNewDataEveryTime')).
+rule_i(0,prop('CacheEnabled','-1')).
+rule_i(0,prop(autoRefreshTime,'0')).
+rule_i(0,prop(dataSelectorParameters,[])).
+rule_i(0,prop(dataSelector,'')).
+rule_i(0,prop(adsPosition,'Bottom')).
+rule_i(0,prop(showAds,'-1')).
+rule_i(0,prop('GenerateObject','-1')).
+rule_i(0,prop('AllowWebviewExecuteLocalFiles','-1')).
+rule_i(0,prop('AllowWebviewExecuteJavascript','-1')).
+rule_i(0,prop('LogLevelOfflineDataBaseAccess','Off')).
+rule_i(0,prop('LogLevelHttpConnections','Off')).
+rule_i(0,prop('LogLevelOfflineSync','Off')).
+rule_i(0,prop('LogLevelDefault','Off')).
+rule_i(0,prop(androidSenderAPIKey,'')).
+rule_i(0,prop(androidSenderId,'')).
+rule_i(0,prop(iOSNotificationsRegistrationMode,auto)).
+rule_i(0,prop(iOSSilentNotifAllowed,'0')).
+rule_i(0,prop(iOSuseSandboxServer,'0')).
+rule_i(0,prop(iOScertificatePassword,'')).
+rule_i(0,prop(iOScertificate,'')).
+rule_i(0,prop(notificationRegistrationHandler,o(1,'NotificationsRegistrationHandler'))).
+rule_i(0,prop('ATSExceptionDomains','')).
+rule_i(0,prop('ATSAllowsLocalNetworking','0')).
+rule_i(0,prop('ATSAllowsArbitraryLoadsInWebContent','0')).
+rule_i(0,prop('ATSAllowsArbitraryLoadsInMedia','0')).
+rule_i(0,prop('ATSAllowsArbitraryLoads','0')).
+rule_i(0,prop(iOSSpeechRecognitionUsageDescription,'')).
+rule_i(0,prop(iOSSiriUsageDescription,'')).
+rule_i(0,prop(iOSRemindersUsageDescription,'')).
+rule_i(0,prop(iOSPhotoLibraryUsageDescription,'')).
+rule_i(0,prop(iOSPhotoLibraryAddUsageDescription,'')).
+rule_i(0,prop(iOSNFCReaderUsageDescription,'')).
+rule_i(0,prop(iOSMotionUsageDescription,'')).
+rule_i(0,prop(iOSMicrophoneUsageDescription,'')).
+rule_i(0,prop(iOSLocationWhenInUseUsage,'')).
+rule_i(0,prop(iOSLocationAlwaysAndWhenInUseUsage,'')).
+rule_i(0,prop(iOSLocationAlwaysUsage,'')).
+rule_i(0,prop(iOSHomeKitUsageDescription,'')).
+rule_i(0,prop(iOSHealthUpdateUsageDescription,'')).
+rule_i(0,prop(iOSHealthShareUsageDescription,'')).
+rule_i(0,prop(iOSContactsUsageDescription,'')).
+rule_i(0,prop(iOSCameraUsageDescription,'')).
+rule_i(0,prop(iOSCalendarsUsageDescription,'')).
+rule_i(0,prop(iOSBluetoothPeripheralUsageDescription,'')).
+rule_i(0,prop(iOSAppleMusicUsageDescription,'')).
+rule_i(0,prop(iOSAppBackgroudModes,'')).
+rule_i(0,prop(iOSAppQueriesSchemes,'')).
+rule_i(0,prop(iOSBackImage,'')).
+rule_i(0,prop(iOSLaunchImage,'')).
+rule_i(0,prop(iOSAppIcon,'')).
+rule_i(0,prop(iosDevices,idUniversal)).
+rule_i(0,prop(iOSDevelopmentTeam,'')).
+rule_i(0,prop(iOSBundleIdentifier,'com.artech.SeriesColaborativas')).
+rule_i(0,prop(iOSVersionUri,'')).
+rule_i(0,prop(idiosAPPVersionName,'1.0')).
+rule_i(0,prop(idiosAPPVersionCode,'1.0')).
+rule_i(0,prop('AndroidMultidexBuild','-1')).
+rule_i(0,prop('CompilationMode','COMPILATION_MODE_DEVELOPMENT')).
+rule_i(0,prop('InformationOnRequests','0')).
+rule_i(0,prop('UseProximityAlerts','0')).
+rule_i(0,prop(idINAPPPUBLICKEY,'')).
+rule_i(0,prop('AndroidYoutubeAPIKey','')).
+rule_i(0,prop(idAndroidMapsApi,'MAPS_GOOGLE_V2')).
+rule_i(0,prop('AndroidBaseStyle','AndroidBaseStyleLight')).
+rule_i(0,prop('AndroidAppWelcomeImageLandscape','')).
+rule_i(0,prop('AndroidAppWelcomeImage','')).
+rule_i(0,prop('AndroidNotificationIcon','')).
+rule_i(0,prop('AndroidAppIcon','')).
+rule_i(0,prop('AndroidPackageName','com.artech.seriescolaborativas.seriescolaborativas')).
+rule_i(0,prop('AndroidVersionUri','')).
+rule_i(0,prop(idAPPAndroidVersionName,'1.0')).
+rule_i(0,prop(idAPPAndroidVersionCode,'1.0')).
+rule_i(0,prop('Synchronizer','')).
+rule_i(0,prop('EnableLogging','-1')).
+rule_i(0,prop('EnableAnalytics','0')).
+rule_i(0,prop('EnableNotifications','-1')).
+rule_i(0,prop('EnableTestMode','0')).
+rule_i(0,prop(idObfuscateApplication,'0')).
+rule_i(0,prop('GoogleCastReceiverAppId','')).
+rule_i(0,prop('DeepLinkBaseURL','')).
+rule_i(0,prop('AppEnableAds','0')).
+rule_i(0,prop('AppAdsProvider','None')).
+rule_i(0,prop('DefaultLayoutOrientation','Default')).
+rule_i(0,prop('AppTitle','')).
+rule_i(0,prop('DeepLinkName','')).
+rule_i(0,prop(idConnectivitySupport,idOnline)).
+rule_i(0,prop(caption,'Séries colaborativas')).
+rule_i(0,prop('IsMain','-1')).
+rule_i(0,prop('GenerateObject','-1')).
+rule_i(0,prop('ObjectVisibility','Public')).
+rule_i(0,prop('Folder',o(120,'Root Module'))).
+rule_i(0,prop('Description','Séries colaborativas')).
+rule_i(0,prop('Name','SeriesColaborativas')).
+rule_i(0,rule([ a(22,[ 'Rfr','"Atualizar"','5' ]) ],[],[],[])).
+rule_i(0,maingen(15)).
+rule_i(0,prop('DPRV_WSPROTOCOL','REST')).
+rule_i(0,prop(idISWEBSERVICE,'-1')).
+rule_i(0,prop('ObjName','SeriesColaborativas_Level_Detail')).
+rule_i(0,prop('IntegratedSecurityLevel','SecurityNone')).
+rule_i(0,prop('SDPanel','True')).
+rule_i(0,parm([ 'Gxid','GXM1SeriesColaborativas_Level_DetailSdt' ],[])).
+rule_i(0,parmio([ [ 'Gxid',in ],[ 'GXM1SeriesColaborativas_Level_DetailSdt',out ] ])).
+rule_i(0,prop('OutputSDT',o(26,'SeriesColaborativas_Level_DetailSdt'))).
+ 
+a_i(1,1,f,'Err',[],[ [],[ t('0',3) ] ]).
+ 
+v_i(f,i,1,[]).
+v_i(f,o,1,'Err').
+ 
+ 
+ 
+ 
+ 
+ 
+attri_i('Imagemusuario_GXI',[ 'Imagemusuario_GXI',svchar,2048,0,'',0,'',[],22 ]).
+attri_i('Errmsg',[ 'Gx_emsg',char,70,0,'',1,'Error text','',21 ]).
+attri_i('Err',[ 'Gx_err',int,3,0,'ZZ9',1,'Error code','',20 ]).
+attri_i('GXM1SeriesColaborativas_Level_DetailSdt',[ 'GXM1SeriesColaborativas_Level_DetailSdt',o('SeriesColaborativas_Level_DetailSdt'),0,0,'',0,'GXM1SeriesColaborativas_Level_DetailSdt','',19 ]).
+attri_i('Gxdynprop',[ 'Gxdynprop',svchar,1000,0,'',0,'Gxdynprop','',18 ]).
+attri_i('Gxwebsession',[ 'Gxwebsession',o(websession),4,0,'',0,'Gxwebsession','',17 ]).
+attri_i('Gxids',[ 'Gxids',char,20,0,'',0,'Gxids','',16 ]).
+attri_i('Gxid',[ gxid,int,8,0,'',0,'Gxid','',15 ]).
+attri_i('Possui',[ 'Possui',boolean,4,0,'',0,'Possui','',14 ]).
+attri_i('Usuarioid',[ 'UsuarioId',int,18,0,'ZZZZZZZZZZZZZZZZZ9',0,'Id','',13 ]).
+attri_i('Usuariotitulo',[ 'UsuarioTitulo',svchar,40,0,'',0,'Usuario Titulo','',12 ]).
+attri_i('Imagemusuario',[ 'ImagemUsuario',bits,1024,0,'',0,'Imagem Usuario','',11 ]).
+attri_i('Ranking',[ 'Ranking',bits,1024,0,'',0,'Ranking','',10 ]).
+attri_i('Notificacoes',[ 'Notificacoes',bits,1024,0,'',0,'Notificacoes','',9 ]).
+attri_i('Perfil',[ 'Perfil',bits,1024,0,'',0,'Perfil','',8 ]).
+attri_i('Usuarionome',[ 'UsuarioNome',svchar,40,0,'',0,'Usuario Nome','',5 ]).
+attri_i('Minhasseries',[ 'MinhasSeries',bits,1024,0,'',0,'Minhas Series','',7 ]).
+attri_i('Imagemseries',[ 'ImagemSeries',bits,1024,0,'',0,'Imagem Series','',6 ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+add_att_i(bits,2,'Imagemusuario_GXI','Imagemusuario','Imagemusuario_GXI',[ svchar,2048,0,0 ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+break_i(1,rpt,0,[],[ [],[],[] ]).
+ 
+b_group_i(1,1,lit,0,1,0).
+ 
+b_line_i(1,1,1,cmd,1,[ t('',107,1,0),t('Gxids',23,1,0),t(=,10,1,0),t('''gxid_''',3,1,0),t(+,5,1,0),t('str(',1,1,0),t('Gxid',23,1,0),t(',',7,1,0),t(8,3,1,0),t(',',7,1,0),t(0,3,1,0),t(')',4,1,0) ]).
+b_line_i(2,1,1,cmd,1,[ t('',109,1,0),t([ t('Gxwebsession',23,2,0),t('get(',1,2,0) ],31,2,0),t('Gxids',23,1,0),t(')',4,1,0),t(=,10,1,0),t('""',3,2,0) ]).
+b_line_i(3,1,1,cmd,1,[ t('',107,1,0),t('Usuarioid',23,1,0),t(=,10,1,0),t('2',3,1,0) ]).
+b_line_i(4,1,1,cmd,1,[ t('',104,1,0),t(o(1,'BuscarDadosUsuario'),28,1,0),t('Usuarioid',23,1,0),t(',',7,1,0),t('Usuarionome',23,1,0),t(',',7,1,0),t('Usuariotitulo',23,1,0),t(',',7,1,0),t('Imagemusuario',23,1,0) ]).
+b_line_i(5,1,1,cmd,1,[ t('',107,1,0),t('Gxdynprop',23,1,0),t(=,10,1,0),t('Gxdynprop',23,1,0),t(+,5,1,0),t('iif(',1,1,0),t('Gxdynprop',23,1,0),t(=,10,1,0),t('''''',3,1,0),t(',',7,1,0),t('''''',3,1,0),t(',',7,1,0),t(''', ''',3,1,0),t(')',4,1,0),t(+,5,1,0),t('''["Form","Caption","''',3,1,0),t(+,5,1,0),t('jsonencode(',1,1,0),t('"Meu perfil"',3,1,0),t(')',4,1,0),t(+,5,1,0),t('''"]''',3,1,0) ]).
+b_line_i(6,1,1,cmd,1,[ t('',107,1,0),t([ t('Gxwebsession',23,6,1),t('set(',1,6,0) ],31,6,1),t('Gxids',23,1,0),t(+,5,1,0),t('''gxvar_Imagemusuario''',3,6,0),t(',',7,1,0),t('Imagemusuario_GXI',23,6,0),t(')',4,1,0) ]).
+b_line_i(7,1,1,cmd,1,[ t('',107,1,0),t([ t('Gxwebsession',23,7,1),t('set(',1,7,0) ],31,7,1),t('Gxids',23,1,0),t(+,5,1,0),t('''gxvar_Usuarionome''',3,7,0),t(',',7,1,0),t('Usuarionome',23,7,0),t(')',4,1,0) ]).
+b_line_i(8,1,1,cmd,1,[ t('',107,1,0),t([ t('Gxwebsession',23,8,1),t('set(',1,8,0) ],31,8,1),t('Gxids',23,1,0),t(+,5,1,0),t('''gxvar_Usuariotitulo''',3,8,0),t(',',7,1,0),t('Usuariotitulo',23,8,0),t(')',4,1,0) ]).
+b_line_i(9,1,1,cmd,1,[ t('',107,1,0),t([ t('Gxwebsession',23,9,1),t('set(',1,9,0) ],31,9,1),t('Gxids',23,1,0),t(',',7,1,0),t('''true''',3,9,0),t(')',4,1,0) ]).
+b_line_i(10,1,1,cmd,1,[ t('',110,1,0) ]).
+b_line_i(11,1,1,cmd,1,[ t('',107,1,0),t('Imagemusuario_GXI',23,1,0),t(=,10,1,0),t('(',0,1,0),t([ t('Gxwebsession',23,1,0),t('get(',1,1,0) ],31,1,0),t('Gxids',23,1,0),t(+,5,1,0),t('''gxvar_Imagemusuario''',3,1,0),t(')',4,1,0) ]).
+b_line_i([ 11,1 ],1,1,cmd,1,[ t('',107,1,0),t([ t('Imagemusuario',23,11,0),t('setempty(',1,11,0) ],31,11,0),t(')',4,1,0) ]).
+b_line_i(12,1,1,cmd,2,[ t('',107,2,0),t('Usuariotitulo',23,12,1),t(=,10,12,1),t([ t('Gxwebsession',23,12,0),t('get(',1,12,0) ],31,12,0),t('Gxids',23,2,0),t(+,5,2,0),t('''gxvar_Usuariotitulo''',3,12,0) ]).
+b_line_i(13,1,1,cmd,2,[ t('',107,2,0),t('Usuarionome',23,13,1),t(=,10,13,1),t([ t('Gxwebsession',23,13,0),t('get(',1,13,0) ],31,13,0),t('Gxids',23,2,0),t(+,5,2,0),t('''gxvar_Usuarionome''',3,13,0) ]).
+b_line_i(14,1,1,cmd,2,[ t('',111,2,0) ]).
+b_line_i(16,1,1,cmd,2,[ t('',107,2,0),t([ t('GXM1SeriesColaborativas_Level_DetailSdt',23,2,0),t('Imagemusuario',3,2,0) ],29,2,0),t(=,10,2,0),t('Imagemusuario',23,2,0) ]).
+b_line_i([ 16,1 ],1,1,cmd,2,[ t('',107,2,0),t([ t('GXM1SeriesColaborativas_Level_DetailSdt',23,2,0),t('Imagemusuario_gxi',3,2,0) ],29,2,0),t(=,10,2,0),t('Imagemusuario_GXI',23,2,0) ]).
+b_line_i(17,1,1,cmd,3,[ t('',107,3,0),t([ t('GXM1SeriesColaborativas_Level_DetailSdt',23,3,0),t('Usuarionome',3,3,0) ],29,3,0),t(=,10,3,0),t('Usuarionome',23,3,0) ]).
+b_line_i(18,1,1,cmd,3,[ t('',107,3,0),t([ t('GXM1SeriesColaborativas_Level_DetailSdt',23,3,0),t('Usuariotitulo',3,3,0) ],29,3,0),t(=,10,3,0),t('Usuariotitulo',23,3,0) ]).
+b_line_i(19,1,1,cmd,3,[ t('',107,3,0),t([ t('GXM1SeriesColaborativas_Level_DetailSdt',23,3,0),t('Gxdynprop',3,3,0) ],29,3,0),t(=,10,3,0),t('''[ ''',3,3,0),t(+,5,3,0),t('Gxdynprop',23,3,0),t(+,5,3,0),t(''' ]''',3,3,0) ]).
+b_line_i(20,1,1,cmd,3,[ t('',107,3,0),t('Gxdynprop',23,3,0),t(=,10,3,0),t('''''',3,3,0) ]).
+ 
+ 
+ 
+ 
+ 
+page_layout_i([ 66,0,6 ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+calling_main_i(37,4).
+ 
+ 
+ 
+ 
+var_prop_i(2,'Usuarionome',idBasedOn,'',v).
+var_prop_i(2,'Usuarioid',idBasedOn,'',v).
+ 
+ 
+ 
+ 
+ 
+struct_dt_i([ 26,1000000,0 ],name,'SeriesColaborativas_Level_DetailSdt').
+struct_dt_i([ 26,1000000,0 ],camelname,'SeriesColaborativas_Level_DetailSdt').
+struct_dt_i([ 26,1000000,0 ],camelnameex,'SeriesColaborativas_Level_DetailSdt').
+struct_dt_i([ 26,1000000,0 ],collection,'False').
+struct_dt_i([ 26,1000000,0 ],wwsd_sdt,'True').
+struct_dt_i([ 26,1000000,0 ],fullname,'SeriesColaborativas_Level_DetailSdt').
+ 
+struct_dt_elem_i([ 26,1000000,0 ],1,name,'Imagemusuario').
+struct_dt_elem_i([ 26,1000000,0 ],1,camelname,'Imagemusuario').
+struct_dt_elem_i([ 26,1000000,0 ],1,type,[ 7,1024,0 ]).
+struct_dt_elem_i([ 26,1000000,0 ],1,length,1024).
+struct_dt_elem_i([ 26,1000000,0 ],1,decimals,0).
+struct_dt_elem_i([ 26,1000000,0 ],1,sign,0).
+struct_dt_elem_i([ 26,1000000,0 ],1,collection,'False').
+struct_dt_elem_i([ 26,1000000,0 ],1,islevel,'False').
+struct_dt_elem_i([ 26,1000000,0 ],2,name,'Imagemusuario_gxi').
+struct_dt_elem_i([ 26,1000000,0 ],2,camelname,'Imagemusuario_GXI').
+struct_dt_elem_i([ 26,1000000,0 ],2,type,[ 13,2048,0 ]).
+struct_dt_elem_i([ 26,1000000,0 ],2,length,2048).
+struct_dt_elem_i([ 26,1000000,0 ],2,decimals,0).
+struct_dt_elem_i([ 26,1000000,0 ],2,sign,0).
+struct_dt_elem_i([ 26,1000000,0 ],2,collection,'False').
+struct_dt_elem_i([ 26,1000000,0 ],2,islevel,'False').
+struct_dt_elem_i([ 26,1000000,0 ],2,isadd,'True').
+struct_dt_elem_i([ 26,1000000,0 ],3,name,'Usuarionome').
+struct_dt_elem_i([ 26,1000000,0 ],3,camelname,'Usuarionome').
+struct_dt_elem_i([ 26,1000000,0 ],3,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 26,1000000,0 ],3,length,40).
+struct_dt_elem_i([ 26,1000000,0 ],3,decimals,0).
+struct_dt_elem_i([ 26,1000000,0 ],3,sign,0).
+struct_dt_elem_i([ 26,1000000,0 ],3,collection,'False').
+struct_dt_elem_i([ 26,1000000,0 ],3,islevel,'False').
+struct_dt_elem_i([ 26,1000000,0 ],4,name,'Usuariotitulo').
+struct_dt_elem_i([ 26,1000000,0 ],4,camelname,'Usuariotitulo').
+struct_dt_elem_i([ 26,1000000,0 ],4,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 26,1000000,0 ],4,length,40).
+struct_dt_elem_i([ 26,1000000,0 ],4,decimals,0).
+struct_dt_elem_i([ 26,1000000,0 ],4,sign,0).
+struct_dt_elem_i([ 26,1000000,0 ],4,collection,'False').
+struct_dt_elem_i([ 26,1000000,0 ],4,islevel,'False').
+struct_dt_elem_i([ 26,1000000,0 ],5,name,'Gxdynprop').
+struct_dt_elem_i([ 26,1000000,0 ],5,camelname,'Gxdynprop').
+struct_dt_elem_i([ 26,1000000,0 ],5,type,[ 5,2,0 ]).
+struct_dt_elem_i([ 26,1000000,0 ],5,length,2).
+struct_dt_elem_i([ 26,1000000,0 ],5,decimals,0).
+struct_dt_elem_i([ 26,1000000,0 ],5,sign,0).
+struct_dt_elem_i([ 26,1000000,0 ],5,collection,'False').
+struct_dt_elem_i([ 26,1000000,0 ],5,islevel,'False').
+ 
+ 
+ 
+ 
+ 
+sub_info_i(146,'SeriesColaborativas_Level_Detail',0,0,[ [ 'Gxid','Gxwebsession','Gxdynprop','Imagemusuario_GXI' ],[ 'Gxids','Usuarioid','Gxdynprop','Gxwebsession','Imagemusuario','Usuariotitulo','Usuarionome','Gxdynprop' ] ]).
+ 
+pgm_parm_i(proc,49,'BUSCARDADOSUSUARIO',[ [ int,18,0,0 ],[ svchar,40,0,0 ],[ svchar,40,0,0 ],[ bits,1024,0,0 ] ],[ [ usuarioId,in,[] ],[ 'UsuarioNome',out,[] ],[ 'UsuarioTitulo',out,[] ],[ 'ImagemUsuario',out,[] ] ]).
+ 
+pgm_callprotocol_i(mnproc,0,'SERIESCOLABORATIVAS_LEVEL_DETAIL','INTERNAL').
+pgm_callprotocol_i(proc,49,'BUSCARDADOSUSUARIO','INTERNAL').
+ 
+ 
+ 
+ 
+ 
+ 
+service_i(input,[ [] ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

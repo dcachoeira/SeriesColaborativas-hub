@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="dcefbfb8-2ead-4e64-8a45-4fbc4bbf396c">
+  <Table name="Usuario" />
+  <Table name="Notificacao" />
+</Dependencies>

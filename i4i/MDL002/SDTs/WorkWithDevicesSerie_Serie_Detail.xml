@@ -1,0 +1,88 @@
+
+<SdtSpec>
+<mainid>[ 26,1000000,0 ]</mainid>
+<Level>
+<id>[ 26,1000000,0 ]</id>
+<name>WorkWithDevicesSerie_Serie_DetailSdt</name>
+<camelname>WorkWithDevicesSerie_Serie_DetailSdt</camelname>
+<camelnameex>WorkWithDevicesSerie_Serie_DetailSdt</camelnameex>
+<collection>False</collection>
+<wwsd_sdt>True</wwsd_sdt>
+<panel>[ 'Serie.Detail' ]</panel>
+<key>[ 1,[ 1 ],[ 1,1,'Serie' ] ]</key>
+<fullname>WorkWithDevicesSerie_Serie_DetailSdt</fullname>
+<members>
+<member>
+<name>Serieid</name>
+<camelname>SerieId</camelname>
+<type>[ 4,18,0 ]</type>
+<length>18</length>
+<decimals>0</decimals>
+<sign>0</sign>
+<collection>False</collection>
+<islevel>False</islevel>
+<attributeid>1</attributeid></member>
+<member>
+<name>Favoritar</name>
+<camelname>Favoritar</camelname>
+<type>[ 7,1024,0 ]</type>
+<length>1024</length>
+<decimals>0</decimals>
+<sign>0</sign>
+<collection>False</collection>
+<islevel>False</islevel></member>
+<member>
+<name>Assistido</name>
+<camelname>Assistido</camelname>
+<type>[ 15,4,0 ]</type>
+<length>4</length>
+<decimals>0</decimals>
+<sign>0</sign>
+<collection>False</collection>
+<islevel>False</islevel></member>
+<member>
+<name>Favorita</name>
+<camelname>Favorita</camelname>
+<type>[ 15,4,0 ]</type>
+<length>4</length>
+<decimals>0</decimals>
+<sign>0</sign>
+<collection>False</collection>
+<islevel>False</islevel></member>
+<member>
+<name>Marcarassistido</name>
+<camelname>Marcarassistido</camelname>
+<type>[ 7,1024,0 ]</type>
+<length>1024</length>
+<decimals>0</decimals>
+<sign>0</sign>
+<collection>False</collection>
+<islevel>False</islevel></member>
+<member>
+<name>Gxdynprop</name>
+<camelname>Gxdynprop</camelname>
+<type>[ 5,2,0 ]</type>
+<length>2</length>
+<decimals>0</decimals>
+<sign>0</sign>
+<collection>False</collection>
+<islevel>False</islevel></member></members></Level>
+<Prompts></Prompts>
+<TableAccess>
+<Table>
+<Id>1</Id>
+<Name>Serie</Name>
+<Read>y</Read>
+<Insert>n</Insert>
+<Update>n</Update>
+<Delete>n</Delete>
+<IsBase>y</IsBase></Table></TableAccess>
+<XRef>
+<Object>
+<Class>1</Class>
+<Id>43</Id>
+<Guid>694eb4c0-6f33-4b5f-b225-a9c83fed5771</Guid></Object></XRef>
+<Input>
+<Parm></Parm></Input>
+<ExtraParms>
+<Parm></Parm></ExtraParms></SdtSpec>

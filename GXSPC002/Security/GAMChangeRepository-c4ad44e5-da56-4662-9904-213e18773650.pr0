@@ -1,0 +1,8 @@
+[
+  {
+    "Name": "gamchangerepository_Execute",
+    "Description": "Change repository",
+    "ProgramName": "gamchangerepository",
+    "IsGXAutomatic": true
+  }
+]

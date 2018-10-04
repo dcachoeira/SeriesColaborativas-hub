@@ -1,0 +1,103 @@
+ 
+spec_i([ sdt,[ 0,5,0 ],'UsuarioEpisodio','UsuarioEpisodio',0,por,'15_0_9-121631' ]).
+ 
+struct_dt_i([ 0,5,0 ],name,'UsuarioEpisodio').
+struct_dt_i([ 0,5,0 ],namespace,'SeriesColaborativas').
+struct_dt_i([ 0,5,0 ],significantName,'UsuarioEpisodio').
+struct_dt_i([ 0,5,0 ],'ObjName','UsuarioEpisodio').
+struct_dt_i([ 0,5,0 ],'ObjDesc','Usuário episódio').
+struct_dt_i([ 0,5,0 ],'ExternalName','UsuarioEpisodio').
+struct_dt_i([ 0,5,0 ],'ExternalNamespace','SeriesColaborativas').
+struct_dt_i([ 0,5,0 ],key,[ 18 ]).
+struct_dt_i([ 0,5,0 ],lvl,5).
+struct_dt_i([ 0,5,0 ],fullname,'UsuarioEpisodio').
+ 
+struct_dt_elem_i([ 0,5,0 ],1,name,'Usuarioepisodioid').
+struct_dt_elem_i([ 0,5,0 ],1,camelname,'UsuarioEpisodioId').
+struct_dt_elem_i([ 0,5,0 ],1,basedon,173).
+struct_dt_elem_i([ 0,5,0 ],1,length,18).
+struct_dt_elem_i([ 0,5,0 ],1,decimals,0).
+struct_dt_elem_i([ 0,5,0 ],1,sign,0).
+struct_dt_elem_i([ 0,5,0 ],1,type,[ 4,18,0 ]).
+struct_dt_elem_i([ 0,5,0 ],1,pic,'ZZZZZZZZZZZZZZZZZ9').
+struct_dt_elem_i([ 0,5,0 ],1,collection,'False').
+struct_dt_elem_i([ 0,5,0 ],1,attributeid,'18').
+struct_dt_elem_i([ 0,5,0 ],1,'ExternalName','UsuarioEpisodioId').
+struct_dt_elem_i([ 0,5,0 ],1,'ExternalNamespace','SeriesColaborativas').
+struct_dt_elem_i([ 0,5,0 ],2,name,'Usuarioid').
+struct_dt_elem_i([ 0,5,0 ],2,camelname,'UsuarioId').
+struct_dt_elem_i([ 0,5,0 ],2,basedon,173).
+struct_dt_elem_i([ 0,5,0 ],2,length,18).
+struct_dt_elem_i([ 0,5,0 ],2,decimals,0).
+struct_dt_elem_i([ 0,5,0 ],2,sign,0).
+struct_dt_elem_i([ 0,5,0 ],2,type,[ 4,18,0 ]).
+struct_dt_elem_i([ 0,5,0 ],2,pic,'ZZZZZZZZZZZZZZZZZ9').
+struct_dt_elem_i([ 0,5,0 ],2,collection,'False').
+struct_dt_elem_i([ 0,5,0 ],2,attributeid,'11').
+struct_dt_elem_i([ 0,5,0 ],2,'ExternalName','UsuarioId').
+struct_dt_elem_i([ 0,5,0 ],2,'ExternalNamespace','SeriesColaborativas').
+struct_dt_elem_i([ 0,5,0 ],3,name,'Episodioid').
+struct_dt_elem_i([ 0,5,0 ],3,camelname,'EpisodioId').
+struct_dt_elem_i([ 0,5,0 ],3,basedon,173).
+struct_dt_elem_i([ 0,5,0 ],3,length,18).
+struct_dt_elem_i([ 0,5,0 ],3,decimals,0).
+struct_dt_elem_i([ 0,5,0 ],3,sign,0).
+struct_dt_elem_i([ 0,5,0 ],3,type,[ 4,18,0 ]).
+struct_dt_elem_i([ 0,5,0 ],3,pic,'ZZZZZZZZZZZZZZZZZ9').
+struct_dt_elem_i([ 0,5,0 ],3,collection,'False').
+struct_dt_elem_i([ 0,5,0 ],3,attributeid,'7').
+struct_dt_elem_i([ 0,5,0 ],3,'ExternalName','EpisodioId').
+struct_dt_elem_i([ 0,5,0 ],3,'ExternalNamespace','SeriesColaborativas').
+struct_dt_elem_i([ 0,5,0 ],4,name,'Usuarioepisodionota').
+struct_dt_elem_i([ 0,5,0 ],4,camelname,'UsuarioEpisodioNota').
+struct_dt_elem_i([ 0,5,0 ],4,basedon,180).
+struct_dt_elem_i([ 0,5,0 ],4,length,1).
+struct_dt_elem_i([ 0,5,0 ],4,decimals,0).
+struct_dt_elem_i([ 0,5,0 ],4,sign,0).
+struct_dt_elem_i([ 0,5,0 ],4,type,[ 4,1,0 ]).
+struct_dt_elem_i([ 0,5,0 ],4,pic,'9').
+struct_dt_elem_i([ 0,5,0 ],4,collection,'False').
+struct_dt_elem_i([ 0,5,0 ],4,attributeid,'19').
+struct_dt_elem_i([ 0,5,0 ],4,'ExternalName','UsuarioEpisodioNota').
+struct_dt_elem_i([ 0,5,0 ],4,'ExternalNamespace','SeriesColaborativas').
+struct_dt_elem_i([ 0,5,0 ],5,name,'Usuarioepisodioassistido').
+struct_dt_elem_i([ 0,5,0 ],5,camelname,'UsuarioEpisodioAssistido').
+struct_dt_elem_i([ 0,5,0 ],5,length,4).
+struct_dt_elem_i([ 0,5,0 ],5,decimals,0).
+struct_dt_elem_i([ 0,5,0 ],5,type,[ 15,4,0 ]).
+struct_dt_elem_i([ 0,5,0 ],5,pic,'').
+struct_dt_elem_i([ 0,5,0 ],5,collection,'False').
+struct_dt_elem_i([ 0,5,0 ],5,attributeid,'20').
+struct_dt_elem_i([ 0,5,0 ],5,'ExternalName','UsuarioEpisodioAssistido').
+struct_dt_elem_i([ 0,5,0 ],5,'ExternalNamespace','SeriesColaborativas').
+struct_dt_elem_i([ 0,5,0 ],6,name,'Usuarioepisodiocomentario').
+struct_dt_elem_i([ 0,5,0 ],6,camelname,'UsuarioEpisodioComentario').
+struct_dt_elem_i([ 0,5,0 ],6,basedon,181).
+struct_dt_elem_i([ 0,5,0 ],6,length,300).
+struct_dt_elem_i([ 0,5,0 ],6,decimals,0).
+struct_dt_elem_i([ 0,5,0 ],6,type,[ 13,300,0 ]).
+struct_dt_elem_i([ 0,5,0 ],6,pic,'').
+struct_dt_elem_i([ 0,5,0 ],6,collection,'False').
+struct_dt_elem_i([ 0,5,0 ],6,attributeid,'21').
+struct_dt_elem_i([ 0,5,0 ],6,'ExternalName','UsuarioEpisodioComentario').
+struct_dt_elem_i([ 0,5,0 ],6,'ExternalNamespace','SeriesColaborativas').
+struct_dt_elem_i([ 0,5,0 ],7,name,'Usuarioepisodiofavorito').
+struct_dt_elem_i([ 0,5,0 ],7,camelname,'UsuarioEpisodioFavorito').
+struct_dt_elem_i([ 0,5,0 ],7,length,4).
+struct_dt_elem_i([ 0,5,0 ],7,decimals,0).
+struct_dt_elem_i([ 0,5,0 ],7,type,[ 15,4,0 ]).
+struct_dt_elem_i([ 0,5,0 ],7,pic,'').
+struct_dt_elem_i([ 0,5,0 ],7,collection,'False').
+struct_dt_elem_i([ 0,5,0 ],7,attributeid,'22').
+struct_dt_elem_i([ 0,5,0 ],7,'ExternalName','UsuarioEpisodioFavorito').
+struct_dt_elem_i([ 0,5,0 ],7,'ExternalNamespace','SeriesColaborativas').
+ 
+ 
+ 
+ 
+ 
+ 
+module_info_i('GeneXus\Common','CSHARP_NAME_SPACE','GeneXus.Core').
+module_info_i('GeneXus\Common','AssemblyName','GeneXus.dll').
+module_info_i('GeneXus','CSHARP_NAME_SPACE','GeneXus.Core').
+module_info_i('GeneXus','AssemblyName','GeneXus.dll').

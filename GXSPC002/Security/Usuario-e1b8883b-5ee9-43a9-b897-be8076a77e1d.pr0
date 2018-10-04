@@ -1,0 +1,36 @@
+[
+  {
+    "Name": "usuario_FullControl",
+    "Description": "Usuário FullControl",
+    "ProgramName": "usuario",
+    "IsGXAutomatic": true
+  },
+  {
+    "Name": "usuario_Execute",
+    "Description": "Usuário",
+    "ProgramName": "usuario",
+    "IsGXAutomatic": true,
+    "Parent": "usuario_FullControl"
+  },
+  {
+    "Name": "usuario_Insert",
+    "Description": "Usuário Insert",
+    "ProgramName": "usuario",
+    "IsGXAutomatic": true,
+    "Parent": "usuario_FullControl"
+  },
+  {
+    "Name": "usuario_Delete",
+    "Description": "Usuário Delete",
+    "ProgramName": "usuario",
+    "IsGXAutomatic": true,
+    "Parent": "usuario_FullControl"
+  },
+  {
+    "Name": "usuario_Update",
+    "Description": "Usuário Update",
+    "ProgramName": "usuario",
+    "IsGXAutomatic": true,
+    "Parent": "usuario_FullControl"
+  }
+]

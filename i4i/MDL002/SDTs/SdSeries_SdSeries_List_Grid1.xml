@@ -1,0 +1,62 @@
+
+<SdtSpec>
+<mainid>[ 26,1000000,0 ]</mainid>
+<Level>
+<id>[ 26,1000000,0 ]</id>
+<name>SdSeries_SdSeries_List_Grid1Sdt</name>
+<camelname>SdSeries_SdSeries_List_Grid1Sdt</camelname>
+<camelnameex>SdSeries_SdSeries_List_Grid1Sdt</camelnameex>
+<collection>True</collection>
+<datatype>[ 26,1000000,1 ]</datatype>
+<wwsd_sdt>True</wwsd_sdt>
+<panel>[ 'SdSeries.List' ]</panel>
+<key>[ 11,[ 48 ],[] ]</key>
+<fullname>SdSeries_SdSeries_List_Grid1Sdt</fullname></Level>
+<Level>
+<id>[ 26,1000000,1 ]</id>
+<name>Item</name>
+<camelname>Item</camelname>
+<camelnameex>Item</camelnameex>
+<fullname>SdSeries_SdSeries_List_Grid1Sdt.Item</fullname>
+<members>
+<member>
+<name>Generoid</name>
+<camelname>GeneroId</camelname>
+<type>[ 4,18,0 ]</type>
+<length>18</length>
+<decimals>0</decimals>
+<sign>0</sign>
+<collection>False</collection>
+<islevel>False</islevel>
+<attributeid>48</attributeid></member>
+<member>
+<name>Generonome</name>
+<camelname>GeneroNome</camelname>
+<type>[ 13,40,0 ]</type>
+<length>40</length>
+<decimals>0</decimals>
+<sign>0</sign>
+<collection>False</collection>
+<islevel>False</islevel>
+<attributeid>49</attributeid></member></members></Level>
+<Variables>
+<Variable>
+<name>Confirmou</name>
+<type>[ 4,10,2 ]</type>
+<length>10</length>
+<decimals>2</decimals>
+<sign>1</sign>
+<collection>False</collection></Variable></Variables>
+<Prompts></Prompts>
+<TableAccess>
+<Table>
+<Id>11</Id>
+<Name>Genero</Name>
+<Read>y</Read>
+<Insert>n</Insert>
+<Update>n</Update>
+<Delete>n</Delete>
+<IsBase>y</IsBase></Table></TableAccess>
+<XRef></XRef>
+<Input>
+<Parm></Parm></Input></SdtSpec>

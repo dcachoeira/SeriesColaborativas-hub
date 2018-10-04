@@ -1,0 +1,384 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Models\SeriesColaborativas\CSharpModel\mobile\Android\SDLogin\src\main\AndroidManifest.xml:2:1-39:12
+INJECTED from C:\Models\SeriesColaborativas\CSharpModel\mobile\Android\SDLogin\src\main\AndroidManifest.xml:2:1-39:12
+INJECTED from C:\Models\SeriesColaborativas\CSharpModel\mobile\Android\SDLogin\src\main\AndroidManifest.xml:2:1-39:12
+INJECTED from C:\Models\SeriesColaborativas\CSharpModel\mobile\Android\SDLogin\src\main\AndroidManifest.xml:2:1-39:12
+MERGED from [com.genexus:FlexibleClient:1.0] C:\Users\i4i\.gradle\caches\transforms-1\files-1.1\FlexibleClient-1.0.aar\9fb28bb6245018b5e4d1e096154bbfef\AndroidManifest.xml:2:1-103:12
+MERGED from [com.genexus:SqlDroidBase:1.0] C:\Users\i4i\.gradle\caches\transforms-1\files-1.1\SqlDroidBase-1.0.aar\ccdee49dc56149db555465856157891f\AndroidManifest.xml:2:1-12:12
+MERGED from [com.android.support:design:27.0.2] C:\Users\i4i\.gradle\caches\transforms-1\files-1.1\design-27.0.2.aar\4eac811a596a4d45325b4b8d2e8badbc\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:appcompat-v7:27.0.2] C:\Users\i4i\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\0f419e25c3e50d10bb316e3a0ee46115\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customtabs:27.0.2] C:\Users\i4i\.gradle\caches\transforms-1\files-1.1\customtabs-27.0.2.aar\a788a9dbe9f57320e208ab6a19291740\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-gcm:11.4.0] C:\Users\i4i\.gradle\caches\transforms-1\files-1.1\play-services-gcm-11.4.0.aar\caec5719953230224244a393ded4cf88\AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.android.gms:play-services-location:11.4.0] C:\Users\i4i\.gradle\caches\transforms-1\files-1.1\play-services-location-11.4.0.aar\7bcb7bbb279b3876a80ffe122c829826\AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.android.gms:play-services-places:11.4.0] C:\Users\i4i\.gradle\caches\transforms-1\files-1.1\play-services-places-11.4.0.aar\a1fa42cd9ef4030a95e1044aa8c0bd53\AndroidManifest.xml:16:1-19:12
+MERGED from [com.google.android.gms:play-services-maps:11.4.0] C:\Users\i4i\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.4.0.aar\83f17e7fbf29a32be3ce23579e73c737\AndroidManifest.xml:16:1-25:12
+MERGED from [com.google.android.gms:play-services-iid:11.4.0] C:\Users\i4i\.gradle\caches\transforms-1\files-1.1\play-services-iid-11.4.0.aar\8d145cacaa3a0ee25bd83a58d431ad7d\AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.android.gms:play-services-base:11.4.0] C:\Users\i4i\.gradle\caches\transforms-1\files-1.1\play-services-base-11.4.0.aar\15f1b62dbd613bd2b83dd70502687b4d\AndroidManifest.xml:16:1-21:12
+MERGED from [com.google.android:flexbox:0.3.0] C:\Users\i4i\.gradle\caches\transforms-1\files-1.1\flexbox-0.3.0.aar\d5bf96efe3b6d8efb08538cb2a1611c3\AndroidManifest.xml:17:1-27:12
+MERGED from [com.github.square.picasso:picasso:a2dd8804c6] C:\Users\i4i\.gradle\caches\transforms-1\files-1.1\picasso-a2dd8804c6.aar\54627a083c4e98652ef52e8883dc317a\AndroidManifest.xml:2:1-14:12
+MERGED from [com.makeramen:roundedimageview:2.0.1] C:\Users\i4i\.gradle\caches\transforms-1\files-1.1\roundedimageview-2.0.1.aar\cd78b309ac7dde430d2baee293312e28\AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.gms:play-services-tasks:11.4.0] C:\Users\i4i\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.4.0.aar\d544340f9f66540333c9d66d13c2e60a\AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.android.gms:play-services-basement:11.4.0] C:\Users\i4i\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.4.0.aar\8fad81845cf661bd35b5339394ed182f\AndroidManifest.xml:16:1-23:12
+MERGED from [com.android.support:support-v4:27.0.2] C:\Users\i4i\.gradle\caches\transforms-1\files-1.1\support-v4-27.0.2.aar\def54c6827fc1a964c05caf0743b24dc\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.0.2] C:\Users\i4i\.gradle\caches\transforms-1\files-1.1\support-fragment-27.0.2.aar\e446df884b6e83c95a3dab8798d4e3b9\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.0.2] C:\Users\i4i\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.0.2.aar\906d8a9a2908eb48e0bf22226906238c\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] C:\Users\i4i\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.0.2.aar\1ea16ca45f8b80b3804e0bee4a7fb8c1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.0.2] C:\Users\i4i\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.0.2.aar\87511c9f40cd62aed1da476e44850e8e\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:27.0.2] C:\Users\i4i\.gradle\caches\transforms-1\files-1.1\transition-27.0.2.aar\0042833a8c9aa412d7d228defd3b9903\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:27.0.2] C:\Users\i4i\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.0.2.aar\d54c8a8b9fe5c9aee484dd4ca5efa77a\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.0.2] C:\Users\i4i\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.0.2.aar\ea9713ffc54fff19fbb7a0da9c0d9492\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.0.2] C:\Users\i4i\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.0.2.aar\db62fd79e5e999d07ba908916df94573\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.0.2] C:\Users\i4i\.gradle\caches\transforms-1\files-1.1\support-compat-27.0.2.aar\9212f1ce3038d03a6409deb67aa5e512\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.0.3] C:\Users\i4i\.gradle\caches\transforms-1\files-1.1\runtime-1.0.3.aar\fae95c463fa220721c819fbc9df6cfee\AndroidManifest.xml:17:1-24:12
+INJECTED from C:\Models\SeriesColaborativas\CSharpModel\mobile\Android\SDLogin\src\main\AndroidManifest.xml:2:1-39:12
+INJECTED from C:\Models\SeriesColaborativas\CSharpModel\mobile\Android\SDLogin\src\main\AndroidManifest.xml:2:1-39:12
+INJECTED from C:\Models\SeriesColaborativas\CSharpModel\mobile\Android\SDLogin\src\main\AndroidManifest.xml:2:1-39:12
+	package
+		ADDED from C:\Models\SeriesColaborativas\CSharpModel\mobile\Android\SDLogin\src\main\AndroidManifest.xml:3:5-53
+		INJECTED from C:\Models\SeriesColaborativas\CSharpModel\mobile\Android\SDLogin\src\main\AndroidManifest.xml
+		INJECTED from C:\Models\SeriesColaborativas\CSharpModel\mobile\Android\SDLogin\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Models\SeriesColaborativas\CSharpModel\mobile\Android\SDLogin\src\main\AndroidManifest.xml
+		ADDED from C:\Models\SeriesColaborativas\CSharpModel\mobile\Android\SDLogin\src\main\AndroidManifest.xml:2:1-39:12
+		INJECTED from C:\Models\SeriesColaborativas\CSharpModel\mobile\Android\SDLogin\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Models\SeriesColaborativas\CSharpModel\mobile\Android\SDLogin\src\main\AndroidManifest.xml
+		ADDED from C:\Models\SeriesColaborativas\CSharpModel\mobile\Android\SDLogin\src\main\AndroidManifest.xml:2:1-39:12
+		INJECTED from C:\Models\SeriesColaborativas\CSharpModel\mobile\Android\SDLogin\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Models\SeriesColaborativas\CSharpModel\mobile\Android\SDLogin\src\main\AndroidManifest.xml:2:11-69
+	android:installLocation
+		ADDED from C:\Models\SeriesColaborativas\CSharpModel\mobile\Android\SDLogin\src\main\AndroidManifest.xml:4:5-35
+application
+ADDED from C:\Models\SeriesColaborativas\CSharpModel\mobile\Android\SDLogin\src\main\AndroidManifest.xml:6:5-38:17
+MERGED from [com.genexus:FlexibleClient:1.0] C:\Users\i4i\.gradle\caches\transforms-1\files-1.1\FlexibleClient-1.0.aar\9fb28bb6245018b5e4d1e096154bbfef\AndroidManifest.xml:15:5-101:19
+MERGED from [com.genexus:FlexibleClient:1.0] C:\Users\i4i\.gradle\caches\transforms-1\files-1.1\FlexibleClient-1.0.aar\9fb28bb6245018b5e4d1e096154bbfef\AndroidManifest.xml:15:5-101:19
+MERGED from [com.google.android.gms:play-services-gcm:11.4.0] C:\Users\i4i\.gradle\caches\transforms-1\files-1.1\play-services-gcm-11.4.0.aar\caec5719953230224244a393ded4cf88\AndroidManifest.xml:23:5-19
+MERGED from [com.google.android.gms:play-services-gcm:11.4.0] C:\Users\i4i\.gradle\caches\transforms-1\files-1.1\play-services-gcm-11.4.0.aar\caec5719953230224244a393ded4cf88\AndroidManifest.xml:23:5-19
+MERGED from [com.google.android.gms:play-services-location:11.4.0] C:\Users\i4i\.gradle\caches\transforms-1\files-1.1\play-services-location-11.4.0.aar\7bcb7bbb279b3876a80ffe122c829826\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-location:11.4.0] C:\Users\i4i\.gradle\caches\transforms-1\files-1.1\play-services-location-11.4.0.aar\7bcb7bbb279b3876a80ffe122c829826\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-places:11.4.0] C:\Users\i4i\.gradle\caches\transforms-1\files-1.1\play-services-places-11.4.0.aar\a1fa42cd9ef4030a95e1044aa8c0bd53\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-places:11.4.0] C:\Users\i4i\.gradle\caches\transforms-1\files-1.1\play-services-places-11.4.0.aar\a1fa42cd9ef4030a95e1044aa8c0bd53\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-maps:11.4.0] C:\Users\i4i\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.4.0.aar\83f17e7fbf29a32be3ce23579e73c737\AndroidManifest.xml:24:5-19
+MERGED from [com.google.android.gms:play-services-maps:11.4.0] C:\Users\i4i\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.4.0.aar\83f17e7fbf29a32be3ce23579e73c737\AndroidManifest.xml:24:5-19
+MERGED from [com.google.android.gms:play-services-iid:11.4.0] C:\Users\i4i\.gradle\caches\transforms-1\files-1.1\play-services-iid-11.4.0.aar\8d145cacaa3a0ee25bd83a58d431ad7d\AndroidManifest.xml:23:5-19
+MERGED from [com.google.android.gms:play-services-iid:11.4.0] C:\Users\i4i\.gradle\caches\transforms-1\files-1.1\play-services-iid-11.4.0.aar\8d145cacaa3a0ee25bd83a58d431ad7d\AndroidManifest.xml:23:5-19
+MERGED from [com.google.android.gms:play-services-base:11.4.0] C:\Users\i4i\.gradle\caches\transforms-1\files-1.1\play-services-base-11.4.0.aar\15f1b62dbd613bd2b83dd70502687b4d\AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.android.gms:play-services-base:11.4.0] C:\Users\i4i\.gradle\caches\transforms-1\files-1.1\play-services-base-11.4.0.aar\15f1b62dbd613bd2b83dd70502687b4d\AndroidManifest.xml:18:5-20:19
+MERGED from [com.github.square.picasso:picasso:a2dd8804c6] C:\Users\i4i\.gradle\caches\transforms-1\files-1.1\picasso-a2dd8804c6.aar\54627a083c4e98652ef52e8883dc317a\AndroidManifest.xml:7:5-12:19
+MERGED from [com.github.square.picasso:picasso:a2dd8804c6] C:\Users\i4i\.gradle\caches\transforms-1\files-1.1\picasso-a2dd8804c6.aar\54627a083c4e98652ef52e8883dc317a\AndroidManifest.xml:7:5-12:19
+MERGED from [com.google.android.gms:play-services-tasks:11.4.0] C:\Users\i4i\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.4.0.aar\d544340f9f66540333c9d66d13c2e60a\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-tasks:11.4.0] C:\Users\i4i\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.4.0.aar\d544340f9f66540333c9d66d13c2e60a\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-basement:11.4.0] C:\Users\i4i\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.4.0.aar\8fad81845cf661bd35b5339394ed182f\AndroidManifest.xml:19:5-21:19
+MERGED from [com.google.android.gms:play-services-basement:11.4.0] C:\Users\i4i\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.4.0.aar\8fad81845cf661bd35b5339394ed182f\AndroidManifest.xml:19:5-21:19
+	android:label
+		ADDED from C:\Models\SeriesColaborativas\CSharpModel\mobile\Android\SDLogin\src\main\AndroidManifest.xml:12:18-50
+	android:hardwareAccelerated
+		ADDED from C:\Models\SeriesColaborativas\CSharpModel\mobile\Android\SDLogin\src\main\AndroidManifest.xml:7:18-52
+	android:resizeableActivity
+		ADDED from C:\Models\SeriesColaborativas\CSharpModel\mobile\Android\SDLogin\src\main\AndroidManifest.xml:8:18-52
+	android:icon
+		ADDED from C:\Models\SeriesColaborativas\CSharpModel\mobile\Android\SDLogin\src\main\AndroidManifest.xml:11:18-50
+	android:allowBackup
+		ADDED from C:\Models\SeriesColaborativas\CSharpModel\mobile\Android\SDLogin\src\main\AndroidManifest.xml:9:18-45
+	android:theme
+		ADDED from C:\Models\SeriesColaborativas\CSharpModel\mobile\Android\SDLogin\src\main\AndroidManifest.xml:10:18-57
+	android:name
+		ADDED from C:\Models\SeriesColaborativas\CSharpModel\mobile\Android\SDLogin\src\main\AndroidManifest.xml:6:18-49
+activity#com.artech.seriescolaborativas.sdlogin.Main
+ADDED from C:\Models\SeriesColaborativas\CSharpModel\mobile\Android\SDLogin\src\main\AndroidManifest.xml:14:9-19:20
+	android:label
+		ADDED from C:\Models\SeriesColaborativas\CSharpModel\mobile\Android\SDLogin\src\main\AndroidManifest.xml:14:40-72
+	android:name
+		ADDED from C:\Models\SeriesColaborativas\CSharpModel\mobile\Android\SDLogin\src\main\AndroidManifest.xml:14:19-39
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\Models\SeriesColaborativas\CSharpModel\mobile\Android\SDLogin\src\main\AndroidManifest.xml:15:13-18:29
+action#android.intent.action.MAIN
+ADDED from C:\Models\SeriesColaborativas\CSharpModel\mobile\Android\SDLogin\src\main\AndroidManifest.xml:16:17-69
+	android:name
+		ADDED from C:\Models\SeriesColaborativas\CSharpModel\mobile\Android\SDLogin\src\main\AndroidManifest.xml:16:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Models\SeriesColaborativas\CSharpModel\mobile\Android\SDLogin\src\main\AndroidManifest.xml:17:17-77
+	android:name
+		ADDED from C:\Models\SeriesColaborativas\CSharpModel\mobile\Android\SDLogin\src\main\AndroidManifest.xml:17:27-74
+activity#com.artech.controls.maps.googlev2.LocationPickerActivity
+ADDED from C:\Models\SeriesColaborativas\CSharpModel\mobile\Android\SDLogin\src\main\AndroidManifest.xml:21:9-93
+MERGED from [com.genexus:FlexibleClient:1.0] C:\Users\i4i\.gradle\caches\transforms-1\files-1.1\FlexibleClient-1.0.aar\9fb28bb6245018b5e4d1e096154bbfef\AndroidManifest.xml:70:9-93
+MERGED from [com.genexus:FlexibleClient:1.0] C:\Users\i4i\.gradle\caches\transforms-1\files-1.1\FlexibleClient-1.0.aar\9fb28bb6245018b5e4d1e096154bbfef\AndroidManifest.xml:70:9-93
+	android:name
+		ADDED from C:\Models\SeriesColaborativas\CSharpModel\mobile\Android\SDLogin\src\main\AndroidManifest.xml:21:19-90
+provider#com.artech.seriescolaborativas.sdlogin.AppEntityDataProvider
+ADDED from C:\Models\SeriesColaborativas\CSharpModel\mobile\Android\SDLogin\src\main\AndroidManifest.xml:24:9-201
+	android:authorities
+		ADDED from C:\Models\SeriesColaborativas\CSharpModel\mobile\Android\SDLogin\src\main\AndroidManifest.xml:24:120-198
+	android:exported
+		ADDED from C:\Models\SeriesColaborativas\CSharpModel\mobile\Android\SDLogin\src\main\AndroidManifest.xml:24:95-119
+	android:name
+		ADDED from C:\Models\SeriesColaborativas\CSharpModel\mobile\Android\SDLogin\src\main\AndroidManifest.xml:24:19-94
+service#com.artech.seriescolaborativas.sdlogin.AppEntityService
+ADDED from C:\Models\SeriesColaborativas\CSharpModel\mobile\Android\SDLogin\src\main\AndroidManifest.xml:27:9-114
+	android:enabled
+		ADDED from C:\Models\SeriesColaborativas\CSharpModel\mobile\Android\SDLogin\src\main\AndroidManifest.xml:27:18-40
+	android:name
+		ADDED from C:\Models\SeriesColaborativas\CSharpModel\mobile\Android\SDLogin\src\main\AndroidManifest.xml:27:41-111
+activity#com.artech.android.gam.AuthRedirectActivity
+ADDED from C:\Models\SeriesColaborativas\CSharpModel\mobile\Android\SDLogin\src\main\AndroidManifest.xml:29:9-36:20
+MERGED from [com.genexus:FlexibleClient:1.0] C:\Users\i4i\.gradle\caches\transforms-1\files-1.1\FlexibleClient-1.0.aar\9fb28bb6245018b5e4d1e096154bbfef\AndroidManifest.xml:76:9-87:20
+MERGED from [com.genexus:FlexibleClient:1.0] C:\Users\i4i\.gradle\caches\transforms-1\files-1.1\FlexibleClient-1.0.aar\9fb28bb6245018b5e4d1e096154bbfef\AndroidManifest.xml:76:9-87:20
+	android:exported
+		ADDED from C:\Models\SeriesColaborativas\CSharpModel\mobile\Android\SDLogin\src\main\AndroidManifest.xml:29:78-101
+	android:name
+		ADDED from C:\Models\SeriesColaborativas\CSharpModel\mobile\Android\SDLogin\src\main\AndroidManifest.xml:29:19-77
+intent-filter#android.intent.action.VIEW+android.intent.category.BROWSABLE+android.intent.category.DEFAULT
+ADDED from C:\Models\SeriesColaborativas\CSharpModel\mobile\Android\SDLogin\src\main\AndroidManifest.xml:30:13-35:29
+action#android.intent.action.VIEW
+ADDED from C:\Models\SeriesColaborativas\CSharpModel\mobile\Android\SDLogin\src\main\AndroidManifest.xml:31:17-68
+	android:name
+		ADDED from C:\Models\SeriesColaborativas\CSharpModel\mobile\Android\SDLogin\src\main\AndroidManifest.xml:31:25-66
+category#android.intent.category.DEFAULT
+ADDED from C:\Models\SeriesColaborativas\CSharpModel\mobile\Android\SDLogin\src\main\AndroidManifest.xml:32:17-75
+	android:name
+		ADDED from C:\Models\SeriesColaborativas\CSharpModel\mobile\Android\SDLogin\src\main\AndroidManifest.xml:32:27-73
+category#android.intent.category.BROWSABLE
+ADDED from C:\Models\SeriesColaborativas\CSharpModel\mobile\Android\SDLogin\src\main\AndroidManifest.xml:33:17-77
+	android:name
+		ADDED from C:\Models\SeriesColaborativas\CSharpModel\mobile\Android\SDLogin\src\main\AndroidManifest.xml:33:27-75
+data
+ADDED from C:\Models\SeriesColaborativas\CSharpModel\mobile\Android\SDLogin\src\main\AndroidManifest.xml:34:17-79
+	android:scheme
+		ADDED from C:\Models\SeriesColaborativas\CSharpModel\mobile\Android\SDLogin\src\main\AndroidManifest.xml:34:23-77
+uses-sdk
+INJECTED from C:\Models\SeriesColaborativas\CSharpModel\mobile\Android\SDLogin\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Models\SeriesColaborativas\CSharpModel\mobile\Android\SDLogin\src\main\AndroidManifest.xml
+INJECTED from C:\Models\SeriesColaborativas\CSharpModel\mobile\Android\SDLogin\src\main\AndroidManifest.xml
+MERGED from [com.genexus:FlexibleClient:1.0] C:\Users\i4i\.gradle\caches\transforms-1\files-1.1\FlexibleClient-1.0.aar\9fb28bb6245018b5e4d1e096154bbfef\AndroidManifest.xml:6:5-9:62
+MERGED from [com.genexus:FlexibleClient:1.0] C:\Users\i4i\.gradle\caches\transforms-1\files-1.1\FlexibleClient-1.0.aar\9fb28bb6245018b5e4d1e096154bbfef\AndroidManifest.xml:6:5-9:62
+MERGED from [com.genexus:SqlDroidBase:1.0] C:\Users\i4i\.gradle\caches\transforms-1\files-1.1\SqlDroidBase-1.0.aar\ccdee49dc56149db555465856157891f\AndroidManifest.xml:8:5-10:41
+MERGED from [com.genexus:SqlDroidBase:1.0] C:\Users\i4i\.gradle\caches\transforms-1\files-1.1\SqlDroidBase-1.0.aar\ccdee49dc56149db555465856157891f\AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support:design:27.0.2] C:\Users\i4i\.gradle\caches\transforms-1\files-1.1\design-27.0.2.aar\4eac811a596a4d45325b4b8d2e8badbc\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.0.2] C:\Users\i4i\.gradle\caches\transforms-1\files-1.1\design-27.0.2.aar\4eac811a596a4d45325b4b8d2e8badbc\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.0.2] C:\Users\i4i\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\0f419e25c3e50d10bb316e3a0ee46115\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.0.2] C:\Users\i4i\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\0f419e25c3e50d10bb316e3a0ee46115\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customtabs:27.0.2] C:\Users\i4i\.gradle\caches\transforms-1\files-1.1\customtabs-27.0.2.aar\a788a9dbe9f57320e208ab6a19291740\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customtabs:27.0.2] C:\Users\i4i\.gradle\caches\transforms-1\files-1.1\customtabs-27.0.2.aar\a788a9dbe9f57320e208ab6a19291740\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-gcm:11.4.0] C:\Users\i4i\.gradle\caches\transforms-1\files-1.1\play-services-gcm-11.4.0.aar\caec5719953230224244a393ded4cf88\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-gcm:11.4.0] C:\Users\i4i\.gradle\caches\transforms-1\files-1.1\play-services-gcm-11.4.0.aar\caec5719953230224244a393ded4cf88\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-location:11.4.0] C:\Users\i4i\.gradle\caches\transforms-1\files-1.1\play-services-location-11.4.0.aar\7bcb7bbb279b3876a80ffe122c829826\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-location:11.4.0] C:\Users\i4i\.gradle\caches\transforms-1\files-1.1\play-services-location-11.4.0.aar\7bcb7bbb279b3876a80ffe122c829826\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-places:11.4.0] C:\Users\i4i\.gradle\caches\transforms-1\files-1.1\play-services-places-11.4.0.aar\a1fa42cd9ef4030a95e1044aa8c0bd53\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-places:11.4.0] C:\Users\i4i\.gradle\caches\transforms-1\files-1.1\play-services-places-11.4.0.aar\a1fa42cd9ef4030a95e1044aa8c0bd53\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-maps:11.4.0] C:\Users\i4i\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.4.0.aar\83f17e7fbf29a32be3ce23579e73c737\AndroidManifest.xml:23:5-43
+MERGED from [com.google.android.gms:play-services-maps:11.4.0] C:\Users\i4i\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.4.0.aar\83f17e7fbf29a32be3ce23579e73c737\AndroidManifest.xml:23:5-43
+MERGED from [com.google.android.gms:play-services-iid:11.4.0] C:\Users\i4i\.gradle\caches\transforms-1\files-1.1\play-services-iid-11.4.0.aar\8d145cacaa3a0ee25bd83a58d431ad7d\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-iid:11.4.0] C:\Users\i4i\.gradle\caches\transforms-1\files-1.1\play-services-iid-11.4.0.aar\8d145cacaa3a0ee25bd83a58d431ad7d\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-base:11.4.0] C:\Users\i4i\.gradle\caches\transforms-1\files-1.1\play-services-base-11.4.0.aar\15f1b62dbd613bd2b83dd70502687b4d\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-base:11.4.0] C:\Users\i4i\.gradle\caches\transforms-1\files-1.1\play-services-base-11.4.0.aar\15f1b62dbd613bd2b83dd70502687b4d\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android:flexbox:0.3.0] C:\Users\i4i\.gradle\caches\transforms-1\files-1.1\flexbox-0.3.0.aar\d5bf96efe3b6d8efb08538cb2a1611c3\AndroidManifest.xml:23:5-25:41
+MERGED from [com.google.android:flexbox:0.3.0] C:\Users\i4i\.gradle\caches\transforms-1\files-1.1\flexbox-0.3.0.aar\d5bf96efe3b6d8efb08538cb2a1611c3\AndroidManifest.xml:23:5-25:41
+MERGED from [com.github.square.picasso:picasso:a2dd8804c6] C:\Users\i4i\.gradle\caches\transforms-1\files-1.1\picasso-a2dd8804c6.aar\54627a083c4e98652ef52e8883dc317a\AndroidManifest.xml:5:5-44
+MERGED from [com.github.square.picasso:picasso:a2dd8804c6] C:\Users\i4i\.gradle\caches\transforms-1\files-1.1\picasso-a2dd8804c6.aar\54627a083c4e98652ef52e8883dc317a\AndroidManifest.xml:5:5-44
+MERGED from [com.makeramen:roundedimageview:2.0.1] C:\Users\i4i\.gradle\caches\transforms-1\files-1.1\roundedimageview-2.0.1.aar\cd78b309ac7dde430d2baee293312e28\AndroidManifest.xml:7:5-9:41
+MERGED from [com.makeramen:roundedimageview:2.0.1] C:\Users\i4i\.gradle\caches\transforms-1\files-1.1\roundedimageview-2.0.1.aar\cd78b309ac7dde430d2baee293312e28\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.gms:play-services-tasks:11.4.0] C:\Users\i4i\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.4.0.aar\d544340f9f66540333c9d66d13c2e60a\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-tasks:11.4.0] C:\Users\i4i\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.4.0.aar\d544340f9f66540333c9d66d13c2e60a\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-basement:11.4.0] C:\Users\i4i\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.4.0.aar\8fad81845cf661bd35b5339394ed182f\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-basement:11.4.0] C:\Users\i4i\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.4.0.aar\8fad81845cf661bd35b5339394ed182f\AndroidManifest.xml:17:5-43
+MERGED from [com.android.support:support-v4:27.0.2] C:\Users\i4i\.gradle\caches\transforms-1\files-1.1\support-v4-27.0.2.aar\def54c6827fc1a964c05caf0743b24dc\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.0.2] C:\Users\i4i\.gradle\caches\transforms-1\files-1.1\support-v4-27.0.2.aar\def54c6827fc1a964c05caf0743b24dc\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.0.2] C:\Users\i4i\.gradle\caches\transforms-1\files-1.1\support-fragment-27.0.2.aar\e446df884b6e83c95a3dab8798d4e3b9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.0.2] C:\Users\i4i\.gradle\caches\transforms-1\files-1.1\support-fragment-27.0.2.aar\e446df884b6e83c95a3dab8798d4e3b9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.0.2] C:\Users\i4i\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.0.2.aar\906d8a9a2908eb48e0bf22226906238c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.0.2] C:\Users\i4i\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.0.2.aar\906d8a9a2908eb48e0bf22226906238c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] C:\Users\i4i\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.0.2.aar\1ea16ca45f8b80b3804e0bee4a7fb8c1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] C:\Users\i4i\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.0.2.aar\1ea16ca45f8b80b3804e0bee4a7fb8c1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.0.2] C:\Users\i4i\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.0.2.aar\87511c9f40cd62aed1da476e44850e8e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.0.2] C:\Users\i4i\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.0.2.aar\87511c9f40cd62aed1da476e44850e8e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.0.2] C:\Users\i4i\.gradle\caches\transforms-1\files-1.1\transition-27.0.2.aar\0042833a8c9aa412d7d228defd3b9903\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.0.2] C:\Users\i4i\.gradle\caches\transforms-1\files-1.1\transition-27.0.2.aar\0042833a8c9aa412d7d228defd3b9903\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.0.2] C:\Users\i4i\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.0.2.aar\d54c8a8b9fe5c9aee484dd4ca5efa77a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.0.2] C:\Users\i4i\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.0.2.aar\d54c8a8b9fe5c9aee484dd4ca5efa77a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.2] C:\Users\i4i\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.0.2.aar\ea9713ffc54fff19fbb7a0da9c0d9492\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.2] C:\Users\i4i\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.0.2.aar\ea9713ffc54fff19fbb7a0da9c0d9492\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.0.2] C:\Users\i4i\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.0.2.aar\db62fd79e5e999d07ba908916df94573\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.0.2] C:\Users\i4i\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.0.2.aar\db62fd79e5e999d07ba908916df94573\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.2] C:\Users\i4i\.gradle\caches\transforms-1\files-1.1\support-compat-27.0.2.aar\9212f1ce3038d03a6409deb67aa5e512\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.2] C:\Users\i4i\.gradle\caches\transforms-1\files-1.1\support-compat-27.0.2.aar\9212f1ce3038d03a6409deb67aa5e512\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.0.3] C:\Users\i4i\.gradle\caches\transforms-1\files-1.1\runtime-1.0.3.aar\fae95c463fa220721c819fbc9df6cfee\AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.3] C:\Users\i4i\.gradle\caches\transforms-1\files-1.1\runtime-1.0.3.aar\fae95c463fa220721c819fbc9df6cfee\AndroidManifest.xml:20:5-22:41
+INJECTED from C:\Models\SeriesColaborativas\CSharpModel\mobile\Android\SDLogin\src\main\AndroidManifest.xml
+INJECTED from C:\Models\SeriesColaborativas\CSharpModel\mobile\Android\SDLogin\src\main\AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.genexus:FlexibleClient:1.0] C:\Users\i4i\.gradle\caches\transforms-1\files-1.1\FlexibleClient-1.0.aar\9fb28bb6245018b5e4d1e096154bbfef\AndroidManifest.xml:9:9-59
+	android:targetSdkVersion
+		INJECTED from C:\Models\SeriesColaborativas\CSharpModel\mobile\Android\SDLogin\src\main\AndroidManifest.xml
+		ADDED from C:\Models\SeriesColaborativas\CSharpModel\mobile\Android\SDLogin\src\main\AndroidManifest.xml
+		INJECTED from C:\Models\SeriesColaborativas\CSharpModel\mobile\Android\SDLogin\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Models\SeriesColaborativas\CSharpModel\mobile\Android\SDLogin\src\main\AndroidManifest.xml
+		ADDED from C:\Models\SeriesColaborativas\CSharpModel\mobile\Android\SDLogin\src\main\AndroidManifest.xml
+		INJECTED from C:\Models\SeriesColaborativas\CSharpModel\mobile\Android\SDLogin\src\main\AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from [com.genexus:FlexibleClient:1.0] C:\Users\i4i\.gradle\caches\transforms-1\files-1.1\FlexibleClient-1.0.aar\9fb28bb6245018b5e4d1e096154bbfef\AndroidManifest.xml:11:5-67
+MERGED from [com.google.android.gms:play-services-gcm:11.4.0] C:\Users\i4i\.gradle\caches\transforms-1\files-1.1\play-services-gcm-11.4.0.aar\caec5719953230224244a393ded4cf88\AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-gcm:11.4.0] C:\Users\i4i\.gradle\caches\transforms-1\files-1.1\play-services-gcm-11.4.0.aar\caec5719953230224244a393ded4cf88\AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-maps:11.4.0] C:\Users\i4i\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.4.0.aar\83f17e7fbf29a32be3ce23579e73c737\AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-maps:11.4.0] C:\Users\i4i\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.4.0.aar\83f17e7fbf29a32be3ce23579e73c737\AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-iid:11.4.0] C:\Users\i4i\.gradle\caches\transforms-1\files-1.1\play-services-iid-11.4.0.aar\8d145cacaa3a0ee25bd83a58d431ad7d\AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-iid:11.4.0] C:\Users\i4i\.gradle\caches\transforms-1\files-1.1\play-services-iid-11.4.0.aar\8d145cacaa3a0ee25bd83a58d431ad7d\AndroidManifest.xml:21:5-66
+	android:name
+		ADDED from [com.genexus:FlexibleClient:1.0] C:\Users\i4i\.gradle\caches\transforms-1\files-1.1\FlexibleClient-1.0.aar\9fb28bb6245018b5e4d1e096154bbfef\AndroidManifest.xml:11:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.genexus:FlexibleClient:1.0] C:\Users\i4i\.gradle\caches\transforms-1\files-1.1\FlexibleClient-1.0.aar\9fb28bb6245018b5e4d1e096154bbfef\AndroidManifest.xml:12:5-79
+MERGED from [com.google.android.gms:play-services-maps:11.4.0] C:\Users\i4i\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.4.0.aar\83f17e7fbf29a32be3ce23579e73c737\AndroidManifest.xml:19:5-78
+MERGED from [com.google.android.gms:play-services-maps:11.4.0] C:\Users\i4i\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.4.0.aar\83f17e7fbf29a32be3ce23579e73c737\AndroidManifest.xml:19:5-78
+	android:name
+		ADDED from [com.genexus:FlexibleClient:1.0] C:\Users\i4i\.gradle\caches\transforms-1\files-1.1\FlexibleClient-1.0.aar\9fb28bb6245018b5e4d1e096154bbfef\AndroidManifest.xml:12:22-76
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from [com.genexus:FlexibleClient:1.0] C:\Users\i4i\.gradle\caches\transforms-1\files-1.1\FlexibleClient-1.0.aar\9fb28bb6245018b5e4d1e096154bbfef\AndroidManifest.xml:13:5-81
+	android:name
+		ADDED from [com.genexus:FlexibleClient:1.0] C:\Users\i4i\.gradle\caches\transforms-1\files-1.1\FlexibleClient-1.0.aar\9fb28bb6245018b5e4d1e096154bbfef\AndroidManifest.xml:13:22-78
+activity#com.artech.activities.GenexusActivity
+ADDED from [com.genexus:FlexibleClient:1.0] C:\Users\i4i\.gradle\caches\transforms-1\files-1.1\FlexibleClient-1.0.aar\9fb28bb6245018b5e4d1e096154bbfef\AndroidManifest.xml:18:9-25:20
+	android:label
+		ADDED from [com.genexus:FlexibleClient:1.0] C:\Users\i4i\.gradle\caches\transforms-1\files-1.1\FlexibleClient-1.0.aar\9fb28bb6245018b5e4d1e096154bbfef\AndroidManifest.xml:20:13-45
+	android:windowSoftInputMode
+		ADDED from [com.genexus:FlexibleClient:1.0] C:\Users\i4i\.gradle\caches\transforms-1\files-1.1\FlexibleClient-1.0.aar\9fb28bb6245018b5e4d1e096154bbfef\AndroidManifest.xml:21:13-73
+	android:name
+		ADDED from [com.genexus:FlexibleClient:1.0] C:\Users\i4i\.gradle\caches\transforms-1\files-1.1\FlexibleClient-1.0.aar\9fb28bb6245018b5e4d1e096154bbfef\AndroidManifest.xml:19:13-65
+meta-data#android.app.default_searchable
+ADDED from [com.genexus:FlexibleClient:1.0] C:\Users\i4i\.gradle\caches\transforms-1\files-1.1\FlexibleClient-1.0.aar\9fb28bb6245018b5e4d1e096154bbfef\AndroidManifest.xml:22:13-24:76
+	android:value
+		ADDED from [com.genexus:FlexibleClient:1.0] C:\Users\i4i\.gradle\caches\transforms-1\files-1.1\FlexibleClient-1.0.aar\9fb28bb6245018b5e4d1e096154bbfef\AndroidManifest.xml:24:17-73
+	android:name
+		ADDED from [com.genexus:FlexibleClient:1.0] C:\Users\i4i\.gradle\caches\transforms-1\files-1.1\FlexibleClient-1.0.aar\9fb28bb6245018b5e4d1e096154bbfef\AndroidManifest.xml:23:17-62
+activity#com.artech.activities.SearchStubActivity
+ADDED from [com.genexus:FlexibleClient:1.0] C:\Users\i4i\.gradle\caches\transforms-1\files-1.1\FlexibleClient-1.0.aar\9fb28bb6245018b5e4d1e096154bbfef\AndroidManifest.xml:26:9-40:20
+	android:exported
+		ADDED from [com.genexus:FlexibleClient:1.0] C:\Users\i4i\.gradle\caches\transforms-1\files-1.1\FlexibleClient-1.0.aar\9fb28bb6245018b5e4d1e096154bbfef\AndroidManifest.xml:28:13-37
+	android:name
+		ADDED from [com.genexus:FlexibleClient:1.0] C:\Users\i4i\.gradle\caches\transforms-1\files-1.1\FlexibleClient-1.0.aar\9fb28bb6245018b5e4d1e096154bbfef\AndroidManifest.xml:27:13-68
+intent-filter#android.intent.action.SEARCH+android.intent.category.DEFAULT
+ADDED from [com.genexus:FlexibleClient:1.0] C:\Users\i4i\.gradle\caches\transforms-1\files-1.1\FlexibleClient-1.0.aar\9fb28bb6245018b5e4d1e096154bbfef\AndroidManifest.xml:31:13-35:29
+action#android.intent.action.SEARCH
+ADDED from [com.genexus:FlexibleClient:1.0] C:\Users\i4i\.gradle\caches\transforms-1\files-1.1\FlexibleClient-1.0.aar\9fb28bb6245018b5e4d1e096154bbfef\AndroidManifest.xml:32:17-71
+	android:name
+		ADDED from [com.genexus:FlexibleClient:1.0] C:\Users\i4i\.gradle\caches\transforms-1\files-1.1\FlexibleClient-1.0.aar\9fb28bb6245018b5e4d1e096154bbfef\AndroidManifest.xml:32:25-68
+meta-data#android.app.searchable
+ADDED from [com.genexus:FlexibleClient:1.0] C:\Users\i4i\.gradle\caches\transforms-1\files-1.1\FlexibleClient-1.0.aar\9fb28bb6245018b5e4d1e096154bbfef\AndroidManifest.xml:37:13-39:54
+	android:resource
+		ADDED from [com.genexus:FlexibleClient:1.0] C:\Users\i4i\.gradle\caches\transforms-1\files-1.1\FlexibleClient-1.0.aar\9fb28bb6245018b5e4d1e096154bbfef\AndroidManifest.xml:39:17-51
+	android:name
+		ADDED from [com.genexus:FlexibleClient:1.0] C:\Users\i4i\.gradle\caches\transforms-1\files-1.1\FlexibleClient-1.0.aar\9fb28bb6245018b5e4d1e096154bbfef\AndroidManifest.xml:38:17-54
+activity#com.artech.activities.dashboard.DashboardActivity
+ADDED from [com.genexus:FlexibleClient:1.0] C:\Users\i4i\.gradle\caches\transforms-1\files-1.1\FlexibleClient-1.0.aar\9fb28bb6245018b5e4d1e096154bbfef\AndroidManifest.xml:41:9-43:48
+	android:label
+		ADDED from [com.genexus:FlexibleClient:1.0] C:\Users\i4i\.gradle\caches\transforms-1\files-1.1\FlexibleClient-1.0.aar\9fb28bb6245018b5e4d1e096154bbfef\AndroidManifest.xml:43:13-45
+	android:name
+		ADDED from [com.genexus:FlexibleClient:1.0] C:\Users\i4i\.gradle\caches\transforms-1\files-1.1\FlexibleClient-1.0.aar\9fb28bb6245018b5e4d1e096154bbfef\AndroidManifest.xml:42:13-77
+activity#com.artech.activities.BTDeviceList
+ADDED from [com.genexus:FlexibleClient:1.0] C:\Users\i4i\.gradle\caches\transforms-1\files-1.1\FlexibleClient-1.0.aar\9fb28bb6245018b5e4d1e096154bbfef\AndroidManifest.xml:44:9-71
+	android:name
+		ADDED from [com.genexus:FlexibleClient:1.0] C:\Users\i4i\.gradle\caches\transforms-1\files-1.1\FlexibleClient-1.0.aar\9fb28bb6245018b5e4d1e096154bbfef\AndroidManifest.xml:44:19-68
+activity#com.artech.activities.WebViewActivity
+ADDED from [com.genexus:FlexibleClient:1.0] C:\Users\i4i\.gradle\caches\transforms-1\files-1.1\FlexibleClient-1.0.aar\9fb28bb6245018b5e4d1e096154bbfef\AndroidManifest.xml:45:9-48:20
+	android:label
+		ADDED from [com.genexus:FlexibleClient:1.0] C:\Users\i4i\.gradle\caches\transforms-1\files-1.1\FlexibleClient-1.0.aar\9fb28bb6245018b5e4d1e096154bbfef\AndroidManifest.xml:47:13-48
+	android:name
+		ADDED from [com.genexus:FlexibleClient:1.0] C:\Users\i4i\.gradle\caches\transforms-1\files-1.1\FlexibleClient-1.0.aar\9fb28bb6245018b5e4d1e096154bbfef\AndroidManifest.xml:46:13-65
+activity#com.artech.activities.VideoViewActivity
+ADDED from [com.genexus:FlexibleClient:1.0] C:\Users\i4i\.gradle\caches\transforms-1\files-1.1\FlexibleClient-1.0.aar\9fb28bb6245018b5e4d1e096154bbfef\AndroidManifest.xml:49:9-52:20
+	android:label
+		ADDED from [com.genexus:FlexibleClient:1.0] C:\Users\i4i\.gradle\caches\transforms-1\files-1.1\FlexibleClient-1.0.aar\9fb28bb6245018b5e4d1e096154bbfef\AndroidManifest.xml:51:13-48
+	android:name
+		ADDED from [com.genexus:FlexibleClient:1.0] C:\Users\i4i\.gradle\caches\transforms-1\files-1.1\FlexibleClient-1.0.aar\9fb28bb6245018b5e4d1e096154bbfef\AndroidManifest.xml:50:13-67
+activity#com.artech.application.Preferences
+ADDED from [com.genexus:FlexibleClient:1.0] C:\Users\i4i\.gradle\caches\transforms-1\files-1.1\FlexibleClient-1.0.aar\9fb28bb6245018b5e4d1e096154bbfef\AndroidManifest.xml:53:9-56:20
+	android:label
+		ADDED from [com.genexus:FlexibleClient:1.0] C:\Users\i4i\.gradle\caches\transforms-1\files-1.1\FlexibleClient-1.0.aar\9fb28bb6245018b5e4d1e096154bbfef\AndroidManifest.xml:55:13-52
+	android:name
+		ADDED from [com.genexus:FlexibleClient:1.0] C:\Users\i4i\.gradle\caches\transforms-1\files-1.1\FlexibleClient-1.0.aar\9fb28bb6245018b5e4d1e096154bbfef\AndroidManifest.xml:54:13-62
+activity#com.artech.activities.FiltersActivity
+ADDED from [com.genexus:FlexibleClient:1.0] C:\Users\i4i\.gradle\caches\transforms-1\files-1.1\FlexibleClient-1.0.aar\9fb28bb6245018b5e4d1e096154bbfef\AndroidManifest.xml:57:9-60:20
+	android:label
+		ADDED from [com.genexus:FlexibleClient:1.0] C:\Users\i4i\.gradle\caches\transforms-1\files-1.1\FlexibleClient-1.0.aar\9fb28bb6245018b5e4d1e096154bbfef\AndroidManifest.xml:59:13-47
+	android:name
+		ADDED from [com.genexus:FlexibleClient:1.0] C:\Users\i4i\.gradle\caches\transforms-1\files-1.1\FlexibleClient-1.0.aar\9fb28bb6245018b5e4d1e096154bbfef\AndroidManifest.xml:58:13-65
+activity#com.artech.activities.DetailFiltersActivity
+ADDED from [com.genexus:FlexibleClient:1.0] C:\Users\i4i\.gradle\caches\transforms-1\files-1.1\FlexibleClient-1.0.aar\9fb28bb6245018b5e4d1e096154bbfef\AndroidManifest.xml:61:9-64:20
+	android:label
+		ADDED from [com.genexus:FlexibleClient:1.0] C:\Users\i4i\.gradle\caches\transforms-1\files-1.1\FlexibleClient-1.0.aar\9fb28bb6245018b5e4d1e096154bbfef\AndroidManifest.xml:63:13-47
+	android:name
+		ADDED from [com.genexus:FlexibleClient:1.0] C:\Users\i4i\.gradle\caches\transforms-1\files-1.1\FlexibleClient-1.0.aar\9fb28bb6245018b5e4d1e096154bbfef\AndroidManifest.xml:62:13-71
+activity#com.artech.activities.SearchResultsActivity
+ADDED from [com.genexus:FlexibleClient:1.0] C:\Users\i4i\.gradle\caches\transforms-1\files-1.1\FlexibleClient-1.0.aar\9fb28bb6245018b5e4d1e096154bbfef\AndroidManifest.xml:65:9-69:20
+	android:name
+		ADDED from [com.genexus:FlexibleClient:1.0] C:\Users\i4i\.gradle\caches\transforms-1\files-1.1\FlexibleClient-1.0.aar\9fb28bb6245018b5e4d1e096154bbfef\AndroidManifest.xml:65:19-77
+activity#com.artech.android.gam.AuthManagementActivity
+ADDED from [com.genexus:FlexibleClient:1.0] C:\Users\i4i\.gradle\caches\transforms-1\files-1.1\FlexibleClient-1.0.aar\9fb28bb6245018b5e4d1e096154bbfef\AndroidManifest.xml:71:9-75:75
+	android:launchMode
+		ADDED from [com.genexus:FlexibleClient:1.0] C:\Users\i4i\.gradle\caches\transforms-1\files-1.1\FlexibleClient-1.0.aar\9fb28bb6245018b5e4d1e096154bbfef\AndroidManifest.xml:74:13-44
+	android:exported
+		ADDED from [com.genexus:FlexibleClient:1.0] C:\Users\i4i\.gradle\caches\transforms-1\files-1.1\FlexibleClient-1.0.aar\9fb28bb6245018b5e4d1e096154bbfef\AndroidManifest.xml:73:13-37
+	android:theme
+		ADDED from [com.genexus:FlexibleClient:1.0] C:\Users\i4i\.gradle\caches\transforms-1\files-1.1\FlexibleClient-1.0.aar\9fb28bb6245018b5e4d1e096154bbfef\AndroidManifest.xml:75:13-72
+	android:name
+		ADDED from [com.genexus:FlexibleClient:1.0] C:\Users\i4i\.gradle\caches\transforms-1\files-1.1\FlexibleClient-1.0.aar\9fb28bb6245018b5e4d1e096154bbfef\AndroidManifest.xml:72:13-73
+receiver#com.artech.android.notification.NotificationAlarm
+ADDED from [com.genexus:FlexibleClient:1.0] C:\Users\i4i\.gradle\caches\transforms-1\files-1.1\FlexibleClient-1.0.aar\9fb28bb6245018b5e4d1e096154bbfef\AndroidManifest.xml:89:9-86
+	android:name
+		ADDED from [com.genexus:FlexibleClient:1.0] C:\Users\i4i\.gradle\caches\transforms-1\files-1.1\FlexibleClient-1.0.aar\9fb28bb6245018b5e4d1e096154bbfef\AndroidManifest.xml:89:19-83
+receiver#com.artech.android.api.LocationFusedProviderReceiver
+ADDED from [com.genexus:FlexibleClient:1.0] C:\Users\i4i\.gradle\caches\transforms-1\files-1.1\FlexibleClient-1.0.aar\9fb28bb6245018b5e4d1e096154bbfef\AndroidManifest.xml:90:9-89
+	android:name
+		ADDED from [com.genexus:FlexibleClient:1.0] C:\Users\i4i\.gradle\caches\transforms-1\files-1.1\FlexibleClient-1.0.aar\9fb28bb6245018b5e4d1e096154bbfef\AndroidManifest.xml:90:19-86
+provider#com.artech.android.content.CustomFileProvider
+ADDED from [com.genexus:FlexibleClient:1.0] C:\Users\i4i\.gradle\caches\transforms-1\files-1.1\FlexibleClient-1.0.aar\9fb28bb6245018b5e4d1e096154bbfef\AndroidManifest.xml:92:9-100:20
+	android:grantUriPermissions
+		ADDED from [com.genexus:FlexibleClient:1.0] C:\Users\i4i\.gradle\caches\transforms-1\files-1.1\FlexibleClient-1.0.aar\9fb28bb6245018b5e4d1e096154bbfef\AndroidManifest.xml:96:13-47
+	android:authorities
+		ADDED from [com.genexus:FlexibleClient:1.0] C:\Users\i4i\.gradle\caches\transforms-1\files-1.1\FlexibleClient-1.0.aar\9fb28bb6245018b5e4d1e096154bbfef\AndroidManifest.xml:94:13-65
+	android:exported
+		ADDED from [com.genexus:FlexibleClient:1.0] C:\Users\i4i\.gradle\caches\transforms-1\files-1.1\FlexibleClient-1.0.aar\9fb28bb6245018b5e4d1e096154bbfef\AndroidManifest.xml:95:13-37
+	android:name
+		ADDED from [com.genexus:FlexibleClient:1.0] C:\Users\i4i\.gradle\caches\transforms-1\files-1.1\FlexibleClient-1.0.aar\9fb28bb6245018b5e4d1e096154bbfef\AndroidManifest.xml:93:13-73
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from [com.genexus:FlexibleClient:1.0] C:\Users\i4i\.gradle\caches\transforms-1\files-1.1\FlexibleClient-1.0.aar\9fb28bb6245018b5e4d1e096154bbfef\AndroidManifest.xml:97:13-99:56
+	android:resource
+		ADDED from [com.genexus:FlexibleClient:1.0] C:\Users\i4i\.gradle\caches\transforms-1\files-1.1\FlexibleClient-1.0.aar\9fb28bb6245018b5e4d1e096154bbfef\AndroidManifest.xml:99:17-53
+	android:name
+		ADDED from [com.genexus:FlexibleClient:1.0] C:\Users\i4i\.gradle\caches\transforms-1\files-1.1\FlexibleClient-1.0.aar\9fb28bb6245018b5e4d1e096154bbfef\AndroidManifest.xml:98:17-67
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.android.gms:play-services-gcm:11.4.0] C:\Users\i4i\.gradle\caches\transforms-1\files-1.1\play-services-gcm-11.4.0.aar\caec5719953230224244a393ded4cf88\AndroidManifest.xml:20:5-81
+MERGED from [com.google.android.gms:play-services-iid:11.4.0] C:\Users\i4i\.gradle\caches\transforms-1\files-1.1\play-services-iid-11.4.0.aar\8d145cacaa3a0ee25bd83a58d431ad7d\AndroidManifest.xml:20:5-81
+MERGED from [com.google.android.gms:play-services-iid:11.4.0] C:\Users\i4i\.gradle\caches\transforms-1\files-1.1\play-services-iid-11.4.0.aar\8d145cacaa3a0ee25bd83a58d431ad7d\AndroidManifest.xml:20:5-81
+	android:name
+		ADDED from [com.google.android.gms:play-services-gcm:11.4.0] C:\Users\i4i\.gradle\caches\transforms-1\files-1.1\play-services-gcm-11.4.0.aar\caec5719953230224244a393ded4cf88\AndroidManifest.xml:20:22-79
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:11.4.0] C:\Users\i4i\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.4.0.aar\83f17e7fbf29a32be3ce23579e73c737\AndroidManifest.xml:21:5-77
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:11.4.0] C:\Users\i4i\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.4.0.aar\83f17e7fbf29a32be3ce23579e73c737\AndroidManifest.xml:21:19-51
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:11.4.0] C:\Users\i4i\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.4.0.aar\83f17e7fbf29a32be3ce23579e73c737\AndroidManifest.xml:21:52-75
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:11.4.0] C:\Users\i4i\.gradle\caches\transforms-1\files-1.1\play-services-base-11.4.0.aar\15f1b62dbd613bd2b83dd70502687b4d\AndroidManifest.xml:19:9-172
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:11.4.0] C:\Users\i4i\.gradle\caches\transforms-1\files-1.1\play-services-base-11.4.0.aar\15f1b62dbd613bd2b83dd70502687b4d\AndroidManifest.xml:19:146-170
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:11.4.0] C:\Users\i4i\.gradle\caches\transforms-1\files-1.1\play-services-base-11.4.0.aar\15f1b62dbd613bd2b83dd70502687b4d\AndroidManifest.xml:19:86-145
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:11.4.0] C:\Users\i4i\.gradle\caches\transforms-1\files-1.1\play-services-base-11.4.0.aar\15f1b62dbd613bd2b83dd70502687b4d\AndroidManifest.xml:19:19-85
+provider#com.squareup.picasso.PicassoProvider
+ADDED from [com.github.square.picasso:picasso:a2dd8804c6] C:\Users\i4i\.gradle\caches\transforms-1\files-1.1\picasso-a2dd8804c6.aar\54627a083c4e98652ef52e8883dc317a\AndroidManifest.xml:8:9-11:40
+	android:authorities
+		ADDED from [com.github.square.picasso:picasso:a2dd8804c6] C:\Users\i4i\.gradle\caches\transforms-1\files-1.1\picasso-a2dd8804c6.aar\54627a083c4e98652ef52e8883dc317a\AndroidManifest.xml:10:13-72
+	android:exported
+		ADDED from [com.github.square.picasso:picasso:a2dd8804c6] C:\Users\i4i\.gradle\caches\transforms-1\files-1.1\picasso-a2dd8804c6.aar\54627a083c4e98652ef52e8883dc317a\AndroidManifest.xml:11:13-37
+	android:name
+		ADDED from [com.github.square.picasso:picasso:a2dd8804c6] C:\Users\i4i\.gradle\caches\transforms-1\files-1.1\picasso-a2dd8804c6.aar\54627a083c4e98652ef52e8883dc317a\AndroidManifest.xml:9:13-64
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:11.4.0] C:\Users\i4i\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.4.0.aar\8fad81845cf661bd35b5339394ed182f\AndroidManifest.xml:20:9-121
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:11.4.0] C:\Users\i4i\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.4.0.aar\8fad81845cf661bd35b5339394ed182f\AndroidManifest.xml:20:66-119
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:11.4.0] C:\Users\i4i\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.4.0.aar\8fad81845cf661bd35b5339394ed182f\AndroidManifest.xml:20:20-65

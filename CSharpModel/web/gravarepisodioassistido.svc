@@ -1,0 +1,1 @@
+<%@ServiceHost Service= "GeneXus.Programs.gravarepisodioassistido_services,gravarepisodioassistido" %>

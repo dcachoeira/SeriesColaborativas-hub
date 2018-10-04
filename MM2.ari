@@ -1,0 +1,509 @@
+ 
+ 
+ 
+pgm_main_i(proc,29,'SECGAMUPDATEPERMISSIONS',[ 15,'ASECGAMUPDATEPERMISSIONS','Sec GAMUpdate Permissions','','','','CLINE' ]).
+pgm_main_i(proc,40,'NOTIFICATIONSREGISTRATIONHANDLER',[ 15,'ANOTIFICATIONSREGISTRATIONHANDLER','Notifications Registration Handler','','','','INTERNAL' ]).
+pgm_main_i(web,8,'WWPBASEOBJECTS\EXPORTOPTIONS',[ 15,'WWPBASEOBJECTS\EXPORTOPTIONS','WWP_ExportOptionsDescription','','','','' ]).
+pgm_main_i(web,9,'WWPBASEOBJECTS\HOME',[ 15,'WWPBASEOBJECTS\HOME','WWP_HomeTitle','','','','' ]).
+pgm_main_i(web,22,'GAMHOME',[ 15,'GAMHOME','GAM Home','','','','' ]).
+pgm_main_i(web,25,'GAMWWUSERS',[ 15,'GAMWWUSERS','Users ','','','','' ]).
+pgm_main_i(sdp,4,'SERIESCOLABORATIVAS',[ 15,'SERIESCOLABORATIVAS','Séries colaborativas','','','','' ]).
+ 
+pgm_prop_i(proc,50,'OBTERSDTRANKINGCONQUISTA','USE_ENCRYPTION','NO').
+pgm_prop_i(proc,50,'OBTERSDTRANKINGCONQUISTA',idISPRCWEBSERVICE,'-1').
+pgm_prop_i(web,44,'GAMHEADER','WEB_COMP','Yes').
+pgm_prop_i(web,44,'GAMHEADER','URLAccess','No').
+pgm_prop_i(web,44,'GAMHEADER','USE_ENCRYPTION','NO').
+pgm_prop_i(web,44,'GAMHEADER','HTTP_PROTOCOL','Unsecure').
+pgm_prop_i(web,65,'GAMMENU','WEB_COMP','Yes').
+pgm_prop_i(web,65,'GAMMENU','URLAccess','No').
+pgm_prop_i(web,65,'GAMMENU','USE_ENCRYPTION','NO').
+pgm_prop_i(web,65,'GAMMENU','HTTP_PROTOCOL','Unsecure').
+pgm_prop_i(web,15,'WWPBASEOBJECTS\WWPTABBEDVIEW','WEB_COMP','Yes').
+pgm_prop_i(web,15,'WWPBASEOBJECTS\WWPTABBEDVIEW','URLAccess','No').
+pgm_prop_i(web,15,'WWPBASEOBJECTS\WWPTABBEDVIEW','USE_ENCRYPTION','NO').
+pgm_prop_i(web,15,'WWPBASEOBJECTS\WWPTABBEDVIEW','HTTP_PROTOCOL','Unsecure').
+pgm_prop_i(web,14,'WWPBASEOBJECTS\WIZARDSTEPSBULLETWC','WEB_COMP','Yes').
+pgm_prop_i(web,14,'WWPBASEOBJECTS\WIZARDSTEPSBULLETWC','URLAccess','No').
+pgm_prop_i(web,14,'WWPBASEOBJECTS\WIZARDSTEPSBULLETWC','USE_ENCRYPTION','NO').
+pgm_prop_i(web,14,'WWPBASEOBJECTS\WIZARDSTEPSBULLETWC','HTTP_PROTOCOL','Unsecure').
+pgm_prop_i(web,13,'WWPBASEOBJECTS\WIZARDSTEPSARROWWC','WEB_COMP','Yes').
+pgm_prop_i(web,13,'WWPBASEOBJECTS\WIZARDSTEPSARROWWC','URLAccess','No').
+pgm_prop_i(web,13,'WWPBASEOBJECTS\WIZARDSTEPSARROWWC','USE_ENCRYPTION','NO').
+pgm_prop_i(web,13,'WWPBASEOBJECTS\WIZARDSTEPSARROWWC','HTTP_PROTOCOL','Unsecure').
+pgm_prop_i(web,5,'RWDRECENTLINKS','WEB_COMP','Yes').
+pgm_prop_i(web,5,'RWDRECENTLINKS','URLAccess','No').
+pgm_prop_i(web,5,'RWDRECENTLINKS','USE_ENCRYPTION','NO').
+pgm_prop_i(web,5,'RWDRECENTLINKS','HTTP_PROTOCOL','Unsecure').
+pgm_prop_i(web,2,'RECENTLINKS','WEB_COMP','Yes').
+pgm_prop_i(web,2,'RECENTLINKS','URLAccess','No').
+pgm_prop_i(web,2,'RECENTLINKS','USE_ENCRYPTION','NO').
+pgm_prop_i(web,2,'RECENTLINKS','HTTP_PROTOCOL','Unsecure').
+pgm_prop_i(sdp,1,'SDLOGIN','EVENTS',[ [ [ 'Level','Detail' ] - [] ] ]).
+pgm_prop_i(sdp,1,'SDLOGIN','SECTIONS',[ '',[] ]).
+pgm_prop_i(sdp,1,'SDLOGIN','GENS',[ 15 ]).
+pgm_prop_i(web,17,'GAMLOGOUT','WEB_COMP','Yes').
+pgm_prop_i(web,17,'GAMLOGOUT','URLAccess','No').
+pgm_prop_i(web,17,'GAMLOGOUT','USE_ENCRYPTION','NO').
+pgm_prop_i(web,17,'GAMLOGOUT','HTTP_PROTOCOL','Unsecure').
+pgm_prop_i(sdp,10,'GX00B0SD','EVENTS',[ [ [ 'Level','Detail' ] - [] ] ]).
+pgm_prop_i(sdp,10,'GX00B0SD','SECTIONS',[ '',[ [ 'Level','Detail','Grid1' ] ] ]).
+pgm_prop_i(sdp,10,'GX00B0SD','GENS',[ 15 ]).
+pgm_prop_i(sdp,12,'GX0030SD','EVENTS',[ [ [ 'Level','Detail' ] - [] ] ]).
+pgm_prop_i(sdp,12,'GX0030SD','SECTIONS',[ '',[ [ 'Level','Detail','Grid1' ] ] ]).
+pgm_prop_i(sdp,12,'GX0030SD','GENS',[ 15 ]).
+pgm_prop_i(mnproc,2,'WWPBASEOBJECTS\GETHOMESAMPLENAMEVALUEDATA',idISWEBSERVICE,'-1').
+pgm_prop_i(mnproc,2,'WWPBASEOBJECTS\GETHOMESAMPLENAMEVALUEDATA','DPRV_WSPROTOCOL','SOAP').
+pgm_prop_i(mnproc,2,'WWPBASEOBJECTS\GETHOMESAMPLENAMEVALUEDATA','OutputSDT',o(26,'WWPBaseObjects\HomeSampleNameValueData')).
+pgm_prop_i(mnproc,1,'WWPBASEOBJECTS\GETHOMESAMPLEDATA',idISWEBSERVICE,'-1').
+pgm_prop_i(mnproc,1,'WWPBASEOBJECTS\GETHOMESAMPLEDATA','DPRV_WSPROTOCOL','SOAP').
+pgm_prop_i(mnproc,1,'WWPBASEOBJECTS\GETHOMESAMPLEDATA','OutputSDT',o(26,'WWPBaseObjects\HomeSampleData')).
+pgm_prop_i(mnproc,3,'WWPBASEOBJECTS\SECGAMGETADVANCEDSECURITYWWPFUNCTIONALITIES','OutputSDT',o(26,'WWPBaseObjects\SecGAMFunctionalitiesToLoad')).
+pgm_prop_i(proc,10,'WWPBASEOBJECTS\LOADUSERKEYVALUE','USE_ENCRYPTION','NO').
+pgm_prop_i(proc,11,'WWPBASEOBJECTS\SAVEUSERKEYVALUE','USE_ENCRYPTION','NO').
+pgm_prop_i(proc,14,'WWPBASEOBJECTS\LOADCOLUMNSSELECTORSTATE','USE_ENCRYPTION','NO').
+pgm_prop_i(proc,15,'WWPBASEOBJECTS\LOADWWPCONTEXT','USE_ENCRYPTION','NO').
+pgm_prop_i(proc,16,'WWPBASEOBJECTS\SETWWPCONTEXT','USE_ENCRYPTION','NO').
+pgm_prop_i(proc,18,'WWPBASEOBJECTS\LOADGRIDSTATE','USE_ENCRYPTION','NO').
+pgm_prop_i(proc,19,'WWPBASEOBJECTS\SAVEGRIDSTATE','USE_ENCRYPTION','NO').
+pgm_prop_i(proc,20,'WWPBASEOBJECTS\LOADMANAGEFILTERSSTATE','USE_ENCRYPTION','NO').
+pgm_prop_i(proc,23,'WWPBASEOBJECTS\GETWWPTITLESETTINGSICONS','USE_ENCRYPTION','NO').
+pgm_prop_i(proc,21,'WWPBASEOBJECTS\SAVEMANAGEFILTERSSTATE','USE_ENCRYPTION','NO').
+pgm_prop_i(mnproc,4,'WWPBASEOBJECTS\MENUOPTIONSDATA','OutputSDT',o(26,'WWPBaseObjects\DVelop_Menu')).
+pgm_prop_i(proc,27,'WWPBASEOBJECTS\SECGAMISAUTHBYFUNCTIONALITYKEY','USE_ENCRYPTION','NO').
+pgm_prop_i(proc,25,'GAMCONVERTERRORSTOMESSAGES','USE_ENCRYPTION','NO').
+pgm_prop_i(proc,30,'WWPBASEOBJECTS\GETMENUAUTHORIZEDOPTIONS','USE_ENCRYPTION','NO').
+pgm_prop_i(proc,26,'GAMCHECKUSERACTIVATIONMETHOD','USE_ENCRYPTION','NO').
+pgm_prop_i(proc,31,'WWPBASEOBJECTS\GETMENUAUTHORIZEDOPTIONSRECURSIVE','USE_ENCRYPTION','NO').
+pgm_prop_i(proc,32,'WWPBASEOBJECTS\ISMENUAUTHORIZEDOPTION','USE_ENCRYPTION','NO').
+pgm_prop_i(proc,34,'CONQUISTAWWGETFILTERDATA','USE_ENCRYPTION','NO').
+pgm_prop_i(proc,34,'CONQUISTAWWGETFILTERDATA',idISPRCWEBSERVICE,'-1').
+pgm_prop_i(proc,34,'CONQUISTAWWGETFILTERDATA','SOAP','0').
+pgm_prop_i(proc,35,'GENEROWWGETFILTERDATA','USE_ENCRYPTION','NO').
+pgm_prop_i(proc,35,'GENEROWWGETFILTERDATA',idISPRCWEBSERVICE,'-1').
+pgm_prop_i(proc,35,'GENEROWWGETFILTERDATA','SOAP','0').
+pgm_prop_i(proc,36,'USUARIOWWGETFILTERDATA','USE_ENCRYPTION','NO').
+pgm_prop_i(proc,36,'USUARIOWWGETFILTERDATA',idISPRCWEBSERVICE,'-1').
+pgm_prop_i(proc,36,'USUARIOWWGETFILTERDATA','SOAP','0').
+pgm_prop_i(proc,29,'ASECGAMUPDATEPERMISSIONS','USE_ENCRYPTION','NO').
+pgm_prop_i(proc,29,'SECGAMUPDATEPERMISSIONS','USE_ENCRYPTION','NO').
+pgm_prop_i(proc,38,'GERARMD5','USE_ENCRYPTION','NO').
+pgm_prop_i(proc,39,'LOG','USE_ENCRYPTION','NO').
+pgm_prop_i(proc,39,'LOG',idISPRCWEBSERVICE,'-1').
+pgm_prop_i(proc,37,'CRIARUSUARIOGAM','USE_ENCRYPTION','NO').
+pgm_prop_i(proc,40,'ANOTIFICATIONSREGISTRATIONHANDLER','USE_ENCRYPTION','NO').
+pgm_prop_i(proc,40,'NOTIFICATIONSREGISTRATIONHANDLER','USE_ENCRYPTION','NO').
+pgm_prop_i(proc,40,'ANOTIFICATIONSREGISTRATIONHANDLER',idISPRCWEBSERVICE,'-1').
+pgm_prop_i(proc,40,'NOTIFICATIONSREGISTRATIONHANDLER',idISPRCWEBSERVICE,'-1').
+pgm_prop_i(proc,40,'ANOTIFICATIONSREGISTRATIONHANDLER','SOAP','0').
+pgm_prop_i(proc,40,'NOTIFICATIONSREGISTRATIONHANDLER','SOAP','0').
+pgm_prop_i(proc,41,'GXAFTEREVENTREPLICATOR','USE_ENCRYPTION','NO').
+pgm_prop_i(proc,41,'GXAFTEREVENTREPLICATOR',idISPRCWEBSERVICE,'-1').
+pgm_prop_i(proc,42,'GXONPENDINGEVENTFAILED','USE_ENCRYPTION','NO').
+pgm_prop_i(proc,42,'GXONPENDINGEVENTFAILED',idISPRCWEBSERVICE,'-1').
+pgm_prop_i(proc,43,'VERIFICARSERIEUSUARIO','USE_ENCRYPTION','NO').
+pgm_prop_i(proc,47,'VERIFICARPOSSUISERIEFAVORITA','USE_ENCRYPTION','NO').
+pgm_prop_i(proc,47,'VERIFICARPOSSUISERIEFAVORITA',idISPRCWEBSERVICE,'-1').
+pgm_prop_i(proc,52,'GRAVARSERIEASSISTIDAUSUARIOINTERNO','USE_ENCRYPTION','NO').
+pgm_prop_i(proc,52,'GRAVARSERIEASSISTIDAUSUARIOINTERNO',idISPRCWEBSERVICE,'-1').
+pgm_prop_i(proc,55,'VERIFICAREPISODIOUSUARIO','USE_ENCRYPTION','NO').
+pgm_prop_i(proc,56,'VERIFICAREPISODIOSASSISTIDOSTEMPORADA','USE_ENCRYPTION','NO').
+pgm_prop_i(proc,44,'GRAVARSERIEFAVORITAUSUARIO','USE_ENCRYPTION','NO').
+pgm_prop_i(proc,44,'GRAVARSERIEFAVORITAUSUARIO',idISPRCWEBSERVICE,'-1').
+pgm_prop_i(proc,45,'GRAVARSERIEASSISTIDAUSUARIO','USE_ENCRYPTION','NO').
+pgm_prop_i(proc,45,'GRAVARSERIEASSISTIDAUSUARIO',idISPRCWEBSERVICE,'-1').
+pgm_prop_i(proc,53,'GRAVAREPISODIOASSISTIDO','USE_ENCRYPTION','NO').
+pgm_prop_i(proc,53,'GRAVAREPISODIOASSISTIDO',idISPRCWEBSERVICE,'-1').
+pgm_prop_i(trn,5,'USUARIOEPISODIO',idISBUSINESSCOMPONENT,'-1').
+pgm_prop_i(trn,5,'USUARIOEPISODIO','USE_ENCRYPTION','NO').
+pgm_prop_i(trn,5,'USUARIOEPISODIO','HTTP_PROTOCOL','Unsecure').
+pgm_prop_i(proc,54,'GRAVAREPISODIOFAVORITO','USE_ENCRYPTION','NO').
+pgm_prop_i(proc,54,'GRAVAREPISODIOFAVORITO',idISPRCWEBSERVICE,'-1').
+pgm_prop_i(proc,57,'GRAVARDADOSAVALIACAOUSUARIO','USE_ENCRYPTION','NO').
+pgm_prop_i(proc,57,'GRAVARDADOSAVALIACAOUSUARIO',idISPRCWEBSERVICE,'-1').
+pgm_prop_i(web,1,'APPMASTERPAGE','WEB_COMP','Master').
+pgm_prop_i(web,1,'APPMASTERPAGE','USE_ENCRYPTION','NO').
+pgm_prop_i(web,1,'APPMASTERPAGE','HTTP_PROTOCOL','Unsecure').
+pgm_prop_i(web,3,'PROMPTMASTERPAGE','WEB_COMP','Master').
+pgm_prop_i(web,3,'PROMPTMASTERPAGE','USE_ENCRYPTION','NO').
+pgm_prop_i(web,3,'PROMPTMASTERPAGE','HTTP_PROTOCOL','Unsecure').
+pgm_prop_i(web,4,'RWDMASTERPAGE','WEB_COMP','Master').
+pgm_prop_i(web,4,'RWDMASTERPAGE','USE_ENCRYPTION','NO').
+pgm_prop_i(web,4,'RWDMASTERPAGE','HTTP_PROTOCOL','Unsecure').
+pgm_prop_i(web,6,'RWDPROMPTMASTERPAGE','WEB_COMP','Master').
+pgm_prop_i(web,6,'RWDPROMPTMASTERPAGE','USE_ENCRYPTION','NO').
+pgm_prop_i(web,6,'RWDPROMPTMASTERPAGE','HTTP_PROTOCOL','Unsecure').
+pgm_prop_i(web,7,'WWPBASEOBJECTS\ADDRESSDISPLAY','USE_ENCRYPTION','NO').
+pgm_prop_i(web,7,'WWPBASEOBJECTS\ADDRESSDISPLAY','HTTP_PROTOCOL','Unsecure').
+pgm_prop_i(trn,10,'USUARIORECOMENDACAOEPISODIO','USE_ENCRYPTION','NO').
+pgm_prop_i(trn,10,'USUARIORECOMENDACAOEPISODIO','HTTP_PROTOCOL','Unsecure').
+pgm_prop_i(web,8,'WWPBASEOBJECTS\EXPORTOPTIONS','USE_ENCRYPTION','NO').
+pgm_prop_i(web,8,'WWPBASEOBJECTS\EXPORTOPTIONS','HTTP_PROTOCOL','Unsecure').
+pgm_prop_i(web,10,'WWPBASEOBJECTS\MANAGEFILTERS','USE_ENCRYPTION','NO').
+pgm_prop_i(web,10,'WWPBASEOBJECTS\MANAGEFILTERS','HTTP_PROTOCOL','Unsecure').
+pgm_prop_i(web,11,'WWPBASEOBJECTS\PROMPTGEOLOCATION','USE_ENCRYPTION','NO').
+pgm_prop_i(web,11,'WWPBASEOBJECTS\PROMPTGEOLOCATION','HTTP_PROTOCOL','Unsecure').
+pgm_prop_i(web,16,'WWPBASEOBJECTS\NOTAUTHORIZED','USE_ENCRYPTION','NO').
+pgm_prop_i(web,16,'WWPBASEOBJECTS\NOTAUTHORIZED','HTTP_PROTOCOL','Unsecure').
+pgm_prop_i(web,12,'WWPBASEOBJECTS\SAVEFILTERAS','USE_ENCRYPTION','NO').
+pgm_prop_i(web,12,'WWPBASEOBJECTS\SAVEFILTERAS','HTTP_PROTOCOL','Unsecure').
+pgm_prop_i(web,9,'WWPBASEOBJECTS\HOME','USE_ENCRYPTION','NO').
+pgm_prop_i(web,9,'WWPBASEOBJECTS\HOME','HTTP_PROTOCOL','Unsecure').
+pgm_prop_i(web,20,'GAMMASTERPAGE','WEB_COMP','Master').
+pgm_prop_i(web,20,'GAMMASTERPAGE','USE_ENCRYPTION','NO').
+pgm_prop_i(web,20,'GAMMASTERPAGE','HTTP_PROTOCOL','Unsecure').
+pgm_prop_i(web,21,'GAMCHANGEYOURPASSWORD','USE_ENCRYPTION','NO').
+pgm_prop_i(web,21,'GAMCHANGEYOURPASSWORD','HTTP_PROTOCOL','Unsecure').
+pgm_prop_i(web,18,'LOGIN','USE_ENCRYPTION','NO').
+pgm_prop_i(web,18,'LOGIN','HTTP_PROTOCOL','Unsecure').
+pgm_prop_i(web,22,'GAMHOME','USE_ENCRYPTION','NO').
+pgm_prop_i(web,22,'GAMHOME','HTTP_PROTOCOL','Unsecure').
+pgm_prop_i(web,19,'GAMUSERENTRY','USE_ENCRYPTION','NO').
+pgm_prop_i(web,19,'GAMUSERENTRY','HTTP_PROTOCOL','Unsecure').
+pgm_prop_i(web,23,'GAMWWROLES','USE_ENCRYPTION','NO').
+pgm_prop_i(web,23,'GAMWWROLES','HTTP_PROTOCOL','Unsecure').
+pgm_prop_i(web,24,'GAMROLEENTRY','USE_ENCRYPTION','NO').
+pgm_prop_i(web,24,'GAMROLEENTRY','HTTP_PROTOCOL','Unsecure').
+pgm_prop_i(web,27,'GAMSECURITYPOLICYENTRY','USE_ENCRYPTION','NO').
+pgm_prop_i(web,27,'GAMSECURITYPOLICYENTRY','HTTP_PROTOCOL','Unsecure').
+pgm_prop_i(web,25,'GAMWWUSERS','USE_ENCRYPTION','NO').
+pgm_prop_i(web,25,'GAMWWUSERS','HTTP_PROTOCOL','Unsecure').
+pgm_prop_i(web,26,'GAMWWSECURITYPOLICY','USE_ENCRYPTION','NO').
+pgm_prop_i(web,26,'GAMWWSECURITYPOLICY','HTTP_PROTOCOL','Unsecure').
+pgm_prop_i(web,29,'GAMWWROLEROLES','USE_ENCRYPTION','NO').
+pgm_prop_i(web,29,'GAMWWROLEROLES','HTTP_PROTOCOL','Unsecure').
+pgm_prop_i(web,28,'GAMWWROLEPERMISSIONS','USE_ENCRYPTION','NO').
+pgm_prop_i(web,28,'GAMWWROLEPERMISSIONS','HTTP_PROTOCOL','Unsecure').
+pgm_prop_i(web,30,'GAMWWUSERROLES','USE_ENCRYPTION','NO').
+pgm_prop_i(web,30,'GAMWWUSERROLES','HTTP_PROTOCOL','Unsecure').
+pgm_prop_i(web,31,'GAMSETPASSWORD','USE_ENCRYPTION','NO').
+pgm_prop_i(web,31,'GAMSETPASSWORD','HTTP_PROTOCOL','Unsecure').
+pgm_prop_i(web,33,'GAMREPOSITORYENTRY','USE_ENCRYPTION','NO').
+pgm_prop_i(web,33,'GAMREPOSITORYENTRY','HTTP_PROTOCOL','Unsecure').
+pgm_prop_i(web,32,'GAMWWREPOSITORIES','USE_ENCRYPTION','NO').
+pgm_prop_i(web,32,'GAMWWREPOSITORIES','HTTP_PROTOCOL','Unsecure').
+pgm_prop_i(web,34,'GAMREPOSITORYCONFIGURATION','USE_ENCRYPTION','NO').
+pgm_prop_i(web,34,'GAMREPOSITORYCONFIGURATION','HTTP_PROTOCOL','Unsecure').
+pgm_prop_i(web,35,'GAMWWAUTHTYPES','USE_ENCRYPTION','NO').
+pgm_prop_i(web,35,'GAMWWAUTHTYPES','HTTP_PROTOCOL','Unsecure').
+pgm_prop_i(web,37,'GAMTESTEXTERNALLOGIN','USE_ENCRYPTION','NO').
+pgm_prop_i(web,37,'GAMTESTEXTERNALLOGIN','HTTP_PROTOCOL','Unsecure').
+pgm_prop_i(web,36,'GAMAUTHENTICATIONTYPEENTRY','USE_ENCRYPTION','NO').
+pgm_prop_i(web,36,'GAMAUTHENTICATIONTYPEENTRY','HTTP_PROTOCOL','Unsecure').
+pgm_prop_i(web,38,'GAMWWCONNECTIONS','USE_ENCRYPTION','NO').
+pgm_prop_i(web,38,'GAMWWCONNECTIONS','HTTP_PROTOCOL','Unsecure').
+pgm_prop_i(web,39,'GAMCONNECTIONENTRY','USE_ENCRYPTION','NO').
+pgm_prop_i(web,39,'GAMCONNECTIONENTRY','HTTP_PROTOCOL','Unsecure').
+pgm_prop_i(web,40,'GAMCHANGEPASSWORD','USE_ENCRYPTION','NO').
+pgm_prop_i(web,40,'GAMCHANGEPASSWORD','HTTP_PROTOCOL','Unsecure').
+pgm_prop_i(web,41,'GAMUPDATEREGISTERUSER','USE_ENCRYPTION','NO').
+pgm_prop_i(web,41,'GAMUPDATEREGISTERUSER','HTTP_PROTOCOL','Unsecure').
+pgm_prop_i(web,42,'GAMRECOVERPASSWORDSTEP1','USE_ENCRYPTION','NO').
+pgm_prop_i(web,42,'GAMRECOVERPASSWORDSTEP1','HTTP_PROTOCOL','Unsecure').
+pgm_prop_i(web,43,'GAMREGISTERUSER','USE_ENCRYPTION','NO').
+pgm_prop_i(web,43,'GAMREGISTERUSER','HTTP_PROTOCOL','Unsecure').
+pgm_prop_i(web,45,'GAMEXAMPLENOTAUTHORIZED','USE_ENCRYPTION','NO').
+pgm_prop_i(web,45,'GAMEXAMPLENOTAUTHORIZED','HTTP_PROTOCOL','Unsecure').
+pgm_prop_i(web,46,'GAMRECOVERPASSWORDSTEP2','USE_ENCRYPTION','NO').
+pgm_prop_i(web,46,'GAMRECOVERPASSWORDSTEP2','HTTP_PROTOCOL','Unsecure').
+pgm_prop_i(web,47,'GAMWWAPPLICATIONS','USE_ENCRYPTION','NO').
+pgm_prop_i(web,47,'GAMWWAPPLICATIONS','HTTP_PROTOCOL','Unsecure').
+pgm_prop_i(web,48,'GAMAPPLICATIONENTRY','USE_ENCRYPTION','NO').
+pgm_prop_i(web,48,'GAMAPPLICATIONENTRY','HTTP_PROTOCOL','Unsecure').
+pgm_prop_i(web,49,'GAMUSERROLESELECT','USE_ENCRYPTION','NO').
+pgm_prop_i(web,49,'GAMUSERROLESELECT','HTTP_PROTOCOL','Unsecure').
+pgm_prop_i(web,50,'GAMWWAPPPERMISSIONS','USE_ENCRYPTION','NO').
+pgm_prop_i(web,50,'GAMWWAPPPERMISSIONS','HTTP_PROTOCOL','Unsecure').
+pgm_prop_i(web,51,'GAMWWAPPMENUS','USE_ENCRYPTION','NO').
+pgm_prop_i(web,51,'GAMWWAPPMENUS','HTTP_PROTOCOL','Unsecure').
+pgm_prop_i(web,52,'GAMROLEPERMISSIONSELECT','USE_ENCRYPTION','NO').
+pgm_prop_i(web,52,'GAMROLEPERMISSIONSELECT','HTTP_PROTOCOL','Unsecure').
+pgm_prop_i(web,53,'GAMAPPPERMISSIONENTRY','USE_ENCRYPTION','NO').
+pgm_prop_i(web,53,'GAMAPPPERMISSIONENTRY','HTTP_PROTOCOL','Unsecure').
+pgm_prop_i(web,54,'GAMAPPPERMISSIONCHILDREN','USE_ENCRYPTION','NO').
+pgm_prop_i(web,54,'GAMAPPPERMISSIONCHILDREN','HTTP_PROTOCOL','Unsecure').
+pgm_prop_i(web,55,'GAMAPPPERMISSIONSELECT','USE_ENCRYPTION','NO').
+pgm_prop_i(web,55,'GAMAPPPERMISSIONSELECT','HTTP_PROTOCOL','Unsecure').
+pgm_prop_i(web,57,'GAMROLESELECT','USE_ENCRYPTION','NO').
+pgm_prop_i(web,57,'GAMROLESELECT','HTTP_PROTOCOL','Unsecure').
+pgm_prop_i(web,56,'GAMCHANGEREPOSITORY','USE_ENCRYPTION','NO').
+pgm_prop_i(web,56,'GAMCHANGEREPOSITORY','HTTP_PROTOCOL','Unsecure').
+pgm_prop_i(web,58,'GAMREMOTELOGIN','USE_ENCRYPTION','NO').
+pgm_prop_i(web,58,'GAMREMOTELOGIN','HTTP_PROTOCOL','Unsecure').
+pgm_prop_i(web,59,'GAMSSOLOGIN','USE_ENCRYPTION','NO').
+pgm_prop_i(web,59,'GAMSSOLOGIN','HTTP_PROTOCOL','Unsecure').
+pgm_prop_i(web,61,'GAMEVENTSUBSCRIPTIONENTRY','USE_ENCRYPTION','NO').
+pgm_prop_i(web,61,'GAMEVENTSUBSCRIPTIONENTRY','HTTP_PROTOCOL','Unsecure').
+pgm_prop_i(web,60,'GAMWWEVENTSUBSCRIPTIONS','USE_ENCRYPTION','NO').
+pgm_prop_i(web,60,'GAMWWEVENTSUBSCRIPTIONS','HTTP_PROTOCOL','Unsecure').
+pgm_prop_i(web,62,'GAMAPPMENUENTRY','USE_ENCRYPTION','NO').
+pgm_prop_i(web,62,'GAMAPPMENUENTRY','HTTP_PROTOCOL','Unsecure').
+pgm_prop_i(web,63,'GAMWWAPPMENUOPTIONS','USE_ENCRYPTION','NO').
+pgm_prop_i(web,63,'GAMWWAPPMENUOPTIONS','HTTP_PROTOCOL','Unsecure').
+pgm_prop_i(web,66,'WWPBASEOBJECTS\WORKWITHPLUSMASTERPAGE','WEB_COMP','Master').
+pgm_prop_i(web,66,'WWPBASEOBJECTS\WORKWITHPLUSMASTERPAGE','USE_ENCRYPTION','NO').
+pgm_prop_i(web,66,'WWPBASEOBJECTS\WORKWITHPLUSMASTERPAGE','HTTP_PROTOCOL','Unsecure').
+pgm_prop_i(web,64,'GAMAPPMENUOPTIONENTRY','USE_ENCRYPTION','NO').
+pgm_prop_i(web,64,'GAMAPPMENUOPTIONENTRY','HTTP_PROTOCOL','Unsecure').
+pgm_prop_i(web,80,'GENEROWW','USE_ENCRYPTION','NO').
+pgm_prop_i(web,80,'GENEROWW','HTTP_PROTOCOL','Unsecure').
+pgm_prop_i(web,81,'USUARIOWW','USE_ENCRYPTION','NO').
+pgm_prop_i(web,81,'USUARIOWW','HTTP_PROTOCOL','Unsecure').
+pgm_prop_i(web,79,'CONQUISTAWW','USE_ENCRYPTION','NO').
+pgm_prop_i(web,79,'CONQUISTAWW','HTTP_PROTOCOL','Unsecure').
+pgm_prop_i(web,82,'HOMENEW','USE_ENCRYPTION','NO').
+pgm_prop_i(web,82,'HOMENEW','HTTP_PROTOCOL','Unsecure').
+pgm_prop_i(web,69,'GX0030','USE_ENCRYPTION','NO').
+pgm_prop_i(web,69,'GX0030','HTTP_PROTOCOL','Unsecure').
+pgm_prop_i(web,68,'GX0020','USE_ENCRYPTION','NO').
+pgm_prop_i(web,68,'GX0020','HTTP_PROTOCOL','Unsecure').
+pgm_prop_i(web,71,'GX0050','USE_ENCRYPTION','NO').
+pgm_prop_i(web,71,'GX0050','HTTP_PROTOCOL','Unsecure').
+pgm_prop_i(web,70,'GX0040','USE_ENCRYPTION','NO').
+pgm_prop_i(web,70,'GX0040','HTTP_PROTOCOL','Unsecure').
+pgm_prop_i(web,73,'GX0070','USE_ENCRYPTION','NO').
+pgm_prop_i(web,73,'GX0070','HTTP_PROTOCOL','Unsecure').
+pgm_prop_i(web,75,'GX0090','USE_ENCRYPTION','NO').
+pgm_prop_i(web,75,'GX0090','HTTP_PROTOCOL','Unsecure').
+pgm_prop_i(web,76,'GX00A0','USE_ENCRYPTION','NO').
+pgm_prop_i(web,76,'GX00A0','HTTP_PROTOCOL','Unsecure').
+pgm_prop_i(proc,48,'OBTERQUANTIDADETEMPORADASERIE','USE_ENCRYPTION','NO').
+pgm_prop_i(proc,49,'BUSCARDADOSUSUARIO','USE_ENCRYPTION','NO').
+pgm_prop_i(proc,49,'BUSCARDADOSUSUARIO',idISPRCWEBSERVICE,'-1').
+pgm_prop_i(proc,33,'SERIEWWGETFILTERDATA','USE_ENCRYPTION','NO').
+pgm_prop_i(proc,33,'SERIEWWGETFILTERDATA',idISPRCWEBSERVICE,'-1').
+pgm_prop_i(proc,33,'SERIEWWGETFILTERDATA','SOAP','0').
+pgm_prop_i(trn,3,'USUARIO','USE_ENCRYPTION','NO').
+pgm_prop_i(trn,3,'USUARIO','HTTP_PROTOCOL','Unsecure').
+pgm_prop_i(trn,7,'CONQUISTA','USE_ENCRYPTION','NO').
+pgm_prop_i(trn,7,'CONQUISTA','HTTP_PROTOCOL','Unsecure').
+pgm_prop_i(trn,9,'USUARIORECOMENDACAOSERIE','USE_ENCRYPTION','NO').
+pgm_prop_i(trn,9,'USUARIORECOMENDACAOSERIE','HTTP_PROTOCOL','Unsecure').
+pgm_prop_i(trn,11,'GENERO','USE_ENCRYPTION','NO').
+pgm_prop_i(trn,11,'GENERO','HTTP_PROTOCOL','Unsecure').
+pgm_prop_i(web,78,'CADASTROTEMPORADAS','USE_ENCRYPTION','NO').
+pgm_prop_i(web,78,'CADASTROTEMPORADAS','HTTP_PROTOCOL','Unsecure').
+pgm_prop_i(web,77,'SERIEWW','USE_ENCRYPTION','NO').
+pgm_prop_i(web,77,'SERIEWW','HTTP_PROTOCOL','Unsecure').
+pgm_prop_i(sdp,11,'GX0010SD','EVENTS',[ [ [ 'Level','Detail' ] - [] ] ]).
+pgm_prop_i(sdp,11,'GX0010SD','SECTIONS',[ '',[ [ 'Level','Detail','Grid1' ] ] ]).
+pgm_prop_i(sdp,11,'GX0010SD','SERVICES',[ '',[ sdsvc_Gx0010sd_Level_Detail ] ]).
+pgm_prop_i(sdp,11,'GX0010SD','GENS',[ 15 ]).
+pgm_prop_i(web,72,'GX0060','USE_ENCRYPTION','NO').
+pgm_prop_i(web,72,'GX0060','HTTP_PROTOCOL','Unsecure').
+pgm_prop_i(sdp,14,'GX0070SD','EVENTS',[ [ [ 'Level','Detail' ] - [] ] ]).
+pgm_prop_i(sdp,14,'GX0070SD','SECTIONS',[ '',[ [ 'Level','Detail','Grid1' ] ] ]).
+pgm_prop_i(sdp,14,'GX0070SD','GENS',[ 15 ]).
+pgm_prop_i(proc,60,'VERIFICARCONQUISTASUSUARIO','USE_ENCRYPTION','NO').
+pgm_prop_i(proc,60,'VERIFICARCONQUISTASUSUARIO',idISPRCWEBSERVICE,'-1').
+pgm_prop_i(sdp,5,'SDNOTIFICACOES','EVENTS',[ [ [ 'Level','Detail' ] - [] ] ]).
+pgm_prop_i(sdp,5,'SDNOTIFICACOES','SECTIONS',[ '',[] ]).
+pgm_prop_i(sdp,5,'SDNOTIFICACOES','GENS',[ 15 ]).
+pgm_prop_i(web,74,'GX0080','USE_ENCRYPTION','NO').
+pgm_prop_i(web,74,'GX0080','HTTP_PROTOCOL','Unsecure').
+pgm_prop_i(web,67,'GX0010','USE_ENCRYPTION','NO').
+pgm_prop_i(web,67,'GX0010','HTTP_PROTOCOL','Unsecure').
+pgm_prop_i(trn,2,'EPISODIO',idISBUSINESSCOMPONENT,'-1').
+pgm_prop_i(trn,2,'EPISODIO',idISBCWEBSERVICE,'-1').
+pgm_prop_i(trn,2,'EPISODIO','WEBSERVICE_PROTOCOL','REST').
+pgm_prop_i(trn,2,'EPISODIO','USE_ENCRYPTION','NO').
+pgm_prop_i(trn,2,'EPISODIO','HTTP_PROTOCOL','Unsecure').
+pgm_prop_i(proc,62,'BUSCARCONQUISTASUSUARIO','USE_ENCRYPTION','NO').
+pgm_prop_i(trn,8,'USUARIOCONQUISTA',idISBUSINESSCOMPONENT,'-1').
+pgm_prop_i(trn,8,'USUARIOCONQUISTA',idISBCWEBSERVICE,'-1').
+pgm_prop_i(trn,8,'USUARIOCONQUISTA','WEBSERVICE_PROTOCOL','REST').
+pgm_prop_i(trn,8,'USUARIOCONQUISTA','USE_ENCRYPTION','NO').
+pgm_prop_i(trn,8,'USUARIOCONQUISTA','HTTP_PROTOCOL','Unsecure').
+pgm_prop_i(wwsd,6,'WORKWITHDEVICESUSUARIOCONQUISTA','EVENTS',[ [ [ 'UsuarioConquista','Section','General' ] - [],[ 'UsuarioConquista','Detail' ] - [],[ 'UsuarioConquista','List' ] - [] ] ]).
+pgm_prop_i(wwsd,6,'WORKWITHDEVICESUSUARIOCONQUISTA','SECTIONS',[ '',[ [ 'UsuarioConquista','Section','General' ],[ 'UsuarioConquista','Detail' ],[ 'UsuarioConquista','List' ],[ 'UsuarioConquista','List','Grid2' ],[ 'UsuarioConquista','List','Grid1' ] ] ]).
+pgm_prop_i(wwsd,6,'WORKWITHDEVICESUSUARIOCONQUISTA','SERVICES',[ '',[ sdsvc_WorkWithDevicesUsuarioConquista_UsuarioConquista_Section_General ] ]).
+pgm_prop_i(wwsd,6,'WORKWITHDEVICESUSUARIOCONQUISTA','GENS',[ 15 ]).
+pgm_prop_i(wwsd,2,'WORKWITHDEVICESEPISODIO','EVENTS',[ [ [ 'Episodio','Section','General' ] - [],[ 'Episodio','Detail' ] - [],[ 'Episodio','List' ] - [] ] ]).
+pgm_prop_i(wwsd,2,'WORKWITHDEVICESEPISODIO','SECTIONS',[ '',[ [ 'Episodio','Section','General' ],[ 'Episodio','Detail' ],[ 'Episodio','List' ],[ 'Episodio','List','Grid1' ] ] ]).
+pgm_prop_i(wwsd,2,'WORKWITHDEVICESEPISODIO','GENS',[ 15 ]).
+pgm_prop_i(wwsd,5,'SDSERIES','EVENTS',[ [ [ 'SdSeries','List' ] - [] ] ]).
+pgm_prop_i(wwsd,5,'SDSERIES','SECTIONS',[ '',[ [ 'SdSeries','List' ],[ 'SdSeries','List','Grid1' ] ] ]).
+pgm_prop_i(wwsd,5,'SDSERIES','GENS',[ 15 ]).
+pgm_prop_i(sdp,3,'SDRANKING','EVENTS',[ [ [ 'Level','Detail' ] - [] ] ]).
+pgm_prop_i(sdp,3,'SDRANKING','SECTIONS',[ '',[ [ 'Level','Detail','Grid1' ] ] ]).
+pgm_prop_i(sdp,3,'SDRANKING','GENS',[ 15 ]).
+pgm_prop_i(trn,1,'SERIE',idISBUSINESSCOMPONENT,'-1').
+pgm_prop_i(trn,1,'SERIE',idISBCWEBSERVICE,'-1').
+pgm_prop_i(trn,1,'SERIE','WEBSERVICE_PROTOCOL','REST').
+pgm_prop_i(trn,1,'SERIE','USE_ENCRYPTION','NO').
+pgm_prop_i(trn,1,'SERIE','HTTP_PROTOCOL','Unsecure').
+pgm_prop_i(wwsd,1,'WORKWITHDEVICESSERIE','EVENTS',[ [ [ 'Serie','Section','Temporadas' ] - [],[ 'Serie','Section','General' ] - [],[ 'Serie','Detail' ] - [],[ 'Serie','List' ] - [] ] ]).
+pgm_prop_i(wwsd,1,'WORKWITHDEVICESSERIE','SECTIONS',[ '',[ [ 'Serie','Section','Temporadas' ],[ 'Serie','Section','Temporadas','Grid2' ],[ 'Serie','Section','General' ],[ 'Serie','Detail' ],[ 'Serie','List' ],[ 'Serie','List','Grid1' ] ] ]).
+pgm_prop_i(wwsd,1,'WORKWITHDEVICESSERIE','SERVICES',[ '',[ sdsvc_WorkWithDevicesSerie_Serie_Section_General ] ]).
+pgm_prop_i(wwsd,1,'WORKWITHDEVICESSERIE','GENS',[ 15 ]).
+pgm_prop_i(trn,4,'USUARIOSERIE',idISBUSINESSCOMPONENT,'-1').
+pgm_prop_i(trn,4,'USUARIOSERIE',idISBCWEBSERVICE,'-1').
+pgm_prop_i(trn,4,'USUARIOSERIE','WEBSERVICE_PROTOCOL','REST').
+pgm_prop_i(trn,4,'USUARIOSERIE','USE_ENCRYPTION','NO').
+pgm_prop_i(trn,4,'USUARIOSERIE','HTTP_PROTOCOL','Unsecure').
+pgm_prop_i(wwsd,4,'WORKWITHDEVICESUSUARIOSERIE','EVENTS',[ [ [ 'UsuarioSerie','Section','General' ] - [],[ 'UsuarioSerie','Detail' ] - [],[ 'UsuarioSerie','List' ] - [] ] ]).
+pgm_prop_i(wwsd,4,'WORKWITHDEVICESUSUARIOSERIE','SECTIONS',[ '',[ [ 'UsuarioSerie','Section','General' ],[ 'UsuarioSerie','Detail' ],[ 'UsuarioSerie','List' ],[ 'UsuarioSerie','List','Grid1' ] ] ]).
+pgm_prop_i(wwsd,4,'WORKWITHDEVICESUSUARIOSERIE','SERVICES',[ '',[ sdsvc_WorkWithDevicesUsuarioSerie_UsuarioSerie_Section_General ] ]).
+pgm_prop_i(wwsd,4,'WORKWITHDEVICESUSUARIOSERIE','GENS',[ 15 ]).
+pgm_prop_i(wwsd,7,'WORKWITHDEVICESNOTIFICACAO','EVENTS',[ [ [ 'Notificacao','Section','General' ] - [],[ 'Notificacao','Detail' ] - [],[ 'Notificacao','List' ] - [] ] ]).
+pgm_prop_i(wwsd,7,'WORKWITHDEVICESNOTIFICACAO','SECTIONS',[ '',[ [ 'Notificacao','Section','General' ],[ 'Notificacao','Detail' ],[ 'Notificacao','List' ],[ 'Notificacao','List','Grid1' ] ] ]).
+pgm_prop_i(wwsd,7,'WORKWITHDEVICESNOTIFICACAO','GENS',[ 15 ]).
+pgm_prop_i(trn,6,'NOTIFICACAO',idISBUSINESSCOMPONENT,'-1').
+pgm_prop_i(trn,6,'NOTIFICACAO',idISBCWEBSERVICE,'-1').
+pgm_prop_i(trn,6,'NOTIFICACAO','WEBSERVICE_PROTOCOL','REST').
+pgm_prop_i(trn,6,'NOTIFICACAO','USE_ENCRYPTION','NO').
+pgm_prop_i(trn,6,'NOTIFICACAO','HTTP_PROTOCOL','Unsecure').
+pgm_prop_i(sdp,9,'SDFAVORITOS','EVENTS',[ [ [ 'Level','Detail' ] - [] ] ]).
+pgm_prop_i(sdp,9,'SDFAVORITOS','SECTIONS',[ '',[] ]).
+pgm_prop_i(sdp,9,'SDFAVORITOS','GENS',[ 15 ]).
+pgm_prop_i(sdp,4,'SERIESCOLABORATIVAS','EVENTS',[ [ [ 'Level','Detail' ] - [] ] ]).
+pgm_prop_i(sdp,4,'SERIESCOLABORATIVAS','SECTIONS',[ '',[] ]).
+pgm_prop_i(sdp,4,'SERIESCOLABORATIVAS','GENS',[ 15 ]).
+pgm_prop_i(proc,51,'OBTERTOTALPONTOSCONQUISTA','USE_ENCRYPTION','NO').
+pgm_prop_i(proc,58,'OBTERNOTAEPISODIO','USE_ENCRYPTION','NO').
+pgm_prop_i(proc,59,'OBTERNOTASERIE','USE_ENCRYPTION','NO').
+pgm_prop_i(proc,63,'SETARIMAGEM','USE_ENCRYPTION','NO').
+pgm_prop_i(proc,63,'SETARIMAGEM',idISPRCWEBSERVICE,'-1').
+pgm_prop_i(sdp,13,'SDCOMETARIOS','EVENTS',[ [ [ 'Level','Detail' ] - [] ] ]).
+pgm_prop_i(sdp,13,'SDCOMETARIOS','SECTIONS',[ '',[ [ 'Level','Detail' ],[ 'Level','Detail','Grid2' ],[ 'Level','Detail','Grid1' ] ] ]).
+pgm_prop_i(sdp,13,'SDCOMETARIOS','GENS',[ 15 ]).
+pgm_prop_i(sdp,13,'SDCOMENTARIOS','EVENTS',[ [ [ 'Level','Detail' ] - [] ] ]).
+pgm_prop_i(sdp,13,'SDCOMENTARIOS','SECTIONS',[ '',[ [ 'Level','Detail' ],[ 'Level','Detail','Grid1' ] ] ]).
+pgm_prop_i(sdp,13,'SDCOMENTARIOS','GENS',[ 15 ]).
+ 
+model_wrkinfo_i([ '.Net Environment','CSharpModel' ]).
+ 
+model_info_i([ 'Design','CSharpModel',1 ]).
+ 
+datastore_i(2,'DS_LAST_CHANGE','').
+datastore_i(2,'LOCK_RETRY','10').
+datastore_i(2,'WAIT_RECORD','0').
+datastore_i(2,'SQLSERVER_VERSION','10').
+datastore_i(2,'COMMENT_ON','No').
+datastore_i(2,'DFT_TMP_TBLSPACE','').
+datastore_i(2,'DFT_IDX_TBLSPACE','').
+datastore_i(2,'DFT_TBL_TBLSPACE','').
+datastore_i(2,'DCL_REF_INT_DB','Yes').
+datastore_i(2,'PRIMARY_KEY_TYPE','PK').
+datastore_i(2,'CS_SCHEMA',gam).
+datastore_i(2,'SORT_ATTRIBUTES','Yes').
+datastore_i(2,'JRN400','QSQJRN').
+datastore_i(2,'CREATE_SAVF','Yes').
+datastore_i(2,'PGMLIB','').
+datastore_i(2,'DTALIB','').
+datastore_i(2,'CC_USER_PASS',wp„ÄsÁ¹).
+datastore_i(2,'CC_USER_ID',sa).
+datastore_i(2,'CC_SERVER',localhost).
+datastore_i(2,'CC_DBNAME','SeriesColaborativas').
+datastore_i(2,'RecycleRWMin','30').
+datastore_i(2,'RecycleRWType','1').
+datastore_i(2,'RecycleRW','-1').
+datastore_i(2,'POOL_STARTUP','No').
+datastore_i(2,'POOLSIZE_RW','10').
+datastore_i(2,'UnlimitedRWPool','-1').
+datastore_i(2,'PoolRWEnabled','-1').
+datastore_i(2,'CS_RPCPGML','').
+datastore_i(2,'JDBC_DATASOURCE','').
+datastore_i(2,'USE_JDBC_DATASOURCE','0').
+datastore_i(2,'DS_DBMS_ADDINFO','').
+datastore_i(2,'USER_PASSWORD','gnxÔ.“êâ¿').
+datastore_i(2,'USER_ID',sa).
+datastore_i(2,'TRUSTED_CONNECTION','No').
+datastore_i(2,'CS_CONNECT','First').
+datastore_i(2,'DBMS_PORT','').
+datastore_i(2,'CS_SERVER',localhost).
+datastore_i(2,'CS_DBNAME','SeriesColaborativas').
+datastore_i(2,'CS_FLEDSNAME','').
+datastore_i(2,'CS_DRVNAME','sql server').
+datastore_i(2,'CS_DSNAME','').
+datastore_i(2,'DB_URL','').
+datastore_i(2,'JDBC_CUSTOM_URL','0').
+datastore_i(2,'JDBC_CUSTOM_DRIVER','').
+datastore_i(2,'JDBC_DRIVER','net.sourceforge.jtds.jdbc.Driver').
+datastore_i(2,'CONNECT_METHOD','OPSYS').
+datastore_i(2,'ACCESS_TECHNO','ADONET').
+datastore_i(2,'MAIN_DS','-1').
+datastore_i(2,'REORG_GEN','8').
+datastore_i(2,'HelpKeyword','23').
+datastore_i(2,'DBMS',12).
+datastore_i(2,'NAME','GAM').
+datastore_i(1,'DS_LAST_CHANGE','').
+datastore_i(1,'LOCK_RETRY','10').
+datastore_i(1,'WAIT_RECORD','0').
+datastore_i(1,'SQLSERVER_VERSION','10').
+datastore_i(1,'COMMENT_ON','No').
+datastore_i(1,'DFT_TMP_TBLSPACE','').
+datastore_i(1,'DFT_IDX_TBLSPACE','').
+datastore_i(1,'DFT_TBL_TBLSPACE','').
+datastore_i(1,'DCL_REF_INT_DB','Yes').
+datastore_i(1,'PRIMARY_KEY_TYPE','PK').
+datastore_i(1,'CS_SCHEMA','').
+datastore_i(1,'SORT_ATTRIBUTES','Yes').
+datastore_i(1,'JRN400','QSQJRN').
+datastore_i(1,'CREATE_SAVF','Yes').
+datastore_i(1,'PGMLIB','').
+datastore_i(1,'DTALIB','').
+datastore_i(1,'CC_USER_PASS',wp„ÄsÁ¹).
+datastore_i(1,'CC_USER_ID',sa).
+datastore_i(1,'CC_SERVER',localhost).
+datastore_i(1,'CC_DBNAME','SeriesColaborativas').
+datastore_i(1,'RecycleRWMin','30').
+datastore_i(1,'RecycleRWType','1').
+datastore_i(1,'RecycleRW','-1').
+datastore_i(1,'POOL_STARTUP','No').
+datastore_i(1,'POOLSIZE_RW','10').
+datastore_i(1,'UnlimitedRWPool','-1').
+datastore_i(1,'PoolRWEnabled','-1').
+datastore_i(1,'CS_RPCPGML','').
+datastore_i(1,'JDBC_DATASOURCE','').
+datastore_i(1,'USE_JDBC_DATASOURCE','0').
+datastore_i(1,'DS_DBMS_ADDINFO','').
+datastore_i(1,'USER_PASSWORD','gnxÔ.“êâ¿').
+datastore_i(1,'USER_ID',sa).
+datastore_i(1,'TRUSTED_CONNECTION','No').
+datastore_i(1,'CS_CONNECT','First').
+datastore_i(1,'DBMS_PORT','').
+datastore_i(1,'CS_SERVER',localhost).
+datastore_i(1,'CS_DBNAME','SeriesColaborativas').
+datastore_i(1,'CS_FLEDSNAME','').
+datastore_i(1,'CS_DRVNAME','sql server').
+datastore_i(1,'CS_DSNAME','').
+datastore_i(1,'DB_URL','').
+datastore_i(1,'JDBC_CUSTOM_URL','0').
+datastore_i(1,'JDBC_CUSTOM_DRIVER','').
+datastore_i(1,'JDBC_DRIVER','net.sourceforge.jtds.jdbc.Driver').
+datastore_i(1,'CONNECT_METHOD','OPSYS').
+datastore_i(1,'ACCESS_TECHNO','ADONET').
+datastore_i(1,'MAIN_DS','-1').
+datastore_i(1,'REORG_GEN','8').
+datastore_i(1,'HelpKeyword','20').
+datastore_i(1,'DBMS',12).
+datastore_i(1,'NAME','Default').
+ 
+subview_i(2,523,3).
+subview_i(2,524,3).
+subview_i(2,525,3).
+subview_i(2,526,3).
+ 
+subtype_group_i(2,1,[ 'UsuarioRecomendacaoSerieOrigem',[ [ 33,11 ] ] ]).
+subtype_group_i(2,2,[ 'UsuarioRecomendacaoSerieDestino',[ [ 34,11 ] ] ]).
+subtype_group_i(2,3,[ 'UsuarioRecomendacaoEpisodioOrigem',[ [ 38,11 ] ] ]).
+subtype_group_i(2,4,[ 'UsuarioRecomendacaoEpisodioDestino',[ [ 39,11 ] ] ]).
+ 
+culture_id_i(por).
+ 
+lng_i(1,[ 'Portuguese','Portuguese',por ]).
+ 
+lng_prop_i(1,'ISOLangCode','PT',v).
+lng_prop_i(1,'ISOCountryCode','BR',v).
+lng_prop_i(1,'Codepage','1252',v).
+lng_prop_i(1,'LanguageLocalization','',d).
+lng_prop_i(1,'LangDateFormat','POR',v).
+lng_prop_i(1,'LangTimeFormat','24',v).
+lng_prop_i(1,'LangDecimalPoint',',',v).
+lng_prop_i(1,'FullyQualifiedName','Portuguese',d).
+ 
+ver_stamp('20180925.220058').
+ 
+ver_stamp(date(2018,9,25),time(19,1,5,29)).
+ 

@@ -1,0 +1,8 @@
+[
+  {
+    "Name": "gamroleselect_Execute",
+    "Description": "Select role",
+    "ProgramName": "gamroleselect",
+    "IsGXAutomatic": true
+  }
+]

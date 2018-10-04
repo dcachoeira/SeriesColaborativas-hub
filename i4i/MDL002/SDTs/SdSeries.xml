@@ -1,0 +1,7 @@
+
+<WWSDSpec>
+<Section>
+<Name>SdSeries.List</Name>
+<DataProviders>
+<DataProvider>SdSeries_SdSeries_List_Grid1</DataProvider>
+<DataProvider>SdSeries_SdSeries_List</DataProvider></DataProviders></Section></WWSDSpec>

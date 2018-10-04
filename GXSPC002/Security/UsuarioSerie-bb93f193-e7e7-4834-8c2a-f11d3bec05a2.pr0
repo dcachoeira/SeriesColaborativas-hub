@@ -1,0 +1,36 @@
+[
+  {
+    "Name": "usuarioserie_FullControl",
+    "Description": "Usuário série FullControl",
+    "ProgramName": "usuarioserie",
+    "IsGXAutomatic": true
+  },
+  {
+    "Name": "usuarioserie_Execute",
+    "Description": "Usuário série",
+    "ProgramName": "usuarioserie",
+    "IsGXAutomatic": true,
+    "Parent": "usuarioserie_FullControl"
+  },
+  {
+    "Name": "usuarioserie_Insert",
+    "Description": "Usuário série Insert",
+    "ProgramName": "usuarioserie",
+    "IsGXAutomatic": true,
+    "Parent": "usuarioserie_FullControl"
+  },
+  {
+    "Name": "usuarioserie_Delete",
+    "Description": "Usuário série Delete",
+    "ProgramName": "usuarioserie",
+    "IsGXAutomatic": true,
+    "Parent": "usuarioserie_FullControl"
+  },
+  {
+    "Name": "usuarioserie_Update",
+    "Description": "Usuário série Update",
+    "ProgramName": "usuarioserie",
+    "IsGXAutomatic": true,
+    "Parent": "usuarioserie_FullControl"
+  }
+]

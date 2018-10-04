@@ -1,0 +1,36 @@
+[
+  {
+    "Name": "notificacao_FullControl",
+    "Description": "Notificação FullControl",
+    "ProgramName": "notificacao",
+    "IsGXAutomatic": true
+  },
+  {
+    "Name": "notificacao_Execute",
+    "Description": "Notificação",
+    "ProgramName": "notificacao",
+    "IsGXAutomatic": true,
+    "Parent": "notificacao_FullControl"
+  },
+  {
+    "Name": "notificacao_Insert",
+    "Description": "Notificação Insert",
+    "ProgramName": "notificacao",
+    "IsGXAutomatic": true,
+    "Parent": "notificacao_FullControl"
+  },
+  {
+    "Name": "notificacao_Delete",
+    "Description": "Notificação Delete",
+    "ProgramName": "notificacao",
+    "IsGXAutomatic": true,
+    "Parent": "notificacao_FullControl"
+  },
+  {
+    "Name": "notificacao_Update",
+    "Description": "Notificação Update",
+    "ProgramName": "notificacao",
+    "IsGXAutomatic": true,
+    "Parent": "notificacao_FullControl"
+  }
+]

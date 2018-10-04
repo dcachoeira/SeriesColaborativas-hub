@@ -1,0 +1,15 @@
+
+<WWSDSpec>
+<Section>
+<Name>Notificacao.Detail</Name>
+<DataProviders>
+<DataProvider>WorkWithDevicesNotificacao_Notificacao_Detail</DataProvider></DataProviders></Section>
+<Section>
+<Name>Notificacao.List</Name>
+<DataProviders>
+<DataProvider>WorkWithDevicesNotificacao_Notificacao_List_Grid1</DataProvider>
+<DataProvider>WorkWithDevicesNotificacao_Notificacao_List</DataProvider></DataProviders></Section>
+<Section>
+<Name>Notificacao.Section.General</Name>
+<DataProviders>
+<DataProvider>WorkWithDevicesNotificacao_Notificacao_Section_General</DataProvider></DataProviders></Section></WWSDSpec>

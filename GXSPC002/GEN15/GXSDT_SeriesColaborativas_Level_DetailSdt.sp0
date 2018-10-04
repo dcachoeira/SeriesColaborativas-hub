@@ -1,0 +1,57 @@
+ 
+spec_i([ sdt,[ 26,1000000,0 ],'SeriesColaborativas_Level_DetailSdt','SeriesColaborativas_Level_DetailSdt',0,por,'15_0_9-121631' ]).
+ 
+struct_dt_i([ 26,1000000,0 ],name,'SeriesColaborativas_Level_DetailSdt').
+struct_dt_i([ 26,1000000,0 ],camelname,'SeriesColaborativas_Level_DetailSdt').
+struct_dt_i([ 26,1000000,0 ],camelnameex,'SeriesColaborativas_Level_DetailSdt').
+struct_dt_i([ 26,1000000,0 ],collection,'False').
+struct_dt_i([ 26,1000000,0 ],wwsd_sdt,'True').
+struct_dt_i([ 26,1000000,0 ],fullname,'SeriesColaborativas_Level_DetailSdt').
+ 
+struct_dt_elem_i([ 26,1000000,0 ],1,name,'Imagemusuario').
+struct_dt_elem_i([ 26,1000000,0 ],1,camelname,'Imagemusuario').
+struct_dt_elem_i([ 26,1000000,0 ],1,type,[ 7,1024,0 ]).
+struct_dt_elem_i([ 26,1000000,0 ],1,length,1024).
+struct_dt_elem_i([ 26,1000000,0 ],1,decimals,0).
+struct_dt_elem_i([ 26,1000000,0 ],1,sign,0).
+struct_dt_elem_i([ 26,1000000,0 ],1,collection,'False').
+struct_dt_elem_i([ 26,1000000,0 ],1,islevel,'False').
+struct_dt_elem_i([ 26,1000000,0 ],2,name,'Imagemusuario_gxi').
+struct_dt_elem_i([ 26,1000000,0 ],2,camelname,'Imagemusuario_GXI').
+struct_dt_elem_i([ 26,1000000,0 ],2,type,[ 13,2048,0 ]).
+struct_dt_elem_i([ 26,1000000,0 ],2,length,2048).
+struct_dt_elem_i([ 26,1000000,0 ],2,decimals,0).
+struct_dt_elem_i([ 26,1000000,0 ],2,sign,0).
+struct_dt_elem_i([ 26,1000000,0 ],2,collection,'False').
+struct_dt_elem_i([ 26,1000000,0 ],2,islevel,'False').
+struct_dt_elem_i([ 26,1000000,0 ],2,isadd,'True').
+struct_dt_elem_i([ 26,1000000,0 ],3,name,'Usuarionome').
+struct_dt_elem_i([ 26,1000000,0 ],3,camelname,'Usuarionome').
+struct_dt_elem_i([ 26,1000000,0 ],3,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 26,1000000,0 ],3,length,40).
+struct_dt_elem_i([ 26,1000000,0 ],3,decimals,0).
+struct_dt_elem_i([ 26,1000000,0 ],3,sign,0).
+struct_dt_elem_i([ 26,1000000,0 ],3,collection,'False').
+struct_dt_elem_i([ 26,1000000,0 ],3,islevel,'False').
+struct_dt_elem_i([ 26,1000000,0 ],4,name,'Usuariotitulo').
+struct_dt_elem_i([ 26,1000000,0 ],4,camelname,'Usuariotitulo').
+struct_dt_elem_i([ 26,1000000,0 ],4,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 26,1000000,0 ],4,length,40).
+struct_dt_elem_i([ 26,1000000,0 ],4,decimals,0).
+struct_dt_elem_i([ 26,1000000,0 ],4,sign,0).
+struct_dt_elem_i([ 26,1000000,0 ],4,collection,'False').
+struct_dt_elem_i([ 26,1000000,0 ],4,islevel,'False').
+struct_dt_elem_i([ 26,1000000,0 ],5,name,'Gxdynprop').
+struct_dt_elem_i([ 26,1000000,0 ],5,camelname,'Gxdynprop').
+struct_dt_elem_i([ 26,1000000,0 ],5,type,[ 5,2,0 ]).
+struct_dt_elem_i([ 26,1000000,0 ],5,length,2).
+struct_dt_elem_i([ 26,1000000,0 ],5,decimals,0).
+struct_dt_elem_i([ 26,1000000,0 ],5,sign,0).
+struct_dt_elem_i([ 26,1000000,0 ],5,collection,'False').
+struct_dt_elem_i([ 26,1000000,0 ],5,islevel,'False').
+ 
+ 
+ 
+ 
+ 
+ 

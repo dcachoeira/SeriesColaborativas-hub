@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<ConnectionCollection>
+  <Connection>
+    <Name>SeriesColaborativas</Name>
+    <Repository>14c2fbd7-136b-47ae-92f3-ffee961dd0a5</Repository>
+    <UserName>J82dYaAw2+Lof2zjbjLEzKwjeAeRZWjZeNEp0NXAurA=</UserName>
+    <UserPassword>HqMIxU1gsj9+k9jHHaFUSTvYKlQjbH0aSLchYGBGQus=</UserPassword>
+    <Type>LAN                           </Type>
+    <Language />
+    <Properties />
+  </Connection>
+</ConnectionCollection>

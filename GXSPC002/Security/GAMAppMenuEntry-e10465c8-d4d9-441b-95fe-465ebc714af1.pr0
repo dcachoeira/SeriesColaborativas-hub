@@ -1,0 +1,8 @@
+[
+  {
+    "Name": "gamappmenuentry_Execute",
+    "Description": "GAM App Menu Entry",
+    "ProgramName": "gamappmenuentry",
+    "IsGXAutomatic": true
+  }
+]

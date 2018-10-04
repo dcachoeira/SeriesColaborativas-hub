@@ -1,0 +1,64 @@
+ 
+spec_i([ sdt,[ 26,1000000,0 ],'WorkWithDevicesNotificacao_Notificacao_List_Grid1Sdt','WorkWithDevicesNotificacao_Notificacao_List_Grid1Sdt',0,por,'15_0_9-121631' ]).
+ 
+struct_dt_i([ 26,1000000,0 ],name,'WorkWithDevicesNotificacao_Notificacao_List_Grid1Sdt').
+struct_dt_i([ 26,1000000,0 ],camelname,'WorkWithDevicesNotificacao_Notificacao_List_Grid1Sdt').
+struct_dt_i([ 26,1000000,0 ],camelnameex,'WorkWithDevicesNotificacao_Notificacao_List_Grid1Sdt').
+struct_dt_i([ 26,1000000,1 ],name,'Item').
+struct_dt_i([ 26,1000000,1 ],camelname,'Item').
+struct_dt_i([ 26,1000000,1 ],camelnameex,'Item').
+struct_dt_i([ 26,1000000,0 ],collection,'True').
+struct_dt_i([ 26,1000000,0 ],datatype,[ 26,1000000,1 ]).
+struct_dt_i([ 26,1000000,0 ],wwsd_sdt,'True').
+struct_dt_i([ 26,1000000,0 ],panel,[ 'Notificacao.List' ]).
+struct_dt_i([ 26,1000000,0 ],key,[ 6,[ 23 ],[ 6,1,'Notificacao' ] ]).
+struct_dt_i([ 26,1000000,1 ],fullname,'WorkWithDevicesNotificacao_Notificacao_List_Grid1Sdt.Item').
+struct_dt_i([ 26,1000000,0 ],fullname,'WorkWithDevicesNotificacao_Notificacao_List_Grid1Sdt').
+ 
+struct_dt_elem_i([ 26,1000000,1 ],1,name,'Notificacaoid').
+struct_dt_elem_i([ 26,1000000,1 ],1,camelname,'NotificacaoId').
+struct_dt_elem_i([ 26,1000000,1 ],1,type,[ 4,18,0 ]).
+struct_dt_elem_i([ 26,1000000,1 ],1,length,18).
+struct_dt_elem_i([ 26,1000000,1 ],1,decimals,0).
+struct_dt_elem_i([ 26,1000000,1 ],1,sign,0).
+struct_dt_elem_i([ 26,1000000,1 ],1,collection,'False').
+struct_dt_elem_i([ 26,1000000,1 ],1,islevel,'False').
+struct_dt_elem_i([ 26,1000000,1 ],2,name,'Notificacaotexto').
+struct_dt_elem_i([ 26,1000000,1 ],2,camelname,'NotificacaoTexto').
+struct_dt_elem_i([ 26,1000000,1 ],2,type,[ 13,300,0 ]).
+struct_dt_elem_i([ 26,1000000,1 ],2,length,300).
+struct_dt_elem_i([ 26,1000000,1 ],2,decimals,0).
+struct_dt_elem_i([ 26,1000000,1 ],2,sign,0).
+struct_dt_elem_i([ 26,1000000,1 ],2,collection,'False').
+struct_dt_elem_i([ 26,1000000,1 ],2,islevel,'False').
+struct_dt_elem_i([ 26,1000000,1 ],3,name,'Notificacaotipo').
+struct_dt_elem_i([ 26,1000000,1 ],3,camelname,'NotificacaoTipo').
+struct_dt_elem_i([ 26,1000000,1 ],3,type,[ 4,4,0 ]).
+struct_dt_elem_i([ 26,1000000,1 ],3,length,4).
+struct_dt_elem_i([ 26,1000000,1 ],3,decimals,0).
+struct_dt_elem_i([ 26,1000000,1 ],3,sign,0).
+struct_dt_elem_i([ 26,1000000,1 ],3,collection,'False').
+struct_dt_elem_i([ 26,1000000,1 ],3,islevel,'False').
+struct_dt_elem_i([ 26,1000000,1 ],3,basedon,182).
+struct_dt_elem_i([ 26,1000000,1 ],4,name,'Notificacaoligacaoid').
+struct_dt_elem_i([ 26,1000000,1 ],4,camelname,'NotificacaoLigacaoId').
+struct_dt_elem_i([ 26,1000000,1 ],4,type,[ 4,18,0 ]).
+struct_dt_elem_i([ 26,1000000,1 ],4,length,18).
+struct_dt_elem_i([ 26,1000000,1 ],4,decimals,0).
+struct_dt_elem_i([ 26,1000000,1 ],4,sign,0).
+struct_dt_elem_i([ 26,1000000,1 ],4,collection,'False').
+struct_dt_elem_i([ 26,1000000,1 ],4,islevel,'False').
+struct_dt_elem_i([ 26,1000000,1 ],1,attributeid,'23').
+struct_dt_elem_i([ 26,1000000,1 ],2,attributeid,'25').
+struct_dt_elem_i([ 26,1000000,1 ],3,attributeid,'24').
+struct_dt_elem_i([ 26,1000000,1 ],4,attributeid,'61').
+ 
+ 
+ 
+ 
+enum_value_i(2,182,'1','Conquista','"Conquista"',[ none ]).
+ 
+enum_value_info_i(2,182,'TipoNotificacao').
+ 
+module_info_i('GeneXus\SD','CSHARP_NAME_SPACE','GeneXus.Core').
+module_info_i('GeneXus\SD','AssemblyName','GeneXus.dll').

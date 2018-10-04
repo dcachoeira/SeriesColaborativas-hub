@@ -1,0 +1,44 @@
+ 
+spec_i([ sdt,[ 26,1000000,0 ],'WorkWithDevicesUsuarioSerie_UsuarioSerie_ListSdt','WorkWithDevicesUsuarioSerie_UsuarioSerie_ListSdt',0,por,'15_0_9-121631' ]).
+ 
+struct_dt_i([ 26,1000000,0 ],name,'WorkWithDevicesUsuarioSerie_UsuarioSerie_ListSdt').
+struct_dt_i([ 26,1000000,0 ],camelname,'WorkWithDevicesUsuarioSerie_UsuarioSerie_ListSdt').
+struct_dt_i([ 26,1000000,0 ],camelnameex,'WorkWithDevicesUsuarioSerie_UsuarioSerie_ListSdt').
+struct_dt_i([ 26,1000000,0 ],collection,'False').
+struct_dt_i([ 26,1000000,0 ],wwsd_sdt,'True').
+struct_dt_i([ 26,1000000,0 ],fullname,'WorkWithDevicesUsuarioSerie_UsuarioSerie_ListSdt').
+ 
+struct_dt_elem_i([ 26,1000000,0 ],1,name,'Usuarioid').
+struct_dt_elem_i([ 26,1000000,0 ],1,camelname,'Usuarioid').
+struct_dt_elem_i([ 26,1000000,0 ],1,type,[ 4,18,0 ]).
+struct_dt_elem_i([ 26,1000000,0 ],1,length,18).
+struct_dt_elem_i([ 26,1000000,0 ],1,decimals,0).
+struct_dt_elem_i([ 26,1000000,0 ],1,sign,0).
+struct_dt_elem_i([ 26,1000000,0 ],1,collection,'False').
+struct_dt_elem_i([ 26,1000000,0 ],1,islevel,'False').
+struct_dt_elem_i([ 26,1000000,0 ],2,name,'Gxdynprop').
+struct_dt_elem_i([ 26,1000000,0 ],2,camelname,'Gxdynprop').
+struct_dt_elem_i([ 26,1000000,0 ],2,type,[ 5,2,0 ]).
+struct_dt_elem_i([ 26,1000000,0 ],2,length,2).
+struct_dt_elem_i([ 26,1000000,0 ],2,decimals,0).
+struct_dt_elem_i([ 26,1000000,0 ],2,sign,0).
+struct_dt_elem_i([ 26,1000000,0 ],2,collection,'False').
+struct_dt_elem_i([ 26,1000000,0 ],2,islevel,'False').
+struct_dt_elem_i([ 26,1000000,0 ],3,name,'Gxdyncall').
+struct_dt_elem_i([ 26,1000000,0 ],3,camelname,'Gxdyncall').
+struct_dt_elem_i([ 26,1000000,0 ],3,type,[ 5,2,0 ]).
+struct_dt_elem_i([ 26,1000000,0 ],3,length,2).
+struct_dt_elem_i([ 26,1000000,0 ],3,decimals,0).
+struct_dt_elem_i([ 26,1000000,0 ],3,sign,0).
+struct_dt_elem_i([ 26,1000000,0 ],3,collection,'False').
+struct_dt_elem_i([ 26,1000000,0 ],3,islevel,'False').
+ 
+ 
+ 
+ 
+ 
+ 
+module_info_i('GeneXus\Common\UI','CSHARP_NAME_SPACE','GeneXus.Core').
+module_info_i('GeneXus\Common\UI','AssemblyName','GeneXus.dll').
+module_info_i('GeneXus\SD','CSHARP_NAME_SPACE','GeneXus.Core').
+module_info_i('GeneXus\SD','AssemblyName','GeneXus.dll').
